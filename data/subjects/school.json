@@ -1,0 +1,271 @@
+{
+  "subjects": [
+    {
+      "id": "saturday-weekly-class",
+      "name": "土曜日も毎週授業（学校週5日制の導入前）",
+      "genre": "school",
+      "kind": "trend",
+      "facts": {
+        "end": {
+          "date": "1992-09",
+          "status": "verified",
+          "sources": ["src-mext-saturday"],
+          "quote": "平成４年９月 月１回の学校週５日制実施"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.95,
+          "status": "estimated",
+          "rationale": "制度上すべての学校に該当するため高く設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        }
+      }
+    },
+    {
+      "id": "saturday-off-monthly",
+      "name": "土曜休みが月1回",
+      "genre": "school",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1992-09",
+          "status": "verified",
+          "sources": ["src-mext-saturday"],
+          "quote": "平成４年９月 月１回の学校週５日制実施"
+        },
+        "end": {
+          "date": "1995-04",
+          "status": "verified",
+          "sources": ["src-mext-saturday"],
+          "quote": "平成７年４月 月２回の学校週５日制実施"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.95,
+          "status": "estimated",
+          "rationale": "制度上すべての学校に該当するため高く設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        }
+      }
+    },
+    {
+      "id": "saturday-off-twice",
+      "name": "土曜休みが月2回",
+      "genre": "school",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1995-04",
+          "status": "verified",
+          "sources": ["src-mext-saturday"],
+          "quote": "平成７年４月 月２回の学校週５日制実施"
+        },
+        "end": {
+          "date": "2002-04",
+          "status": "verified",
+          "sources": ["src-mext-saturday"],
+          "quote": "平成１４年４月 完全学校週５日制実施"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.95,
+          "status": "estimated",
+          "rationale": "制度上すべての学校に該当するため高く設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        }
+      }
+    },
+    {
+      "id": "saturday-off-weekly",
+      "name": "土曜日は毎週休み（完全学校週5日制）",
+      "genre": "school",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2002-04",
+          "status": "verified",
+          "sources": ["src-mext-saturday"],
+          "quote": "平成１４年４月 完全学校週５日制実施"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.95,
+          "status": "estimated",
+          "rationale": "制度上すべての学校に該当するため高く設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        },
+        "activeUntil": {
+          "value": 2035,
+          "status": "estimated",
+          "rationale": "現在も続くとみなす"
+        }
+      }
+    },
+    {
+      "id": "seikatsuka",
+      "name": "生活科（小学校1・2年）",
+      "genre": "school",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1992-04",
+          "status": "verified",
+          "sources": ["src-mext-seikatsuka"],
+          "quote": "平成元年学習指導要領改訂（平成４年度～生活科全面実施）"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 8],
+          "status": "derived",
+          "rationale": "小学校低学年の教科（出典）のため1・2年生の年齢"
+        },
+        "ceiling": {
+          "value": 0.95,
+          "status": "estimated",
+          "rationale": "制度上すべての小学生が受けるため高く設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.3,
+          "ceiling": 0.85,
+          "rationale": "教科名は知られているが世代外では知らない人も多いと推定"
+        },
+        "activeUntil": {
+          "value": 2035,
+          "status": "estimated",
+          "rationale": "現在も続くとみなす"
+        }
+      }
+    },
+    {
+      "id": "giga-one-device",
+      "name": "1人1台端末（GIGAスクール構想）",
+      "genre": "school",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2021",
+          "status": "derived",
+          "sources": ["src-mext-giga"],
+          "quote": "「1人1台端末」整備の前倒し…（令和3年3月の資料）",
+          "rule": "令和元年度補正・令和2年度補正予算で整備が進み、令和3年3月時点の資料で整備状況が報告されていることから、2021年度から学校で使われたとみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 15],
+          "status": "estimated",
+          "rationale": "小中学生"
+        },
+        "ceiling": {
+          "value": 0.9,
+          "status": "estimated",
+          "rationale": "制度上ほとんどの小中学生が該当するため高く設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.9,
+          "rationale": "推定"
+        },
+        "activeUntil": {
+          "value": 2035,
+          "status": "estimated",
+          "rationale": "現在も続くとみなす"
+        }
+      }
+    },
+    {
+      "id": "skim-milk-lunch",
+      "name": "給食の脱脂粉乳",
+      "genre": "school",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1946",
+          "status": "verified",
+          "sources": ["src-nippon-kyushoku"],
+          "quote": "1946年以降 米国などの援助でパン、脱脂粉乳が給食に"
+        },
+        "end": {
+          "date": "1970",
+          "status": "derived",
+          "sources": ["src-nippon-kyushoku"],
+          "quote": "1960年代 脱脂粉乳から牛乳へ移行",
+          "rule": "「1960年代に脱脂粉乳から牛乳へ移行」（出典）から、移行の完了を1960年代の終わり（1970年）とみなす"
+        },
+        "peak": {
+          "from": "1946",
+          "to": "1965",
+          "status": "derived",
+          "sources": ["src-nippon-kyushoku"],
+          "quote": "1960年代 脱脂粉乳から牛乳へ移行",
+          "rule": "1960年代の移行期の中ごろ（1965年）までを中心期とみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 15],
+          "status": "estimated",
+          "rationale": "小中学校の給食"
+        },
+        "ceiling": {
+          "value": 0.85,
+          "status": "estimated",
+          "rationale": "給食のある学校に通った人が対象のため高めに推定（地域差あり）"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.3,
+          "ceiling": 0.9,
+          "rationale": "推定"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "questions": [
+    {
+      "id": "FAS-001",
+      "status": "verified",
+      "genre": "fashion",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "中学・高校時代、周りでルーズソックスが流行していましたか？",
+      "subject": "loose-socks",
+      "options": [
+        {
+          "id": "a",
+          "label": "自分もはいていた・流行の真っただ中だった",
+          "kind": "heavy",
+          "insight": "ルーズソックス（1990年〜1996年）を13〜19歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "周りで流行していた",
+          "kind": "light",
+          "insight": "ルーズソックス（1990年〜1996年）の時期に13〜19歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが自分の時代ではない",
+          "kind": "aware_only",
+          "insight": "ルーズソックスを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ルーズソックスの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "FAS-002",
+      "status": "verified",
+      "genre": "fashion",
+      "difficulty": "easy",
+      "type": "experience",
+      "text": "プリクラ（プリントシール機）で写真を撮ったことはありますか？",
+      "subject": "purikura",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく撮った",
+          "kind": "heavy",
+          "insight": "プリクラ（プリントシール機）（1995年〜現在）を12〜25歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "何度か撮った",
+          "kind": "light",
+          "insight": "プリクラ（プリントシール機）（1995年〜現在）の時期に12〜25歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが撮ったことはない",
+          "kind": "aware_only",
+          "insight": "プリクラ（プリントシール機）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "プリクラ（プリントシール機）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.7,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "FAS-003",
+      "status": "verified",
+      "genre": "fashion",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "ディスコの「お立ち台」ブームを、当時リアルタイムで知っていますか？",
+      "subject": "otachidai",
+      "options": [
+        {
+          "id": "a",
+          "label": "ディスコに行っていた",
+          "kind": "heavy",
+          "insight": "ディスコの「お立ち台」ブーム（1993年）を16〜30歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "テレビなどで当時見ていた",
+          "kind": "light",
+          "insight": "ディスコの「お立ち台」ブーム（1993年）の時期に16〜30歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "後になってから知った",
+          "kind": "aware_only",
+          "insight": "ディスコの「お立ち台」ブームを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ディスコの「お立ち台」ブームの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "FAS-004",
+      "status": "verified",
+      "genre": "fashion",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "モデルのツイッギーの来日をきっかけにしたミニスカートブームを、当時リアルタイムで覚えていますか？",
+      "subject": "twiggy-miniskirt",
+      "options": [
+        {
+          "id": "a",
+          "label": "はっきり覚えている",
+          "kind": "heavy",
+          "insight": "ツイッギー来日とミニスカートブーム（1967年〜1970年）を6〜40歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "なんとなく覚えている",
+          "kind": "light",
+          "insight": "ツイッギー来日とミニスカートブーム（1967年〜1970年）の時期に6〜40歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時の記憶はない",
+          "kind": "aware_only",
+          "insight": "ツイッギー来日とミニスカートブームを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ツイッギー来日とミニスカートブームの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    }
+  ]
+}

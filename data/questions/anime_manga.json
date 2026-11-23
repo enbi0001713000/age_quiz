@@ -1,0 +1,198 @@
+{
+  "questions": [
+    {
+      "id": "ANI-001",
+      "status": "verified",
+      "genre": "anime_manga",
+      "difficulty": "easy",
+      "type": "era_choice",
+      "text": "小学生の頃、夢中になって見ていたテレビアニメは？",
+      "ageWindow": [6, 12],
+      "options": [
+        {
+          "id": "a",
+          "label": "鉄腕アトム",
+          "kind": "era",
+          "subject": "astro-boy-1963",
+          "insight": "鉄腕アトム（1963年のテレビアニメ）（1963年〜1966年）の頃に小学生だった人に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "マジンガーZ",
+          "kind": "era",
+          "subject": "mazinger-z",
+          "insight": "マジンガーZ（1972年〜1974年）の頃に小学生だった人に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "ドラゴンボール（Zを含む）",
+          "kind": "era",
+          "subject": "dragon-ball-series",
+          "insight": "ドラゴンボール（Zを含む）（1986年〜1996年）の頃に小学生だった人に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "美少女戦士セーラームーン",
+          "kind": "era",
+          "subject": "sailor-moon-series",
+          "insight": "美少女戦士セーラームーン（シリーズ）（1992年〜1997年）の頃に小学生だった人に多い回答"
+        },
+        {
+          "id": "e",
+          "label": "妖怪ウォッチ",
+          "kind": "era",
+          "subject": "yokai-watch-anime",
+          "insight": "妖怪ウォッチ（テレビアニメ）（2014年〜2018年）の頃に小学生だった人に多い回答"
+        },
+        {
+          "id": "f",
+          "label": "この中にはない",
+          "kind": "none_of_these",
+          "insight": "選択肢のどの時代にも当てはまらない世代（より上の世代や、より下の世代）に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.3,
+      "group": "kids-anime",
+      "relatedIds": [],
+      "basicPool": true
+    },
+    {
+      "id": "ANI-002",
+      "status": "verified",
+      "genre": "anime_manga",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "最初のテレビシリーズの『機動戦士ガンダム』を、放送当時にテレビで見ていましたか？",
+      "subject": "gundam-1979",
+      "options": [
+        {
+          "id": "a",
+          "label": "毎週のように見ていた",
+          "kind": "heavy",
+          "insight": "機動戦士ガンダム（最初のテレビシリーズ）（1979年〜1980年）を8〜18歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ときどき見ていた",
+          "kind": "light",
+          "insight": "機動戦士ガンダム（最初のテレビシリーズ）（1979年〜1980年）の時期に8〜18歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが放送当時は見ていない",
+          "kind": "aware_only",
+          "insight": "機動戦士ガンダム（最初のテレビシリーズ）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "機動戦士ガンダム（最初のテレビシリーズ）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "ANI-003",
+      "status": "verified",
+      "genre": "anime_manga",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "テレビアニメ『NARUTO -ナルト-』を、子どもの頃に見ていましたか？",
+      "subject": "naruto",
+      "options": [
+        {
+          "id": "a",
+          "label": "毎週のように見ていた",
+          "kind": "heavy",
+          "insight": "NARUTO -ナルト-（テレビアニメ）（2002年〜2007年）を6〜15歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ときどき見ていた",
+          "kind": "light",
+          "insight": "NARUTO -ナルト-（テレビアニメ）（2002年〜2007年）の時期に6〜15歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが見ていなかった",
+          "kind": "aware_only",
+          "insight": "NARUTO -ナルト-（テレビアニメ）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "NARUTO -ナルト-（テレビアニメ）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "ANI-004",
+      "status": "verified",
+      "genre": "anime_manga",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "『新世紀エヴァンゲリオン』のテレビシリーズを、最初の放送当時にリアルタイムで見ていましたか？",
+      "subject": "evangelion-tv",
+      "options": [
+        {
+          "id": "a",
+          "label": "毎週見ていた",
+          "kind": "heavy",
+          "insight": "新世紀エヴァンゲリオン（テレビシリーズ）（1995年〜1997年）を12〜25歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ときどき見ていた",
+          "kind": "light",
+          "insight": "新世紀エヴァンゲリオン（テレビシリーズ）（1995年〜1997年）の時期に12〜25歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが放送当時は見ていない",
+          "kind": "aware_only",
+          "insight": "新世紀エヴァンゲリオン（テレビシリーズ）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "新世紀エヴァンゲリオン（テレビシリーズ）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    }
+  ]
+}

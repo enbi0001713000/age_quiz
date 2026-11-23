@@ -5,3 +5,5 @@ playwright-report/
 package-lock.json
 # 文書（Markdown）は原文・表組みを保つため整形対象外
 **/*.md
+# 自動生成ファイル（scripts/coverage-report.ts の出力）
+data/generated/

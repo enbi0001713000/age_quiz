@@ -1,0 +1,232 @@
+{
+  "subjects": [
+    {
+      "id": "pager",
+      "name": "ポケットベル（ポケベル）",
+      "genre": "mobile",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1968",
+          "status": "verified",
+          "sources": ["src-soumu-wp-r01-mobile"],
+          "quote": "1968年、日本電信電話公社が、ポケットベルの源流となる無線呼出サービスを開始した。"
+        },
+        "diffusion": {
+          "from": "1987",
+          "to": "1996-03",
+          "status": "derived",
+          "sources": ["src-soumu-wp-r01-mobile", "src-soumu-wp-h11-pager"],
+          "quote": "1987年に端末に数字を表示できる機能が追加されたことから一般への普及が急速に進んだ／契約数は７年度末をピークに急激に減少",
+          "rule": "数字表示機能の追加（1987年）で一般に普及し、契約数がピークとなった平成7年度末（1996年3月）までを普及期とみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [15, 40],
+          "status": "estimated",
+          "rationale": "高校生〜社会人の利用を想定して推定"
+        },
+        "ceiling": {
+          "value": 0.4,
+          "status": "estimated",
+          "rationale": "普及したが利用者は一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.95,
+          "rationale": "社会現象として知られたと推定"
+        }
+      }
+    },
+    {
+      "id": "phs",
+      "name": "PHS",
+      "genre": "mobile",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1995",
+          "status": "verified",
+          "sources": ["src-soumu-wp-r01-mobile"],
+          "quote": "1995年にサービスを開始したPHSは、コードレス電話機を発展させた日本発の規格である。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [12, 30],
+          "status": "estimated",
+          "rationale": "中高生〜若者の利用を想定して推定"
+        },
+        "ceiling": {
+          "value": 0.3,
+          "status": "estimated",
+          "rationale": "携帯電話より利用者は少ないと推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.9,
+          "rationale": "推定"
+        },
+        "activeUntil": {
+          "value": 2000,
+          "status": "estimated",
+          "rationale": "携帯電話の普及が進むまでの中心期を約5年と推定"
+        }
+      }
+    },
+    {
+      "id": "feature-phone",
+      "name": "携帯電話（スマートフォン以前）",
+      "genre": "mobile",
+      "kind": "trend",
+      "facts": {
+        "diffusion": {
+          "from": "1993",
+          "to": "2008",
+          "status": "verified",
+          "sources": ["src-soumu-wp-r01-mobile"],
+          "quote": "1993年頃から1998年（平成10年）頃までの「携帯電話普及開始期」、1998年頃から2008年頃までの「フィーチャーフォン全盛期」"
+        },
+        "peak": {
+          "from": "1998",
+          "to": "2008",
+          "status": "verified",
+          "sources": ["src-soumu-wp-r01-mobile"],
+          "quote": "1998年頃から2008年頃までの「フィーチャーフォン全盛期」"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [12, 60],
+          "status": "estimated",
+          "rationale": "中高生以上の幅広い年齢と推定"
+        },
+        "ceiling": {
+          "value": 0.85,
+          "status": "estimated",
+          "rationale": "広く普及したため高めに推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.8,
+          "ceiling": 0.98,
+          "rationale": "推定"
+        }
+      }
+    },
+    {
+      "id": "smartphone",
+      "name": "スマートフォン",
+      "genre": "mobile",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2008",
+          "status": "verified",
+          "sources": ["src-soumu-wp-r01-mobile"],
+          "quote": "2008年頃以降の「スマートフォン登場・普及期」"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [12, 80],
+          "status": "estimated",
+          "rationale": "中高生以上の幅広い年齢と推定"
+        },
+        "ceiling": {
+          "value": 0.95,
+          "status": "estimated",
+          "rationale": "現在の主流のため高めに推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.9,
+          "ceiling": 0.99,
+          "rationale": "推定"
+        },
+        "activeUntil": {
+          "value": 2035,
+          "status": "estimated",
+          "rationale": "現在も主流のため、当面続くとみなす"
+        }
+      }
+    },
+    {
+      "id": "i-mode",
+      "name": "iモード",
+      "genre": "mobile",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1999-02",
+          "status": "verified",
+          "sources": ["src-docomo-history-imode"],
+          "quote": "iモードは1999年2月にサービス開始以来、2000年3月末の1年間で560万台突破"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [13, 45],
+          "status": "estimated",
+          "rationale": "中高生〜社会人の利用を想定して推定"
+        },
+        "ceiling": {
+          "value": 0.55,
+          "status": "estimated",
+          "rationale": "広く普及したと推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.95,
+          "rationale": "推定"
+        },
+        "activeUntil": {
+          "value": 2010,
+          "status": "estimated",
+          "rationale": "フィーチャーフォン全盛期（2008年頃まで、総務省）の少し後までを中心期と推定"
+        }
+      }
+    },
+    {
+      "id": "shoulder-phone",
+      "name": "ショルダーホン",
+      "genre": "mobile",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1985",
+          "status": "verified",
+          "sources": ["src-soumu-kids-shoulderphone"],
+          "quote": "1985年には…ショルダー型の端末が登場…一部の人が利用するだけにとどまりました。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [25, 60],
+          "status": "estimated",
+          "rationale": "仕事で使う大人を想定して推定"
+        },
+        "ceiling": {
+          "value": 0.05,
+          "status": "estimated",
+          "rationale": "「一部の人が利用するだけ」（出典）のため非常に低く設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.1,
+          "ceiling": 0.8,
+          "rationale": "当時を知る世代には知られていると推定"
+        },
+        "activeUntil": {
+          "value": 1987,
+          "status": "estimated",
+          "rationale": "携帯電話の登場までの短い期間と推定"
+        }
+      }
+    }
+  ]
+}

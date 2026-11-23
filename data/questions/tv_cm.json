@@ -1,0 +1,190 @@
+{
+  "questions": [
+    {
+      "id": "TVC-001",
+      "status": "verified",
+      "genre": "tv_cm",
+      "difficulty": "easy",
+      "type": "experience",
+      "text": "NHKの連続テレビ小説『おしん』を、放送当時に見ていましたか？",
+      "subject": "oshin",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく見ていた",
+          "kind": "heavy",
+          "insight": "連続テレビ小説『おしん』（1983年〜1984年）を8〜99歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ときどき見ていた",
+          "kind": "light",
+          "insight": "連続テレビ小説『おしん』（1983年〜1984年）の時期に8〜99歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが放送当時は見ていない",
+          "kind": "aware_only",
+          "insight": "連続テレビ小説『おしん』を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "連続テレビ小説『おしん』の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "TVC-002",
+      "status": "verified",
+      "genre": "tv_cm",
+      "difficulty": "normal",
+      "type": "era_choice",
+      "text": "子どもの頃、土曜日の夜8時によく見ていたお笑い番組は？",
+      "ageWindow": [6, 14],
+      "options": [
+        {
+          "id": "a",
+          "label": "8時だョ!全員集合",
+          "kind": "era",
+          "subject": "zenin-shugo",
+          "insight": "8時だョ!全員集合（1969年〜1985年）の頃に子どもだった人に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "オレたちひょうきん族",
+          "kind": "era",
+          "subject": "hyokinzoku",
+          "insight": "オレたちひょうきん族（1981年〜1989年）の頃に子どもだった人に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "加トちゃんケンちゃんごきげんテレビ",
+          "kind": "era",
+          "subject": "katoken",
+          "insight": "加トちゃんケンちゃんごきげんテレビ（1986年〜1992年）の頃に子どもだった人に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "この中にはない・見ていなかった",
+          "kind": "none_of_these",
+          "insight": "選択肢のどの時代にも当てはまらない世代（より上の世代や、より下の世代）に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.1,
+      "group": "saturday-8pm",
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "TVC-003",
+      "status": "verified",
+      "genre": "tv_cm",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "ACジャパンのCM「あいさつの魔法」（ポポポポーン♪）を覚えていますか？",
+      "subject": "ac-aisatsu-cm",
+      "options": [
+        {
+          "id": "a",
+          "label": "はっきり覚えている",
+          "kind": "heavy",
+          "insight": "ACジャパンのCM「あいさつの魔法」（ポポポポーン）（2011年）を3〜99歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "なんとなく覚えている",
+          "kind": "light",
+          "insight": "ACジャパンのCM「あいさつの魔法」（ポポポポーン）（2011年）の時期に3〜99歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時の記憶はない",
+          "kind": "aware_only",
+          "insight": "ACジャパンのCM「あいさつの魔法」（ポポポポーン）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ACジャパンのCM「あいさつの魔法」（ポポポポーン）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "TVC-004",
+      "status": "verified",
+      "genre": "tv_cm",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "アナログ放送の終了（地デジ化）のとき、テレビの買い替えやチューナーの設置などを自分で判断・手配しましたか？",
+      "subject": "analog-tv-end",
+      "options": [
+        {
+          "id": "a",
+          "label": "自分で手配した",
+          "kind": "heavy",
+          "insight": "地上アナログテレビ放送の終了（地デジ化）（2011年〜2012年）を20〜99歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "家族と一緒に対応した",
+          "kind": "light",
+          "insight": "地上アナログテレビ放送の終了（地デジ化）（2011年〜2012年）の時期に20〜99歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "当時のことは知っているが自分は関わっていない",
+          "kind": "aware_only",
+          "insight": "地上アナログテレビ放送の終了（地デジ化）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "地上アナログテレビ放送の終了（地デジ化）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        },
+        {
+          "id": "y",
+          "label": "該当しない",
+          "kind": "not_applicable"
+        }
+      ],
+      "importance": 0.7,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false,
+      "notes": "大人として対応したかを問う（子どもの頃の記憶ではない）"
+    }
+  ]
+}

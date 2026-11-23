@@ -1,0 +1,180 @@
+{
+  "questions": [
+    {
+      "id": "TOY-001",
+      "status": "verified",
+      "genre": "toy",
+      "difficulty": "easy",
+      "type": "experience",
+      "text": "初代『たまごっち』（最初に発売されたシリーズ）で遊んだことはありますか？",
+      "subject": "tamagotchi",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく遊んだ・育てた",
+          "kind": "heavy",
+          "insight": "たまごっち（初代）（1996年〜1997年）を8〜20歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し遊んだ",
+          "kind": "light",
+          "insight": "たまごっち（初代）（1996年〜1997年）の時期に8〜20歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが遊んだことはない",
+          "kind": "aware_only",
+          "insight": "たまごっち（初代）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "たまごっち（初代）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "TOY-002",
+      "status": "verified",
+      "genre": "toy",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "腕にしがみつくビニール人形『ダッコちゃん』を、流行していた当時に持っていた・見かけたことはありますか？",
+      "subject": "dakko-chan",
+      "options": [
+        {
+          "id": "a",
+          "label": "持っていた",
+          "kind": "heavy",
+          "insight": "ダッコちゃん（1960年〜1961年）を4〜25歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "周りで見かけた",
+          "kind": "light",
+          "insight": "ダッコちゃん（1960年〜1961年）の時期に4〜25歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "名前は知っているが当時は知らない",
+          "kind": "aware_only",
+          "insight": "ダッコちゃんを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ダッコちゃんの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "TOY-003",
+      "status": "verified",
+      "genre": "toy",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "ルービックキューブが大ブームになった当時、夢中で遊んだことはありますか？",
+      "subject": "rubiks-cube",
+      "options": [
+        {
+          "id": "a",
+          "label": "ブームの当時に夢中で遊んだ",
+          "kind": "heavy",
+          "insight": "ルービックキューブ（1980年〜1981年）を8〜30歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ブームの当時に少し遊んだ",
+          "kind": "light",
+          "insight": "ルービックキューブ（1980年〜1981年）の時期に8〜30歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "遊んだことはあるがブームの後だった・ブームは知らない",
+          "kind": "aware_only",
+          "insight": "ルービックキューブを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない・遊んだことがない",
+          "kind": "unaware",
+          "insight": "ルービックキューブの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.7,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "TOY-004",
+      "status": "verified",
+      "genre": "toy",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "『ベイブレードバースト』で遊んだことはありますか？",
+      "subject": "beyblade-burst",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく遊んだ",
+          "kind": "heavy",
+          "insight": "ベイブレードバースト（2015年〜2022年）を5〜12歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し遊んだ",
+          "kind": "light",
+          "insight": "ベイブレードバースト（2015年〜2022年）の時期に5〜12歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが遊んだことはない",
+          "kind": "aware_only",
+          "insight": "ベイブレードバーストを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ベイブレードバーストの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.7,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "questions": [
+    {
+      "id": "NET-001",
+      "status": "verified",
+      "genre": "internet_sns",
+      "difficulty": "easy",
+      "type": "era_choice",
+      "text": "中学生・高校生の頃に、主に使っていたネットのサービスは？",
+      "ageWindow": [12, 18],
+      "options": [
+        {
+          "id": "a",
+          "label": "パソコン通信",
+          "kind": "era",
+          "subject": "pc-tsushin",
+          "insight": "パソコン通信（1985年〜1994年）の頃に中学生・高校生だった人に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "mixi",
+          "kind": "era",
+          "subject": "mixi",
+          "insight": "mixi（2004年〜2010年）の頃に中学生・高校生だった人に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "Twitter（現X）",
+          "kind": "era",
+          "subject": "twitter",
+          "insight": "Twitter（現X）（2008年〜現在）の頃に中学生・高校生だった人に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "LINE",
+          "kind": "era",
+          "subject": "line",
+          "insight": "LINE（2011年〜現在）の頃に中学生・高校生だった人に多い回答"
+        },
+        {
+          "id": "e",
+          "label": "TikTok",
+          "kind": "era",
+          "subject": "tiktok",
+          "insight": "TikTok（2017年〜現在）の頃に中学生・高校生だった人に多い回答"
+        },
+        {
+          "id": "f",
+          "label": "この中にはない・ネットは使っていなかった",
+          "kind": "none_of_these",
+          "insight": "選択肢のどの時代にも当てはまらない世代（より上の世代や、より下の世代）に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.2,
+      "group": "internet-era",
+      "relatedIds": ["NET-002", "NET-004"],
+      "basicPool": true
+    },
+    {
+      "id": "NET-002",
+      "status": "verified",
+      "genre": "internet_sns",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "電話回線でインターネットにつなぐ「ダイヤルアップ接続」（接続時の「ピーヒョロロ」という音）を使ったことはありますか？",
+      "subject": "dialup",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく使った",
+          "kind": "heavy",
+          "insight": "ダイヤルアップ接続（電話回線でのインターネット）（1995年〜2000年）を10〜60歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し使った",
+          "kind": "light",
+          "insight": "ダイヤルアップ接続（電話回線でのインターネット）（1995年〜2000年）の時期に10〜60歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが使ったことはない",
+          "kind": "aware_only",
+          "insight": "ダイヤルアップ接続（電話回線でのインターネット）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ダイヤルアップ接続（電話回線でのインターネット）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "group": "internet-era",
+      "relatedIds": ["NET-001"],
+      "basicPool": false
+    },
+    {
+      "id": "NET-003",
+      "status": "verified",
+      "genre": "internet_sns",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "『ニコニコ動画』を見ていた時期がありますか？",
+      "subject": "niconico",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく見ていた",
+          "kind": "heavy",
+          "insight": "ニコニコ動画（2006年〜2015年）を12〜30歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ときどき見ていた",
+          "kind": "light",
+          "insight": "ニコニコ動画（2006年〜2015年）の時期に12〜30歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが見ていなかった",
+          "kind": "aware_only",
+          "insight": "ニコニコ動画を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ニコニコ動画の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "NET-004",
+      "status": "verified",
+      "genre": "internet_sns",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "インターネットが広まる前の『パソコン通信』を使ったことはありますか？",
+      "subject": "pc-tsushin",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく使った",
+          "kind": "heavy",
+          "insight": "パソコン通信（1985年〜1994年）を15〜50歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し使った",
+          "kind": "light",
+          "insight": "パソコン通信（1985年〜1994年）の時期に15〜50歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが使ったことはない",
+          "kind": "aware_only",
+          "insight": "パソコン通信を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "パソコン通信の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "group": "internet-era",
+      "relatedIds": ["NET-001"],
+      "basicPool": false
+    }
+  ]
+}

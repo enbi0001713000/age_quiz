@@ -1,0 +1,151 @@
+{
+  "subjects": [
+    {
+      "id": "bikkuriman",
+      "name": "ビックリマンチョコ（悪魔VS天使シリーズ）",
+      "genre": "food",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1985",
+          "status": "verified",
+          "sources": ["src-itmedia-bikkuriman"],
+          "quote": "1985年にロッテが発売したビックリマンチョコ「悪魔VS天使シリーズ」"
+        },
+        "peak": {
+          "from": "1985",
+          "to": "1989",
+          "status": "derived",
+          "sources": ["src-itmedia-bikkuriman"],
+          "quote": "1980年代後半、日本中の子どもたちの間で爆発的なヒット商品となった",
+          "rule": "「1980年代後半」（出典）を、シリーズ発売の1985年から1989年までとみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 14],
+          "status": "estimated",
+          "rationale": "子どもを中心（出典）と推定"
+        },
+        "ceiling": {
+          "value": 0.6,
+          "status": "estimated",
+          "rationale": "爆発的なヒット（出典）のため高めに推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "推定"
+        }
+      }
+    },
+    {
+      "id": "choco-egg",
+      "name": "チョコエッグ",
+      "genre": "food",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1999",
+          "status": "verified",
+          "sources": ["src-bunshun-chocoegg"],
+          "quote": "1999年に誕生して以来…4億3000万個（※2021年3月末段階）を売り上げている"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 30],
+          "status": "estimated",
+          "rationale": "子どもに加え「大人買い」（出典）の大人も含めて推定"
+        },
+        "ceiling": {
+          "value": 0.4,
+          "status": "estimated",
+          "rationale": "推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.9,
+          "rationale": "推定"
+        },
+        "activeUntil": {
+          "value": 2002,
+          "status": "estimated",
+          "rationale": "最初のブーム（動物シリーズ、出典）の期間を約3年と推定"
+        }
+      }
+    },
+    {
+      "id": "pokemon-bread",
+      "name": "ポケモンパン",
+      "genre": "food",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1998-06-01",
+          "status": "verified",
+          "sources": ["src-daiichiya-pokemonbread"],
+          "quote": "ポケモンパンは1998年6月1日に発売され、親子2世代のファンを獲得するロングセラーシリーズ"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [3, 12],
+          "status": "estimated",
+          "rationale": "幼児〜小学生を中心と推定"
+        },
+        "ceiling": {
+          "value": 0.6,
+          "status": "estimated",
+          "rationale": "ロングセラー（出典）のため高めに推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "推定"
+        },
+        "activeUntil": {
+          "value": 2035,
+          "status": "estimated",
+          "rationale": "現在も販売が続くとみなす"
+        }
+      }
+    },
+    {
+      "id": "tapioca-2019",
+      "name": "タピオカドリンクのブーム（タピる）",
+      "genre": "food",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "2019",
+          "to": "2019",
+          "status": "verified",
+          "sources": ["src-jiyu-2019"],
+          "quote": "2019年 新語・流行語大賞 トップテン「タピる」"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [13, 29],
+          "status": "estimated",
+          "rationale": "10代〜20代を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.4,
+          "status": "estimated",
+          "rationale": "女性に多いと推定し、やや低めに設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "推定"
+        }
+      }
+    }
+  ]
+}

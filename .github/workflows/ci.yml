@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   verify:
-    name: 整形・Lint・型検査・単体テスト・ビルド
+    name: 整形・Lint・型検査・データ検証・単体テスト・ビルド
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -22,7 +22,13 @@ jobs:
       - run: npm run format:check
       - run: npm run lint
       - run: npm run check
+      - name: 質問データの検証
+        run: npm run validate:data
       - run: npm test
+      - name: 分析レポートが最新か確認（データ変更時は npm run report:coverage を実行してコミット）
+        run: |
+          npm run report:coverage
+          git diff --exit-code -- data/generated docs/phase2/coverage-report.md
       - run: npm run build
 
   e2e:

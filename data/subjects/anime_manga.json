@@ -1,0 +1,304 @@
+{
+  "subjects": [
+    {
+      "id": "astro-boy-1963",
+      "name": "鉄腕アトム（1963年のテレビアニメ）",
+      "genre": "anime_manga",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1963-01-01",
+          "status": "verified",
+          "sources": ["src-tezuka-atom"],
+          "quote": "1963年1月1日、テレビアニメ「鉄腕アトム」の放送が開始されました。"
+        },
+        "end": {
+          "date": "1966",
+          "status": "verified",
+          "sources": ["src-tezuka-atom"],
+          "quote": "本作は1966年までに193本が制作され"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.8,
+          "status": "estimated",
+          "rationale": "国産初の30分テレビアニメシリーズで高視聴率（出典）のため高めに推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        }
+      }
+    },
+    {
+      "id": "mazinger-z",
+      "name": "マジンガーZ",
+      "genre": "anime_manga",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1972-12-03",
+          "status": "verified",
+          "sources": ["src-toei-mazinger"],
+          "quote": "1972年12月3日放映開始"
+        },
+        "end": {
+          "date": "1974-09-01",
+          "status": "verified",
+          "sources": ["src-toei-mazinger"],
+          "quote": "1974年9月1日放映終了"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.6,
+          "status": "estimated",
+          "rationale": "男の子に人気が偏ったと推定し、やや低めに設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        }
+      }
+    },
+    {
+      "id": "dragon-ball-series",
+      "name": "ドラゴンボール（Zを含む）",
+      "genre": "anime_manga",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1986-02",
+          "status": "verified",
+          "sources": ["src-toei-dragonball"],
+          "quote": "1986年2月～1989年4月"
+        },
+        "end": {
+          "date": "1996-01-31",
+          "status": "verified",
+          "sources": ["src-toei-dragonball-z"],
+          "quote": "放映開始：1989年4月26日 放映終了：1996年1月31日"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.8,
+          "status": "estimated",
+          "rationale": "長期にわたる大ヒット作として推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        }
+      }
+    },
+    {
+      "id": "sailor-moon-series",
+      "name": "美少女戦士セーラームーン（シリーズ）",
+      "genre": "anime_manga",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1992-03-07",
+          "status": "verified",
+          "sources": ["src-toei-sailormoon"],
+          "quote": "放映期間：1992年（平成4年）3月7日～1993年2月27日"
+        },
+        "end": {
+          "date": "1997-02-08",
+          "status": "verified",
+          "sources": ["src-toei-sailorstars"],
+          "quote": "放映期間：1996年（平成8年）3月6日～1997年（平成9年）2月8日"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.6,
+          "status": "estimated",
+          "rationale": "女の子に人気が偏ったと推定し、やや低めに設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        }
+      }
+    },
+    {
+      "id": "yokai-watch-anime",
+      "name": "妖怪ウォッチ（テレビアニメ）",
+      "genre": "anime_manga",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2014-01-08",
+          "status": "verified",
+          "sources": ["src-thetv-yokaiwatch"],
+          "quote": "2014年1月8日スタート 毎週金曜夜6.25／テレビ東京系"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.7,
+          "status": "estimated",
+          "rationale": "子どもに大ヒットした作品として推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        },
+        "activeUntil": {
+          "value": 2018,
+          "status": "estimated",
+          "rationale": "最初のシリーズの人気の中心期を約4年と推定（終了時期は未確認）"
+        }
+      }
+    },
+    {
+      "id": "gundam-1979",
+      "name": "機動戦士ガンダム（最初のテレビシリーズ）",
+      "genre": "anime_manga",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1979-04-07",
+          "status": "verified",
+          "sources": ["src-famitsu-gundam"],
+          "quote": "1979年（昭和54年）4月7日は、アニメ『機動戦士ガンダム』が放送を開始した日"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [8, 18],
+          "status": "estimated",
+          "rationale": "小学生〜高校生を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.35,
+          "status": "estimated",
+          "rationale": "放送当時の視聴者は一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.97,
+          "rationale": "シリーズが続き、名前は広く知られていると推定"
+        },
+        "activeUntil": {
+          "value": 1980,
+          "status": "estimated",
+          "rationale": "最初のテレビシリーズの放送期間を約1年と推定（終了時期は未確認）"
+        }
+      }
+    },
+    {
+      "id": "naruto",
+      "name": "NARUTO -ナルト-（テレビアニメ）",
+      "genre": "anime_manga",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2002-10-03",
+          "status": "verified",
+          "sources": ["src-tvtokyo-naruto"],
+          "quote": "第1話「参上！うずまきナルト」2002年10月3日放送"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 15],
+          "status": "estimated",
+          "rationale": "小中学生を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.5,
+          "status": "estimated",
+          "rationale": "人気作として推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.95,
+          "rationale": "広く知られていると推定"
+        },
+        "activeUntil": {
+          "value": 2007,
+          "status": "estimated",
+          "rationale": "最初のシリーズの中心期を約5年と推定（終了時期は未確認）"
+        }
+      }
+    },
+    {
+      "id": "evangelion-tv",
+      "name": "新世紀エヴァンゲリオン（テレビシリーズ）",
+      "genre": "anime_manga",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1995-10-04",
+          "status": "verified",
+          "sources": ["src-famitsu-evangelion"],
+          "quote": "1995年（平成7年）10月4日は、テレビアニメ『新世紀エヴァンゲリオン』が放送開始された日"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [12, 25],
+          "status": "estimated",
+          "rationale": "中高生〜若者を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.35,
+          "status": "estimated",
+          "rationale": "放送当時に見ていたのは一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.95,
+          "rationale": "後年も話題になり広く知られていると推定"
+        },
+        "activeUntil": {
+          "value": 1997,
+          "status": "estimated",
+          "rationale": "テレビ放送と直後の話題の期間を約2年と推定"
+        }
+      }
+    }
+  ]
+}

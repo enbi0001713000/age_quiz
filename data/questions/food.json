@@ -1,0 +1,181 @@
+{
+  "questions": [
+    {
+      "id": "FOO-001",
+      "status": "verified",
+      "genre": "food",
+      "difficulty": "easy",
+      "type": "experience",
+      "text": "『ビックリマンチョコ』（悪魔VS天使シリーズ）のシールを集めたことはありますか？",
+      "subject": "bikkuriman",
+      "options": [
+        {
+          "id": "a",
+          "label": "夢中で集めた",
+          "kind": "heavy",
+          "insight": "ビックリマンチョコ（悪魔VS天使シリーズ）（1985年〜1989年）を6〜14歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し集めた",
+          "kind": "light",
+          "insight": "ビックリマンチョコ（悪魔VS天使シリーズ）（1985年〜1989年）の時期に6〜14歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが集めたことはない",
+          "kind": "aware_only",
+          "insight": "ビックリマンチョコ（悪魔VS天使シリーズ）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ビックリマンチョコ（悪魔VS天使シリーズ）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "FOO-002",
+      "status": "verified",
+      "genre": "food",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "中にフィギュアが入った『チョコエッグ』を、ブームの頃に買ったことはありますか？",
+      "subject": "choco-egg",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく買った",
+          "kind": "heavy",
+          "insight": "チョコエッグ（1999年〜2002年）を6〜30歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "何度か買った",
+          "kind": "light",
+          "insight": "チョコエッグ（1999年〜2002年）の時期に6〜30歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが買ったことはない",
+          "kind": "aware_only",
+          "insight": "チョコエッグを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "チョコエッグの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "FOO-003",
+      "status": "verified",
+      "genre": "food",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "子どもの頃、『ポケモンパン』のシール（デコキャラシール）を集めましたか？",
+      "subject": "pokemon-bread",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく集めた",
+          "kind": "heavy",
+          "insight": "ポケモンパン（1998年〜現在）を3〜12歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し集めた",
+          "kind": "light",
+          "insight": "ポケモンパン（1998年〜現在）の時期に3〜12歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが集めたことはない",
+          "kind": "aware_only",
+          "insight": "ポケモンパンを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ポケモンパンの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "FOO-004",
+      "status": "verified",
+      "genre": "food",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "2019年ごろのタピオカドリンクのブーム（「タピる」）の頃に、タピオカドリンクを飲みに行きましたか？",
+      "subject": "tapioca-2019",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく行った",
+          "kind": "heavy",
+          "insight": "タピオカドリンクのブーム（タピる）（2019年）を13〜29歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "何度か行った",
+          "kind": "light",
+          "insight": "タピオカドリンクのブーム（タピる）（2019年）の時期に13〜29歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "ブームは知っているが行かなかった",
+          "kind": "aware_only",
+          "insight": "タピオカドリンクのブーム（タピる）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "タピオカドリンクのブーム（タピる）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.6,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false,
+      "notes": "性別・地域で差が出やすいため重要度を下げている"
+    }
+  ]
+}

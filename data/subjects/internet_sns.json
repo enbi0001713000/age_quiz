@@ -1,0 +1,255 @@
+{
+  "subjects": [
+    {
+      "id": "pc-tsushin",
+      "name": "パソコン通信",
+      "genre": "internet_sns",
+      "kind": "trend",
+      "facts": {
+        "diffusion": {
+          "from": "1985",
+          "to": "1994",
+          "status": "verified",
+          "sources": ["src-soumu-wp-r01-internet"],
+          "quote": "インターネット黎明期として、1985年頃から1994年頃までの動向を概観する…パソコン通信からインターネットへ"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [15, 50],
+          "status": "estimated",
+          "rationale": "パソコンを使う若者〜大人を想定して推定"
+        },
+        "ceiling": {
+          "value": 0.1,
+          "status": "estimated",
+          "rationale": "利用者は一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.1,
+          "ceiling": 0.7,
+          "rationale": "世代外では知らない人が多いと推定"
+        }
+      }
+    },
+    {
+      "id": "dialup",
+      "name": "ダイヤルアップ接続（電話回線でのインターネット）",
+      "genre": "internet_sns",
+      "kind": "trend",
+      "facts": {
+        "diffusion": {
+          "from": "1995",
+          "to": "2000",
+          "status": "verified",
+          "sources": ["src-soumu-wp-r01-internet"],
+          "quote": "1995（平成7）から2000（平成12）年頃までの「インターネット普及開始期」…ダイヤルアップ接続機能やWebブラウザも付属"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [10, 60],
+          "status": "estimated",
+          "rationale": "インターネットを使い始めた幅広い年齢と推定"
+        },
+        "ceiling": {
+          "value": 0.5,
+          "status": "estimated",
+          "rationale": "当時のインターネット利用者の割合を考慮して推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.2,
+          "ceiling": 0.85,
+          "rationale": "推定"
+        }
+      }
+    },
+    {
+      "id": "mixi",
+      "name": "mixi",
+      "genre": "internet_sns",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2004-02-22",
+          "status": "verified",
+          "sources": ["src-mixi-20th"],
+          "quote": "『mixi』は、2004年2月22日に運営を開始し、2004年3月3日に正式オープンしました。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [15, 35],
+          "status": "estimated",
+          "rationale": "推定"
+        },
+        "ceiling": {
+          "value": 0.5,
+          "status": "estimated",
+          "rationale": "推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.3,
+          "ceiling": 0.9,
+          "rationale": "推定"
+        },
+        "activeUntil": {
+          "value": 2010,
+          "status": "estimated",
+          "rationale": "Twitter日本語版（2008年）やLINE（2011年）の登場後に中心が移ったと推定"
+        }
+      }
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter（現X）",
+      "genre": "internet_sns",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2008-04",
+          "status": "verified",
+          "sources": ["src-iwatch-twitter-ja"],
+          "quote": "「Twitter」日本語版公開（2008年4月23日の記事）"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [13, 60],
+          "status": "estimated",
+          "rationale": "推定"
+        },
+        "ceiling": {
+          "value": 0.6,
+          "status": "estimated",
+          "rationale": "推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.7,
+          "ceiling": 0.98,
+          "rationale": "推定"
+        },
+        "activeUntil": {
+          "value": 2035,
+          "status": "estimated",
+          "rationale": "現在も利用が続くとみなす"
+        }
+      }
+    },
+    {
+      "id": "line",
+      "name": "LINE",
+      "genre": "internet_sns",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2011-06-23",
+          "status": "verified",
+          "sources": ["src-lycorp-line-15th"],
+          "quote": "「LINE」は…2011年6月23日に…誕生しました。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [12, 80],
+          "status": "estimated",
+          "rationale": "推定"
+        },
+        "ceiling": {
+          "value": 0.95,
+          "status": "estimated",
+          "rationale": "国内で1億ユーザー超（出典）のため高めに推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.9,
+          "ceiling": 0.99,
+          "rationale": "推定"
+        },
+        "activeUntil": {
+          "value": 2035,
+          "status": "estimated",
+          "rationale": "現在も利用が続くとみなす"
+        }
+      }
+    },
+    {
+      "id": "tiktok",
+      "name": "TikTok",
+      "genre": "internet_sns",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2017-08",
+          "status": "verified",
+          "sources": ["src-bi-tiktok"],
+          "quote": "日本進出は2017年8月…10代を中心に爆発的なブーム"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [10, 30],
+          "status": "estimated",
+          "rationale": "10代を中心（出典）と推定"
+        },
+        "ceiling": {
+          "value": 0.7,
+          "status": "estimated",
+          "rationale": "推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.6,
+          "ceiling": 0.97,
+          "rationale": "推定"
+        },
+        "activeUntil": {
+          "value": 2035,
+          "status": "estimated",
+          "rationale": "現在も利用が続くとみなす"
+        }
+      }
+    },
+    {
+      "id": "niconico",
+      "name": "ニコニコ動画",
+      "genre": "internet_sns",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2006-12-12",
+          "status": "verified",
+          "sources": ["src-iwatch-niconico"],
+          "quote": "ニコニコ動画は、2006年12月12日より実験サービスとして提供されていた"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [12, 30],
+          "status": "estimated",
+          "rationale": "中高生〜若者を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.4,
+          "status": "estimated",
+          "rationale": "推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.9,
+          "rationale": "推定"
+        },
+        "activeUntil": {
+          "value": 2015,
+          "status": "estimated",
+          "rationale": "人気の中心期を約8年と推定"
+        }
+      }
+    }
+  ]
+}

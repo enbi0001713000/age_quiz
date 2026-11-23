@@ -1,0 +1,263 @@
+{
+  "subjects": [
+    {
+      "id": "ctax-none",
+      "name": "消費税がなかった時代",
+      "genre": "news",
+      "kind": "trend",
+      "facts": {
+        "end": {
+          "date": "1989-04",
+          "status": "verified",
+          "sources": ["src-mof-tax-history"],
+          "quote": "税率３％の消費税が平成元年４月から導入されました。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.9,
+          "status": "estimated",
+          "rationale": "買い物をする子どもすべてに該当するため高く設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        }
+      }
+    },
+    {
+      "id": "ctax-3",
+      "name": "消費税3%",
+      "genre": "news",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1989-04",
+          "status": "verified",
+          "sources": ["src-mof-tax-history"],
+          "quote": "税率３％の消費税が平成元年４月から導入されました。"
+        },
+        "end": {
+          "date": "1997",
+          "status": "verified",
+          "sources": ["src-mof-tax-history"],
+          "quote": "消費税の充実（3％ → 5％・平成9年）"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.9,
+          "status": "estimated",
+          "rationale": "買い物をする子どもすべてに該当するため高く設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        }
+      }
+    },
+    {
+      "id": "ctax-5",
+      "name": "消費税5%",
+      "genre": "news",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1997",
+          "status": "verified",
+          "sources": ["src-mof-tax-history"],
+          "quote": "消費税の充実（3％ → 5％・平成9年）"
+        },
+        "end": {
+          "date": "2014-04",
+          "status": "verified",
+          "sources": ["src-mof-brochure-ctax"],
+          "quote": "平成26年（2014年）4月に5％から8％、令和元年（2019年）10月に8％から10％に引き上げられました。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.9,
+          "status": "estimated",
+          "rationale": "買い物をする子どもすべてに該当するため高く設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        }
+      }
+    },
+    {
+      "id": "ctax-8-10",
+      "name": "消費税8%・10%",
+      "genre": "news",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2014-04",
+          "status": "verified",
+          "sources": ["src-mof-brochure-ctax"],
+          "quote": "平成26年（2014年）4月に5％から8％、令和元年（2019年）10月に8％から10％に引き上げられました。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.9,
+          "status": "estimated",
+          "rationale": "買い物をする子どもすべてに該当するため高く設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        },
+        "activeUntil": {
+          "value": 2035,
+          "status": "estimated",
+          "rationale": "現在も続くとみなす"
+        }
+      },
+      "notes": "2019年10月以降は飲食料品に8%の軽減税率があるため、8%と10%を1つの選択肢にまとめた"
+    },
+    {
+      "id": "tokyo-1964",
+      "name": "東京オリンピック（1964年）",
+      "genre": "news",
+      "kind": "event",
+      "facts": {
+        "start": {
+          "date": "1964-10",
+          "status": "verified",
+          "sources": ["src-joc-tokyo1964"],
+          "quote": "10月9日 − 10月10日 いよいよ開会式（東京オリンピック1964レポート）"
+        },
+        "end": {
+          "date": "1964-10",
+          "status": "verified",
+          "sources": ["src-joc-tokyo1964"],
+          "quote": "東京オリンピック1964レポート"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [5, 99],
+          "status": "estimated",
+          "rationale": "出来事を記憶できる年齢（5歳以上）と推定"
+        },
+        "ceiling": {
+          "value": 0.9,
+          "status": "estimated",
+          "rationale": "国民的な出来事のため高く設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.6,
+          "ceiling": 0.98,
+          "rationale": "歴史的出来事として広く知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "heisei-kaigen",
+      "name": "平成への改元",
+      "genre": "news",
+      "kind": "event",
+      "facts": {
+        "start": {
+          "date": "1989-01-08",
+          "status": "verified",
+          "sources": ["src-cao-gengou"],
+          "quote": "改元に際しての内閣総理大臣談話（昭和６４年１月７日）…一月八日以降について用いられる"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [5, 99],
+          "status": "estimated",
+          "rationale": "出来事を記憶できる年齢（5歳以上）と推定"
+        },
+        "ceiling": {
+          "value": 0.9,
+          "status": "estimated",
+          "rationale": "国民的な出来事のため高く設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.7,
+          "ceiling": 0.99,
+          "rationale": "歴史的出来事として広く知られていると推定"
+        },
+        "activeUntil": {
+          "value": 1989,
+          "status": "estimated",
+          "rationale": "出来事の年"
+        }
+      }
+    },
+    {
+      "id": "nostradamus",
+      "name": "「1999年7月に人類が滅亡する」という予言（ノストラダムス）",
+      "genre": "news",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1973-11",
+          "status": "verified",
+          "sources": ["src-bunshun-nostradamus"],
+          "quote": "1973年11月に発売され、250万部を超える空前のベストセラーとなった『ノストラダムスの大予言』"
+        },
+        "end": {
+          "date": "1999-07",
+          "status": "verified",
+          "sources": ["src-bunshun-nostradamus"],
+          "quote": "1999年7の月、空から恐怖の大王が降ってくる――。日本中に「大予言」ブームを巻き起こした"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [7, 15],
+          "status": "estimated",
+          "rationale": "子どもの頃に本気で心配した人を想定して推定"
+        },
+        "ceiling": {
+          "value": 0.4,
+          "status": "estimated",
+          "rationale": "推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.9,
+          "rationale": "推定"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,544 @@
+{
+  "sources": [
+    {
+      "id": "src-nintendo-history",
+      "title": "会社の沿革",
+      "publisher": "任天堂",
+      "url": "https://www.nintendo.co.jp/corporate/history/index.html",
+      "type": "official",
+      "accessed": "2026-11-23",
+      "reliability": "A"
+    },
+    {
+      "id": "src-playstation-history-1994",
+      "title": "PlayStationの歴史年表（日本）1994",
+      "publisher": "ソニー・インタラクティブエンタテインメント",
+      "url": "https://www.playstation.com/ja-jp/playstation-history/1994-ps-one/",
+      "type": "official",
+      "accessed": "2026-11-23",
+      "reliability": "A"
+    },
+    {
+      "id": "src-famitsu-invaders",
+      "title": "『スペースインベーダー』が誕生した日【今日は何の日？】",
+      "publisher": "ファミ通.com",
+      "url": "https://www.famitsu.com/article/202506/44623",
+      "type": "press",
+      "accessed": "2026-11-23",
+      "reliability": "B"
+    },
+    {
+      "id": "src-nintendo-pokemon-rg",
+      "title": "ポケットモンスター赤・緑 製品情報",
+      "publisher": "任天堂",
+      "url": "https://www.nintendo.co.jp/n02/dmg/apajapbj/index.html",
+      "type": "official",
+      "accessed": "2026-11-23",
+      "reliability": "A"
+    },
+    {
+      "id": "src-famitsu-gundam",
+      "title": "『機動戦士ガンダム』放送開始から43周年",
+      "publisher": "ファミ通.com",
+      "url": "https://www.famitsu.com/news/202204/07257228.html",
+      "type": "press",
+      "accessed": "2026-11-23",
+      "reliability": "B"
+    },
+    {
+      "id": "src-tezuka-atom",
+      "title": "「国産初の30分テレビアニメシリーズ 鉄腕アトム」展 開催決定！（虫ん坊）",
+      "publisher": "手塚プロダクション（手塚治虫公式サイト）",
+      "url": "https://tezukaosamu.net/jp/mushi/entry/25778.html",
+      "type": "official",
+      "accessed": "2026-11-23",
+      "reliability": "A"
+    },
+    {
+      "id": "src-toei-dragonball",
+      "title": "ドラゴンボール 作品ラインナップ",
+      "publisher": "東映アニメーション",
+      "url": "https://lineup.toei-anim.co.jp/ja/tv/dragon/",
+      "type": "official",
+      "accessed": "2026-11-23",
+      "reliability": "A"
+    },
+    {
+      "id": "src-toei-dragonball-z",
+      "title": "ドラゴンボールZ 作品ラインナップ",
+      "publisher": "東映アニメーション",
+      "url": "https://lineup.toei-anim.co.jp/ja/tv/dragonz/",
+      "type": "official",
+      "accessed": "2026-11-23",
+      "reliability": "A"
+    },
+    {
+      "id": "src-toei-sailormoon",
+      "title": "美少女戦士セーラームーン 作品ラインナップ",
+      "publisher": "東映アニメーション",
+      "url": "https://lineup.toei-anim.co.jp/ja/tv/sailor_moon/",
+      "type": "official",
+      "accessed": "2026-11-23",
+      "reliability": "A"
+    },
+    {
+      "id": "src-toei-sailorstars",
+      "title": "美少女戦士セーラームーン セーラースターズ 作品ラインナップ",
+      "publisher": "東映アニメーション",
+      "url": "https://lineup.toei-anim.co.jp/ja/tv/sailor_stars/",
+      "type": "official",
+      "accessed": "2026-11-23",
+      "reliability": "A"
+    },
+    {
+      "id": "src-toei-mazinger",
+      "title": "マジンガーZ 作品ラインナップ",
+      "publisher": "東映アニメーション",
+      "url": "https://lineup.toei-anim.co.jp/ja/tv/mazingerz/",
+      "type": "official",
+      "accessed": "2026-11-23",
+      "reliability": "A"
+    },
+    {
+      "id": "src-tvtokyo-naruto",
+      "title": "NARUTO -ナルト- 放送の歴史",
+      "publisher": "テレビ東京",
+      "url": "https://www.tv-tokyo.co.jp/anime/naruto/history/history01.html",
+      "type": "official",
+      "accessed": "2026-11-23",
+      "reliability": "A"
+    },
+    {
+      "id": "src-thetv-yokaiwatch",
+      "title": "妖怪ウォッチ 番組情報",
+      "publisher": "ザテレビジョン（KADOKAWA）",
+      "url": "https://thetv.jp/program/0000009932/",
+      "type": "press",
+      "accessed": "2026-11-23",
+      "reliability": "B"
+    },
+    {
+      "id": "src-famitsu-evangelion",
+      "title": "『新世紀エヴァンゲリオン』放送開始から30周年",
+      "publisher": "ファミ通.com",
+      "url": "https://www.famitsu.com/article/202510/54171",
+      "type": "press",
+      "accessed": "2026-11-23",
+      "reliability": "B"
+    },
+    {
+      "id": "src-bunshun-oshin",
+      "title": "『おしん』放送開始から40年",
+      "publisher": "文春オンライン",
+      "url": "https://bunshun.jp/articles/-/62574",
+      "type": "press",
+      "accessed": "2026-11-23",
+      "reliability": "B"
+    },
+    {
+      "id": "src-president-zeninshugo",
+      "title": "「8時だョ！全員集合」はなぜ伝説になったのか",
+      "publisher": "PRESIDENT Online",
+      "url": "https://president.jp/articles/-/95441",
+      "type": "press",
+      "accessed": "2026-11-23",
+      "reliability": "B"
+    },
+    {
+      "id": "src-oricon-hyokinzoku",
+      "title": "コント番組ランキング（オレたちひょうきん族）",
+      "publisher": "ORICON NEWS",
+      "url": "https://www.oricon.co.jp/special/49402/",
+      "type": "press",
+      "accessed": "2026-11-23",
+      "reliability": "B"
+    },
+    {
+      "id": "src-oricon-katoken",
+      "title": "『加トケン』おもしろビデオコーナー 海外版の記事",
+      "publisher": "ORICON NEWS",
+      "url": "https://www.oricon.co.jp/news/2092073/full/",
+      "type": "press",
+      "accessed": "2026-11-23",
+      "reliability": "B"
+    },
+    {
+      "id": "src-advertimes-ac",
+      "title": "「ポポポポーン」の“生みの親”が振り返る――震災後、AC大量露出",
+      "publisher": "宣伝会議 AdverTimes",
+      "url": "https://www.advertimes.com/20111216/article45727/",
+      "type": "press",
+      "accessed": "2026-11-23",
+      "reliability": "B"
+    },
+    {
+      "id": "src-soumu-dtv",
+      "title": "地上デジタル放送への移行",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/dtv/",
+      "type": "official",
+      "accessed": "2026-11-23",
+      "reliability": "A"
+    },
+    {
+      "id": "src-takaratomy-annual-2017",
+      "title": "アニュアルレポート2017（沿革）",
+      "publisher": "タカラトミー",
+      "url": "https://www.takaratomy.co.jp/ir/financial/pdf/annual/17_annual_11_jpn.pdf",
+      "type": "official",
+      "accessed": "2026-11-23",
+      "reliability": "A"
+    },
+    {
+      "id": "src-gendai-rubiks",
+      "title": "7月25日 ルービック・キューブ発売（1980年）",
+      "publisher": "講談社ブルーバックス（現代ビジネス）",
+      "url": "https://gendai.media/articles/-/66006",
+      "type": "press",
+      "accessed": "2026-11-23",
+      "reliability": "B"
+    },
+    {
+      "id": "src-bandai-tamagotchi",
+      "title": "たまごっち 国内外累計出荷1億個突破（プレスリリース）",
+      "publisher": "バンダイ",
+      "url": "https://www.bandainamco.co.jp/files/E38090WEBE38091E38397E383ACE382B9E383AAE383AAE383B_2.pdf",
+      "type": "official",
+      "accessed": "2026-11-23",
+      "reliability": "A"
+    },
+    {
+      "id": "src-ascii-tamagotchi",
+      "title": "初代たまごっちに関する記事",
+      "publisher": "ASCII.jp",
+      "url": "https://ascii.jp/elem/000/001/586/1586998/",
+      "type": "press",
+      "accessed": "2026-11-23",
+      "reliability": "B"
+    },
+    {
+      "id": "src-jiyu-1997",
+      "title": "第14回 新語・流行語大賞（1997年）",
+      "publisher": "自由国民社",
+      "url": "https://www.jiyu.co.jp/singo/index.php?eid=00014",
+      "type": "press",
+      "accessed": "2026-11-23",
+      "reliability": "B"
+    },
+    {
+      "id": "src-takaratomy-beyblade",
+      "title": "BEYBLADE HISTORY",
+      "publisher": "タカラトミー",
+      "url": "https://beyblade.takaratomy.co.jp/history/",
+      "type": "official",
+      "accessed": "2026-11-23",
+      "reliability": "A"
+    },
+    {
+      "id": "src-soumu-wp-r01-mobile",
+      "title": "令和元年版 情報通信白書「携帯電話の登場・普及とコミュニケーションの変化」",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/r01/html/nd111110.html",
+      "type": "official",
+      "accessed": "2026-11-23",
+      "reliability": "A"
+    },
+    {
+      "id": "src-soumu-wp-h11-pager",
+      "title": "平成11年版 通信白書（無線呼出し）",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/h11/html/B2490000.htm",
+      "type": "official",
+      "accessed": "2026-11-23",
+      "reliability": "A"
+    },
+    {
+      "id": "src-docomo-history-imode",
+      "title": "NTTドコモ歴史展示スクエア 主要展示物（iモード）",
+      "publisher": "NTTドコモ",
+      "url": "http://history-s.nttdocomo.co.jp/list_imode.html",
+      "type": "official",
+      "accessed": "2026-11-23",
+      "reliability": "A"
+    },
+    {
+      "id": "src-soumu-kids-shoulderphone",
+      "title": "白書キッズ（携帯電話の歴史）",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/hakusho-kids/life/what/what_13.html",
+      "type": "official",
+      "accessed": "2026-11-23",
+      "reliability": "A"
+    },
+    {
+      "id": "src-soumu-wp-r01-internet",
+      "title": "令和元年版 情報通信白書「インターネットの登場・普及とコミュニケーションの変化」",
+      "publisher": "総務省",
+      "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/r01/html/nd111120.html",
+      "type": "official",
+      "accessed": "2026-11-23",
+      "reliability": "A"
+    },
+    {
+      "id": "src-mixi-20th",
+      "title": "SNS『mixi』20周年（プレスリリース）",
+      "publisher": "MIXI",
+      "url": "https://mixi.co.jp/news/2024/0304/29347/",
+      "type": "official",
+      "accessed": "2026-11-23",
+      "reliability": "A"
+    },
+    {
+      "id": "src-iwatch-twitter-ja",
+      "title": "「Twitter」日本語版公開、日本独自で広告配信も",
+      "publisher": "INTERNET Watch",
+      "url": "https://internet.watch.impress.co.jp/cda/news/2008/04/23/19338.html",
+      "type": "press",
+      "accessed": "2026-11-23",
+      "reliability": "B"
+    },
+    {
+      "id": "src-lycorp-line-15th",
+      "title": "コミュニケーションアプリ「LINE」誕生から15周年（プレスリリース）",
+      "publisher": "LINEヤフー",
+      "url": "https://www.lycorp.co.jp/ja/news/release/020542/",
+      "type": "official",
+      "accessed": "2026-11-23",
+      "reliability": "A"
+    },
+    {
+      "id": "src-bi-tiktok",
+      "title": "動画アプリ「TikTok」が10代を中心に爆発的なブーム",
+      "publisher": "Business Insider Japan",
+      "url": "https://www.businessinsider.jp/post-179410",
+      "type": "press",
+      "accessed": "2026-11-23",
+      "reliability": "B"
+    },
+    {
+      "id": "src-iwatch-niconico",
+      "title": "ニコニコ動画がベータ版に移行",
+      "publisher": "INTERNET Watch",
+      "url": "https://internet.watch.impress.co.jp/cda/news/2007/01/15/14460.html",
+      "type": "press",
+      "accessed": "2026-11-23",
+      "reliability": "B"
+    },
+    {
+      "id": "src-riaj-production",
+      "title": "音楽ソフト種類別生産実績推移",
+      "publisher": "日本レコード協会",
+      "url": "https://www.riaj.or.jp/g/data/annual/ms_m.html",
+      "type": "statistics",
+      "accessed": "2026-11-23",
+      "reliability": "A"
+    },
+    {
+      "id": "src-nippon-walkman",
+      "title": "〈1979年の今日〉7月1日 : ソニーがウォークマン1号機発売",
+      "publisher": "nippon.com",
+      "url": "https://www.nippon.com/ja/japan-topics/today07010/",
+      "type": "press",
+      "accessed": "2026-11-23",
+      "reliability": "B"
+    },
+    {
+      "id": "src-ascii-minidisc",
+      "title": "MDウォークマン「MZ-1」に関する記事",
+      "publisher": "ASCII.jp",
+      "url": "https://ascii.jp/elem/000/004/122/4122461/",
+      "type": "press",
+      "accessed": "2026-11-23",
+      "reliability": "B"
+    },
+    {
+      "id": "src-toyokeizai-subscription",
+      "title": "定額配信サービス元年に関する記事",
+      "publisher": "東洋経済オンライン",
+      "url": "https://toyokeizai.net/articles/-/99902",
+      "type": "press",
+      "accessed": "2026-11-23",
+      "reliability": "B"
+    },
+    {
+      "id": "src-bunshun-pinklady",
+      "title": "ピンク・レディー「UFO」発売の日に関する記事",
+      "publisher": "文春オンライン",
+      "url": "https://bunshun.jp/articles/-/5214",
+      "type": "press",
+      "accessed": "2026-11-23",
+      "reliability": "B"
+    },
+    {
+      "id": "src-mext-saturday",
+      "title": "土曜日の教育活動支援に関する資料（平成25年12月）",
+      "publisher": "文部科学省",
+      "url": "https://www.mext.go.jp/b_menu/shingi/chukyo/chukyo2/008/siryou/__icsFiles/afieldfile/2014/05/30/1347662_3_1.pdf",
+      "type": "official",
+      "accessed": "2026-11-23",
+      "reliability": "A"
+    },
+    {
+      "id": "src-mext-seikatsuka",
+      "title": "生活科について（教育課程部会 資料）",
+      "publisher": "文部科学省",
+      "url": "https://www.mext.go.jp/b_menu/shingi/chukyo/chukyo3/064/siryo/__icsFiles/afieldfile/2016/01/07/1365764_1.pdf",
+      "type": "official",
+      "accessed": "2026-11-23",
+      "reliability": "A"
+    },
+    {
+      "id": "src-mext-giga",
+      "title": "GIGAスクール構想の最新の状況について（令和3年3月）",
+      "publisher": "文部科学省",
+      "url": "https://www.mext.go.jp/kaigisiryo/content/20210319-mxt_syoto01-000013552_02.pdf",
+      "type": "official",
+      "accessed": "2026-11-23",
+      "reliability": "A"
+    },
+    {
+      "id": "src-nippon-kyushoku",
+      "title": "給食考（前編）子供の命をつないだ歴史",
+      "publisher": "nippon.com",
+      "url": "https://www.nippon.com/ja/japan-topics/g02481/",
+      "type": "press",
+      "accessed": "2026-11-23",
+      "reliability": "B"
+    },
+    {
+      "id": "src-itmedia-bikkuriman",
+      "title": "なぜ「ビックリマン」は年間4億個を売り上げるまでのブームになったのか？",
+      "publisher": "ITmedia ビジネスオンライン",
+      "url": "https://www.itmedia.co.jp/business/spv/1601/14/news004.html",
+      "type": "press",
+      "accessed": "2026-11-23",
+      "reliability": "B"
+    },
+    {
+      "id": "src-bunshun-chocoegg",
+      "title": "「チョコエッグ」に関する記事",
+      "publisher": "文春オンライン",
+      "url": "https://bunshun.jp/articles/-/47444",
+      "type": "press",
+      "accessed": "2026-11-23",
+      "reliability": "B"
+    },
+    {
+      "id": "src-daiichiya-pokemonbread",
+      "title": "ポケモンパンに関するプレスリリース（第一屋製パン）",
+      "publisher": "アニメ！アニメ！（PR TIMES掲載）",
+      "url": "https://animeanime.jp/release/prtimes/20251127/259465.html",
+      "type": "official",
+      "accessed": "2026-11-23",
+      "reliability": "A"
+    },
+    {
+      "id": "src-jiyu-2019",
+      "title": "第36回 新語・流行語大賞（2019年）",
+      "publisher": "自由国民社",
+      "url": "https://www.jiyu.co.jp/singo/index.php?eid=00036",
+      "type": "press",
+      "accessed": "2026-11-23",
+      "reliability": "B"
+    },
+    {
+      "id": "src-jiyu-1996",
+      "title": "第13回 新語・流行語大賞（1996年）",
+      "publisher": "自由国民社",
+      "url": "https://www.jiyu.co.jp/singo/index.php?eid=00013",
+      "type": "press",
+      "accessed": "2026-11-23",
+      "reliability": "B"
+    },
+    {
+      "id": "src-jiyu-1993",
+      "title": "第10回 新語・流行語大賞（1993年）",
+      "publisher": "自由国民社",
+      "url": "https://www.jiyu.co.jp/singo/index.php?eid=00010",
+      "type": "press",
+      "accessed": "2026-11-23",
+      "reliability": "B"
+    },
+    {
+      "id": "src-fashionsnap-loosesocks",
+      "title": "ルーズソックス（ファッション用語辞典）",
+      "publisher": "FASHIONSNAP",
+      "url": "https://www.fashionsnap.com/dictionary/loose-socks/",
+      "type": "press",
+      "accessed": "2026-11-23",
+      "reliability": "B"
+    },
+    {
+      "id": "src-denfami-purikura",
+      "title": "プリクラ誕生30周年に関する記事",
+      "publisher": "電ファミニコゲーマー",
+      "url": "https://news.denfaminicogamer.jp/news/2507252q",
+      "type": "press",
+      "accessed": "2026-11-23",
+      "reliability": "B"
+    },
+    {
+      "id": "src-nippon-twiggy",
+      "title": "〈1967年の今日〉10月18日 : ツィッギー、ミニスカブーム巻き起こす",
+      "publisher": "nippon.com",
+      "url": "https://www.nippon.com/ja/japan-topics/today10180/",
+      "type": "press",
+      "accessed": "2026-11-23",
+      "reliability": "B"
+    },
+    {
+      "id": "src-mof-tax-history",
+      "title": "日本の税の歴史を教えてください",
+      "publisher": "財務省",
+      "url": "https://www.mof.go.jp/tax_information/qanda015.html",
+      "type": "official",
+      "accessed": "2026-11-23",
+      "reliability": "A"
+    },
+    {
+      "id": "src-mof-brochure-ctax",
+      "title": "もっと知りたい税のこと（令和6年6月）5「消費税」を知ろう",
+      "publisher": "財務省",
+      "url": "https://www.mof.go.jp/tax_policy/publication/brochure/zeisei0606/05.htm",
+      "type": "official",
+      "accessed": "2026-11-23",
+      "reliability": "A"
+    },
+    {
+      "id": "src-joc-tokyo1964",
+      "title": "東京オリンピックレポート 10月9日−10月10日 いよいよ開会式",
+      "publisher": "日本オリンピック委員会",
+      "url": "https://www.joc.or.jp/past_games/tokyo1964/report/1009_1010.html",
+      "type": "official",
+      "accessed": "2026-11-23",
+      "reliability": "A"
+    },
+    {
+      "id": "src-cao-gengou",
+      "title": "元号について",
+      "publisher": "内閣府",
+      "url": "https://www.cao.go.jp/others/soumu/gengou/index.html",
+      "type": "official",
+      "accessed": "2026-11-23",
+      "reliability": "A"
+    },
+    {
+      "id": "src-bunshun-nostradamus",
+      "title": "『ノストラダムスの大予言』著者に関する記事",
+      "publisher": "文春オンライン",
+      "url": "https://bunshun.jp/articles/-/39135",
+      "type": "press",
+      "accessed": "2026-11-23",
+      "reliability": "B"
+    },
+    {
+      "id": "src-cao-durables",
+      "title": "消費動向調査 主要耐久消費財等の普及率（平成16年3月で調査終了した品目）",
+      "publisher": "内閣府",
+      "url": "https://www.esri.cao.go.jp/jp/stat/shouhi/0403fukyuritsu.xls",
+      "type": "statistics",
+      "accessed": "2026-11-23",
+      "reliability": "A"
+    }
+  ]
+}
