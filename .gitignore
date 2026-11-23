@@ -1,0 +1,13 @@
+# 依存関係・ビルド成果物
+node_modules/
+dist/
+
+# テスト成果物
+test-results/
+playwright-report/
+coverage/
+
+# ローカル設定・OS
+*.local
+.env*
+.DS_Store

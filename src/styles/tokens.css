@@ -1,0 +1,41 @@
+/*
+ * デザイントークン（設計書 7.5 の初期案）。
+ * 色・余白などはここで一元管理し、コンポーネントに直接数値を書かない。
+ */
+:root {
+  /* ブランドカラー */
+  --navy-950: #060b1f;
+  --navy-800: #0e1838;
+  --navy-700: #16224a;
+  --blue-500: #2f6bff;
+  --cyan-400: #22d3ee;
+  --purple-500: #8b5cf6;
+  --text-100: #e6eeff;
+  --text-300: #a9b8dc;
+
+  /* 用途別 */
+  --color-bg: var(--navy-950);
+  --color-surface: var(--navy-800);
+  --color-border: var(--navy-700);
+  --color-primary: var(--blue-500);
+  --color-accent: var(--cyan-400);
+  --color-accent-2: var(--purple-500);
+  --color-text: var(--text-100);
+  --color-text-muted: var(--text-300);
+
+  /* 文字（日本語は端末標準フォントを使用し、Webフォントを読み込まない） */
+  --font-sans:
+    'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic UI', Meiryo, system-ui,
+    sans-serif;
+
+  /* 余白・寸法 */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --radius-md: 12px;
+  --tap-min: 56px; /* 選択肢ボタンの最小の高さ（設計書 7.3） */
+  --content-max: 560px;
+}
