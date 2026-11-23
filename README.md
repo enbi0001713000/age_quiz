@@ -8,9 +8,56 @@
 
 ## 現在の状況
 
-**Phase 0（要件理解・技術設計）— プロダクトオーナーの承認待ち**
+| Phase | 内容 | 状態 |
+|---|---|---|
+| 0 | 要件理解・技術設計 | 承認済み（Q1〜Q4） |
+| 1 | プロジェクト基盤構築 | **完了・承認待ち** |
+| 2〜9 | 質問データ試作 → 推理エンジン → 画面 → 結果・共有 → データ拡張 → オフライン → 総合テスト → 公開 | 未着手 |
 
-アプリ本体のコードはまだありません。
+## 開発の始め方
+
+必要なもの：Node.js 22（`.nvmrc`）
+
+```bash
+npm ci            # 依存関係のインストール
+npm run dev       # 開発サーバー起動 → http://localhost:5173/age_quiz/
+```
+
+| コマンド | 内容 |
+|---|---|
+| `npm run dev` | 開発サーバー |
+| `npm run build` | 本番ビルド（`dist/`） |
+| `npm run preview` | 本番ビルドをローカルで確認 |
+| `npm test` | 単体テスト（Vitest） |
+| `npm run test:e2e` | E2Eテスト（Playwright：スマホ2サイズ＋PC） |
+| `npm run lint` / `npm run check` | Lint / 型検査 |
+| `npm run format` | コード整形 |
+| `npm run verify` | 整形確認・Lint・型検査・単体テスト・ビルドを一括実行 |
+
+## 技術構成
+
+TypeScript 6.0 / Vite 8 / Svelte 5 / Vitest / Playwright / ESLint / Prettier。選定理由は [設計書 4章](docs/phase0/design.md#4-技術スタックの比較と推奨)。
+
+## ディレクトリ構成
+
+| パス | 内容 |
+|---|---|
+| `data/` | 質問データ・事実・出典（推理ロジックと分離）→ [data/README.md](data/README.md) |
+| `src/` | アプリ本体（推理エンジン・UI・保存・共有）→ [src/README.md](src/README.md) |
+| `scripts/` | データ検証・シミュレーション等の開発ツール → [scripts/README.md](scripts/README.md) |
+| `tests/` | 単体テスト（`unit/`）・E2Eテスト（`e2e/`） |
+| `docs/` | 要件・設計・開発記録 |
+| `.github/workflows/` | CI（`ci.yml`）・GitHub Pagesデプロイ（`deploy.yml`、手動実行） |
+
+## GitHub Pages への公開
+
+`deploy.yml` は**手動実行のみ**（公開タイミングはプロダクトオーナーが決定）。初回は次の設定が必要：
+
+1. リポジトリの **Settings → Pages → Build and deployment → Source** を「**GitHub Actions**」にする
+2. **Actions → Deploy to GitHub Pages → Run workflow** を実行
+3. `https://<ユーザー名>.github.io/age_quiz/` で公開される
+
+一般公開（Phase 9）までは `index.html` の `noindex` 指定により検索エンジンに載らない。
 
 ## ドキュメント
 
