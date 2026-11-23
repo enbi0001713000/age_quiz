@@ -20,7 +20,9 @@
     "test:e2e": "playwright test --trace off",
     "verify": "npm run format:check && npm run lint && npm run check && npm run validate:data && npm run test && npm run build",
     "validate:data": "tsx scripts/validate-data.ts",
-    "report:coverage": "tsx scripts/coverage-report.ts"
+    "report:coverage": "tsx scripts/coverage-report.ts",
+    "simulate": "tsx scripts/simulate.ts",
+    "simulate:tune": "tsx scripts/simulate.ts --tune"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

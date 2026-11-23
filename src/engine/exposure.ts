@@ -156,6 +156,25 @@ export function activity(subject: Subject, year: number, stats: StatisticsIndex)
   return 0;
 }
 
+/**
+ * 活動度の表（yearFrom〜yearTo）。対象と統計の組ごとに1回だけ計算して使い回す。
+ * （生年ごと・質問ごとに日付の解釈や統計の補間をやり直すと、起動時の計算が遅くなるため）
+ */
+const activityCache = new WeakMap<Subject, WeakMap<StatisticsIndex, Float64Array>>();
+function activityTable(subject: Subject, stats: StatisticsIndex): Float64Array {
+  let byStats = activityCache.get(subject);
+  if (!byStats) activityCache.set(subject, (byStats = new WeakMap()));
+  let table = byStats.get(stats);
+  if (!table) {
+    const C = EXPOSURE_CONSTANTS;
+    table = new Float64Array(C.yearTo - C.yearFrom + 1);
+    for (let t = C.yearFrom; t <= C.yearTo; t++)
+      table[t - C.yearFrom] = activity(subject, t, stats);
+    byStats.set(stats, table);
+  }
+  return table;
+}
+
 /** 曝露量 E(b)：年齢窓 [a0, a1] と活動期間の重なり（年単位） */
 export function exposure(
   subject: Subject,
@@ -164,11 +183,12 @@ export function exposure(
   stats: StatisticsIndex,
 ): number {
   const C = EXPOSURE_CONSTANTS;
+  const table = activityTable(subject, stats);
   let e = 0;
-  for (let t = C.yearFrom; t <= C.yearTo; t++) {
-    const a = activity(subject, t, stats);
+  for (let k = 0; k < table.length; k++) {
+    const a = table[k]!;
     if (a === 0) continue;
-    e += a * softBox(t - birthYear, window[0], window[1], C.edgeSoftness);
+    e += a * softBox(C.yearFrom + k - birthYear, window[0], window[1], C.edgeSoftness);
   }
   return e;
 }

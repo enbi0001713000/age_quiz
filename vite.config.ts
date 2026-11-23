@@ -18,7 +18,8 @@ export default defineConfig({
     target: 'es2022',
   },
   test: {
-    include: ['tests/unit/**/*.test.ts'],
+    include: ['tests/unit/**/*.test.ts', 'tests/simulation/**/*.test.ts'],
+    testTimeout: 60_000,
     environment: 'node',
   },
 });
