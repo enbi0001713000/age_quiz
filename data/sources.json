@@ -575,6 +575,555 @@
       "type": "book",
       "accessed": "2026-11-24",
       "reliability": "B"
+    },
+    {
+      "id": "src-tvtokyo-tver",
+      "title": "民放公式テレビポータル「TVer（ティーバー）」いよいよサービス開始！",
+      "publisher": "テレビ東京",
+      "url": "https://www.tv-tokyo.co.jp/kaisha/news/2015/1026_031214.html",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-cao-durables-2026",
+      "title": "消費動向調査 令和8年3月調査 表1-3 主要耐久消費財の普及率の推移（二人以上の世帯）",
+      "publisher": "内閣府 経済社会総合研究所",
+      "url": "https://www.e-stat.go.jp/stat-search/files?tstat=000001014549&toukei=00100405&cycle=0&tclass1=000001239996&tclass2=000001242596&layout=datalist&page=1&tclass3val=0",
+      "type": "statistics",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-webcartop-supercar",
+      "title": "消しゴムにメンコに文房具も全部スーパーカー！ 昭和の少年が熱狂した「スーパーカーブーム」ってなに？",
+      "publisher": "WEB CARTOP",
+      "url": "https://www.webcartop.jp/2025/06/1638076/",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-gamewatch-gunpla30",
+      "title": "バンダイ、「ガンプラ30周年プロジェクト」記者会見で新シリーズ「RG」を発表",
+      "publisher": "GAME Watch",
+      "url": "https://game.watch.impress.co.jp/docs/news/355814.html",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-motorfan-mini4wd",
+      "title": "ミニ四駆の歴史（タミヤのホビー記事）",
+      "publisher": "Motor-Fan",
+      "url": "https://motor-fan.jp/article/1260988/",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-bandai-hyperyoyo",
+      "title": "ハイパーヨーヨー 上級者向け新シリーズ発売（プレスリリース）",
+      "publisher": "バンダイ",
+      "url": "https://bandai-a.akamaihd.net/corp/press/1000001775.pdf",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-ascii-hyperyoyo",
+      "title": "二度のブームを起こした伝説のヨーヨーが復活",
+      "publisher": "ASCII.jp",
+      "url": "https://ascii.jp/elem/000/004/207/4207260/",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-animeeiga-kinkeshi",
+      "title": "キンケシに関するニュース",
+      "publisher": "アニメハック（映画.com）",
+      "url": "https://anime.eiga.com/news/116737/",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-meigaku-hulahoop",
+      "title": "日本の流行形成に果たしたメディアの役割──1950年代のフラフープ・ブームの報道を事例として──",
+      "publisher": "明治学院大学 社会学・社会福祉学研究",
+      "url": "https://meigaku.repo.nii.ac.jp/record/2000228/files/shakaifukushi_162_1-20.pdf",
+      "type": "book",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-bandai-digimon20",
+      "title": "「デジタルモンスター」の復刻版が限定登場！（プレスリリース）",
+      "publisher": "バンダイ（@Press掲載）",
+      "url": "https://www.atpress.ne.jp/news/119279/print",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-kaiyou-handspinner",
+      "title": "ハンドスピナーなど感触を楽しむ玩具の流行に関する記事",
+      "publisher": "KAI-YOU",
+      "url": "https://kai-you.net/article/45727",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-toei-sally",
+      "title": "魔法使いサリー（第1期） 作品ラインナップ",
+      "publisher": "東映アニメーション",
+      "url": "https://lineup.toei-anim.co.jp/ja/tv/sally/",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-toei-tigermask",
+      "title": "タイガーマスク 作品ラインナップ",
+      "publisher": "東映アニメーション",
+      "url": "https://lineup.toei-anim.co.jp/ja/tv/tigermask/",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-toei-999",
+      "title": "銀河鉄道999 作品ラインナップ",
+      "publisher": "東映アニメーション",
+      "url": "https://lineup.toei-anim.co.jp/ja/tv/999/",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-toei-arale",
+      "title": "Dr.スランプ アラレちゃん 作品ラインナップ",
+      "publisher": "東映アニメーション",
+      "url": "https://lineup.toei-anim.co.jp/ja/tv/arale/",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-toei-kinniku",
+      "title": "キン肉マン 作品ラインナップ",
+      "publisher": "東映アニメーション",
+      "url": "https://lineup.toei-anim.co.jp/ja/tv/kinniku/",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-toei-hokuto",
+      "title": "北斗の拳 作品ラインナップ",
+      "publisher": "東映アニメーション",
+      "url": "https://lineup.toei-anim.co.jp/ja/tv/hokuto/",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-toei-seiya",
+      "title": "聖闘士星矢 作品ラインナップ",
+      "publisher": "東映アニメーション",
+      "url": "https://lineup.toei-anim.co.jp/ja/tv/seiya/",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-toei-slamdunk",
+      "title": "スラムダンク 作品ラインナップ",
+      "publisher": "東映アニメーション",
+      "url": "https://lineup.toei-anim.co.jp/ja/tv/movie_slumdunk/",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-toei-doremi",
+      "title": "おジャ魔女どれみ 作品ラインナップ",
+      "publisher": "東映アニメーション",
+      "url": "https://lineup.toei-anim.co.jp/ja/tv/doremi/",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-toei-digimon",
+      "title": "デジモンアドベンチャー ストーリー（作品ラインナップ）",
+      "publisher": "東映アニメーション",
+      "url": "https://lineup.toei-anim.co.jp/ja/tv/dejimon/story/",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-toei-precure",
+      "title": "ふたりはプリキュア 作品ラインナップ",
+      "publisher": "東映アニメーション",
+      "url": "https://lineup.toei-anim.co.jp/ja/tv/precure/",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-bunshun-kyojin",
+      "title": "ご存知ですか？ 3月30日は『巨人の星』の放送が始まった日です",
+      "publisher": "文春オンライン",
+      "url": "https://bunshun.jp/articles/-/6827",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-mynavi-doraemon",
+      "title": "『ドラえもん』歴代声優一覧! 声優が交代したのはいつ?",
+      "publisher": "マイナビニュース",
+      "url": "https://news.mynavi.jp/article/20230324-2633029/",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-jiyu-1990",
+      "title": "第7回 新語・流行語大賞（1990年）",
+      "publisher": "自由国民社",
+      "url": "https://www.jiyu.co.jp/singo/index.php?eid=00007",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-jiyu-2020",
+      "title": "第37回 新語・流行語大賞（2020年）",
+      "publisher": "自由国民社",
+      "url": "https://www.jiyu.co.jp/singo/index.php?eid=00037",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-animeanime-kimetsu",
+      "title": "「鬼滅の刃」新キャスト11人発表！ 第3弾ビジュアル＆主題歌アーティストはLiSAに決定",
+      "publisher": "アニメ！アニメ！",
+      "url": "https://animeanime.jp/article/2019/03/19/44168.html",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-jiyu-1986",
+      "title": "第3回 新語・流行語大賞（1986年）",
+      "publisher": "自由国民社",
+      "url": "https://www.jiyu.co.jp/singo/index.php?eid=00003",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-jiyu-1989",
+      "title": "第6回 新語・流行語大賞（1989年）",
+      "publisher": "自由国民社",
+      "url": "https://www.jiyu.co.jp/singo/index.php?eid=00006",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-jiyu-1991",
+      "title": "第8回 新語・流行語大賞（1991年）",
+      "publisher": "自由国民社",
+      "url": "https://www.jiyu.co.jp/singo/index.php?eid=00008",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-jiyu-1994",
+      "title": "第11回 新語・流行語大賞（1994年）",
+      "publisher": "自由国民社",
+      "url": "https://www.jiyu.co.jp/singo/index.php?eid=00011",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-jiyu-2000",
+      "title": "第17回 新語・流行語大賞（2000年）",
+      "publisher": "自由国民社",
+      "url": "https://www.jiyu.co.jp/singo/index.php?eid=00017",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-jiyu-2003",
+      "title": "第20回 新語・流行語大賞（2003年）",
+      "publisher": "自由国民社",
+      "url": "https://www.jiyu.co.jp/singo/index.php?eid=00020",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-jiyu-2004",
+      "title": "第21回 新語・流行語大賞（2004年）",
+      "publisher": "自由国民社",
+      "url": "https://www.jiyu.co.jp/singo/index.php?eid=00021",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-jiyu-2005",
+      "title": "第22回 新語・流行語大賞（2005年）",
+      "publisher": "自由国民社",
+      "url": "https://www.jiyu.co.jp/singo/index.php?eid=00022",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-jiyu-2012",
+      "title": "第29回 新語・流行語大賞（2012年）",
+      "publisher": "自由国民社",
+      "url": "https://www.jiyu.co.jp/singo/index.php?eid=00029",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-jiyu-2013",
+      "title": "第30回 新語・流行語大賞（2013年）",
+      "publisher": "自由国民社",
+      "url": "https://www.jiyu.co.jp/singo/index.php?eid=00030",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-jiyu-2017",
+      "title": "第34回 新語・流行語大賞（2017年）",
+      "publisher": "自由国民社",
+      "url": "https://www.jiyu.co.jp/singo/index.php?eid=00034",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-nippon-gekkokamen",
+      "title": "ドラマのマンガ化「月光仮面」で幕開け：子ども雑誌とテレビの幸福な出会い",
+      "publisher": "nippon.com",
+      "url": "https://www.nippon.com/ja/japan-topics/b11504/",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-president-bestten",
+      "title": "「ザ・ベストテン」を伝説の番組にした演出家の異常なこだわり",
+      "publisher": "PRESIDENT Online",
+      "url": "https://president.jp/articles/-/83247",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-jcast-iitomo",
+      "title": "「32年間ありがとう」… いいとも最終回、惜しむ声ネットにあふれる",
+      "publisher": "J-CASTニュース",
+      "url": "https://www.j-cast.com/2014/03/31200642.html?p=all",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-nintendo-mario1",
+      "title": "スーパーマリオブラザーズ（マリオの歴史）",
+      "publisher": "任天堂",
+      "url": "https://www.nintendo.co.jp/ngc/sms/history/sm1/",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-famitsu-dq3",
+      "title": "『ドラゴンクエストIII そして伝説へ…』が発売された日【今日は何の日？】",
+      "publisher": "ファミ通.com",
+      "url": "https://www.famitsu.com/article/202502/32633",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-famitsu-sf2",
+      "title": "AC『ストリートファイターII』35周年。格ゲーブームの火付け役【今日は何の日？】",
+      "publisher": "ファミ通.com",
+      "url": "https://www.famitsu.com/article/202603/67761",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-nintendo-pokemon-gs",
+      "title": "ポケットモンスター金・銀 製品情報",
+      "publisher": "任天堂",
+      "url": "https://www.nintendo.co.jp/n02/dmg/kingin/",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-playstation-history-2000",
+      "title": "PlayStationの歴史年表（日本）2000年 PlayStation 2 - PSP",
+      "publisher": "ソニー・インタラクティブエンタテインメント",
+      "url": "https://www.playstation.com/ja-jp/playstation-history/2000-ps2-psp/",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-famitsu-mushiking",
+      "title": "『X年後の関係者たち』でセガ『甲虫王者ムシキング』を特集",
+      "publisher": "ファミ通.com",
+      "url": "https://www.famitsu.com/article/202501/31170",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-gamewatch-noutore",
+      "title": "【「脳トレ」が大ヒット】「脳を鍛える大人のDSトレーニング」が発売された日（2005年5月19日）",
+      "publisher": "GAME Watch",
+      "url": "https://game.watch.impress.co.jp/docs/kikaku/2013351.html",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-famitsu-mhp2g",
+      "title": "『モンハンポータブル 2nd G』が発売された日【今日は何の日？】",
+      "publisher": "ファミ通.com",
+      "url": "https://www.famitsu.com/article/202503/37567",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-famitsu-splatoon5",
+      "title": "『スプラトゥーン』5周年【今日は何の日？】",
+      "publisher": "ファミ通.com",
+      "url": "https://www.famitsu.com/news/202005/28199187.html",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-pokemongo-launch-jp",
+      "title": "Pokémon GO、いよいよ日本で配信開始！",
+      "publisher": "Niantic・ポケモン",
+      "url": "https://pokemongo.com/ja/post/launch-jp",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-gamewatch-atsumori",
+      "title": "「あつまれ どうぶつの森」本日発売！",
+      "publisher": "GAME Watch",
+      "url": "https://game.watch.impress.co.jp/docs/news/1240941.html",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-jiyu-1992",
+      "title": "第9回 新語・流行語大賞（1992年）",
+      "publisher": "自由国民社",
+      "url": "https://www.jiyu.co.jp/singo/index.php?eid=00009",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-jiyu-2010",
+      "title": "第27回 新語・流行語大賞（2010年）",
+      "publisher": "自由国民社",
+      "url": "https://www.jiyu.co.jp/singo/index.php?eid=00027",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-walkerplus-90s-dessert",
+      "title": "ティラミスやナタデココ、クレームブリュレetc… 90年代の女子たちをとろけさせた“デザート”たち",
+      "publisher": "ウォーカープラス（KADOKAWA）",
+      "url": "https://www.walkerplus.com/article/145335/",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-jcast-namacaramel",
+      "title": "生キャラメルブーム一服？ 田中オーナー「花畑牧場」300人離職",
+      "publisher": "J-CASTニュース",
+      "url": "https://www.j-cast.com/2009/09/25050275.html?p=all",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-itmedia-pancake",
+      "title": "「パンケーキの行列」だけに依存しない EGGS 'N THINGS・荻野社長：事業をどう伸ばす？",
+      "publisher": "ITmedia ビジネスオンライン",
+      "url": "https://www.itmedia.co.jp/makoto/spv/1503/31/news021.html",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-gendai-sweets2021",
+      "title": "2021年に流行った「トレンドスイーツ」5選！ マリトッツォ、台湾カステラ…全部言えますか？",
+      "publisher": "現代ビジネス（講談社）",
+      "url": "https://gendai.media/articles/-/90995",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-jprime-whale",
+      "title": "懐かしの給食定番メニュー「鯨の竜田揚げ」もう給食に出てないの？",
+      "publisher": "週刊女性PRIME",
+      "url": "https://www.jprime.jp/articles/-/10774",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-sapporo-kyushoku",
+      "title": "札幌市学校給食の歴史",
+      "publisher": "札幌市",
+      "url": "https://www.city.sapporo.jp/kyoiku/top/kyushoku/history/history.html",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-getnavi-procchips",
+      "title": "「プロ野球チップス」50年目に関する記事",
+      "publisher": "GetNavi web",
+      "url": "https://getnavi.jp/cuisine/765240/",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
     }
   ]
 }

@@ -225,6 +225,643 @@
           "rationale": "社会的に広く告知されたと推定"
         }
       }
+    },
+    {
+      "id": "gekko-kamen",
+      "name": "月光仮面（テレビ映画）",
+      "genre": "tv_cm",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1958-02",
+          "status": "verified",
+          "sources": ["src-nippon-gekkokamen"],
+          "quote": "1958年2月、テレビの草創期を代表する国産テレビ映画…『月光仮面』の放送が始まった。"
+        },
+        "audience": {
+          "ages": [5, 13],
+          "gender": "all",
+          "status": "derived",
+          "sources": ["src-nippon-gekkokamen"],
+          "quote": "この時間帯になると、子どもたちは遊び場や銭湯から姿を消し、自宅や友人宅のテレビの前に座った。",
+          "rule": "「子どもたち」を5〜13歳とみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [5, 13],
+          "status": "estimated",
+          "rationale": "子どもたちに大人気だった（出典）"
+        },
+        "ceiling": {
+          "value": 0.5,
+          "status": "estimated",
+          "rationale": "当時はテレビのない家庭も多かったため、子どもに大人気でも見た人は約半数と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.3,
+          "ceiling": 0.9,
+          "rationale": "名前は世代外にも知られていると推定"
+        },
+        "activeUntil": {
+          "value": 1959,
+          "status": "estimated",
+          "rationale": "最初のテレビシリーズの放送期間を約1年半と推定（終了時期は未確認）"
+        }
+      }
+    },
+    {
+      "id": "the-best-ten",
+      "name": "ザ・ベストテン",
+      "genre": "tv_cm",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1978",
+          "status": "verified",
+          "sources": ["src-president-bestten"],
+          "quote": "音楽番組「ザ・ベストテン」（1978～89年、TBS系）"
+        },
+        "end": {
+          "date": "1989",
+          "status": "verified",
+          "sources": ["src-president-bestten"],
+          "quote": "音楽番組「ザ・ベストテン」（1978～89年、TBS系）"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [10, 30],
+          "status": "estimated",
+          "rationale": "歌謡曲のランキング番組。10代〜若い大人を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.55,
+          "status": "estimated",
+          "rationale": "家族で見る家庭も多い人気番組として推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.95,
+          "rationale": "伝説の番組として語り継がれている（出典）ため、世代外でも知る人は多いと推定"
+        }
+      }
+    },
+    {
+      "id": "iitomo",
+      "name": "笑っていいとも！",
+      "genre": "tv_cm",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1982",
+          "status": "verified",
+          "sources": ["src-jcast-iitomo"],
+          "quote": "1982年に始まったフジテレビ系のバラエティ番組「笑っていいとも」が2014年3月31日、32年の歴史に幕を下ろした。"
+        },
+        "end": {
+          "date": "2014-03-31",
+          "status": "verified",
+          "sources": ["src-jcast-iitomo"],
+          "quote": "1982年に始まったフジテレビ系のバラエティ番組「笑っていいとも」が2014年3月31日、32年の歴史に幕を下ろした。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 70],
+          "status": "estimated",
+          "rationale": "平日の昼の番組で、学校が休みの日などに子どもから大人まで見たと推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.75,
+          "status": "estimated",
+          "rationale": "長寿番組で、多くの人が一度は見たと推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.6,
+          "ceiling": 0.99,
+          "rationale": "長寿番組として広く知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "dance-koshien",
+      "name": "ダンス甲子園（『天才たけしの元気が出るテレビ!!』）",
+      "genre": "tv_cm",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "1991",
+          "to": "1991",
+          "status": "verified",
+          "sources": ["src-jiyu-1991"],
+          "quote": "1991年 新語・流行語大賞 ダンス甲子園：ショー・ダンスが高校生を中心にした若者の間で流行った。ブームに火をつけたのが、このテレビ番組"
+        },
+        "audience": {
+          "ages": [15, 18],
+          "gender": "all",
+          "status": "derived",
+          "sources": ["src-jiyu-1991"],
+          "quote": "高校生を中心にした若者の間で流行った",
+          "rule": "「高校生」を15〜18歳とみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [10, 22],
+          "status": "estimated",
+          "rationale": "高校生を中心にした若者の間で流行（出典）。番組を見ていた小中学生も含めて推定"
+        },
+        "ceiling": {
+          "value": 0.4,
+          "status": "estimated",
+          "rationale": "人気企画だが、見ていた人は一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.3,
+          "ceiling": 0.9,
+          "rationale": "当時を知る人には広く知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "ugougo-luga",
+      "name": "ウゴウゴルーガ",
+      "genre": "tv_cm",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "1993",
+          "to": "1993",
+          "status": "verified",
+          "sources": ["src-jiyu-1993"],
+          "quote": "1993年 新語・流行語大賞 ウゴウゴ・ルーガ：フジテレビ系で放映の幼児向け教育番組…子供から中高生、大学生、ＯＬそして中年にまでファン層が広がった"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [5, 22],
+          "status": "estimated",
+          "rationale": "幼児向け番組だが、子供から大学生まで幅広く見られた（出典）"
+        },
+        "ceiling": {
+          "value": 0.35,
+          "status": "estimated",
+          "rationale": "早朝の番組で、見ていた人は一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.15,
+          "ceiling": 0.8,
+          "rationale": "世代外では知らない人も多いと推定"
+        }
+      }
+    },
+    {
+      "id": "ienakiko",
+      "name": "家なき子（日本テレビのドラマ）",
+      "genre": "tv_cm",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "1994",
+          "to": "1994",
+          "status": "verified",
+          "sources": ["src-jiyu-1994"],
+          "quote": "1994年 新語・流行語大賞 同情するならカネをくれ：日本テレビ「家なき子」で、主役の少女（安達）が言うセリフ…１９９４年の話題を独占した"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [8, 40],
+          "status": "estimated",
+          "rationale": "子どもから大人まで話題になったドラマとして推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.45,
+          "status": "estimated",
+          "rationale": "話題作だが、見ていた人は半数弱と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.95,
+          "rationale": "セリフは世代外にも知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "trivia-no-izumi",
+      "name": "トリビアの泉",
+      "genre": "tv_cm",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "2003",
+          "to": "2003",
+          "status": "verified",
+          "sources": ["src-jiyu-2003"],
+          "quote": "2003年 新語・流行語大賞 へぇ～：フジテレビの人気番組「トリビアの泉」から流行した言葉…２００３（平成15）年を代表するヒットバラエティーとなった"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [8, 50],
+          "status": "estimated",
+          "rationale": "子どもから大人まで見た人気番組として推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.5,
+          "status": "estimated",
+          "rationale": "ヒット番組として推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.35,
+          "ceiling": 0.95,
+          "rationale": "当時を知る人には広く知られていると推定"
+        },
+        "activeUntil": {
+          "value": 2006,
+          "status": "estimated",
+          "rationale": "流行の中心は2003年（出典）。その後数年は人気が続いたと推定"
+        }
+      }
+    },
+    {
+      "id": "hanzawa-2013",
+      "name": "半沢直樹（2013年のドラマ）",
+      "genre": "tv_cm",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "2013",
+          "to": "2013",
+          "status": "verified",
+          "sources": ["src-jiyu-2013"],
+          "quote": "2013年 新語・流行語大賞 倍返し：ドラマ『半沢直樹』が高視聴率を記録…セリフ「やられたらやりかえす。倍返しだ！」が大流行した"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [10, 75],
+          "status": "estimated",
+          "rationale": "子どもから大人まで見た高視聴率ドラマとして推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.5,
+          "status": "estimated",
+          "rationale": "高視聴率ドラマとして推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.97,
+          "rationale": "セリフは広く知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "amachan",
+      "name": "あまちゃん（NHK連続テレビ小説）",
+      "genre": "tv_cm",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "2013",
+          "to": "2013",
+          "status": "verified",
+          "sources": ["src-jiyu-2013"],
+          "quote": "2013年 新語・流行語大賞 じぇじぇじぇ：ＮＨＫの朝ドラ『あまちゃん』の中で多用され、ビッグな流行語になった"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [10, 75],
+          "status": "estimated",
+          "rationale": "子どもから大人まで見た朝ドラとして推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.4,
+          "status": "estimated",
+          "rationale": "話題作だが、毎日見ていた人は一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.95,
+          "rationale": "流行語は広く知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "winter-sonata",
+      "name": "冬のソナタ（韓国ドラマ）",
+      "genre": "tv_cm",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "2004",
+          "to": "2004",
+          "status": "verified",
+          "sources": ["src-jiyu-2004"],
+          "quote": "2004年 新語・流行語大賞 冬ソナ：04年4月からはＮＨＫ総合テレビでも放映され、最高15％の視聴率…純愛物語や映像の美しさが中年女性層の強い支持を受け"
+        },
+        "audience": {
+          "ages": [40, 64],
+          "gender": "female_lean",
+          "status": "derived",
+          "sources": ["src-jiyu-2004"],
+          "quote": "中年女性層の強い支持を受け",
+          "rule": "「中年」を40〜64歳とみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [35, 70],
+          "status": "estimated",
+          "rationale": "中年女性層の強い支持（出典）を前後に広げて推定"
+        },
+        "ceiling": {
+          "value": 0.35,
+          "status": "estimated",
+          "rationale": "女性に人気が偏ったため低めに設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.95,
+          "rationale": "社会現象として知られたと推定"
+        }
+      }
+    },
+    {
+      "id": "cm-24h",
+      "name": "リゲインのCM「24時間タタカエマスカ」",
+      "genre": "tv_cm",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "1989",
+          "to": "1989",
+          "status": "verified",
+          "sources": ["src-jiyu-1989"],
+          "quote": "1989年 新語・流行語大賞 24時間タタカエマスカ：栄養剤「リゲイン」のテレビＣＭから生まれた言葉…ＣＭソング「24時間タタカエマスカ」もヒットし、小学生から夜の宴会でまで"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 70],
+          "status": "estimated",
+          "rationale": "小学生から大人まで広まった（出典）"
+        },
+        "ceiling": {
+          "value": 0.7,
+          "status": "estimated",
+          "rationale": "大ヒットしたCMとして推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.95,
+          "rationale": "フレーズは世代外にも知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "cm-suttamonda",
+      "name": "タカラ「カンチューハイ」のCM「すったもんだがありました」",
+      "genre": "tv_cm",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "1994",
+          "to": "1994",
+          "status": "verified",
+          "sources": ["src-jiyu-1994"],
+          "quote": "1994年 新語・流行語大賞 すったもんだがありました：タカラ「カンチューハイ」のテレビＣＭで宮沢が言うセリフ"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [8, 70],
+          "status": "estimated",
+          "rationale": "テレビCMのため、子どもから大人までが見たと推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.6,
+          "status": "estimated",
+          "rationale": "年間大賞になったCMとして推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.2,
+          "ceiling": 0.85,
+          "rationale": "世代外では知らない人も多いと推定"
+        }
+      }
+    },
+    {
+      "id": "cm-teishu",
+      "name": "キンチョウのCM「亭主元気で留守がいい」",
+      "genre": "tv_cm",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "1986",
+          "to": "1986",
+          "status": "verified",
+          "sources": ["src-jiyu-1986"],
+          "quote": "1986年 新語・流行語大賞 亭主元気で留守がいい：テレビＣＭから生まれたフレーズ…この年、１番人気のＣＭ。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [8, 70],
+          "status": "estimated",
+          "rationale": "テレビCMのため、子どもから大人までが見たと推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.65,
+          "status": "estimated",
+          "rationale": "その年いちばん人気のCM（出典）として推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.3,
+          "ceiling": 0.9,
+          "rationale": "フレーズは世代外にも知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "gag-charlie",
+      "name": "チャーリー浜「…じゃあ～りませんか」",
+      "genre": "tv_cm",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "1991",
+          "to": "1991",
+          "status": "verified",
+          "sources": ["src-jiyu-1991"],
+          "quote": "1991年 新語・流行語大賞 …じゃあ～りませんか（年間大賞）：この年最大の流行語となった"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.6,
+          "status": "estimated",
+          "rationale": "その年最大の流行語（出典）として推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        }
+      }
+    },
+    {
+      "id": "gag-ohha",
+      "name": "慎吾ママ「おっはー」",
+      "genre": "tv_cm",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "2000",
+          "to": "2000",
+          "status": "verified",
+          "sources": ["src-jiyu-2000"],
+          "quote": "2000年 新語・流行語大賞 おっはー（年間大賞）：男女世代の枠を超えた国民的な流行語となった"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.7,
+          "status": "estimated",
+          "rationale": "国民的な流行語（出典）として推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        }
+      }
+    },
+    {
+      "id": "gag-hg",
+      "name": "レイザーラモンHG「フォー！」",
+      "genre": "tv_cm",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "2005",
+          "to": "2005",
+          "status": "verified",
+          "sources": ["src-jiyu-2005"],
+          "quote": "2005年 新語・流行語大賞 フォーー！（トップテン）：独特の腰の動きを真似して親に頭をたたかれる子どもが続出"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.6,
+          "status": "estimated",
+          "rationale": "子どもに大流行した（出典）として推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        }
+      }
+    },
+    {
+      "id": "gag-wild",
+      "name": "スギちゃん「ワイルドだろぉ」",
+      "genre": "tv_cm",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "2012",
+          "to": "2012",
+          "status": "verified",
+          "sources": ["src-jiyu-2012"],
+          "quote": "2012年 新語・流行語大賞 ワイルドだろぉ（年間大賞）：今年のお笑い界のスターはピン芸人のスギちゃん"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.6,
+          "status": "estimated",
+          "rationale": "年間大賞の流行語として推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        }
+      }
+    },
+    {
+      "id": "gag-35oku",
+      "name": "ブルゾンちえみ「35億」",
+      "genre": "tv_cm",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "2017",
+          "to": "2017",
+          "status": "verified",
+          "sources": ["src-jiyu-2017"],
+          "quote": "2017年 新語・流行語大賞 ３５億（トップテン）：決めゼリフで茶の間を沸かせた…彼女の物真似がネット上に広がった"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.55,
+          "status": "estimated",
+          "rationale": "トップテンの流行語として推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        }
+      }
     }
   ]
 }

@@ -211,6 +211,431 @@
           "rationale": "世帯保有型は認知を別途計算"
         }
       }
+    },
+    {
+      "id": "fridge",
+      "name": "電気冷蔵庫",
+      "genre": "appliance",
+      "kind": "household",
+      "facts": {
+        "series": {
+          "statId": "cao-durables-penetration",
+          "key": "fridge",
+          "kind": "household_penetration",
+          "after": {
+            "mode": "hold",
+            "rationale": "2004年以降も普及率は維持されたとみなす（統計は2004年3月で終了。終了時点でほぼ全世帯に普及）"
+          }
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "小学生の頃の家庭"
+        },
+        "ceiling": {
+          "value": 1.0,
+          "status": "statistic",
+          "rationale": "世帯普及率をそのまま使う"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.0,
+          "ceiling": 1.0,
+          "rationale": "世帯保有型は認知を別途計算"
+        }
+      }
+    },
+    {
+      "id": "washer",
+      "name": "電気洗濯機",
+      "genre": "appliance",
+      "kind": "household",
+      "facts": {
+        "series": {
+          "statId": "cao-durables-penetration",
+          "key": "washer",
+          "kind": "household_penetration",
+          "after": {
+            "mode": "hold",
+            "rationale": "2004年以降も普及率は維持されたとみなす（統計は2004年3月で終了。終了時点でほぼ全世帯に普及）"
+          }
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "小学生の頃の家庭"
+        },
+        "ceiling": {
+          "value": 1.0,
+          "status": "statistic",
+          "rationale": "世帯普及率をそのまま使う"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.0,
+          "ceiling": 1.0,
+          "rationale": "世帯保有型は認知を別途計算"
+        }
+      }
+    },
+    {
+      "id": "vacuum",
+      "name": "電気掃除機",
+      "genre": "appliance",
+      "kind": "household",
+      "facts": {
+        "series": {
+          "statId": "cao-durables-penetration",
+          "key": "vacuum",
+          "kind": "household_penetration",
+          "after": {
+            "mode": "hold",
+            "rationale": "2004年以降も普及率は維持されたとみなす（統計は2004年3月で終了。終了時点でほぼ全世帯に普及）"
+          }
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "小学生の頃の家庭"
+        },
+        "ceiling": {
+          "value": 1.0,
+          "status": "statistic",
+          "rationale": "世帯普及率をそのまま使う"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.0,
+          "ceiling": 1.0,
+          "rationale": "世帯保有型は認知を別途計算"
+        }
+      }
+    },
+    {
+      "id": "family-car",
+      "name": "自家用車（乗用車）",
+      "genre": "appliance",
+      "kind": "household",
+      "facts": {
+        "series": {
+          "statId": "cao-durables-penetration-2plus",
+          "key": "car",
+          "kind": "household_penetration",
+          "after": {
+            "mode": "hold",
+            "rationale": "2026年3月以降は最後の値を維持するとみなす（推定）"
+          }
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "小学生の頃の家庭"
+        },
+        "ceiling": {
+          "value": 1.0,
+          "status": "statistic",
+          "rationale": "世帯普及率をそのまま使う"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.0,
+          "ceiling": 1.0,
+          "rationale": "世帯保有型は認知を別途計算"
+        }
+      }
+    },
+    {
+      "id": "home-pc",
+      "name": "パソコン",
+      "genre": "appliance",
+      "kind": "household",
+      "facts": {
+        "series": {
+          "statId": "cao-durables-penetration-2plus",
+          "key": "pc",
+          "kind": "household_penetration",
+          "after": {
+            "mode": "hold",
+            "rationale": "2026年3月以降は最後の値を維持するとみなす（推定）"
+          }
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "小学生の頃の家庭"
+        },
+        "ceiling": {
+          "value": 1.0,
+          "status": "statistic",
+          "rationale": "世帯普及率をそのまま使う"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.0,
+          "ceiling": 1.0,
+          "rationale": "世帯保有型は認知を別途計算"
+        }
+      }
+    },
+    {
+      "id": "washlet",
+      "name": "温水洗浄便座",
+      "genre": "appliance",
+      "kind": "household",
+      "facts": {
+        "series": {
+          "statId": "cao-durables-penetration-2plus",
+          "key": "washlet",
+          "kind": "household_penetration",
+          "after": {
+            "mode": "hold",
+            "rationale": "2026年3月以降は最後の値を維持するとみなす（推定）"
+          }
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "小学生の頃の家庭"
+        },
+        "ceiling": {
+          "value": 1.0,
+          "status": "statistic",
+          "rationale": "世帯普及率をそのまま使う"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.0,
+          "ceiling": 1.0,
+          "rationale": "世帯保有型は認知を別途計算"
+        }
+      }
+    },
+    {
+      "id": "home-tablet",
+      "name": "タブレット型端末",
+      "genre": "appliance",
+      "kind": "household",
+      "facts": {
+        "series": {
+          "statId": "cao-durables-penetration-2plus",
+          "key": "tablet",
+          "kind": "household_penetration",
+          "after": {
+            "mode": "hold",
+            "rationale": "2026年3月以降は最後の値を維持するとみなす（推定）"
+          }
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "小学生の頃の家庭"
+        },
+        "ceiling": {
+          "value": 1.0,
+          "status": "statistic",
+          "rationale": "世帯普及率をそのまま使う"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.0,
+          "ceiling": 1.0,
+          "rationale": "世帯保有型は認知を別途計算"
+        }
+      }
+    },
+    {
+      "id": "digicam",
+      "name": "デジタルカメラ",
+      "genre": "appliance",
+      "kind": "household",
+      "facts": {
+        "series": {
+          "statId": "cao-durables-penetration-2plus",
+          "key": "digicam",
+          "kind": "household_penetration",
+          "after": {
+            "mode": "hold",
+            "rationale": "2026年3月以降は最後の値を維持するとみなす（推定）"
+          }
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "小学生の頃の家庭"
+        },
+        "ceiling": {
+          "value": 1.0,
+          "status": "statistic",
+          "rationale": "世帯普及率をそのまま使う"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.0,
+          "ceiling": 1.0,
+          "rationale": "世帯保有型は認知を別途計算"
+        }
+      }
+    },
+    {
+      "id": "cd-player",
+      "name": "CDプレーヤー",
+      "genre": "appliance",
+      "kind": "household",
+      "facts": {
+        "series": {
+          "statId": "cao-durables-penetration",
+          "key": "cd_player",
+          "kind": "household_penetration",
+          "after": {
+            "mode": "linear_to_zero",
+            "rationale": "統計は2004年3月で終了。その後は音楽配信・スマートフォンへの移行で減ったと推定し、2030年に向けて直線的に0へ近づける",
+            "untilYear": 2030
+          }
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "小学生の頃の家庭"
+        },
+        "ceiling": {
+          "value": 1.0,
+          "status": "statistic",
+          "rationale": "世帯普及率をそのまま使う"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.0,
+          "ceiling": 1.0,
+          "rationale": "世帯保有型は認知を別途計算"
+        }
+      }
+    },
+    {
+      "id": "rec-vhs-era",
+      "name": "ビデオデッキ（VHS）で録画していた時代",
+      "genre": "appliance",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "1988",
+          "to": "2005",
+          "status": "derived",
+          "sources": ["src-cao-durables", "src-cao-durables-2026"],
+          "quote": "主要耐久消費財等の普及率（VTR・光ディスクプレーヤー・レコーダー）",
+          "rule": "VTRの世帯普及率が50%以上になった1988年から、光ディスクプレーヤー・レコーダーが50%に達する前年（2005年）まで（data/statistics の2つの普及率表）"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.8,
+          "status": "estimated",
+          "rationale": "統計に基づく期間。ただし録画をしない家庭もあるため上限を0.8と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        }
+      }
+    },
+    {
+      "id": "rec-disc-era",
+      "name": "DVD・ブルーレイなどのレコーダーで録画していた時代",
+      "genre": "appliance",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2006",
+          "status": "derived",
+          "sources": ["src-cao-durables-2026"],
+          "quote": "主要耐久消費財の普及率の推移（光ディスクプレーヤー・レコーダー）",
+          "rule": "光ディスクプレーヤー・レコーダーの世帯普及率が50%以上になった最初の調査年（2006年3月）"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.7,
+          "status": "estimated",
+          "rationale": "統計に基づく期間。動画配信の普及で録画をしない家庭も増えたため上限を0.7と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        },
+        "activeUntil": {
+          "value": 2035,
+          "status": "estimated",
+          "rationale": "現在も続いているとみなす"
+        }
+      }
+    },
+    {
+      "id": "tver-era",
+      "name": "見逃し配信（TVerなど）でテレビ番組を見る時代",
+      "genre": "appliance",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2015-10-26",
+          "status": "verified",
+          "sources": ["src-tvtokyo-tver"],
+          "quote": "テレビ番組を広告付で無料動画配信するキャッチアップサービス「TVer（ティーバー）」を10月26日（月）スタートいたしました。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.5,
+          "status": "estimated",
+          "rationale": "サービス開始後、録画の代わりに見逃し配信を使う家庭が徐々に増えたと推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        },
+        "activeUntil": {
+          "value": 2035,
+          "status": "estimated",
+          "rationale": "現在も続いているとみなす"
+        }
+      }
     }
   ]
 }

@@ -211,6 +211,597 @@
       "priority": 1.0,
       "relatedIds": ["GAM-002"],
       "basicPool": false
+    },
+    {
+      "id": "GAM-005",
+      "status": "verified",
+      "genre": "game",
+      "difficulty": "easy",
+      "type": "experience",
+      "text": "ファミコンの『スーパーマリオブラザーズ』を、子どもの頃に遊びましたか？",
+      "subject": "super-mario-bros",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく遊んだ",
+          "kind": "heavy",
+          "insight": "スーパーマリオブラザーズ（ファミコン）（1985年〜1990年）を6〜15歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し遊んだ",
+          "kind": "light",
+          "insight": "スーパーマリオブラザーズ（ファミコン）（1985年〜1990年）の時期に6〜15歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが遊んだことはない",
+          "kind": "aware_only",
+          "insight": "スーパーマリオブラザーズ（ファミコン）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "スーパーマリオブラザーズ（ファミコン）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "relatedIds": ["GAM-001"],
+      "basicPool": false
+    },
+    {
+      "id": "GAM-006",
+      "status": "verified",
+      "genre": "game",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "ファミコンの『ドラゴンクエストIII そして伝説へ…』を、発売当時に遊びましたか？",
+      "subject": "dq3",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく遊んだ",
+          "kind": "heavy",
+          "insight": "ドラゴンクエストIII そして伝説へ…（ファミコン）（1988年〜1990年）を8〜20歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し遊んだ",
+          "kind": "light",
+          "insight": "ドラゴンクエストIII そして伝説へ…（ファミコン）（1988年〜1990年）の時期に8〜20歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが遊んだことはない",
+          "kind": "aware_only",
+          "insight": "ドラゴンクエストIII そして伝説へ…（ファミコン）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ドラゴンクエストIII そして伝説へ…（ファミコン）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "GAM-007",
+      "status": "verified",
+      "genre": "game",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "『ストリートファイターII』（ストII）が流行った頃に、ゲームセンターや家で遊びましたか？",
+      "subject": "sf2",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく遊んだ",
+          "kind": "heavy",
+          "insight": "ストリートファイターII（1991年〜1995年）を10〜22歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し遊んだ",
+          "kind": "light",
+          "insight": "ストリートファイターII（1991年〜1995年）の時期に10〜22歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが遊んだことはない",
+          "kind": "aware_only",
+          "insight": "ストリートファイターIIを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ストリートファイターIIの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "GAM-008",
+      "status": "verified",
+      "genre": "game",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "家庭用ゲーム機『NINTENDO64』で遊んでいましたか？",
+      "subject": "n64",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく遊んだ",
+          "kind": "heavy",
+          "insight": "NINTENDO64（1996年〜2001年）を6〜15歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し遊んだ",
+          "kind": "light",
+          "insight": "NINTENDO64（1996年〜2001年）の時期に6〜15歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが遊んだことはない",
+          "kind": "aware_only",
+          "insight": "NINTENDO64を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "NINTENDO64の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "relatedIds": ["GAM-001"],
+      "basicPool": false
+    },
+    {
+      "id": "GAM-009",
+      "status": "verified",
+      "genre": "game",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "ゲームボーイの『ポケットモンスター 金・銀』を、発売当時に遊びましたか？",
+      "subject": "pokemon-gs",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく遊んだ",
+          "kind": "heavy",
+          "insight": "ポケットモンスター 金・銀（1999年〜2002年）を6〜15歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し遊んだ",
+          "kind": "light",
+          "insight": "ポケットモンスター 金・銀（1999年〜2002年）の時期に6〜15歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが遊んだことはない",
+          "kind": "aware_only",
+          "insight": "ポケットモンスター 金・銀を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ポケットモンスター 金・銀の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "relatedIds": ["GAM-004"],
+      "basicPool": false
+    },
+    {
+      "id": "GAM-010",
+      "status": "verified",
+      "genre": "game",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "『プレイステーション2』で遊んでいましたか？",
+      "subject": "ps2-console",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく遊んだ",
+          "kind": "heavy",
+          "insight": "プレイステーション2（2000年〜2006年）を8〜20歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し遊んだ",
+          "kind": "light",
+          "insight": "プレイステーション2（2000年〜2006年）の時期に8〜20歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが遊んだことはない",
+          "kind": "aware_only",
+          "insight": "プレイステーション2を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "プレイステーション2の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "group": "console-teen",
+      "relatedIds": ["GAM-017"],
+      "basicPool": false
+    },
+    {
+      "id": "GAM-011",
+      "status": "verified",
+      "genre": "game",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "カードで遊ぶゲーム機『甲虫王者ムシキング』で遊んでいましたか？",
+      "subject": "mushiking",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく遊んだ",
+          "kind": "heavy",
+          "insight": "甲虫王者ムシキング（2003年〜2008年）を5〜12歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し遊んだ",
+          "kind": "light",
+          "insight": "甲虫王者ムシキング（2003年〜2008年）の時期に5〜12歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが遊んだことはない",
+          "kind": "aware_only",
+          "insight": "甲虫王者ムシキングを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "甲虫王者ムシキングの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "GAM-012",
+      "status": "verified",
+      "genre": "game",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "ニンテンドーDSの『脳トレ』（脳を鍛える大人のDSトレーニング）が大ブームの頃に、遊びましたか？",
+      "subject": "noutore",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく遊んだ",
+          "kind": "heavy",
+          "insight": "脳を鍛える大人のDSトレーニング（脳トレ）（2005年〜2007年）を25〜80歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し遊んだ",
+          "kind": "light",
+          "insight": "脳を鍛える大人のDSトレーニング（脳トレ）（2005年〜2007年）の時期に25〜80歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが遊んだことはない",
+          "kind": "aware_only",
+          "insight": "脳を鍛える大人のDSトレーニング（脳トレ）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "脳を鍛える大人のDSトレーニング（脳トレ）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "GAM-013",
+      "status": "verified",
+      "genre": "game",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "PSPの『モンスターハンターポータブル 2nd G』で、友だちと集まって遊びましたか？",
+      "subject": "mhp2g",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく遊んだ",
+          "kind": "heavy",
+          "insight": "モンスターハンターポータブル 2nd G（2008年〜2010年）を12〜25歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し遊んだ",
+          "kind": "light",
+          "insight": "モンスターハンターポータブル 2nd G（2008年〜2010年）の時期に12〜25歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが遊んだことはない",
+          "kind": "aware_only",
+          "insight": "モンスターハンターポータブル 2nd Gを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "モンスターハンターポータブル 2nd Gの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "GAM-014",
+      "status": "verified",
+      "genre": "game",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "『スプラトゥーン』シリーズで遊んだことはありますか？",
+      "subject": "splatoon",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく遊んだ",
+          "kind": "heavy",
+          "insight": "スプラトゥーン（最初の作品）（2015年〜2025年）を8〜20歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し遊んだ",
+          "kind": "light",
+          "insight": "スプラトゥーン（最初の作品）（2015年〜2025年）の時期に8〜20歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが遊んだことはない",
+          "kind": "aware_only",
+          "insight": "スプラトゥーン（最初の作品）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "スプラトゥーン（最初の作品）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "GAM-015",
+      "status": "verified",
+      "genre": "game",
+      "difficulty": "easy",
+      "type": "experience",
+      "text": "『Pokémon GO』が配信された頃（2016年）に、遊びましたか？",
+      "subject": "pokemon-go",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく遊んだ",
+          "kind": "heavy",
+          "insight": "Pokémon GO（2016年〜2018年）を8〜60歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し遊んだ",
+          "kind": "light",
+          "insight": "Pokémon GO（2016年〜2018年）の時期に8〜60歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが遊んだことはない",
+          "kind": "aware_only",
+          "insight": "Pokémon GOを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "Pokémon GOの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "GAM-016",
+      "status": "verified",
+      "genre": "game",
+      "difficulty": "easy",
+      "type": "experience",
+      "text": "Nintendo Switchの『あつまれ どうぶつの森』で遊びましたか？",
+      "subject": "atsumori",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく遊んだ",
+          "kind": "heavy",
+          "insight": "あつまれ どうぶつの森（2020年〜2022年）を8〜40歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し遊んだ",
+          "kind": "light",
+          "insight": "あつまれ どうぶつの森（2020年〜2022年）の時期に8〜40歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが遊んだことはない",
+          "kind": "aware_only",
+          "insight": "あつまれ どうぶつの森を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "あつまれ どうぶつの森の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "GAM-017",
+      "status": "verified",
+      "genre": "game",
+      "difficulty": "normal",
+      "type": "era_choice",
+      "text": "中学生・高校生の頃、主に遊んでいたゲーム機は？",
+      "ageWindow": [12, 18],
+      "options": [
+        {
+          "id": "a",
+          "label": "スーパーファミコン",
+          "kind": "era",
+          "subject": "super-famicom",
+          "insight": "スーパーファミコン（1990年〜1996年）の頃に中学生・高校生だった人に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "プレイステーション（初代）",
+          "kind": "era",
+          "subject": "playstation",
+          "insight": "プレイステーション（初代）（1994年〜2000年）の頃に中学生・高校生だった人に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "プレイステーション2",
+          "kind": "era",
+          "subject": "ps2-console",
+          "insight": "プレイステーション2（2000年〜2006年）の頃に中学生・高校生だった人に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "ニンテンドーDS",
+          "kind": "era",
+          "subject": "nintendo-ds",
+          "insight": "ニンテンドーDS（2004年〜2011年）の頃に中学生・高校生だった人に多い回答"
+        },
+        {
+          "id": "e",
+          "label": "Nintendo Switch",
+          "kind": "era",
+          "subject": "nintendo-switch",
+          "insight": "Nintendo Switch（2017年〜2025年）の頃に中学生・高校生だった人に多い回答"
+        },
+        {
+          "id": "f",
+          "label": "この中にはない・ゲーム機では遊んでいない",
+          "kind": "none_of_these",
+          "insight": "選択肢のどの時代にも当てはまらない世代（より上の世代や、より下の世代）に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "group": "console-teen",
+      "relatedIds": ["GAM-001", "GAM-010"],
+      "basicPool": false
     }
   ]
 }

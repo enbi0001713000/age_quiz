@@ -175,6 +175,607 @@
       "priority": 1.0,
       "relatedIds": [],
       "basicPool": false
+    },
+    {
+      "id": "TOY-005",
+      "status": "verified",
+      "genre": "toy",
+      "difficulty": "normal",
+      "type": "era_choice",
+      "text": "小学生の頃、主に遊んでいたベイブレードのシリーズは？",
+      "ageWindow": [6, 12],
+      "options": [
+        {
+          "id": "a",
+          "label": "爆転シュート ベイブレード",
+          "kind": "era",
+          "subject": "beyblade-bakuten",
+          "insight": "爆転シュート ベイブレード（1999年〜2008年）の頃に小学生だった人に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "メタルファイト ベイブレード",
+          "kind": "era",
+          "subject": "beyblade-metalfight",
+          "insight": "メタルファイト ベイブレード（2008年〜2015年）の頃に小学生だった人に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "ベイブレードバースト",
+          "kind": "era",
+          "subject": "beyblade-burst",
+          "insight": "ベイブレードバースト（2015年〜2022年）の頃に小学生だった人に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "BEYBLADE X",
+          "kind": "era",
+          "subject": "beyblade-x",
+          "insight": "BEYBLADE X（2023年〜現在）の頃に小学生だった人に多い回答"
+        },
+        {
+          "id": "e",
+          "label": "この中にはない・遊んでいない",
+          "kind": "none_of_these",
+          "insight": "選択肢のどの時代にも当てはまらない世代（より上の世代や、より下の世代）に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.7,
+      "priority": 1.0,
+      "group": "beyblade",
+      "relatedIds": ["TOY-004"],
+      "basicPool": false
+    },
+    {
+      "id": "TOY-006",
+      "status": "verified",
+      "genre": "toy",
+      "difficulty": "easy",
+      "type": "era_choice",
+      "text": "小学生の頃、周りで大流行していたおもちゃ・ホビーは？",
+      "ageWindow": [6, 12],
+      "options": [
+        {
+          "id": "a",
+          "label": "スーパーカー消しゴム",
+          "kind": "era",
+          "subject": "supercar-boom",
+          "insight": "スーパーカーブーム（スーパーカー消しゴムなど）（1975年〜1979年）の頃に小学生だった人に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ガンプラ（ガンダムのプラモデル）",
+          "kind": "era",
+          "subject": "gunpla-boom",
+          "insight": "ガンプラ（ガンダムのプラモデル）のブーム（1980年〜1984年）の頃に小学生だった人に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "ミニ四駆（『ダッシュ!四駆郎』の頃）",
+          "kind": "era",
+          "subject": "mini4wd-1st",
+          "insight": "ミニ四駆の第一次ブーム（1986年〜1990年）の頃に小学生だった人に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "ハイパーヨーヨー",
+          "kind": "era",
+          "subject": "hyperyoyo-1997",
+          "insight": "ハイパーヨーヨーのブーム（1997年）の頃に小学生だった人に多い回答"
+        },
+        {
+          "id": "e",
+          "label": "妖怪ウォッチの妖怪メダル",
+          "kind": "era",
+          "subject": "yokai-watch-anime",
+          "insight": "妖怪ウォッチ（テレビアニメ）（2014年〜2018年）の頃に小学生だった人に多い回答"
+        },
+        {
+          "id": "f",
+          "label": "この中にはない",
+          "kind": "none_of_these",
+          "insight": "選択肢のどの時代にも当てはまらない世代（より上の世代や、より下の世代）に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.2,
+      "group": "kids-hobby",
+      "relatedIds": ["TOY-007", "TOY-015"],
+      "basicPool": true
+    },
+    {
+      "id": "TOY-007",
+      "status": "verified",
+      "genre": "toy",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "『爆走兄弟レッツ&ゴー!!』の頃のミニ四駆ブーム（1990年代半ば）に、ミニ四駆で遊んでいましたか？",
+      "subject": "mini4wd-2nd",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく遊んだ",
+          "kind": "heavy",
+          "insight": "ミニ四駆の第二次ブーム（『爆走兄弟レッツ&ゴー!!』）（1994年〜1997年）を6〜13歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し遊んだ",
+          "kind": "light",
+          "insight": "ミニ四駆の第二次ブーム（『爆走兄弟レッツ&ゴー!!』）（1994年〜1997年）の時期に6〜13歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが遊んだことはない",
+          "kind": "aware_only",
+          "insight": "ミニ四駆の第二次ブーム（『爆走兄弟レッツ&ゴー!!』）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ミニ四駆の第二次ブーム（『爆走兄弟レッツ&ゴー!!』）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "TOY-008",
+      "status": "verified",
+      "genre": "toy",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "『チョロQ』で遊んだことはありますか？",
+      "subject": "chorog",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく遊んだ",
+          "kind": "heavy",
+          "insight": "チョロQ（1980年〜1990年）を5〜12歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し遊んだ",
+          "kind": "light",
+          "insight": "チョロQ（1980年〜1990年）の時期に5〜12歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが遊んだことはない",
+          "kind": "aware_only",
+          "insight": "チョロQを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "チョロQの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "TOY-009",
+      "status": "verified",
+      "genre": "toy",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "最初のシリーズの『ゾイド』（1983年〜）で遊んでいましたか？",
+      "subject": "zoids-1983",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく遊んだ",
+          "kind": "heavy",
+          "insight": "ゾイド（最初のシリーズ）（1983年〜1990年）を6〜13歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し遊んだ",
+          "kind": "light",
+          "insight": "ゾイド（最初のシリーズ）（1983年〜1990年）の時期に6〜13歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが遊んだことはない",
+          "kind": "aware_only",
+          "insight": "ゾイド（最初のシリーズ）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ゾイド（最初のシリーズ）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.7,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "TOY-010",
+      "status": "verified",
+      "genre": "toy",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "『キン消し』（キン肉マン消しゴム）を集めていましたか？",
+      "subject": "kinkeshi",
+      "options": [
+        {
+          "id": "a",
+          "label": "たくさん集めた",
+          "kind": "heavy",
+          "insight": "キン消し（キン肉マン消しゴム）（1983年〜1987年）を5〜13歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し持っていた",
+          "kind": "light",
+          "insight": "キン消し（キン肉マン消しゴム）（1983年〜1987年）の時期に5〜13歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが持っていなかった",
+          "kind": "aware_only",
+          "insight": "キン消し（キン肉マン消しゴム）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "キン消し（キン肉マン消しゴム）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": ["ANI-010"],
+      "basicPool": false
+    },
+    {
+      "id": "TOY-011",
+      "status": "verified",
+      "genre": "toy",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "『ビーダマン』で遊んだことはありますか？",
+      "subject": "bdaman",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく遊んだ",
+          "kind": "heavy",
+          "insight": "ビーダマン（1993年〜2001年）を6〜12歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し遊んだ",
+          "kind": "light",
+          "insight": "ビーダマン（1993年〜2001年）の時期に6〜12歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが遊んだことはない",
+          "kind": "aware_only",
+          "insight": "ビーダマンを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ビーダマンの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.7,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "TOY-012",
+      "status": "verified",
+      "genre": "toy",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "おしゃべりするぬいぐるみ『ファービー』が話題になった頃（1999年ごろ）、遊んだり見かけたりしましたか？",
+      "subject": "furby",
+      "options": [
+        {
+          "id": "a",
+          "label": "自分（家族）が持っていた",
+          "kind": "heavy",
+          "insight": "ファービー（最初のブーム）（1999年〜2000年）を6〜15歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "友だちのものなどで遊んだ",
+          "kind": "light",
+          "insight": "ファービー（最初のブーム）（1999年〜2000年）の時期に6〜15歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時は見ていない",
+          "kind": "aware_only",
+          "insight": "ファービー（最初のブーム）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ファービー（最初のブーム）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "TOY-013",
+      "status": "verified",
+      "genre": "toy",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "小さな人形のシリーズ『ミクロマン』で遊んでいましたか？",
+      "subject": "microman",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく遊んだ",
+          "kind": "heavy",
+          "insight": "ミクロマン（1974年〜1984年）を6〜13歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し遊んだ",
+          "kind": "light",
+          "insight": "ミクロマン（1974年〜1984年）の時期に6〜13歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが遊んだことはない",
+          "kind": "aware_only",
+          "insight": "ミクロマンを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ミクロマンの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.7,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "TOY-014",
+      "status": "verified",
+      "genre": "toy",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "1958年ごろのフラフープの大ブームの頃に、フラフープで遊んだことを覚えていますか？",
+      "subject": "hulahoop-1958",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく遊んだ",
+          "kind": "heavy",
+          "insight": "フラフープの大ブーム（1958年）（1958年）を5〜15歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し遊んだ",
+          "kind": "light",
+          "insight": "フラフープの大ブーム（1958年）（1958年）の時期に5〜15歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時の記憶はない",
+          "kind": "aware_only",
+          "insight": "フラフープの大ブーム（1958年）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "フラフープの大ブーム（1958年）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "TOY-015",
+      "status": "verified",
+      "genre": "toy",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "ガンプラ（ガンダムのプラモデル）がブームだった1980年代前半に、ガンプラを作りましたか？",
+      "subject": "gunpla-boom",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく作った",
+          "kind": "heavy",
+          "insight": "ガンプラ（ガンダムのプラモデル）のブーム（1980年〜1984年）を7〜15歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し作った",
+          "kind": "light",
+          "insight": "ガンプラ（ガンダムのプラモデル）のブーム（1980年〜1984年）の時期に7〜15歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているがその頃は作っていない",
+          "kind": "aware_only",
+          "insight": "ガンプラ（ガンダムのプラモデル）のブームを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ガンプラ（ガンダムのプラモデル）のブームの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": ["TOY-006"],
+      "basicPool": false
+    },
+    {
+      "id": "TOY-016",
+      "status": "verified",
+      "genre": "toy",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "携帯育成ゲーム『デジタルモンスター』（1997年〜）で遊んでいましたか？",
+      "subject": "digimon-pendulum",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく遊んだ",
+          "kind": "heavy",
+          "insight": "デジタルモンスター（携帯育成ゲーム）（1997年〜1999年）を6〜13歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し遊んだ",
+          "kind": "light",
+          "insight": "デジタルモンスター（携帯育成ゲーム）（1997年〜1999年）の時期に6〜13歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが遊んだことはない",
+          "kind": "aware_only",
+          "insight": "デジタルモンスター（携帯育成ゲーム）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "デジタルモンスター（携帯育成ゲーム）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.7,
+      "priority": 1.0,
+      "relatedIds": ["TOY-001"],
+      "basicPool": false
+    },
+    {
+      "id": "TOY-017",
+      "status": "verified",
+      "genre": "toy",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "2017年ごろに流行した『ハンドスピナー』で遊んだことはありますか？",
+      "subject": "handspinner",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく遊んだ",
+          "kind": "heavy",
+          "insight": "ハンドスピナーの流行（2017年）を6〜18歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し遊んだ",
+          "kind": "light",
+          "insight": "ハンドスピナーの流行（2017年）の時期に6〜18歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが遊んだことはない",
+          "kind": "aware_only",
+          "insight": "ハンドスピナーの流行を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ハンドスピナーの流行の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
     }
   ]
 }

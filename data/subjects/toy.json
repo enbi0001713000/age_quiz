@@ -150,6 +150,629 @@
           "rationale": "次の世代のシリーズが登場するまでの期間として推定"
         }
       }
+    },
+    {
+      "id": "beyblade-bakuten",
+      "name": "爆転シュート ベイブレード",
+      "genre": "toy",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1999-07",
+          "status": "verified",
+          "sources": ["src-takaratomy-beyblade"],
+          "quote": "1999.7 爆転シュート ベイブレード発売"
+        },
+        "end": {
+          "date": "2008-08",
+          "status": "derived",
+          "sources": ["src-takaratomy-beyblade"],
+          "quote": "2008.8 メタルファイト ベイブレード発売",
+          "rule": "次のシリーズ（メタルファイト ベイブレード）の発売をこのシリーズの終わりとみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.45,
+          "status": "estimated",
+          "rationale": "男の子に人気が偏ったと推定し、やや低めに設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        }
+      }
+    },
+    {
+      "id": "beyblade-metalfight",
+      "name": "メタルファイト ベイブレード",
+      "genre": "toy",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2008-08",
+          "status": "verified",
+          "sources": ["src-takaratomy-beyblade"],
+          "quote": "2008.8 メタルファイト ベイブレード発売"
+        },
+        "end": {
+          "date": "2015-07",
+          "status": "derived",
+          "sources": ["src-takaratomy-beyblade"],
+          "quote": "2015.7 ベイブレードバースト初期シリーズ登場",
+          "rule": "次のシリーズ（ベイブレードバースト）の登場をこのシリーズの終わりとみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.45,
+          "status": "estimated",
+          "rationale": "男の子に人気が偏ったと推定し、やや低めに設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        }
+      }
+    },
+    {
+      "id": "beyblade-x",
+      "name": "BEYBLADE X",
+      "genre": "toy",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2023-07",
+          "status": "verified",
+          "sources": ["src-takaratomy-beyblade"],
+          "quote": "2023.7 BEYBLADE Xシリーズ登場"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.45,
+          "status": "estimated",
+          "rationale": "男の子に人気が偏ったと推定し、やや低めに設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        },
+        "activeUntil": {
+          "value": 2035,
+          "status": "estimated",
+          "rationale": "現行シリーズ（終了時期は未定）"
+        }
+      }
+    },
+    {
+      "id": "supercar-boom",
+      "name": "スーパーカーブーム（スーパーカー消しゴムなど）",
+      "genre": "toy",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "1975",
+          "to": "1979",
+          "status": "derived",
+          "sources": ["src-webcartop-supercar"],
+          "quote": "スーパーカーブームの火付け役といえば…1975年に連載が開始された…「サーキットの狼」でしょう。1970年代後半の数年間は",
+          "rule": "火付け役の漫画の連載開始（1975年）から「1970年代後半の数年間」の終わり（1979年）までとみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.6,
+          "status": "estimated",
+          "rationale": "当時の少年たちが熱狂した社会現象（出典）として推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        }
+      }
+    },
+    {
+      "id": "gunpla-boom",
+      "name": "ガンプラ（ガンダムのプラモデル）のブーム",
+      "genre": "toy",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1980-07",
+          "status": "verified",
+          "sources": ["src-gamewatch-gunpla30"],
+          "quote": "ガンプラは、1980年7月の発売以来今年で30周年を迎え"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [7, 15],
+          "status": "estimated",
+          "rationale": "小学生を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.45,
+          "status": "estimated",
+          "rationale": "男の子に人気が偏ったと推定し、やや低めに設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "ガンプラは現在も続き、広く知られていると推定"
+        },
+        "activeUntil": {
+          "value": 1984,
+          "status": "estimated",
+          "rationale": "最初の大ブームを1980年代前半と推定"
+        }
+      }
+    },
+    {
+      "id": "mini4wd-1st",
+      "name": "ミニ四駆の第一次ブーム",
+      "genre": "toy",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1986",
+          "status": "verified",
+          "sources": ["src-motorfan-mini4wd"],
+          "quote": "現在主流となっているミニ四駆は、1986年に登場した「レーサーミニ四駆」シリーズがルーツである。…いわゆる第一次ミニ四駆ブーム"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 13],
+          "status": "estimated",
+          "rationale": "小学生を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.5,
+          "status": "estimated",
+          "rationale": "男の子に人気が偏ったと推定し、やや低めに設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.95,
+          "rationale": "ミニ四駆は現在も続き、広く知られていると推定"
+        },
+        "activeUntil": {
+          "value": 1990,
+          "status": "estimated",
+          "rationale": "第一次ブームの終わりは未確認。1990年代半ばの第二次ブーム（同出典）より前に落ち着いたとみなし、1990年と推定"
+        }
+      }
+    },
+    {
+      "id": "mini4wd-2nd",
+      "name": "ミニ四駆の第二次ブーム（『爆走兄弟レッツ&ゴー!!』）",
+      "genre": "toy",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "1994",
+          "to": "1997",
+          "status": "derived",
+          "sources": ["src-motorfan-mini4wd"],
+          "quote": "1990年代半ばには『爆走兄弟レッツ＆ゴー!!』という新たな漫画作品をきっかけに、第一次ブームを凌ぐ第二次ブームが巻き起こる",
+          "rule": "「1990年代半ば」を1994〜1997年とみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 13],
+          "status": "estimated",
+          "rationale": "小学生の間で爆発的な人気（出典）"
+        },
+        "ceiling": {
+          "value": 0.55,
+          "status": "estimated",
+          "rationale": "男の子に人気が偏ったと推定し、やや低めに設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.95,
+          "rationale": "ミニ四駆は現在も続き、広く知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "hyperyoyo-1997",
+      "name": "ハイパーヨーヨーのブーム",
+      "genre": "toy",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1997",
+          "status": "verified",
+          "sources": ["src-bandai-hyperyoyo"],
+          "quote": "1997 年にバンダイが発売した「ハイパーヨーヨー」は、「ヨーヨーブーム」と呼ばれるほどのブームを巻き起こし"
+        },
+        "peak": {
+          "from": "1997",
+          "to": "1997",
+          "status": "verified",
+          "sources": ["src-ascii-hyperyoyo"],
+          "quote": "ハイパーヨーヨーはバンダイが1997年より展開するブランドで、1997年と2003年の二度ブームを巻き起こした"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 13],
+          "status": "estimated",
+          "rationale": "メインターゲットは小学生男児（バンダイの資料）"
+        },
+        "ceiling": {
+          "value": 0.5,
+          "status": "estimated",
+          "rationale": "男の子に人気が偏ったと推定し、やや低めに設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.3,
+          "ceiling": 0.9,
+          "rationale": "当時を知る人には広く知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "chorog",
+      "name": "チョロQ",
+      "genre": "toy",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1980",
+          "status": "verified",
+          "sources": ["src-takaratomy-annual-2017"],
+          "quote": "1980 年 チョロ Q"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [5, 12],
+          "status": "estimated",
+          "rationale": "小学生を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.5,
+          "status": "estimated",
+          "rationale": "男の子を中心に人気だったと推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.95,
+          "rationale": "現在も知られていると推定"
+        },
+        "activeUntil": {
+          "value": 1990,
+          "status": "estimated",
+          "rationale": "発売後約10年を人気の中心期間と推定"
+        }
+      }
+    },
+    {
+      "id": "zoids-1983",
+      "name": "ゾイド（最初のシリーズ）",
+      "genre": "toy",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1983",
+          "status": "verified",
+          "sources": ["src-takaratomy-annual-2017"],
+          "quote": "1983 年 ZOIDS"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 13],
+          "status": "estimated",
+          "rationale": "小学生を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.35,
+          "status": "estimated",
+          "rationale": "男の子に人気が偏ったと推定し、やや低めに設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.2,
+          "ceiling": 0.85,
+          "rationale": "世代外では知らない人も多いと推定"
+        },
+        "activeUntil": {
+          "value": 1990,
+          "status": "estimated",
+          "rationale": "最初のシリーズの人気期間を約7年と推定"
+        }
+      }
+    },
+    {
+      "id": "kinkeshi",
+      "name": "キン消し（キン肉マン消しゴム）",
+      "genre": "toy",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1983",
+          "status": "derived",
+          "sources": ["src-animeeiga-kinkeshi", "src-toei-kinniku"],
+          "quote": "「キンケシ」はテレビアニメ版の関連商品として1980年代初頭にカプセルトイ「ガシャポン」で発売され人気を博し",
+          "rule": "テレビアニメ版（1983年4月放映開始、東映アニメーション）の関連商品のため、1983年とみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [5, 13],
+          "status": "estimated",
+          "rationale": "小学生を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.5,
+          "status": "estimated",
+          "rationale": "男の子に人気が偏ったと推定し、やや低めに設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.3,
+          "ceiling": 0.9,
+          "rationale": "当時を知る人には広く知られていると推定"
+        },
+        "activeUntil": {
+          "value": 1987,
+          "status": "estimated",
+          "rationale": "テレビアニメの放映終了（1986年）の翌年ごろまでと推定"
+        }
+      }
+    },
+    {
+      "id": "bdaman",
+      "name": "ビーダマン",
+      "genre": "toy",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1993",
+          "status": "verified",
+          "sources": ["src-takaratomy-annual-2017"],
+          "quote": "1993 年 ビーダマン"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "小学生を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.4,
+          "status": "estimated",
+          "rationale": "男の子に人気が偏ったと推定し、やや低めに設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.2,
+          "ceiling": 0.85,
+          "rationale": "世代外では知らない人も多いと推定"
+        },
+        "activeUntil": {
+          "value": 2001,
+          "status": "estimated",
+          "rationale": "人気の中心期間を約8年と推定"
+        }
+      }
+    },
+    {
+      "id": "furby",
+      "name": "ファービー（最初のブーム）",
+      "genre": "toy",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1999",
+          "status": "verified",
+          "sources": ["src-takaratomy-annual-2017"],
+          "quote": "1999 年 ファービー"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 15],
+          "status": "estimated",
+          "rationale": "子どもを中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.35,
+          "status": "estimated",
+          "rationale": "話題になったが持っていた人は一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.3,
+          "ceiling": 0.9,
+          "rationale": "当時話題になったため知る人は多いと推定"
+        },
+        "activeUntil": {
+          "value": 2000,
+          "status": "estimated",
+          "rationale": "最初のブームを約2年と推定"
+        }
+      }
+    },
+    {
+      "id": "microman",
+      "name": "ミクロマン",
+      "genre": "toy",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1974",
+          "status": "verified",
+          "sources": ["src-takaratomy-annual-2017"],
+          "quote": "1974 年 ミクロマン"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 13],
+          "status": "estimated",
+          "rationale": "小学生を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.35,
+          "status": "estimated",
+          "rationale": "男の子に人気が偏ったと推定し、やや低めに設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.2,
+          "ceiling": 0.8,
+          "rationale": "世代外では知らない人も多いと推定"
+        },
+        "activeUntil": {
+          "value": 1984,
+          "status": "estimated",
+          "rationale": "人気の中心期間を約10年と推定"
+        }
+      }
+    },
+    {
+      "id": "hulahoop-1958",
+      "name": "フラフープの大ブーム（1958年）",
+      "genre": "toy",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "1958-10",
+          "to": "1958-11",
+          "status": "derived",
+          "sources": ["src-meigaku-hulahoop"],
+          "quote": "1958年10月8日にはすでに…／1958年11月7日からの数日で，池袋のデパートでは，開店前の午前9時から…",
+          "rule": "日本で新聞が初めて紹介した1958年10月から、過熱した報道が続いた1958年11月までとみなす（同論文）"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [5, 15],
+          "status": "estimated",
+          "rationale": "子どもを中心に大人まで流行したと推定（出典の報道事例から推定）"
+        },
+        "ceiling": {
+          "value": 0.6,
+          "status": "estimated",
+          "rationale": "短期間の大ブームとして推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.9,
+          "rationale": "フラフープ自体は広く知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "digimon-pendulum",
+      "name": "デジタルモンスター（携帯育成ゲーム）",
+      "genre": "toy",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1997-06",
+          "status": "verified",
+          "sources": ["src-bandai-digimon20"],
+          "quote": "1997年6月に発売し累計800万個以上を売り上げた携帯型育成ゲーム「デジタルモンスター」"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 13],
+          "status": "estimated",
+          "rationale": "小学生を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.35,
+          "status": "estimated",
+          "rationale": "男の子に人気が偏ったと推定し、やや低めに設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.3,
+          "ceiling": 0.9,
+          "rationale": "デジモンのアニメ等で広く知られていると推定"
+        },
+        "activeUntil": {
+          "value": 1999,
+          "status": "estimated",
+          "rationale": "発売後約2年を人気の中心期間と推定"
+        }
+      }
+    },
+    {
+      "id": "handspinner",
+      "name": "ハンドスピナーの流行",
+      "genre": "toy",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "2017",
+          "to": "2017",
+          "status": "verified",
+          "sources": ["src-kaiyou-handspinner"],
+          "quote": "2017年、日本ではついつい触り続けてしまうような、感触だけを楽しむ玩具が大流行している。例えば、ハンドスピナーがそうです。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 18],
+          "status": "estimated",
+          "rationale": "小中学生を中心に流行したと推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.45,
+          "status": "estimated",
+          "rationale": "短期間のブームとして推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.9,
+          "rationale": "当時を知る人には知られていると推定"
+        }
+      }
     }
   ]
 }

@@ -146,6 +146,426 @@
           "rationale": "推定"
         }
       }
+    },
+    {
+      "id": "tiramisu-boom",
+      "name": "ティラミスのブーム",
+      "genre": "food",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "1990",
+          "to": "1990",
+          "status": "verified",
+          "sources": ["src-walkerplus-90s-dessert"],
+          "quote": "1990年に流行：ティラミス ほろ苦い大人の味わいでイタリア料理店が大行列に"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.5,
+          "status": "estimated",
+          "rationale": "その年に大きく流行したデザート（出典）として推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        }
+      }
+    },
+    {
+      "id": "natadecoco-boom",
+      "name": "ナタデココのブーム",
+      "genre": "food",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "1993",
+          "to": "1993",
+          "status": "verified",
+          "sources": ["src-walkerplus-90s-dessert"],
+          "quote": "1993年に流行：ナタデココ 唯一無二のユニークな食感に日本中が仰天"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.5,
+          "status": "estimated",
+          "rationale": "その年に大きく流行したデザート（出典）として推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        }
+      }
+    },
+    {
+      "id": "pannacotta-boom",
+      "name": "パンナコッタのブーム",
+      "genre": "food",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "1994",
+          "to": "1994",
+          "status": "verified",
+          "sources": ["src-walkerplus-90s-dessert"],
+          "quote": "1994年に流行：パンナコッタ ツルンとした口当たりのイタリアンデザート"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.4,
+          "status": "estimated",
+          "rationale": "その年に大きく流行したデザート（出典）として推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        }
+      }
+    },
+    {
+      "id": "eggtart-boom",
+      "name": "エッグタルトのブーム",
+      "genre": "food",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "1999",
+          "to": "1999",
+          "status": "verified",
+          "sources": ["src-walkerplus-90s-dessert"],
+          "quote": "1999年に流行：エッグタルト 焼き立てのタルトを求めて銀座に長蛇の列が出現"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.4,
+          "status": "estimated",
+          "rationale": "その年に大きく流行したデザート（出典）として推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        }
+      }
+    },
+    {
+      "id": "namacaramel-boom",
+      "name": "生キャラメルのブーム",
+      "genre": "food",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "2008",
+          "to": "2009",
+          "status": "derived",
+          "sources": ["src-jcast-namacaramel"],
+          "quote": "生キャラメルが爆発的ヒットした「花畑牧場」…札幌工場は08年7月に操業を開始…2009年8月31日に札幌工場が閉鎖…生キャラメルブームが一巡し",
+          "rule": "大量生産の工場が操業していた2008年7月〜2009年8月をブームの中心期間とみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.4,
+          "status": "estimated",
+          "rationale": "爆発的なヒット（出典）だが、買えた人は一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        }
+      }
+    },
+    {
+      "id": "pancake-boom",
+      "name": "パンケーキのブーム",
+      "genre": "food",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2010-03",
+          "status": "verified",
+          "sources": ["src-itmedia-pancake"],
+          "quote": "ここ数年のうちに日本で一躍ブームとなったパンケーキ…2010年3月に日本1号店となる原宿店をオープンした。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.45,
+          "status": "estimated",
+          "rationale": "行列ができるブームとして推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        },
+        "activeUntil": {
+          "value": 2014,
+          "status": "estimated",
+          "rationale": "出典（2015年3月）は「ここ数年のうちに一躍ブーム」としており、2014年ごろまでを中心期間と推定"
+        }
+      }
+    },
+    {
+      "id": "maritozzo-boom",
+      "name": "マリトッツォのブーム",
+      "genre": "food",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "2021",
+          "to": "2021",
+          "status": "verified",
+          "sources": ["src-gendai-sweets2021"],
+          "quote": "2021年に流行った「トレンドスイーツ」5選！ …マリトッツォ"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [13, 30],
+          "status": "estimated",
+          "rationale": "流行のスイーツは10代〜若い大人を中心に広まったと推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.4,
+          "status": "estimated",
+          "rationale": "コンビニでも売られたが、食べた人は一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.9,
+          "rationale": "当時を知る人には知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "gekikara-boom",
+      "name": "「激辛」ブーム",
+      "genre": "food",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "1986",
+          "to": "1986",
+          "status": "verified",
+          "sources": ["src-jiyu-1986"],
+          "quote": "1986年 新語・流行語大賞 激辛：グルメ時代の幕開けを特徴づける新語…カレー業界、ラーメン業界をも巻き込んだ「激辛」時代が始まった"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [12, 40],
+          "status": "estimated",
+          "rationale": "若者を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.45,
+          "status": "estimated",
+          "rationale": "辛い食べ物の好みには個人差が大きいため低めに設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "「激辛」という言葉は広く定着していると推定"
+        },
+        "activeUntil": {
+          "value": 1990,
+          "status": "estimated",
+          "rationale": "流行の始まり（1986年）から数年を中心期間と推定"
+        }
+      }
+    },
+    {
+      "id": "motsunabe-boom",
+      "name": "もつ鍋ブーム",
+      "genre": "food",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "1992",
+          "to": "1992",
+          "status": "verified",
+          "sources": ["src-jiyu-1992"],
+          "quote": "1992年 新語・流行語大賞 もつ鍋：もつ（牛、豚、鶏の内臓）に、ニラとキャベツを入れて煮込むだけの素朴で荒々しい料理「もつ鍋」"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [18, 50],
+          "status": "estimated",
+          "rationale": "大人の外食のブームとして推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.35,
+          "status": "estimated",
+          "rationale": "食べた人は一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "もつ鍋は広く定着していると推定"
+        }
+      }
+    },
+    {
+      "id": "taberu-rayu",
+      "name": "「食べるラー油」のブーム",
+      "genre": "food",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "2010",
+          "to": "2010",
+          "status": "verified",
+          "sources": ["src-jiyu-2010"],
+          "quote": "2010年 新語・流行語大賞 トップテン 食べるラー油（〔株〕桃屋）"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [15, 75],
+          "status": "estimated",
+          "rationale": "家庭の食卓のブームとして、子どもから大人までと推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.45,
+          "status": "estimated",
+          "rationale": "品薄になるほどのブームだったが、食べた人は半数弱と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "広く知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "whale-tatsuta-lunch",
+      "name": "給食の鯨の竜田揚げ",
+      "genre": "food",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "1965",
+          "to": "1974",
+          "status": "derived",
+          "sources": ["src-jprime-whale", "src-sapporo-kyushoku"],
+          "quote": "「昭和40年代までは、間違いなく鯨の竜田揚げは学校給食のエースでした。」／（札幌市・昭和47年）今ではめずらしい鯨肉が、竜田揚や甘露煮として頻繁に登場していました。",
+          "rule": "「昭和40年代」を1965〜1974年とみなす"
+        },
+        "end": {
+          "date": "1987",
+          "status": "derived",
+          "sources": ["src-jprime-whale"],
+          "quote": "IWC（国際捕鯨委員会）のモラトリアム決議によって、1987年から商業捕鯨が一時停止",
+          "rule": "商業捕鯨の一時停止（1987年）で給食から姿を消したとみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 15],
+          "status": "estimated",
+          "rationale": "小中学校の給食"
+        },
+        "ceiling": {
+          "value": 0.75,
+          "status": "estimated",
+          "rationale": "定番メニュー（出典）のため高めに設定。地域差がある"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.9,
+          "rationale": "世代外でも話として知っている人は多いと推定"
+        }
+      }
+    },
+    {
+      "id": "rider-snack",
+      "name": "仮面ライダースナック（カード付き）",
+      "genre": "food",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1971",
+          "status": "verified",
+          "sources": ["src-getnavi-procchips"],
+          "quote": "カード付きスナック菓子ブームの火付け役となった「仮面ライダースナック」（1971年発売）"
+        },
+        "end": {
+          "date": "1973-07",
+          "status": "derived",
+          "sources": ["src-getnavi-procchips"],
+          "quote": "「仮面ライダースナック」（1971年発売）を引き継ぐ形で、73年7月に販売をスタート",
+          "rule": "後継の「プロ野球スナック」の発売（1973年7月）を区切りとみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [5, 12],
+          "status": "estimated",
+          "rationale": "子ども向けの菓子で、小学生を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.5,
+          "status": "estimated",
+          "rationale": "ブームの火付け役（出典）だが、男の子に人気が偏ったと推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.2,
+          "ceiling": 0.85,
+          "rationale": "世代外では知らない人も多いと推定"
+        }
+      }
     }
   ]
 }

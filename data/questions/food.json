@@ -176,6 +176,560 @@
       "relatedIds": [],
       "basicPool": false,
       "notes": "性別・地域で差が出やすいため重要度を下げている"
+    },
+    {
+      "id": "FOO-005",
+      "status": "verified",
+      "genre": "food",
+      "difficulty": "easy",
+      "type": "era_choice",
+      "text": "10代〜20代前半の頃に流行っていたスイーツは？",
+      "ageWindow": [13, 24],
+      "options": [
+        {
+          "id": "a",
+          "label": "ティラミス",
+          "kind": "era",
+          "subject": "tiramisu-boom",
+          "insight": "ティラミスのブーム（1990年）の頃に13〜24歳だった人に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ナタデココ",
+          "kind": "era",
+          "subject": "natadecoco-boom",
+          "insight": "ナタデココのブーム（1993年）の頃に13〜24歳だった人に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "生キャラメル",
+          "kind": "era",
+          "subject": "namacaramel-boom",
+          "insight": "生キャラメルのブーム（2008年〜2009年）の頃に13〜24歳だった人に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "パンケーキ",
+          "kind": "era",
+          "subject": "pancake-boom",
+          "insight": "パンケーキのブーム（2010年〜2014年）の頃に13〜24歳だった人に多い回答"
+        },
+        {
+          "id": "e",
+          "label": "タピオカドリンク（タピる）",
+          "kind": "era",
+          "subject": "tapioca-2019",
+          "insight": "タピオカドリンクのブーム（タピる）（2019年）の頃に13〜24歳だった人に多い回答"
+        },
+        {
+          "id": "f",
+          "label": "この中にはない",
+          "kind": "none_of_these",
+          "insight": "選択肢のどの時代にも当てはまらない世代（より上の世代や、より下の世代）に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.1,
+      "group": "sweets",
+      "relatedIds": ["FOO-004"],
+      "basicPool": true
+    },
+    {
+      "id": "FOO-006",
+      "status": "verified",
+      "genre": "food",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "「激辛」がブームになった頃（1986年ごろ）のことを覚えていますか？",
+      "subject": "gekikara-boom",
+      "options": [
+        {
+          "id": "a",
+          "label": "はっきり覚えている",
+          "kind": "heavy",
+          "insight": "「激辛」ブーム（1986年）を12〜40歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "なんとなく覚えている",
+          "kind": "light",
+          "insight": "「激辛」ブーム（1986年）の時期に12〜40歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時の記憶はない",
+          "kind": "aware_only",
+          "insight": "「激辛」ブームを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "「激辛」ブームの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.7,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "FOO-007",
+      "status": "verified",
+      "genre": "food",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "1992年ごろの「もつ鍋」ブームの頃に、もつ鍋を食べに行きましたか？",
+      "subject": "motsunabe-boom",
+      "options": [
+        {
+          "id": "a",
+          "label": "ブームの頃によく食べた",
+          "kind": "heavy",
+          "insight": "もつ鍋ブーム（1992年）を18〜50歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ブームの頃に少し食べた",
+          "kind": "light",
+          "insight": "もつ鍋ブーム（1992年）の時期に18〜50歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているがその頃は食べていない",
+          "kind": "aware_only",
+          "insight": "もつ鍋ブームを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "もつ鍋ブームの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.6,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "FOO-008",
+      "status": "verified",
+      "genre": "food",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "2010年ごろの「食べるラー油」ブームの頃に、食べるラー油を食べましたか？",
+      "subject": "taberu-rayu",
+      "options": [
+        {
+          "id": "a",
+          "label": "ブームの頃によく食べた",
+          "kind": "heavy",
+          "insight": "「食べるラー油」のブーム（2010年）を15〜75歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ブームの頃に少し食べた",
+          "kind": "light",
+          "insight": "「食べるラー油」のブーム（2010年）の時期に15〜75歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているがその頃は食べていない",
+          "kind": "aware_only",
+          "insight": "「食べるラー油」のブームを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "「食べるラー油」のブームの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.7,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "FOO-009",
+      "status": "verified",
+      "genre": "food",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "小学校・中学校の給食で、鯨の竜田揚げがよく出ましたか？",
+      "subject": "whale-tatsuta-lunch",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく出た",
+          "kind": "heavy",
+          "insight": "給食の鯨の竜田揚げ（1965年〜1974年）を6〜15歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ときどき出た",
+          "kind": "light",
+          "insight": "給食の鯨の竜田揚げ（1965年〜1974年）の時期に6〜15歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "出なかった（話には聞いたことがある）",
+          "kind": "aware_only",
+          "insight": "給食の鯨の竜田揚げを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "給食の鯨の竜田揚げの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "group": "school-lunch",
+      "relatedIds": ["SCH-004"],
+      "basicPool": false,
+      "notes": "地域差がある"
+    },
+    {
+      "id": "FOO-010",
+      "status": "verified",
+      "genre": "food",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "カードが付いたお菓子『仮面ライダースナック』（1971年〜）を買って、カードを集めましたか？",
+      "subject": "rider-snack",
+      "options": [
+        {
+          "id": "a",
+          "label": "たくさん集めた",
+          "kind": "heavy",
+          "insight": "仮面ライダースナック（カード付き）（1971年〜1973年）を5〜12歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し集めた",
+          "kind": "light",
+          "insight": "仮面ライダースナック（カード付き）（1971年〜1973年）の時期に5〜12歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが買ったことはない",
+          "kind": "aware_only",
+          "insight": "仮面ライダースナック（カード付き）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "仮面ライダースナック（カード付き）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "FOO-011",
+      "status": "verified",
+      "genre": "food",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "1990年ごろのティラミスのブームの頃に、ティラミスを食べましたか？",
+      "subject": "tiramisu-boom",
+      "options": [
+        {
+          "id": "a",
+          "label": "ブームの頃に食べた",
+          "kind": "heavy",
+          "insight": "ティラミスのブーム（1990年）を6〜12歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ブームの後に食べた",
+          "kind": "light",
+          "insight": "ティラミスのブーム（1990年）の時期に6〜12歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが食べたことはない",
+          "kind": "aware_only",
+          "insight": "ティラミスのブームを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ティラミスのブームの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.7,
+      "priority": 1.0,
+      "group": "sweets",
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "FOO-012",
+      "status": "verified",
+      "genre": "food",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "1993年ごろのナタデココのブームの頃に、ナタデココを食べましたか？",
+      "subject": "natadecoco-boom",
+      "options": [
+        {
+          "id": "a",
+          "label": "ブームの頃に食べた",
+          "kind": "heavy",
+          "insight": "ナタデココのブーム（1993年）を6〜12歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ブームの後に食べた",
+          "kind": "light",
+          "insight": "ナタデココのブーム（1993年）の時期に6〜12歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが食べたことはない",
+          "kind": "aware_only",
+          "insight": "ナタデココのブームを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ナタデココのブームの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.7,
+      "priority": 1.0,
+      "group": "sweets",
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "FOO-013",
+      "status": "verified",
+      "genre": "food",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "1994年ごろのパンナコッタのブームの頃に、パンナコッタを食べましたか？",
+      "subject": "pannacotta-boom",
+      "options": [
+        {
+          "id": "a",
+          "label": "ブームの頃に食べた",
+          "kind": "heavy",
+          "insight": "パンナコッタのブーム（1994年）を6〜12歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ブームの後に食べた",
+          "kind": "light",
+          "insight": "パンナコッタのブーム（1994年）の時期に6〜12歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが食べたことはない",
+          "kind": "aware_only",
+          "insight": "パンナコッタのブームを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "パンナコッタのブームの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.6,
+      "priority": 1.0,
+      "group": "sweets",
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "FOO-014",
+      "status": "verified",
+      "genre": "food",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "1999年ごろのエッグタルトのブームの頃に、エッグタルトを食べましたか？",
+      "subject": "eggtart-boom",
+      "options": [
+        {
+          "id": "a",
+          "label": "ブームの頃に食べた",
+          "kind": "heavy",
+          "insight": "エッグタルトのブーム（1999年）を6〜12歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ブームの後に食べた",
+          "kind": "light",
+          "insight": "エッグタルトのブーム（1999年）の時期に6〜12歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが食べたことはない",
+          "kind": "aware_only",
+          "insight": "エッグタルトのブームを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "エッグタルトのブームの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.6,
+      "priority": 1.0,
+      "group": "sweets",
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "FOO-015",
+      "status": "verified",
+      "genre": "food",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "2008年ごろの「生キャラメル」のブームの頃に、生キャラメルを食べましたか？",
+      "subject": "namacaramel-boom",
+      "options": [
+        {
+          "id": "a",
+          "label": "ブームの頃に食べた",
+          "kind": "heavy",
+          "insight": "生キャラメルのブーム（2008年〜2009年）を6〜12歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ブームの後に食べた",
+          "kind": "light",
+          "insight": "生キャラメルのブーム（2008年〜2009年）の時期に6〜12歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが食べたことはない",
+          "kind": "aware_only",
+          "insight": "生キャラメルのブームを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "生キャラメルのブームの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.6,
+      "priority": 1.0,
+      "group": "sweets",
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "FOO-016",
+      "status": "verified",
+      "genre": "food",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "2021年ごろに流行した「マリトッツォ」を、ブームの頃に食べましたか？",
+      "subject": "maritozzo-boom",
+      "options": [
+        {
+          "id": "a",
+          "label": "ブームの頃に食べた",
+          "kind": "heavy",
+          "insight": "マリトッツォのブーム（2021年）を13〜30歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ブームの後に食べた",
+          "kind": "light",
+          "insight": "マリトッツォのブーム（2021年）の時期に13〜30歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが食べたことはない",
+          "kind": "aware_only",
+          "insight": "マリトッツォのブームを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "マリトッツォのブームの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.6,
+      "priority": 1.0,
+      "group": "sweets",
+      "relatedIds": [],
+      "basicPool": false
     }
   ]
 }
