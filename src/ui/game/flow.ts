@@ -12,7 +12,7 @@ import {
   type Estimate,
   type SessionPhase,
 } from '../../engine';
-import { GENRE_LABELS, SPECIAL_OPTION_KINDS, type OptionKind } from '../../data/schema';
+import { GENRE_LABELS, SPECIAL_OPTION_KINDS, type OptionKind } from '../../data/constants';
 import { eraRangeLabel } from '../format';
 
 /** 推定年代レーダーを更新する間隔（問） */

@@ -9,7 +9,7 @@
  * 頑健化は Phase 3 の推理エンジンで行う。
  */
 import type { Option, Question, Subject } from '../data/schema';
-import { SPECIAL_OPTION_KINDS } from '../data/schema';
+import { SPECIAL_OPTION_KINDS } from '../data/constants';
 import { estimateExperience, eraSaturation, type StatisticsIndex } from './exposure';
 
 export const ERA_CONSTANTS = {

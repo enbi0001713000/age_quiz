@@ -2,10 +2,11 @@
  * data/ 以下のJSONを読み込み、形式（Zod）を検査してデータ一式を返す（Node専用）。
  * 形式エラーは例外にせず formatErrors に集めて返す（検証スクリプトでまとめて表示するため）。
  */
-import { readdirSync, readFileSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { join, relative } from 'node:path';
 import type { z } from 'zod';
 import {
+  GenerationsFileSchema,
   QuestionsFileSchema,
   SourcesFileSchema,
   StatisticSchema,
@@ -70,6 +71,11 @@ export function loadDataset(dataDir = DATA_DIR): LoadResult {
   for (const f of jsonFiles(join(dataDir, 'statistics'))) {
     const r = parse(f, StatisticSchema);
     if (r) dataset.statistics.push(r);
+  }
+  const generationsFile = join(dataDir, 'generations.json');
+  if (existsSync(generationsFile)) {
+    const r = parse(generationsFile, GenerationsFileSchema);
+    if (r) dataset.generations = r;
   }
   return { dataset, formatErrors, files };
 }

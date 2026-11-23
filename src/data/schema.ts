@@ -8,41 +8,20 @@
  * 形式はこのファイルの Zod スキーマで検査し、参照の整合性などは validate.ts で検査する。
  */
 import { z } from 'zod';
+import { GENRES, OPTION_KINDS } from './constants';
+
+export {
+  GENRE_LABELS,
+  GENRES,
+  OPTION_KINDS,
+  SPECIAL_OPTION_KINDS,
+  type Genre,
+  type OptionKind,
+} from './constants';
 
 // ---------------------------------------------------------------- 基本型
 
-export const GENRES = [
-  'game',
-  'anime_manga',
-  'tv_cm',
-  'toy',
-  'mobile',
-  'internet_sns',
-  'music',
-  'school',
-  'food',
-  'fashion',
-  'news',
-  'appliance',
-] as const;
 export const GenreSchema = z.enum(GENRES);
-export type Genre = z.infer<typeof GenreSchema>;
-
-/** ジャンルの表示名（要件定義書 3-4 の12ジャンル） */
-export const GENRE_LABELS: Record<Genre, string> = {
-  game: 'ゲーム・ゲーム機',
-  anime_manga: 'アニメ・漫画',
-  tv_cm: 'テレビ番組・CM',
-  toy: 'おもちゃ・玩具',
-  mobile: '携帯電話・スマートフォン',
-  internet_sns: 'インターネット・SNS',
-  music: '音楽・アーティスト',
-  school: '学校生活・教育',
-  food: '食べ物・飲み物・お菓子',
-  fashion: 'ファッション・流行',
-  news: '社会的な出来事・ニュース',
-  appliance: '生活用品・家電',
-};
 
 export const ReliabilitySchema = z.enum(['A', 'B', 'C']);
 export type Reliability = z.infer<typeof ReliabilitySchema>;
@@ -205,25 +184,7 @@ export type Subject = z.infer<typeof SubjectSchema>;
 
 // ---------------------------------------------------------------- 質問
 
-export const OPTION_KINDS = [
-  // 経験型
-  'heavy', // よく経験した
-  'light', // 少し経験した
-  'aware_only', // 知っているが経験はない（＝要件の「経験がない」のうち認知あり）
-  'no_experience', // 経験がない（認知の有無を問わない）
-  'unaware', // 知らない
-  // 時代選択型
-  'era', // 時代を表す選択肢（subject を参照）
-  'none_of_these', // この中にはない
-  // 特殊回答
-  'dont_remember', // 覚えていない（推理に使わない）
-  'not_applicable', // 該当しない（推理から除外）
-] as const;
 export const OptionKindSchema = z.enum(OPTION_KINDS);
-export type OptionKind = z.infer<typeof OptionKindSchema>;
-
-/** 選択肢数（4〜6）に数えない特殊回答 */
-export const SPECIAL_OPTION_KINDS: readonly OptionKind[] = ['dont_remember', 'not_applicable'];
 
 export const OptionSchema = z.strictObject({
   id: z.string().regex(/^[a-z]$/, '選択肢IDは英小文字1字'),
@@ -282,10 +243,48 @@ export const SourcesFileSchema = z.strictObject({ sources: z.array(SourceSchema)
 export const SubjectsFileSchema = z.strictObject({ subjects: z.array(SubjectSchema) });
 export const QuestionsFileSchema = z.strictObject({ questions: z.array(QuestionSchema) });
 
+// ---------------------------------------------------------------- 世代分類（Q7）
+
+/** このゲーム独自の世代名（生まれた年代で区切った呼び名。背景は出典付きの事実に基づく） */
+export const OriginalGenerationSchema = z.strictObject({
+  id: Id,
+  name: z.string().min(1),
+  /** 生年の範囲（null は「〜以前」「〜以降」） */
+  from: z.number().int().nullable(),
+  to: z.number().int().nullable(),
+  tagline: z.string().min(1),
+  background: z
+    .array(z.strictObject({ text: z.string().min(1), subjects: z.array(Id).min(1) }))
+    .min(1),
+});
+export type OriginalGeneration = z.infer<typeof OriginalGenerationSchema>;
+
+/** 一般的な世代名（出典で確認できた定義のみ。呼び方・範囲には諸説ある） */
+export const CommonGenerationSchema = z.strictObject({
+  id: Id,
+  name: z.string().min(1),
+  from: z.number().int(),
+  to: z.number().int(),
+  label: z.string().min(1),
+  sources: z.array(z.string()).min(1),
+  quote: z.string().min(1),
+  note: z.string().optional(),
+});
+export type CommonGeneration = z.infer<typeof CommonGenerationSchema>;
+
+export const GenerationsFileSchema = z.strictObject({
+  note: z.string(),
+  original: z.array(OriginalGenerationSchema).min(1),
+  common: z.array(CommonGenerationSchema),
+});
+export type Generations = z.infer<typeof GenerationsFileSchema>;
+
 /** 検証済みのデータ一式 */
 export interface Dataset {
   sources: Source[];
   subjects: Subject[];
   questions: Question[];
   statistics: Statistic[];
+  /** 世代分類（data/generations.json） */
+  generations?: Generations;
 }

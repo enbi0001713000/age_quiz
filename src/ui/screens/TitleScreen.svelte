@@ -3,8 +3,19 @@
   import { APP_INFO } from '../../app/appInfo';
   import Logo from '../components/Logo.svelte';
 
-  let { ready, error, onstart }: { ready: boolean; error: string | null; onstart: () => void } =
-    $props();
+  let {
+    ready,
+    error,
+    onstart,
+    onhistory,
+    onabout,
+  }: {
+    ready: boolean;
+    error: string | null;
+    onstart: () => void;
+    onhistory: () => void;
+    onabout: () => void;
+  } = $props();
 </script>
 
 <main class="title-screen">
@@ -20,6 +31,10 @@
       {ready ? '分析を開始' : error ? '準備に失敗しました' : 'システム準備中…'}
     </button>
     {#if error}<p class="error" role="alert">{error}</p>{/if}
+    <div class="links">
+      <button type="button" class="btn-secondary" onclick={onhistory}>プレイ履歴</button>
+      <button type="button" class="btn-secondary" onclick={onabout}>このゲームについて</button>
+    </div>
     <ul class="notes">
       <li>質問に答えるだけ・約3〜5分</li>
       <li>個人情報は入力不要。回答はこの端末の中だけで処理し、外部に送信しません</li>
@@ -97,6 +112,18 @@
     box-shadow: none;
     color: var(--color-text-muted);
     cursor: progress;
+  }
+  .links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-2);
+    width: 100%;
+    max-width: 320px;
+  }
+  .links .btn-secondary {
+    min-height: var(--tap-secondary);
+    font-size: 0.875rem;
+    font-weight: 400;
   }
   .error {
     margin: 0;

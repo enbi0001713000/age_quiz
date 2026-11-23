@@ -3,9 +3,9 @@
  *
  * データの形式・整合性はビルド前（npm run validate:data、CI）に検査済みのため、
  * 実行時は検査ライブラリ（Zod）を同梱せず、省略可能な項目の既定値だけを補う。
- * 同梱データが検査済みデータと一致することは tests/unit/bundle.test.ts で確認している。
+ * 同梱データが検査済みデータと一致することは tests/unit/ui-logic.test.ts で確認している。
  */
-import type { Dataset, Question, Source, Statistic, Subject } from './schema';
+import type { Dataset, Generations, Question, Source, Statistic, Subject } from './schema';
 
 type Files<T> = Record<string, T>;
 
@@ -22,6 +22,10 @@ const questions = import.meta.glob<{ questions: Question[] }>('/data/questions/*
   import: 'default',
 });
 const statistics = import.meta.glob<Statistic>('/data/statistics/*.json', {
+  eager: true,
+  import: 'default',
+});
+const generations = import.meta.glob<Generations>('/data/generations.json', {
   eager: true,
   import: 'default',
 });
@@ -47,5 +51,6 @@ export function loadBundledDataset(): Dataset {
       })),
     ),
     statistics: ordered(statistics),
+    generations: ordered(generations)[0],
   };
 }

@@ -6,15 +6,8 @@
  * - 出典ルール（信頼性Cだけを根拠にした事実は不可）
  * - 質問ルール（主要選択肢4〜6、「覚えていない」を必ず用意、型ごとの必須項目）
  */
-import {
-  SPECIAL_OPTION_KINDS,
-  type Dataset,
-  type DatedFact,
-  type PeriodFact,
-  type Question,
-  type Reliability,
-  type Subject,
-} from './schema';
+import { SPECIAL_OPTION_KINDS } from './constants';
+import type { Dataset, DatedFact, PeriodFact, Question, Reliability, Subject } from './schema';
 
 export interface ValidationResult {
   errors: string[];
@@ -216,6 +209,37 @@ export function validateDataset(data: Dataset): ValidationResult {
     }
     if (q.status === 'verified' && questionReliability(q, data) === 'C') {
       errors.push(`${where}: 信頼性Cの根拠しかない質問は verified にできない`);
+    }
+  }
+
+  // ---- 世代分類
+  const gens = data.generations;
+  if (gens) {
+    const bands = [...gens.original].sort((a, b) => (a.from ?? -Infinity) - (b.from ?? -Infinity));
+    if (bands[0]!.from !== null)
+      errors.push('世代分類：最初の世代は「〜以前」（from: null）にする');
+    if (bands.at(-1)!.to !== null)
+      errors.push('世代分類：最後の世代は「〜以降」（to: null）にする');
+    for (let i = 1; i < bands.length; i++) {
+      const prev = bands[i - 1]!;
+      if (prev.to === null || bands[i]!.from !== prev.to + 1) {
+        errors.push(`世代分類：${prev.name} と ${bands[i]!.name} の生年の範囲が連続していない`);
+      }
+    }
+    for (const g of gens.original) {
+      for (const b of g.background) {
+        for (const sid of b.subjects) {
+          usedSubjects.add(sid);
+          if (!subjects.has(sid)) errors.push(`世代 ${g.id}：背景の根拠 ${sid} が未登録の対象`);
+        }
+      }
+    }
+    for (const c of gens.common) {
+      if (c.from > c.to) errors.push(`一般的な世代名 ${c.id}：from が to より大きい`);
+      for (const id of c.sources) {
+        usedSources.add(id);
+        if (!sources.has(id)) errors.push(`一般的な世代名 ${c.id}：出典 ${id} が未登録`);
+      }
     }
   }
 

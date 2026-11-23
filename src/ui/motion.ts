@@ -19,6 +19,9 @@ export function prefersReducedMotion(): boolean {
   return typeof matchMedia === 'function' && matchMedia('(prefers-reduced-motion: reduce)').matches;
 }
 
-export function durations(): Durations {
+/** 演出の時間。設定（演出を短縮）が「端末の設定に従う」なら OS の設定で決める */
+export function durations(preference: 'system' | 'reduce' | 'normal' = 'system'): Durations {
+  if (preference === 'reduce') return REDUCED;
+  if (preference === 'normal') return NORMAL;
   return prefersReducedMotion() ? REDUCED : NORMAL;
 }
