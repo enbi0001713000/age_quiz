@@ -1,41 +1,64 @@
 /*
- * デザイントークン（設計書 7.5 の初期案）。
+ * デザイントークン（設計書 7.5）。
  * 色・余白などはここで一元管理し、コンポーネントに直接数値を書かない。
+ * 文字色と背景色の組み合わせのコントラスト比は tests/unit/contrast.test.ts で確認している。
  */
 :root {
   /* ブランドカラー */
   --navy-950: #060b1f;
+  --navy-900: #0a1230;
   --navy-800: #0e1838;
   --navy-700: #16224a;
+  --navy-600: #22305f;
+  --blue-600: #2563eb;
   --blue-500: #2f6bff;
+  --blue-400: #5b8cff;
   --cyan-400: #22d3ee;
+  --cyan-300: #67e8f9;
+  --purple-600: #7c3aed;
   --purple-500: #8b5cf6;
+  --purple-400: #a78bfa;
   --text-100: #e6eeff;
   --text-300: #a9b8dc;
+  --text-400: #8a9bc7;
 
   /* 用途別 */
   --color-bg: var(--navy-950);
   --color-surface: var(--navy-800);
-  --color-border: var(--navy-700);
+  --color-surface-glass: rgb(14 24 56 / 78%);
+  --color-border: var(--navy-600);
+  --color-border-glow: rgb(34 211 238 / 35%);
   --color-primary: var(--blue-500);
+  /* 白い文字を載せるボタン（コントラスト比4.5以上） */
+  --button-gradient: linear-gradient(90deg, var(--blue-600), var(--purple-600));
   --color-accent: var(--cyan-400);
   --color-accent-2: var(--purple-500);
   --color-text: var(--text-100);
   --color-text-muted: var(--text-300);
+  --color-text-faint: var(--text-400);
+
+  /* 光の表現 */
+  --glow-accent: 0 0 18px rgb(34 211 238 / 35%);
+  --glow-primary: 0 0 24px rgb(47 107 255 / 45%);
 
   /* 文字（日本語は端末標準フォントを使用し、Webフォントを読み込まない） */
   --font-sans:
     'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic UI', Meiryo, system-ui,
     sans-serif;
+  --font-mono: ui-monospace, 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace;
 
   /* 余白・寸法 */
   --space-1: 4px;
   --space-2: 8px;
   --space-3: 12px;
   --space-4: 16px;
+  --space-5: 20px;
   --space-6: 24px;
   --space-8: 32px;
+  --radius-sm: 8px;
   --radius-md: 12px;
+  --radius-lg: 16px;
   --tap-min: 56px; /* 選択肢ボタンの最小の高さ（設計書 7.3） */
+  --tap-secondary: 44px;
   --content-max: 560px;
 }

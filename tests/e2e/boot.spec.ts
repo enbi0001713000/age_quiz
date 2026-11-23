@@ -1,6 +1,6 @@
 import { expect, test } from '@playwright/test';
 
-test.describe('起動確認（Phase 1）', () => {
+test.describe('起動確認', () => {
   test('公開パス配下でタイトル画面が表示され、エラーがない', async ({ page }) => {
     const errors: string[] = [];
     page.on('pageerror', (err) => errors.push(err.message));
@@ -17,7 +17,8 @@ test.describe('起動確認（Phase 1）', () => {
     await expect(page).toHaveTitle('年齢推理ゲーム（仮称）');
     await expect(page.getByRole('heading', { level: 1 })).toHaveText('年齢推理ゲーム（仮称）');
     await expect(page.getByText('あなたの記憶から、AIが年齢を推理する。')).toBeVisible();
-    await expect(page.getByRole('status')).toContainText('SYSTEM BOOT');
+    // 質問データと推理モデルの準備ができると開始ボタンが押せるようになる
+    await expect(page.getByRole('button', { name: '分析を開始' })).toBeEnabled();
 
     expect(errors, 'コンソールエラー').toEqual([]);
     expect(failed, '読み込みに失敗したファイル').toEqual([]);
