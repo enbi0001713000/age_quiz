@@ -539,6 +539,42 @@
       "type": "statistics",
       "accessed": "2026-11-23",
       "reliability": "A"
+    },
+    {
+      "id": "src-cao-kourei-2008",
+      "title": "平成20年版 高齢社会白書（全体版）第1章第1節6",
+      "publisher": "内閣府",
+      "url": "https://www8.cao.go.jp/kourei/whitepaper/w-2008/zenbun/html/s1-1-6-01.html",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-cao-kourei-2010",
+      "title": "平成22年版 高齢社会白書（全体版）第1章第1節1（2）",
+      "publisher": "内閣府",
+      "url": "https://www8.cao.go.jp/kourei/whitepaper/w-2010/zenbun/html/s1-1-1-02.html",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-sangiin-dankai-junior",
+      "title": "団塊ジュニアとポスト団塊ジュニアの実像（経済のプリズム）",
+      "publisher": "参議院 常任委員会調査室・特別調査室",
+      "url": "https://www.sangiin.go.jp/japanese/annai/chousa/keizai_prism/backnumber/r05pdf/202322201.pdf",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-ndl-generation-terms",
+      "title": "「団塊の世代」「ゆとり世代」「バブル世代」「X世代」「Y世代」「Z世代」の意味が知りたい。（レファレンス協同データベース）",
+      "publisher": "国立国会図書館",
+      "url": "https://crd.ndl.go.jp/reference/modules/d3ndlcrdentry/index.php?id=1000334949&page=ref_view",
+      "type": "book",
+      "accessed": "2026-11-24",
+      "reliability": "B"
     }
   ]
 }

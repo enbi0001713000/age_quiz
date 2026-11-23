@@ -33,7 +33,13 @@ export interface BirthText {
   detail: string | null;
 }
 
-export function birthText(e: Estimate): BirthText {
+/** 見出しに必要な推定結果の項目（プレイ履歴からも同じ表示を作れるようにする） */
+export type BirthTextSource = Pick<
+  Estimate,
+  'confidence' | 'birthYear' | 'birthRange' | 'displayRange'
+>;
+
+export function birthText(e: BirthTextSource): BirthText {
   const [from, to] = e.displayRange;
   if (e.confidence === 'high') {
     return {

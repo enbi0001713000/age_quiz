@@ -9,9 +9,14 @@
   import ScanOverlay from '../components/ScanOverlay.svelte';
   import StatusBar from '../components/StatusBar.svelte';
   import type { GameFlow } from '../game/flow';
+  import type { MotionPreference } from '../../storage/settings';
   import { durations } from '../motion';
 
-  let { flow, onfinished }: { flow: GameFlow; onfinished: () => void } = $props();
+  let {
+    flow,
+    motion = 'system',
+    onfinished,
+  }: { flow: GameFlow; motion?: MotionPreference; onfinished: () => void } = $props();
 
   // flow はこの画面の表示中は変わらないため、最初の値で初期化してよい
   // svelte-ignore state_referenced_locally
@@ -22,7 +27,8 @@
   let candidate = $state<string | null>(null);
   let heading = $state<HTMLElement>();
   let resolveOverlay: (() => void) | null = null;
-  const d = durations();
+  // svelte-ignore state_referenced_locally
+  const d = durations(motion);
   const DIFFICULTY = { easy: 'EASY', normal: 'NORMAL', hard: 'HARD' } as const;
 
   function play(kind: 'scan' | 'transition'): Promise<void> {

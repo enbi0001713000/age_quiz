@@ -1,0 +1,189 @@
+{
+  "note": "original はこのゲーム独自の世代名（生まれた年代で区切った呼び名で、事実ではない）。背景の文章は質問データの出典付きの事実（subjects）に基づく。common は一般的な世代名で、出典で確認できた定義のみを載せる（呼び方・範囲には諸説ある）。",
+  "original": [
+    {
+      "id": "gen-tv-dawn",
+      "name": "テレビ黎明世代",
+      "from": null,
+      "to": 1949,
+      "tagline": "家にテレビがやってきた時代を知る世代",
+      "background": [
+        {
+          "text": "子ども〜10代のころに白黒テレビが家庭に広まりました（世帯普及率は1957年の約8%から1962年には約79%へ）。",
+          "subjects": ["tv-era-bw"]
+        },
+        {
+          "text": "1964年の東京オリンピックを、テレビなどでリアルタイムに見た記憶を持つ人が多い世代です。",
+          "subjects": ["tokyo-1964"]
+        }
+      ]
+    },
+    {
+      "id": "gen-color-tv",
+      "name": "カラーテレビ世代",
+      "from": 1950,
+      "to": 1959,
+      "tagline": "白黒からカラーへの変化を体験した世代",
+      "background": [
+        {
+          "text": "子どものころに国産初の30分テレビアニメ『鉄腕アトム』（1963年〜）が放送されました。",
+          "subjects": ["astro-boy-1963"]
+        },
+        {
+          "text": "10代のころ、家のテレビが白黒からカラーへと替わっていきました（カラーテレビの世帯普及率は1966年の0.3%から1975年には約90%へ）。",
+          "subjects": ["tv-era-transition"]
+        }
+      ]
+    },
+    {
+      "id": "gen-invader",
+      "name": "インベーダー世代",
+      "from": 1960,
+      "to": 1969,
+      "tagline": "ゲームセンターとアイドルの熱狂を知る世代",
+      "background": [
+        {
+          "text": "子どものころに『マジンガーZ』（1972〜1974年）が放送され、ピンク・レディー（1976〜1981年）の振り付けが子どもたちの間で大流行しました。",
+          "subjects": ["mazinger-z", "pink-lady"]
+        },
+        {
+          "text": "10代のころに『スペースインベーダー』（1978年）が社会現象になりました。音楽はレコードやカセットテープで聴くのが主流でした。",
+          "subjects": ["space-invaders", "record-era", "cassette-era"]
+        }
+      ]
+    },
+    {
+      "id": "gen-famicom",
+      "name": "ファミコン世代",
+      "from": 1970,
+      "to": 1979,
+      "tagline": "家庭用ゲーム機とともに育った世代",
+      "background": [
+        {
+          "text": "小学生のころにファミリーコンピュータ（1983年）が登場し、ビックリマンチョコのシール集め（1980年代後半）が大ブームになりました。",
+          "subjects": ["famicom", "bikkuriman"]
+        },
+        {
+          "text": "10代のころに消費税（1989年・3%）が導入され、ポケットベルが若者の連絡手段として広まりました。",
+          "subjects": ["ctax-3", "pager"]
+        }
+      ]
+    },
+    {
+      "id": "gen-keitai",
+      "name": "ケータイ世代",
+      "from": 1980,
+      "to": 1989,
+      "tagline": "携帯電話が青春の必需品になった世代",
+      "background": [
+        {
+          "text": "子ども〜10代のころに『ポケットモンスター 赤・緑』（1996年）や初代『たまごっち』（1996年）が大ヒットしました。",
+          "subjects": ["pokemon-red-green", "tamagotchi"]
+        },
+        {
+          "text": "中高生のころは携帯電話（いわゆるガラケー）の全盛期（1998〜2008年ごろ）で、iモード（1999年〜）などで連絡を取り合いました。",
+          "subjects": ["feature-phone", "i-mode"]
+        }
+      ]
+    },
+    {
+      "id": "gen-sns",
+      "name": "SNS世代",
+      "from": 1990,
+      "to": 1999,
+      "tagline": "ケータイからスマホ・SNSへの移行を体験した世代",
+      "background": [
+        {
+          "text": "小学生のころにニンテンドーDS（2004年）が登場し、2002年からは土曜日が毎週休みになりました（完全学校週5日制）。",
+          "subjects": ["nintendo-ds", "saturday-off-weekly"]
+        },
+        {
+          "text": "10代のころにmixi（2004年）、Twitter日本語版（2008年）、LINE（2011年）が登場し、スマートフォンが広まりました。",
+          "subjects": ["mixi", "twitter", "line", "smartphone"]
+        }
+      ]
+    },
+    {
+      "id": "gen-smartphone",
+      "name": "スマホネイティブ世代",
+      "from": 2000,
+      "to": 2009,
+      "tagline": "物心ついたときからスマホがあった世代",
+      "background": [
+        {
+          "text": "子どものころからスマートフォン（2008年ごろ以降に普及）が身近にあり、『妖怪ウォッチ』（2014年〜）が大ヒットしました。",
+          "subjects": ["smartphone", "yokai-watch-anime"]
+        },
+        {
+          "text": "Nintendo Switch（2017年）やTikTok（日本では2017年〜）が10代までの生活の一部になりました。",
+          "subjects": ["nintendo-switch", "tiktok"]
+        }
+      ]
+    },
+    {
+      "id": "gen-tablet",
+      "name": "タブレット学習世代",
+      "from": 2010,
+      "to": null,
+      "tagline": "1人1台の端末で学ぶ世代",
+      "background": [
+        {
+          "text": "小中学校で自分専用のタブレットやパソコンを使う「1人1台端末」（2021年度ごろ〜）が当たり前になりました。",
+          "subjects": ["giga-one-device"]
+        },
+        {
+          "text": "子どものころの消費税は8%・10%（2014年〜）で、『ベイブレードバースト』（2015年〜）などが人気になりました。",
+          "subjects": ["ctax-8-10", "beyblade-burst"]
+        }
+      ]
+    }
+  ],
+  "common": [
+    {
+      "id": "dankai",
+      "name": "団塊の世代",
+      "from": 1947,
+      "to": 1949,
+      "label": "1947〜1949年生まれ",
+      "sources": ["src-cao-kourei-2008", "src-ndl-generation-terms"],
+      "quote": "「団塊の世代」といわれる昭和22（1947）〜24（1949）年に生まれた者"
+    },
+    {
+      "id": "dankai-junior",
+      "name": "団塊ジュニア",
+      "from": 1971,
+      "to": 1974,
+      "label": "1971〜1974年生まれ",
+      "sources": ["src-cao-kourei-2010", "src-sangiin-dankai-junior"],
+      "quote": "いわゆる「団塊ジュニア」（昭和46（1971）〜49（1974）年に生まれた者）"
+    },
+    {
+      "id": "post-dankai-junior",
+      "name": "ポスト団塊ジュニア",
+      "from": 1975,
+      "to": 1984,
+      "label": "1975〜1984年生まれ",
+      "sources": ["src-sangiin-dankai-junior"],
+      "quote": "それに続く昭和50（1975）年から昭和59（1984）年に生まれた世代は、ポスト団塊ジュニアと呼ばれる"
+    },
+    {
+      "id": "yutori",
+      "name": "ゆとり世代",
+      "from": 1987,
+      "to": 2004,
+      "label": "1987年4月2日〜2004年4月1日生まれ",
+      "sources": ["src-ndl-generation-terms"],
+      "quote": "『平成の新語・流行語辞典』（東京堂出版、2019）によると、1987年4月2日〜2004年4月1日生まれのことを指す"
+    },
+    {
+      "id": "gen-z",
+      "name": "Z世代",
+      "from": 1995,
+      "to": 2009,
+      "label": "1990年代後半〜2000年代生まれ",
+      "sources": ["src-ndl-generation-terms"],
+      "quote": "『現代用語の基礎知識2021』によると…「Z世代」は1990年代後半〜2000年代生まれのことを指す",
+      "note": "「1990年代後半」を1995年からとみなした"
+    }
+  ]
+}
