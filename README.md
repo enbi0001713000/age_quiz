@@ -12,8 +12,9 @@
 |---|---|---|
 | 0 | 要件理解・技術設計 | 承認済み（Q1〜Q4） |
 | 1 | プロジェクト基盤構築 | 承認済み |
-| 2 | 質問データベースの試作（48問） | **完了・承認待ち** |
-| 3〜9 | 推理エンジン → 画面 → 結果・共有 → データ拡張 → オフライン → 総合テスト → 公開 | 未着手 |
+| 2 | 質問データベースの試作（48問） | 承認済み |
+| 3 | 推理エンジン | **完了・承認待ち** |
+| 4〜9 | 画面 → 結果・共有 → データ拡張 → オフライン → 総合テスト → 公開 | 未着手 |
 
 ## 開発の始め方
 
@@ -29,11 +30,13 @@ npm run dev       # 開発サーバー起動 → http://localhost:5173/age_quiz/
 | `npm run dev` | 開発サーバー |
 | `npm run build` | 本番ビルド（`dist/`） |
 | `npm run preview` | 本番ビルドをローカルで確認 |
-| `npm test` | 単体テスト（Vitest） |
+| `npm test` | 単体テスト・精度の回帰テスト（Vitest） |
 | `npm run test:e2e` | E2Eテスト（Playwright：スマホ2サイズ＋PC） |
 | `npm run lint` / `npm run check` | Lint / 型検査 |
 | `npm run validate:data` | 質問データの形式・出典・整合性の検査 |
 | `npm run report:coverage` | 年代別経験確率と質問データ分析レポートの再生成 |
+| `npm run simulate` | 仮想回答者による推理精度の評価（`docs/phase3/simulation-report.md`、約30秒） |
+| `npm run simulate:tune` | 上記＋パラメータ探索（`docs/phase3/tuning.md`、約3分） |
 | `npm run format` | コード整形 |
 | `npm run verify` | 整形確認・Lint・型検査・データ検証・単体テスト・ビルドを一括実行 |
 
@@ -72,4 +75,6 @@ TypeScript 6.0 / Vite 8 / Svelte 5 / Vitest / Playwright / ESLint / Prettier。�
 | [docs/phase0/feasibility_sim.py](docs/phase0/feasibility_sim.py) | 推理アルゴリズムの設計検証シミュレーション（合成データ） |
 | [docs/data-guidelines.md](docs/data-guidelines.md) | 質問データ作成ガイドライン（出典・事実・モデル値のルール） |
 | [docs/phase2/coverage-report.md](docs/phase2/coverage-report.md) | 質問データ分析レポート（自動生成） |
+| [docs/phase3/simulation-report.md](docs/phase3/simulation-report.md) | 推理エンジンのシミュレーション評価（自動生成） |
+| [docs/phase3/tuning.md](docs/phase3/tuning.md) | 推理パラメータの探索結果（自動生成） |
 | [docs/dev-log.md](docs/dev-log.md) | 開発記録 |
