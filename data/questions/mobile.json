@@ -1,0 +1,193 @@
+{
+  "questions": [
+    {
+      "id": "MOB-001",
+      "status": "verified",
+      "genre": "mobile",
+      "difficulty": "easy",
+      "type": "era_choice",
+      "text": "中学生・高校生の頃、友だちとの連絡に主に使っていたものは？",
+      "ageWindow": [12, 18],
+      "options": [
+        {
+          "id": "a",
+          "label": "ポケベル",
+          "kind": "era",
+          "subject": "pager",
+          "insight": "ポケットベル（ポケベル）（1968年〜1996年）の頃に中学生・高校生だった人に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "PHS",
+          "kind": "era",
+          "subject": "phs",
+          "insight": "PHS（1995年〜2000年）の頃に中学生・高校生だった人に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "携帯電話（スマホ以前のもの）",
+          "kind": "era",
+          "subject": "feature-phone",
+          "insight": "携帯電話（スマートフォン以前）（1993年〜2008年）の頃に中学生・高校生だった人に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "スマートフォン",
+          "kind": "era",
+          "subject": "smartphone",
+          "insight": "スマートフォン（2008年〜現在）の頃に中学生・高校生だった人に多い回答"
+        },
+        {
+          "id": "e",
+          "label": "この中にはない（家の電話・手紙など）",
+          "kind": "none_of_these",
+          "insight": "選択肢のどの時代にも当てはまらない世代（より上の世代や、より下の世代）に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.3,
+      "group": "mobile-era",
+      "relatedIds": ["MOB-002", "MOB-003"],
+      "basicPool": true
+    },
+    {
+      "id": "MOB-002",
+      "status": "verified",
+      "genre": "mobile",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "携帯電話の『iモード』を使ったことはありますか？",
+      "subject": "i-mode",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく使った",
+          "kind": "heavy",
+          "insight": "iモード（1999年〜2010年）を13〜45歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し使った",
+          "kind": "light",
+          "insight": "iモード（1999年〜2010年）の時期に13〜45歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが使ったことはない",
+          "kind": "aware_only",
+          "insight": "iモードを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "iモードの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "group": "mobile-era",
+      "relatedIds": ["MOB-001"],
+      "basicPool": false
+    },
+    {
+      "id": "MOB-003",
+      "status": "verified",
+      "genre": "mobile",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "ポケットベル（ポケベル）を使ったことはありますか？",
+      "subject": "pager",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく使った",
+          "kind": "heavy",
+          "insight": "ポケットベル（ポケベル）（1968年〜1996年）を15〜40歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し使った",
+          "kind": "light",
+          "insight": "ポケットベル（ポケベル）（1968年〜1996年）の時期に15〜40歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが使ったことはない",
+          "kind": "aware_only",
+          "insight": "ポケットベル（ポケベル）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ポケットベル（ポケベル）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "group": "mobile-era",
+      "relatedIds": ["MOB-001"],
+      "basicPool": false
+    },
+    {
+      "id": "MOB-004",
+      "status": "verified",
+      "genre": "mobile",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "肩から下げて持ち歩く大きな電話機『ショルダーホン』を知っていますか？",
+      "subject": "shoulder-phone",
+      "options": [
+        {
+          "id": "a",
+          "label": "使ったことがある",
+          "kind": "heavy",
+          "insight": "ショルダーホン（1985年〜1987年）を25〜60歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "実物を見たことがある",
+          "kind": "light",
+          "insight": "ショルダーホン（1985年〜1987年）の時期に25〜60歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "名前だけ知っている",
+          "kind": "aware_only",
+          "insight": "ショルダーホンを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ショルダーホンの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    }
+  ]
+}

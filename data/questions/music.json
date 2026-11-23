@@ -1,0 +1,200 @@
+{
+  "questions": [
+    {
+      "id": "MUS-001",
+      "status": "verified",
+      "genre": "music",
+      "difficulty": "easy",
+      "type": "era_choice",
+      "text": "中学生・高校生の頃、主に音楽を聴いていた方法は？",
+      "ageWindow": [12, 18],
+      "options": [
+        {
+          "id": "a",
+          "label": "レコード",
+          "kind": "era",
+          "subject": "record-era",
+          "insight": "レコード（1967年〜1986年）の頃に中学生・高校生だった人に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "カセットテープ",
+          "kind": "era",
+          "subject": "cassette-era",
+          "insight": "カセットテープ（1979年〜1992年）の頃に中学生・高校生だった人に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "CD",
+          "kind": "era",
+          "subject": "cd-era",
+          "insight": "CD（1990年〜2008年）の頃に中学生・高校生だった人に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "MD",
+          "kind": "era",
+          "subject": "minidisc",
+          "insight": "MD（ミニディスク）（1992年〜2005年）の頃に中学生・高校生だった人に多い回答"
+        },
+        {
+          "id": "e",
+          "label": "スマホの音楽配信・サブスク",
+          "kind": "era",
+          "subject": "music-subscription",
+          "insight": "音楽配信・サブスク（スマートフォン）（2015年〜現在）の頃に中学生・高校生だった人に多い回答"
+        },
+        {
+          "id": "f",
+          "label": "この中にはない",
+          "kind": "none_of_these",
+          "insight": "選択肢のどの時代にも当てはまらない世代（より上の世代や、より下の世代）に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.2,
+      "group": "music-format",
+      "relatedIds": ["MUS-002", "MUS-003"],
+      "basicPool": true
+    },
+    {
+      "id": "MUS-002",
+      "status": "verified",
+      "genre": "music",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "カセットテープ式の『ウォークマン』で音楽を聴いていたことはありますか？",
+      "subject": "cassette-walkman",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく聴いていた",
+          "kind": "heavy",
+          "insight": "ウォークマン（カセットテープ式）（1979年〜1992年）を10〜30歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し聴いていた",
+          "kind": "light",
+          "insight": "ウォークマン（カセットテープ式）（1979年〜1992年）の時期に10〜30歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが使ったことはない",
+          "kind": "aware_only",
+          "insight": "ウォークマン（カセットテープ式）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ウォークマン（カセットテープ式）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "group": "music-format",
+      "relatedIds": ["MUS-001"],
+      "basicPool": false
+    },
+    {
+      "id": "MUS-003",
+      "status": "verified",
+      "genre": "music",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "短冊形のケースに入った『8cmCDシングル』を買ったことはありますか？",
+      "subject": "cd-8cm-single",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく買った",
+          "kind": "heavy",
+          "insight": "8cmCDシングル（1988年〜2003年）を12〜30歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "何枚か買った",
+          "kind": "light",
+          "insight": "8cmCDシングル（1988年〜2003年）の時期に12〜30歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが買ったことはない",
+          "kind": "aware_only",
+          "insight": "8cmCDシングルを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "8cmCDシングルの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "group": "music-format",
+      "relatedIds": ["MUS-001"],
+      "basicPool": false
+    },
+    {
+      "id": "MUS-004",
+      "status": "verified",
+      "genre": "music",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "子どもの頃、ピンク・レディーの振り付けを真似して踊ったことはありますか？",
+      "subject": "pink-lady",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく真似した",
+          "kind": "heavy",
+          "insight": "ピンク・レディー（1976年〜1981年）を5〜14歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し真似した",
+          "kind": "light",
+          "insight": "ピンク・レディー（1976年〜1981年）の時期に5〜14歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが真似したことはない",
+          "kind": "aware_only",
+          "insight": "ピンク・レディーを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ピンク・レディーの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    }
+  ]
+}

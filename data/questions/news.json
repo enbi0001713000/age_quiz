@@ -1,0 +1,185 @@
+{
+  "questions": [
+    {
+      "id": "NEW-001",
+      "status": "verified",
+      "genre": "news",
+      "difficulty": "easy",
+      "type": "era_choice",
+      "text": "小学生の頃、買い物をしたときの消費税は？",
+      "ageWindow": [6, 12],
+      "options": [
+        {
+          "id": "a",
+          "label": "消費税はなかった",
+          "kind": "era",
+          "subject": "ctax-none",
+          "insight": "消費税がなかった時代（〜1989年）の頃に小学生だった人に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "3%",
+          "kind": "era",
+          "subject": "ctax-3",
+          "insight": "消費税3%（1989年〜1997年）の頃に小学生だった人に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "5%",
+          "kind": "era",
+          "subject": "ctax-5",
+          "insight": "消費税5%（1997年〜2014年）の頃に小学生だった人に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "8%・10%",
+          "kind": "era",
+          "subject": "ctax-8-10",
+          "insight": "消費税8%・10%（2014年〜現在）の頃に小学生だった人に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.3,
+      "group": "consumption-tax",
+      "relatedIds": [],
+      "basicPool": true
+    },
+    {
+      "id": "NEW-002",
+      "status": "verified",
+      "genre": "news",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "1964年の東京オリンピックを、当時リアルタイムで見た（テレビを含む）記憶がありますか？",
+      "subject": "tokyo-1964",
+      "options": [
+        {
+          "id": "a",
+          "label": "はっきり覚えている",
+          "kind": "heavy",
+          "insight": "東京オリンピック（1964年）（1964年）を5〜99歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "なんとなく覚えている",
+          "kind": "light",
+          "insight": "東京オリンピック（1964年）（1964年）の時期に5〜99歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時の記憶はない",
+          "kind": "aware_only",
+          "insight": "東京オリンピック（1964年）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "東京オリンピック（1964年）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "NEW-003",
+      "status": "verified",
+      "genre": "news",
+      "difficulty": "easy",
+      "type": "experience",
+      "text": "元号が「昭和」から「平成」に変わったときのことを覚えていますか？",
+      "subject": "heisei-kaigen",
+      "options": [
+        {
+          "id": "a",
+          "label": "はっきり覚えている",
+          "kind": "heavy",
+          "insight": "平成への改元（1989年）を5〜99歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "なんとなく覚えている",
+          "kind": "light",
+          "insight": "平成への改元（1989年）の時期に5〜99歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時の記憶はない",
+          "kind": "aware_only",
+          "insight": "平成への改元を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "平成への改元の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "NEW-004",
+      "status": "verified",
+      "genre": "news",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "「1999年7月に人類が滅亡する」というノストラダムスの予言を、子どもの頃に本気で心配したことはありますか？",
+      "subject": "nostradamus",
+      "options": [
+        {
+          "id": "a",
+          "label": "本気で心配した",
+          "kind": "heavy",
+          "insight": "「1999年7月に人類が滅亡する」という予言（ノストラダムス）（1973年〜1999年）を7〜15歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し気になった",
+          "kind": "light",
+          "insight": "「1999年7月に人類が滅亡する」という予言（ノストラダムス）（1973年〜1999年）の時期に7〜15歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが心配はしなかった",
+          "kind": "aware_only",
+          "insight": "「1999年7月に人類が滅亡する」という予言（ノストラダムス）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "「1999年7月に人類が滅亡する」という予言（ノストラダムス）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.7,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    }
+  ]
+}

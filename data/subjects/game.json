@@ -1,0 +1,448 @@
+{
+  "subjects": [
+    {
+      "id": "famicom",
+      "name": "ファミリーコンピュータ",
+      "genre": "game",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1983",
+          "status": "verified",
+          "sources": ["src-nintendo-history"],
+          "quote": "1983年 家庭用テレビゲーム機「ファミリーコンピュータ」を発売。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.85,
+          "status": "estimated",
+          "rationale": "国内で広く普及した家庭用ゲーム機。中心世代での選択率の上限を推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        },
+        "activeUntil": {
+          "value": 1990,
+          "status": "derived",
+          "rationale": "後継機スーパーファミコンの発売（1990年、同出典）までを主流の期間とみなす"
+        }
+      }
+    },
+    {
+      "id": "super-famicom",
+      "name": "スーパーファミコン",
+      "genre": "game",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1990",
+          "status": "verified",
+          "sources": ["src-nintendo-history"],
+          "quote": "1990年 家庭用テレビゲーム機「スーパーファミコン」を発売。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.8,
+          "status": "estimated",
+          "rationale": "国内で広く普及した家庭用ゲーム機として推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        },
+        "activeUntil": {
+          "value": 1996,
+          "status": "estimated",
+          "rationale": "次世代機（プレイステーション等）への移行が進むまでの期間として推定"
+        }
+      }
+    },
+    {
+      "id": "playstation",
+      "name": "プレイステーション（初代）",
+      "genre": "game",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1994-12-03",
+          "status": "verified",
+          "sources": ["src-playstation-history-1994"],
+          "quote": "日本でのリリース 1994年12月3日"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.7,
+          "status": "estimated",
+          "rationale": "国内で広く普及した家庭用ゲーム機として推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        },
+        "activeUntil": {
+          "value": 2000,
+          "status": "estimated",
+          "rationale": "後継機の登場までのおおよその期間として推定"
+        }
+      }
+    },
+    {
+      "id": "wii",
+      "name": "Wii",
+      "genre": "game",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2006",
+          "status": "verified",
+          "sources": ["src-nintendo-history"],
+          "quote": "2006年 家庭用テレビゲーム機「Wii」を発売。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.75,
+          "status": "estimated",
+          "rationale": "国内で広く普及した家庭用ゲーム機として推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        },
+        "activeUntil": {
+          "value": 2012,
+          "status": "derived",
+          "rationale": "後継機 Wii U の発売（2012年、同出典）までを主流の期間とみなす"
+        }
+      }
+    },
+    {
+      "id": "nintendo-switch",
+      "name": "Nintendo Switch",
+      "genre": "game",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2017",
+          "status": "verified",
+          "sources": ["src-nintendo-history"],
+          "quote": "2017年 持ち運べる家庭用テレビゲーム機「Nintendo Switch」を発売。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.85,
+          "status": "estimated",
+          "rationale": "国内で広く普及した家庭用ゲーム機として推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        },
+        "activeUntil": {
+          "value": 2025,
+          "status": "derived",
+          "rationale": "後継機 Nintendo Switch 2 の発売（2025年、同出典）までを主流の期間とみなす"
+        }
+      }
+    },
+    {
+      "id": "game-and-watch",
+      "name": "ゲーム&ウオッチ",
+      "genre": "game",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1980",
+          "status": "verified",
+          "sources": ["src-nintendo-history"],
+          "quote": "1980年 携帯型ゲーム機「ゲーム&ウオッチ」発売。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.6,
+          "status": "estimated",
+          "rationale": "携帯型ゲーム機の初期のヒット商品として推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        },
+        "activeUntil": {
+          "value": 1985,
+          "status": "estimated",
+          "rationale": "家庭用ゲーム機の普及で主役が移るまでの期間として推定"
+        }
+      }
+    },
+    {
+      "id": "gameboy",
+      "name": "ゲームボーイ",
+      "genre": "game",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1989",
+          "status": "verified",
+          "sources": ["src-nintendo-history"],
+          "quote": "1989年 携帯型ゲーム機「ゲームボーイ」を発売。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.8,
+          "status": "estimated",
+          "rationale": "長く主流だった携帯型ゲーム機として推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        },
+        "activeUntil": {
+          "value": 2001,
+          "status": "derived",
+          "rationale": "後継機ゲームボーイアドバンスの発売（2001年、同出典）までを主流の期間とみなす"
+        }
+      }
+    },
+    {
+      "id": "gba",
+      "name": "ゲームボーイアドバンス",
+      "genre": "game",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2001",
+          "status": "verified",
+          "sources": ["src-nintendo-history"],
+          "quote": "2001年 携帯型ゲーム機「ゲームボーイアドバンス」を発売。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.7,
+          "status": "estimated",
+          "rationale": "携帯型ゲーム機として推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        },
+        "activeUntil": {
+          "value": 2004,
+          "status": "derived",
+          "rationale": "ニンテンドーDSの発売（2004年、同出典）までを主流の期間とみなす"
+        }
+      }
+    },
+    {
+      "id": "nintendo-ds",
+      "name": "ニンテンドーDS",
+      "genre": "game",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2004",
+          "status": "verified",
+          "sources": ["src-nintendo-history"],
+          "quote": "2004年 携帯型ゲーム機「ニンテンドーDS」を発売。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.85,
+          "status": "estimated",
+          "rationale": "国内で広く普及した携帯型ゲーム機として推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        },
+        "activeUntil": {
+          "value": 2011,
+          "status": "derived",
+          "rationale": "ニンテンドー3DSの発売（2011年、同出典）までを主流の期間とみなす"
+        }
+      }
+    },
+    {
+      "id": "nintendo-3ds",
+      "name": "ニンテンドー3DS",
+      "genre": "game",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2011",
+          "status": "verified",
+          "sources": ["src-nintendo-history"],
+          "quote": "2011年 携帯型ゲーム機「ニンテンドー3DS」を発売。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.75,
+          "status": "estimated",
+          "rationale": "携帯型ゲーム機として推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        },
+        "activeUntil": {
+          "value": 2017,
+          "status": "derived",
+          "rationale": "Nintendo Switch の発売（2017年、同出典）までを主流の期間とみなす"
+        }
+      }
+    },
+    {
+      "id": "space-invaders",
+      "name": "スペースインベーダー",
+      "genre": "game",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1978-06",
+          "status": "verified",
+          "sources": ["src-famitsu-invaders"],
+          "quote": "1978年（昭和53年）6月16日は、アーケード版『スペースインベーダー』が発表会で初お披露目された日…インベーダーハウスが全国に乱立"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [10, 30],
+          "status": "estimated",
+          "rationale": "インベーダーハウスやゲーム喫茶で若者が遊んだ（出典）ことから、10〜30歳を中心と推定"
+        },
+        "ceiling": {
+          "value": 0.5,
+          "status": "estimated",
+          "rationale": "社会現象になったが、遊んだのは一部の若者と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.3,
+          "ceiling": 0.95,
+          "rationale": "社会現象として広く知られた（出典）ため、世代外でも知っている人は多いと推定"
+        },
+        "activeUntil": {
+          "value": 1980,
+          "status": "estimated",
+          "rationale": "出典は発売直後の大ヒットを記載。ブームの終わりは未確認のため約2年と推定"
+        }
+      }
+    },
+    {
+      "id": "pokemon-red-green",
+      "name": "ポケットモンスター 赤・緑",
+      "genre": "game",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1996-02-27",
+          "status": "verified",
+          "sources": ["src-nintendo-pokemon-rg"],
+          "quote": "ポケットモンスター赤・緑 1996年2月27日"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 15],
+          "status": "estimated",
+          "rationale": "ゲームボーイ用ソフト。小中学生を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.55,
+          "status": "estimated",
+          "rationale": "大ヒット作として推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.97,
+          "rationale": "シリーズが現在も続き、広く知られていると推定"
+        },
+        "activeUntil": {
+          "value": 1999,
+          "status": "estimated",
+          "rationale": "初代作品が主に遊ばれた期間を約3年と推定"
+        }
+      }
+    }
+  ]
+}

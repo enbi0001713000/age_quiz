@@ -1,0 +1,230 @@
+{
+  "subjects": [
+    {
+      "id": "oshin",
+      "name": "連続テレビ小説『おしん』",
+      "genre": "tv_cm",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1983-04",
+          "status": "verified",
+          "sources": ["src-bunshun-oshin"],
+          "quote": "NHKの連続テレビ小説『おしん』の放送がスタートしたのは…1983年4月…1年にわたり放送された『おしん』は平均視聴率52.6％"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [8, 99],
+          "status": "estimated",
+          "rationale": "家族で見る朝のドラマのため、小学生以上の幅広い年齢と推定"
+        },
+        "ceiling": {
+          "value": 0.6,
+          "status": "estimated",
+          "rationale": "平均視聴率52.6%（出典）を参考にした推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.97,
+          "rationale": "記録的なヒット作で、世代外でも知られていると推定"
+        },
+        "activeUntil": {
+          "value": 1984,
+          "status": "derived",
+          "rationale": "「1年にわたり放送」（出典）から1984年までとみなす"
+        }
+      }
+    },
+    {
+      "id": "zenin-shugo",
+      "name": "8時だョ!全員集合",
+      "genre": "tv_cm",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1969",
+          "status": "verified",
+          "sources": ["src-president-zeninshugo"],
+          "quote": "「8時だョ！全員集合」（1969～85年、TBS系）"
+        },
+        "end": {
+          "date": "1985",
+          "status": "verified",
+          "sources": ["src-president-zeninshugo"],
+          "quote": "「8時だョ！全員集合」（1969～85年、TBS系）"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.8,
+          "status": "estimated",
+          "rationale": "土曜夜8時の代表的な番組として推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        }
+      }
+    },
+    {
+      "id": "hyokinzoku",
+      "name": "オレたちひょうきん族",
+      "genre": "tv_cm",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1981",
+          "status": "verified",
+          "sources": ["src-oricon-hyokinzoku"],
+          "quote": "1981年から“土8”に放送された…【オレたちひょうきん族】"
+        },
+        "end": {
+          "date": "1989",
+          "status": "verified",
+          "sources": ["src-oricon-hyokinzoku"],
+          "quote": "DVD『オレたちひょうきん族 THE DVD 1981〜1989 FUJI TV STYLE』"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.6,
+          "status": "estimated",
+          "rationale": "『全員集合』と視聴者を二分した番組として推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        }
+      }
+    },
+    {
+      "id": "katoken",
+      "name": "加トちゃんケンちゃんごきげんテレビ",
+      "genre": "tv_cm",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1986-01",
+          "status": "verified",
+          "sources": ["src-oricon-katoken"],
+          "quote": "TBSで1986年1月から1992年3月まで放送"
+        },
+        "end": {
+          "date": "1992-03",
+          "status": "verified",
+          "sources": ["src-oricon-katoken"],
+          "quote": "TBSで1986年1月から1992年3月まで放送"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.6,
+          "status": "estimated",
+          "rationale": "土曜夜8時の人気番組として推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        }
+      }
+    },
+    {
+      "id": "ac-aisatsu-cm",
+      "name": "ACジャパンのCM「あいさつの魔法」（ポポポポーン）",
+      "genre": "tv_cm",
+      "kind": "event",
+      "facts": {
+        "start": {
+          "date": "2011",
+          "status": "verified",
+          "sources": ["src-advertimes-ac"],
+          "quote": "「ポポポポーン」の“生みの親”が振り返る――震災後、AC大量露出（2011年12月16日の記事）"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [3, 99],
+          "status": "estimated",
+          "rationale": "テレビを見ていた幅広い年齢（幼児を含む）と推定"
+        },
+        "ceiling": {
+          "value": 0.85,
+          "status": "estimated",
+          "rationale": "震災後に大量に放送された（出典）ため高めに推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.3,
+          "ceiling": 0.9,
+          "rationale": "話題になったCMとして推定"
+        },
+        "activeUntil": {
+          "value": 2011,
+          "status": "estimated",
+          "rationale": "大量に放送されたのは2011年（出典）"
+        }
+      }
+    },
+    {
+      "id": "analog-tv-end",
+      "name": "地上アナログテレビ放送の終了（地デジ化）",
+      "genre": "tv_cm",
+      "kind": "event",
+      "facts": {
+        "start": {
+          "date": "2011-07",
+          "status": "verified",
+          "sources": ["src-soumu-dtv"],
+          "quote": "平成23年（2011年）7月に東北3県…を除く44都道府県において、翌年3月末に東北3県においてアナログ放送が終了"
+        },
+        "end": {
+          "date": "2012-03",
+          "status": "verified",
+          "sources": ["src-soumu-dtv"],
+          "quote": "翌年3月末に東北3県においてアナログ放送が終了"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [20, 99],
+          "status": "estimated",
+          "rationale": "テレビの買い替え・チューナー設置を自分で判断・手続きした大人を想定して推定"
+        },
+        "ceiling": {
+          "value": 0.6,
+          "status": "estimated",
+          "rationale": "多くの世帯で対応が必要だったが、本人が担当したのは一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "社会的に広く告知されたと推定"
+        }
+      }
+    }
+  ]
+}

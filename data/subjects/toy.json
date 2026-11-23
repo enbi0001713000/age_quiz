@@ -1,0 +1,155 @@
+{
+  "subjects": [
+    {
+      "id": "tamagotchi",
+      "name": "たまごっち（初代）",
+      "genre": "toy",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1996-11-23",
+          "status": "verified",
+          "sources": ["src-ascii-tamagotchi", "src-bandai-tamagotchi"],
+          "quote": "初代たまごっちは1996年11月23日に発売…社会現象となった／1996 年に発売し国内外で社会現象"
+        },
+        "peak": {
+          "from": "1996-11",
+          "to": "1997",
+          "status": "derived",
+          "sources": ["src-ascii-tamagotchi", "src-jiyu-1997"],
+          "quote": "1997年最大の話題となったヒット商品「たまごっち」",
+          "rule": "発売（1996年11月）から、新語・流行語大賞で「1997年最大の話題となったヒット商品」とされた1997年までを流行期とみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [8, 20],
+          "status": "estimated",
+          "rationale": "小学生〜若者を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.55,
+          "status": "estimated",
+          "rationale": "社会現象（出典）のため高めに推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.97,
+          "rationale": "現在も続くシリーズで広く知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "dakko-chan",
+      "name": "ダッコちゃん",
+      "genre": "toy",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1960",
+          "status": "verified",
+          "sources": ["src-takaratomy-annual-2017"],
+          "quote": "1960 年 ダッコちゃん"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [4, 25],
+          "status": "estimated",
+          "rationale": "子どもから若者まで幅広いと推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.35,
+          "status": "estimated",
+          "rationale": "ブームの規模は未確認のため控えめに推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.15,
+          "ceiling": 0.8,
+          "rationale": "世代外では知らない人が多いと推定"
+        },
+        "activeUntil": {
+          "value": 1961,
+          "status": "estimated",
+          "rationale": "ブームの期間は未確認のため短期間と推定"
+        }
+      }
+    },
+    {
+      "id": "rubiks-cube",
+      "name": "ルービックキューブ",
+      "genre": "toy",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1980-07-25",
+          "status": "verified",
+          "sources": ["src-gendai-rubiks"],
+          "quote": "7月25日 ルービック・キューブ発売（1980年）…一大ブームを巻き起こし、その年だけでも500万個以上を売り上げる"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [8, 30],
+          "status": "estimated",
+          "rationale": "子どもから大人まで遊んだと推定"
+        },
+        "ceiling": {
+          "value": 0.55,
+          "status": "estimated",
+          "rationale": "発売年だけで500万個以上（出典）から高めに推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.7,
+          "ceiling": 0.97,
+          "rationale": "現在も販売が続き、世代を問わず知られていると推定"
+        },
+        "activeUntil": {
+          "value": 1981,
+          "status": "estimated",
+          "rationale": "最初のブームの期間を約1年半と推定"
+        }
+      }
+    },
+    {
+      "id": "beyblade-burst",
+      "name": "ベイブレードバースト",
+      "genre": "toy",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2015-07",
+          "status": "verified",
+          "sources": ["src-takaratomy-beyblade"],
+          "quote": "2015.7 ベイブレードバースト初期シリーズ登場"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [5, 12],
+          "status": "estimated",
+          "rationale": "小学生を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.4,
+          "status": "estimated",
+          "rationale": "男の子に人気が偏ったと推定し、やや低めに設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.15,
+          "ceiling": 0.85,
+          "rationale": "世代外では知らない人も多いと推定"
+        },
+        "activeUntil": {
+          "value": 2022,
+          "status": "estimated",
+          "rationale": "次の世代のシリーズが登場するまでの期間として推定"
+        }
+      }
+    }
+  ]
+}

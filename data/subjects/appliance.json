@@ -1,0 +1,216 @@
+{
+  "subjects": [
+    {
+      "id": "tv-era-bw",
+      "name": "白黒テレビの時代",
+      "genre": "appliance",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "1961",
+          "to": "1970",
+          "status": "derived",
+          "sources": ["src-cao-durables"],
+          "quote": "主要耐久消費財等の普及率（白黒テレビ・カラーテレビ）",
+          "rule": "白黒テレビの世帯普及率が50%以上かつカラーテレビが30%未満の年（data/statistics/cao-durables-penetration.json）"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.9,
+          "status": "estimated",
+          "rationale": "統計に基づく期間のため高く設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        }
+      }
+    },
+    {
+      "id": "tv-era-transition",
+      "name": "白黒からカラーへの移行期",
+      "genre": "appliance",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "1971",
+          "to": "1977",
+          "status": "derived",
+          "sources": ["src-cao-durables"],
+          "quote": "主要耐久消費財等の普及率（白黒テレビ・カラーテレビ）",
+          "rule": "白黒テレビ・カラーテレビの世帯普及率がともに30%以上の年"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.8,
+          "status": "estimated",
+          "rationale": "統計に基づく期間のため高めに設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        }
+      }
+    },
+    {
+      "id": "tv-era-color",
+      "name": "カラーテレビの時代",
+      "genre": "appliance",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1978",
+          "status": "derived",
+          "sources": ["src-cao-durables"],
+          "quote": "主要耐久消費財等の普及率（白黒テレビ・カラーテレビ）",
+          "rule": "カラーテレビが50%以上かつ白黒テレビが30%未満になった最初の年"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.95,
+          "status": "estimated",
+          "rationale": "統計に基づく期間のため高く設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        },
+        "activeUntil": {
+          "value": 2035,
+          "status": "estimated",
+          "rationale": "現在も続くとみなす"
+        }
+      }
+    },
+    {
+      "id": "room-aircon",
+      "name": "ルームエアコン",
+      "genre": "appliance",
+      "kind": "household",
+      "facts": {
+        "series": {
+          "statId": "cao-durables-penetration",
+          "key": "room_aircon",
+          "kind": "household_penetration",
+          "after": {
+            "mode": "hold",
+            "rationale": "2004年以降も普及率は維持・上昇したとみなす（統計は2004年3月で終了）"
+          }
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "小学生の頃の家庭"
+        },
+        "ceiling": {
+          "value": 1.0,
+          "status": "statistic",
+          "rationale": "世帯普及率をそのまま使う"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.0,
+          "ceiling": 1.0,
+          "rationale": "世帯保有型は認知を別途計算"
+        }
+      }
+    },
+    {
+      "id": "vtr",
+      "name": "ビデオデッキ（VTR）",
+      "genre": "appliance",
+      "kind": "household",
+      "facts": {
+        "series": {
+          "statId": "cao-durables-penetration",
+          "key": "vtr",
+          "kind": "household_penetration",
+          "after": {
+            "mode": "linear_to_zero",
+            "untilYear": 2015,
+            "rationale": "DVD・HDDレコーダー等への置き換えで2010年代半ばには主流でなくなったと推定（統計は2004年3月で終了）"
+          }
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 15],
+          "status": "estimated",
+          "rationale": "小中学生の頃の家庭"
+        },
+        "ceiling": {
+          "value": 1.0,
+          "status": "statistic",
+          "rationale": "世帯普及率をそのまま使う"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.0,
+          "ceiling": 1.0,
+          "rationale": "世帯保有型は認知を別途計算"
+        }
+      }
+    },
+    {
+      "id": "microwave",
+      "name": "電子レンジ",
+      "genre": "appliance",
+      "kind": "household",
+      "facts": {
+        "series": {
+          "statId": "cao-durables-penetration",
+          "key": "microwave",
+          "kind": "household_penetration",
+          "after": {
+            "mode": "hold",
+            "rationale": "2004年時点で96.5%に達し、その後も維持されたとみなす"
+          }
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "小学生の頃の家庭"
+        },
+        "ceiling": {
+          "value": 1.0,
+          "status": "statistic",
+          "rationale": "世帯普及率をそのまま使う"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.0,
+          "ceiling": 1.0,
+          "rationale": "世帯保有型は認知を別途計算"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "questions": [
+    {
+      "id": "APP-001",
+      "status": "verified",
+      "genre": "appliance",
+      "difficulty": "easy",
+      "type": "era_choice",
+      "text": "小学生の頃、家にあったテレビは？",
+      "ageWindow": [6, 12],
+      "options": [
+        {
+          "id": "a",
+          "label": "白黒テレビ",
+          "kind": "era",
+          "subject": "tv-era-bw",
+          "insight": "白黒テレビの時代（1961年〜1970年）の頃に小学生だった人に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "白黒とカラーの両方（途中でカラーに替わった）",
+          "kind": "era",
+          "subject": "tv-era-transition",
+          "insight": "白黒からカラーへの移行期（1971年〜1977年）の頃に小学生だった人に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "カラーテレビ（白黒ではなかった）",
+          "kind": "era",
+          "subject": "tv-era-color",
+          "insight": "カラーテレビの時代（1978年〜現在）の頃に小学生だった人に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "家にテレビはなかった",
+          "kind": "none_of_these",
+          "insight": "選択肢のどの時代にも当てはまらない世代（より上の世代や、より下の世代）に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.2,
+      "group": "tv-era",
+      "relatedIds": [],
+      "basicPool": true
+    },
+    {
+      "id": "APP-002",
+      "status": "verified",
+      "genre": "appliance",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "小学生の頃、自宅にエアコン（クーラー）はありましたか？",
+      "subject": "room-aircon",
+      "options": [
+        {
+          "id": "a",
+          "label": "ずっとあった",
+          "kind": "heavy",
+          "insight": "ルームエアコンが多くの家庭に普及していた時代に子ども時代を過ごした人に多い回答（内閣府の世帯普及率に基づく）"
+        },
+        {
+          "id": "b",
+          "label": "途中で付いた",
+          "kind": "light",
+          "insight": "ルームエアコンが家庭に広まりつつあった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "家にはなかった（よそでは使った）",
+          "kind": "aware_only",
+          "insight": "ルームエアコンがまだ普及途中だった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "ほとんど使ったことがなかった",
+          "kind": "unaware",
+          "insight": "ルームエアコンがほとんど普及していなかった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "group": "household-appliance",
+      "relatedIds": ["APP-004"],
+      "basicPool": false,
+      "notes": "世帯普及率（内閣府統計）に基づく。地域差がある"
+    },
+    {
+      "id": "APP-003",
+      "status": "verified",
+      "genre": "appliance",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "子どもの頃、家のビデオデッキ（VHSなど）でテレビ番組を録画していましたか？",
+      "subject": "vtr",
+      "options": [
+        {
+          "id": "a",
+          "label": "ずっとあった・よく録画した",
+          "kind": "heavy",
+          "insight": "ビデオデッキ（VTR）が多くの家庭に普及していた時代に子ども時代を過ごした人に多い回答（内閣府の世帯普及率に基づく）"
+        },
+        {
+          "id": "b",
+          "label": "途中から家にあった",
+          "kind": "light",
+          "insight": "ビデオデッキ（VTR）が家庭に広まりつつあった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "家にはなかった（よそで見た）",
+          "kind": "aware_only",
+          "insight": "ビデオデッキ（VTR）がまだ普及途中だった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "ほとんど見たことがない",
+          "kind": "unaware",
+          "insight": "ビデオデッキ（VTR）がほとんど普及していなかった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "APP-004",
+      "status": "verified",
+      "genre": "appliance",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "小学生の頃、自宅に電子レンジはありましたか？",
+      "subject": "microwave",
+      "options": [
+        {
+          "id": "a",
+          "label": "ずっとあった",
+          "kind": "heavy",
+          "insight": "電子レンジが多くの家庭に普及していた時代に子ども時代を過ごした人に多い回答（内閣府の世帯普及率に基づく）"
+        },
+        {
+          "id": "b",
+          "label": "途中で買った",
+          "kind": "light",
+          "insight": "電子レンジが家庭に広まりつつあった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "家にはなかった（よそでは見た）",
+          "kind": "aware_only",
+          "insight": "電子レンジがまだ普及途中だった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "ほとんど見たことがなかった",
+          "kind": "unaware",
+          "insight": "電子レンジがほとんど普及していなかった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "group": "household-appliance",
+      "relatedIds": ["APP-002"],
+      "basicPool": false,
+      "notes": "世帯普及率（内閣府統計）に基づく"
+    }
+  ]
+}

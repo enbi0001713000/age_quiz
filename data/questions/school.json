@@ -1,0 +1,207 @@
+{
+  "questions": [
+    {
+      "id": "SCH-001",
+      "status": "verified",
+      "genre": "school",
+      "difficulty": "easy",
+      "type": "era_choice",
+      "text": "小学生の頃、土曜日の学校はどうでしたか？",
+      "ageWindow": [6, 12],
+      "options": [
+        {
+          "id": "a",
+          "label": "毎週授業があった",
+          "kind": "era",
+          "subject": "saturday-weekly-class",
+          "insight": "土曜日も毎週授業（学校週5日制の導入前）（〜1992年）の頃に小学生だった人に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "月に1回休みがあった",
+          "kind": "era",
+          "subject": "saturday-off-monthly",
+          "insight": "土曜休みが月1回（1992年〜1995年）の頃に小学生だった人に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "月に2回休みがあった",
+          "kind": "era",
+          "subject": "saturday-off-twice",
+          "insight": "土曜休みが月2回（1995年〜2002年）の頃に小学生だった人に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "毎週休みだった",
+          "kind": "era",
+          "subject": "saturday-off-weekly",
+          "insight": "土曜日は毎週休み（完全学校週5日制）（2002年〜現在）の頃に小学生だった人に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        },
+        {
+          "id": "y",
+          "label": "該当しない",
+          "kind": "not_applicable"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.3,
+      "group": "school-system",
+      "relatedIds": ["SCH-002"],
+      "basicPool": true
+    },
+    {
+      "id": "SCH-002",
+      "status": "verified",
+      "genre": "school",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "小学校1・2年生のときに『生活科』の授業を受けましたか？",
+      "subject": "seikatsuka",
+      "options": [
+        {
+          "id": "a",
+          "label": "受けた（はっきり覚えている）",
+          "kind": "heavy",
+          "insight": "生活科（小学校1・2年）（1992年〜現在）を6〜8歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "受けたと思う",
+          "kind": "light",
+          "insight": "生活科（小学校1・2年）（1992年〜現在）の時期に6〜8歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが自分の頃にはなかった",
+          "kind": "aware_only",
+          "insight": "生活科（小学校1・2年）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "生活科（小学校1・2年）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        },
+        {
+          "id": "y",
+          "label": "該当しない",
+          "kind": "not_applicable"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "group": "school-system",
+      "relatedIds": ["SCH-001"],
+      "basicPool": false
+    },
+    {
+      "id": "SCH-003",
+      "status": "verified",
+      "genre": "school",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "小学校・中学校で、自分専用のタブレットやパソコン（1人1台端末）を授業で使っていましたか？",
+      "subject": "giga-one-device",
+      "options": [
+        {
+          "id": "a",
+          "label": "毎日のように使った",
+          "kind": "heavy",
+          "insight": "1人1台端末（GIGAスクール構想）（2021年〜現在）を6〜15歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ときどき使った",
+          "kind": "light",
+          "insight": "1人1台端末（GIGAスクール構想）（2021年〜現在）の時期に6〜15歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが自分の頃にはなかった",
+          "kind": "aware_only",
+          "insight": "1人1台端末（GIGAスクール構想）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "1人1台端末（GIGAスクール構想）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        },
+        {
+          "id": "y",
+          "label": "該当しない",
+          "kind": "not_applicable"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "SCH-004",
+      "status": "verified",
+      "genre": "school",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "学校給食で『脱脂粉乳』のミルクを飲んだことはありますか？",
+      "subject": "skim-milk-lunch",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく飲んだ",
+          "kind": "heavy",
+          "insight": "給食の脱脂粉乳（1946年〜1965年）を6〜15歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "何度か飲んだ",
+          "kind": "light",
+          "insight": "給食の脱脂粉乳（1946年〜1965年）の時期に6〜15歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが飲んだことはない",
+          "kind": "aware_only",
+          "insight": "給食の脱脂粉乳を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "給食の脱脂粉乳の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        },
+        {
+          "id": "y",
+          "label": "該当しない",
+          "kind": "not_applicable"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false,
+      "notes": "地域によって牛乳への切り替え時期に差がある"
+    }
+  ]
+}

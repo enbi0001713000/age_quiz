@@ -1,0 +1,160 @@
+{
+  "subjects": [
+    {
+      "id": "loose-socks",
+      "name": "ルーズソックス",
+      "genre": "fashion",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "1996",
+          "to": "1996",
+          "status": "verified",
+          "sources": ["src-jiyu-1996"],
+          "quote": "1996年 新語・流行語大賞 ルーズソックス"
+        },
+        "diffusion": {
+          "from": "1990",
+          "to": "2003",
+          "status": "derived",
+          "sources": ["src-fashionsnap-loosesocks"],
+          "quote": "1990年代から2000年代初頭の日本の女子高生間で通学アイテムとして流行した",
+          "rule": "「1990年代から2000年代初頭」（出典）を1990〜2003年とみなす"
+        },
+        "audience": {
+          "ages": [15, 18],
+          "gender": "female_lean",
+          "status": "derived",
+          "sources": ["src-fashionsnap-loosesocks"],
+          "quote": "日本の女子高生間で通学アイテムとして流行した",
+          "rule": "「女子高生」を15〜18歳とみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [13, 19],
+          "status": "derived",
+          "rationale": "主な利用者層（女子高生、出典）の前後を含めて推定"
+        },
+        "ceiling": {
+          "value": 0.8,
+          "status": "estimated",
+          "rationale": "質問は「周りで流行していた」を含むため、性別によらず高めに推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "推定"
+        }
+      }
+    },
+    {
+      "id": "purikura",
+      "name": "プリクラ（プリントシール機）",
+      "genre": "fashion",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1995-07-25",
+          "status": "verified",
+          "sources": ["src-denfami-purikura"],
+          "quote": "アトラスが1995年7月25日に発売したプリントシール機『プリント倶楽部』…一大ブームを起こした"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [12, 25],
+          "status": "estimated",
+          "rationale": "中高生〜若者を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.7,
+          "status": "estimated",
+          "rationale": "一大ブーム（出典）のため高めに推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.7,
+          "ceiling": 0.97,
+          "rationale": "現在も広く知られていると推定"
+        },
+        "activeUntil": {
+          "value": 2035,
+          "status": "estimated",
+          "rationale": "現在も利用が続くとみなす"
+        }
+      }
+    },
+    {
+      "id": "otachidai",
+      "name": "ディスコの「お立ち台」ブーム",
+      "genre": "fashion",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "1993",
+          "to": "1993",
+          "status": "verified",
+          "sources": ["src-jiyu-1993"],
+          "quote": "1993年 新語・流行語大賞 大衆語部門・銅賞「お立ち台」"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [16, 30],
+          "status": "estimated",
+          "rationale": "若者を中心と推定"
+        },
+        "ceiling": {
+          "value": 0.5,
+          "status": "estimated",
+          "rationale": "ディスコに行った人に加え、テレビ等で当時を見知った人を含めて推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.3,
+          "ceiling": 0.85,
+          "rationale": "推定"
+        }
+      }
+    },
+    {
+      "id": "twiggy-miniskirt",
+      "name": "ツイッギー来日とミニスカートブーム",
+      "genre": "fashion",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1967-10-18",
+          "status": "verified",
+          "sources": ["src-nippon-twiggy"],
+          "quote": "〈1967年の今日〉10月18日 : ツィッギー、ミニスカブーム巻き起こす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 40],
+          "status": "estimated",
+          "rationale": "当時を記憶できる年齢以上と推定"
+        },
+        "ceiling": {
+          "value": 0.5,
+          "status": "estimated",
+          "rationale": "推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.2,
+          "ceiling": 0.8,
+          "rationale": "推定"
+        },
+        "activeUntil": {
+          "value": 1970,
+          "status": "estimated",
+          "rationale": "ブームの期間は未確認のため数年と推定"
+        }
+      }
+    }
+  ]
+}
