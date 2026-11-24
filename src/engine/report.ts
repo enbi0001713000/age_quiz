@@ -122,7 +122,7 @@ export function buildReport(
     uncertainty: {
       dontRemember: answers.filter((a) => a.kind === 'dont_remember').length,
       notApplicable: answers.filter((a) => a.kind === 'not_applicable').length,
-      surprises: session.surpriseCount,
+      surprises: Math.max(session.surpriseCount, session.conflictCount),
       surprisingQuestionIds: answers.filter((a) => a.surprise).map((a) => a.questionId),
       multimodal: estimate.multimodal,
       intervalWidth: estimate.width,

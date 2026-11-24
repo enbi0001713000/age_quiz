@@ -15,8 +15,9 @@
 | 2 | 質問データベースの試作（48問） | 承認済み |
 | 3 | 推理エンジン | 承認済み |
 | 4 | ゲーム画面・UI・演出 | 承認済み（Q7・Q8） |
-| 5 | 結果画面・履歴・共有 | **完了・承認待ち** |
-| 6〜9 | データ拡張 → オフライン → 総合テスト → 公開 | 未着手 |
+| 5 | 結果画面・履歴・共有 | 承認済み |
+| 6 | 質問データベースの拡張（201問） | **完了・承認待ち** |
+| 7〜9 | オフライン → 総合テスト → 公開 | 未着手 |
 
 ## 開発の始め方
 
@@ -34,6 +35,7 @@ npm run dev       # 開発サーバー起動 → http://localhost:5173/age_quiz/
 | `npm run preview` | 本番ビルドをローカルで確認 |
 | `npm test` | 単体テスト・精度の回帰テスト（Vitest） |
 | `npm run test:e2e` | E2Eテスト（Playwright：スマホ2サイズ＋PC） |
+| `npm run test:layout` | 全質問のレイアウト確認（小さいスマホ2サイズでスクロールなしに収まるか） |
 | `npm run lint` / `npm run check` | Lint / 型検査 |
 | `npm run validate:data` | 質問データの形式・出典・整合性の検査 |
 | `npm run report:coverage` | 年代別経験確率と質問データ分析レポートの再生成 |
@@ -79,4 +81,5 @@ TypeScript 6.0 / Vite 8 / Svelte 5 / Vitest / Playwright / ESLint / Prettier。�
 | [docs/phase2/coverage-report.md](docs/phase2/coverage-report.md) | 質問データ分析レポート（自動生成） |
 | [docs/phase3/simulation-report.md](docs/phase3/simulation-report.md) | 推理エンジンのシミュレーション評価（自動生成） |
 | [docs/phase3/tuning.md](docs/phase3/tuning.md) | 推理パラメータの探索結果（自動生成） |
+| [docs/phase6/tuning.md](docs/phase6/tuning.md) | 201問への拡張に合わせたパラメータの再調整の記録 |
 | [docs/dev-log.md](docs/dev-log.md) | 開発記録 |

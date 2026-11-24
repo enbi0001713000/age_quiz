@@ -67,6 +67,8 @@ export class InferenceSession {
   private pending: CompiledQuestion | null = null;
   private finishReason: FinishReason | null = null;
   private surprises = 0;
+  /** 推理に使った回答の尤度（最終推定との整合性の確認に使う） */
+  private readonly usedLikelihoods: Float64Array[] = [];
   private lowGainStreak = 0;
   private lastCandidates: Candidate[] | null = null;
   private readonly basicTotal: number;
@@ -119,9 +121,27 @@ export class InferenceSession {
     return Float64Array.from(this.current);
   }
 
+  /**
+   * 現在の推定から見て「意外な回答」になっている回答の数。
+   * 回答直後の判定（surpriseCount）と違い、推定が固まった後に振り返って数える。
+   * 前半と後半で別の世代のように答えた場合、回答直後の判定は最初の1回しか反応しないため。
+   */
+  get conflictCount(): number {
+    const threshold = this.model.config.surpriseThreshold;
+    return this.usedLikelihoods.filter((l) => predictiveProbability(this.current, l) < threshold)
+      .length;
+  }
+
   /** 現在の推定結果（校正後） */
   estimate(): Estimate {
-    return summarize(this.current, this.model.grid, this.model.config);
+    const e = summarize(this.current, this.model.grid, this.model.config);
+    if (
+      e.confidence === 'high' &&
+      this.conflictCount > this.model.config.confidence.maxConflictsForHigh
+    ) {
+      return { ...e, confidence: 'medium' };
+    }
+    return e;
   }
 
   /** 次に出題する質問（終了していれば null）。回答するまで同じ質問を返す */
@@ -153,6 +173,7 @@ export class InferenceSession {
       this.current = posteriorFrom(this.model.prior, this.points);
       const mean = added.reduce((s, v) => s + v, 0) / added.length;
       if (surprise) this.surprises++;
+      this.usedLikelihoods.push(likelihood);
       record = {
         questionId: cq.question.id,
         optionId,

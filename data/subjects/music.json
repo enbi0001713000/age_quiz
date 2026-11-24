@@ -284,6 +284,497 @@
           "rationale": "後年も再結成などで知られていると推定"
         }
       }
+    },
+    {
+      "id": "onyanko",
+      "name": "おニャン子クラブ",
+      "genre": "music",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "1986",
+          "to": "1986",
+          "status": "verified",
+          "sources": ["src-jiyu-1986"],
+          "quote": "1986年 新語・流行語大賞 おニャン子：フジテレビで放映された「おニャン子クラブ」は…出演者のほとんどが素人の女子高生という点が斬新だった"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.55,
+          "status": "estimated",
+          "rationale": "大ブームになったアイドルグループとして推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        }
+      }
+    },
+    {
+      "id": "dayone",
+      "name": "EAST END×YURI「DA.YO.NE」（Jラップのブーム）",
+      "genre": "music",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "1995",
+          "to": "1995",
+          "status": "verified",
+          "sources": ["src-jiyu-1995"],
+          "quote": "1995年 新語・流行語大賞 だ・よ・ね（ＤＡ・ＹＯ・ＮＥ）：1995年の音楽シーンで爆発的ブームを巻き起こしたのがＪラップ"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.5,
+          "status": "estimated",
+          "rationale": "爆発的なブーム（出典）として推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        }
+      }
+    },
+    {
+      "id": "akb48-boom",
+      "name": "AKB48のブーム",
+      "genre": "music",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "2010",
+          "to": "2010",
+          "status": "verified",
+          "sources": ["src-jiyu-2010"],
+          "quote": "2010年 新語・流行語大賞 ＡＫＢ４８：コンセプトは「会いに行けるアイドル」…いまどき最も成功している"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [10, 40],
+          "status": "estimated",
+          "rationale": "10代〜若い大人を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.5,
+          "status": "estimated",
+          "rationale": "大ブームとして推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.6,
+          "ceiling": 0.98,
+          "rationale": "広く知られていると推定"
+        },
+        "activeUntil": {
+          "value": 2014,
+          "status": "estimated",
+          "rationale": "流行の中心（2010年）から数年続いたと推定"
+        }
+      }
+    },
+    {
+      "id": "ppap",
+      "name": "ピコ太郎「PPAP」",
+      "genre": "music",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "2016",
+          "to": "2016",
+          "status": "verified",
+          "sources": ["src-jiyu-2016"],
+          "quote": "2016年 新語・流行語大賞 ＰＰＡＰ：「ペンパイナッポーアッポーペン」（PPAP）が2016年10月29日付、米「ビルボードHOT100」に…チャートインを果たし"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.6,
+          "status": "estimated",
+          "rationale": "世界的に話題になった曲として推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        }
+      }
+    },
+    {
+      "id": "usseewa",
+      "name": "Ado「うっせぇわ」",
+      "genre": "music",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "2021",
+          "to": "2021",
+          "status": "verified",
+          "sources": ["src-jiyu-2021"],
+          "quote": "2021年 新語・流行語大賞 うっせぇわ（トップテン）：大人に悪態をつくのは、思春期の不良と相場は決まっていた。しかし、この歌の主人公は「ちっちゃな頃から優等生」"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.55,
+          "status": "estimated",
+          "rationale": "トップテンになった曲として推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        }
+      }
+    },
+    {
+      "id": "dango3",
+      "name": "だんご3兄弟",
+      "genre": "music",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "1999",
+          "to": "1999",
+          "status": "verified",
+          "sources": ["src-jiyu-1999"],
+          "quote": "1999年 新語・流行語大賞 だんご３兄弟：1999年１月、「おかあさんといっしょ」で歌われたコミックソング…突然ブームに火がつき、ＣＤの予約販売に客が殺到し"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [3, 60],
+          "status": "estimated",
+          "rationale": "子ども向け番組の歌だが、親世代まで広くブームになった（出典から推定）"
+        },
+        "ceiling": {
+          "value": 0.75,
+          "status": "estimated",
+          "rationale": "大ブームとして推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "当時を知る人には広く知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "hikawa-yadane",
+      "name": "氷川きよし「箱根八里の半次郎」（ヤだねったら、ヤだね）",
+      "genre": "music",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "2001",
+          "to": "2001",
+          "status": "verified",
+          "sources": ["src-jiyu-2001"],
+          "quote": "2001年 新語・流行語大賞 ヤだねったら、ヤだね：2000年にリリースされた、演歌歌手・氷川きよしが歌う『箱根八里の半次郎』の歌詞から流行語化"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [8, 85],
+          "status": "estimated",
+          "rationale": "演歌のヒット曲で、子どもから高齢者まで知られたと推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.55,
+          "status": "estimated",
+          "rationale": "流行語になったヒット曲として推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "氷川きよしは広く知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "koda-erokakkoii",
+      "name": "倖田來未の「エロカッコイイ」",
+      "genre": "music",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "2006",
+          "to": "2006",
+          "status": "verified",
+          "sources": ["src-jiyu-2006"],
+          "quote": "2006年 新語・流行語大賞 エロカッコイイ：際どい衣装で一気に人気者になった倖田來未。彼女のセクシーな衣装やスタイルは、「カッコイイ・カワイイ」ファッションとして認知され"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [12, 30],
+          "status": "estimated",
+          "rationale": "10代〜若い大人を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.4,
+          "status": "estimated",
+          "rationale": "人気だったが、聞いていた人は一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.9,
+          "rationale": "当時を知る人には知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "tarako-cm",
+      "name": "キューピーのCMソング「たらこ・たらこ・たらこ」",
+      "genre": "music",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "2006",
+          "to": "2006",
+          "status": "verified",
+          "sources": ["src-jiyu-2006"],
+          "quote": "2006年 新語・流行語大賞 たらこ・たらこ・たらこ：キューピーのＣＭに登場する「たらこキューピー」…小学生ユニット・キグルミが歌うＣＭソングはＣＤ化され、オリコン初登場で２位に入るヒット"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [4, 60],
+          "status": "estimated",
+          "rationale": "テレビCMのため、子どもから大人までと推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.6,
+          "status": "estimated",
+          "rationale": "ヒットしたCMソングとして推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.3,
+          "ceiling": 0.9,
+          "rationale": "当時を知る人には知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "atarashii-gakko",
+      "name": "新しい学校のリーダーズの「首振りダンス」",
+      "genre": "music",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "2023",
+          "to": "2023",
+          "status": "verified",
+          "sources": ["src-jiyu-2023"],
+          "quote": "2023年 新語・流行語大賞 新しい学校のリーダーズ／首振りダンス：楽曲『オトナブルー』で披露される「首振りダンス」は今年ＴｉｋＴｏｋで人気を集め"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [10, 30],
+          "status": "estimated",
+          "rationale": "TikTokで人気（出典）。10代〜若い大人を中心と推定"
+        },
+        "ceiling": {
+          "value": 0.4,
+          "status": "estimated",
+          "rationale": "話題になったが、見た人は一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.3,
+          "ceiling": 0.9,
+          "rationale": "当時を知る人には知られていると推定"
+        },
+        "activeUntil": {
+          "value": 2024,
+          "status": "estimated",
+          "rationale": "流行の中心（2023年）から1年ほど続いたと推定"
+        }
+      }
+    },
+    {
+      "id": "taiyakikun",
+      "name": "子門真人「およげ！たいやきくん」",
+      "genre": "music",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1975-10",
+          "status": "verified",
+          "sources": ["src-excite-taiyaki"],
+          "quote": "オリジナルの「およげ！たいやきくん」はいまからちょうど40年前、1975年10月よりフジテレビの子供番組「ひらけ！ポンキッキ」で流された。同年末のクリスマスにはレコードが発売、翌年にかけて大ヒットとなり"
+        },
+        "peak": {
+          "from": "1976",
+          "to": "1976",
+          "status": "derived",
+          "sources": ["src-excite-taiyaki"],
+          "quote": "同年末のクリスマスにはレコードが発売、翌年にかけて大ヒットとなり",
+          "rule": "「翌年にかけて大ヒット」を1976年とみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [3, 50],
+          "status": "estimated",
+          "rationale": "子ども番組の歌だが、大人まで大ヒットした（出典）"
+        },
+        "ceiling": {
+          "value": 0.8,
+          "status": "estimated",
+          "rationale": "日本一売れたシングルレコード（出典）として高めに設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.6,
+          "ceiling": 0.97,
+          "rationale": "広く知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "beatles-1966",
+      "name": "ビートルズの来日（1966年）",
+      "genre": "music",
+      "kind": "event",
+      "facts": {
+        "start": {
+          "date": "1966-06-29",
+          "status": "verified",
+          "sources": ["src-nippon-beatles"],
+          "quote": "1966（昭和41）年 ザ・ビートルズが初来日。日本武道館で30日夜、7月1日昼・夜、同2日昼・夜の3日間で計5回の公演を開催。"
+        },
+        "end": {
+          "date": "1966-07-02",
+          "status": "verified",
+          "sources": ["src-nippon-beatles"],
+          "quote": "日本武道館で30日夜、7月1日昼・夜、同2日昼・夜の3日間で計5回の公演を開催。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [8, 99],
+          "status": "estimated",
+          "rationale": "当時のニュースを理解できた8歳ごろ以降と推定"
+        },
+        "ceiling": {
+          "value": 0.6,
+          "status": "estimated",
+          "rationale": "大きな話題になったが、記憶している人は一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.6,
+          "ceiling": 0.97,
+          "rationale": "出来事として広く知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "itunes-store",
+      "name": "iTunes Store（音楽のダウンロード購入）",
+      "genre": "music",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2005-08-04",
+          "status": "verified",
+          "sources": ["src-avwatch-itunes-jp"],
+          "quote": "Apple Computerは4日、音楽配信サイト「iTunes Music Store(iTMS)」を日本国内でスタートした。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [13, 50],
+          "status": "estimated",
+          "rationale": "パソコンや携帯音楽プレーヤーを使う10代〜大人と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.4,
+          "status": "estimated",
+          "rationale": "利用した人は一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "広く知られていると推定"
+        },
+        "activeUntil": {
+          "value": 2015,
+          "status": "estimated",
+          "rationale": "定額配信サービスの普及（2015年、既存の対象「定額配信」の出典）までを中心期間と推定"
+        }
+      }
+    },
+    {
+      "id": "stereo",
+      "name": "ステレオ（大型のオーディオ機器）",
+      "genre": "music",
+      "kind": "household",
+      "facts": {
+        "series": {
+          "statId": "cao-durables-penetration",
+          "key": "stereo",
+          "kind": "household_penetration",
+          "after": {
+            "mode": "linear_to_zero",
+            "rationale": "統計は2004年3月で終了。その後はCD・配信やスマートフォンへの移行で減ったと推定し、2025年に向けて直線的に0へ近づける",
+            "untilYear": 2025
+          }
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "小学生の頃の家庭"
+        },
+        "ceiling": {
+          "value": 1.0,
+          "status": "statistic",
+          "rationale": "世帯普及率をそのまま使う"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.0,
+          "ceiling": 1.0,
+          "rationale": "世帯保有型は認知を別途計算"
+        }
+      }
     }
   ]
 }

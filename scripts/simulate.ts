@@ -56,7 +56,7 @@ L.push('');
 L.push('## 1. 条件');
 L.push('');
 L.push(
-  `- 質問データ：${dataset.questions.length}問（Phase 2 試作）／基準年 ${REFERENCE_YEAR}／回答者：10〜90歳の各生年 ${EVAL_PER_YEAR}人（${runs[0]!.m.n}人／シナリオ）`,
+  `- 質問データ：${dataset.questions.length}問／基準年 ${REFERENCE_YEAR}／回答者：10〜90歳の各生年 ${EVAL_PER_YEAR}人（${runs[0]!.m.n}人／シナリオ）`,
 );
 const c = DEFAULT_CONFIG;
 L.push(

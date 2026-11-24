@@ -185,6 +185,689 @@
       "relatedIds": [],
       "basicPool": false,
       "notes": "大人として対応したかを問う（子どもの頃の記憶ではない）"
+    },
+    {
+      "id": "TVC-005",
+      "status": "verified",
+      "genre": "tv_cm",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "テレビ番組『月光仮面』を、最初の放送当時（1958年ごろ）に見ていましたか？",
+      "subject": "gekko-kamen",
+      "options": [
+        {
+          "id": "a",
+          "label": "毎週のように見ていた",
+          "kind": "heavy",
+          "insight": "月光仮面（テレビ映画）（1958年〜1959年）を5〜13歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ときどき見ていた",
+          "kind": "light",
+          "insight": "月光仮面（テレビ映画）（1958年〜1959年）の時期に5〜13歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが放送当時は見ていない",
+          "kind": "aware_only",
+          "insight": "月光仮面（テレビ映画）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "月光仮面（テレビ映画）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "TVC-006",
+      "status": "verified",
+      "genre": "tv_cm",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "音楽番組『ザ・ベストテン』を、放送当時に見ていましたか？",
+      "subject": "the-best-ten",
+      "options": [
+        {
+          "id": "a",
+          "label": "毎週のように見ていた",
+          "kind": "heavy",
+          "insight": "ザ・ベストテン（1978年〜1989年）を10〜30歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ときどき見ていた",
+          "kind": "light",
+          "insight": "ザ・ベストテン（1978年〜1989年）の時期に10〜30歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが放送当時は見ていない",
+          "kind": "aware_only",
+          "insight": "ザ・ベストテンを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ザ・ベストテンの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "TVC-007",
+      "status": "verified",
+      "genre": "tv_cm",
+      "difficulty": "easy",
+      "type": "experience",
+      "text": "『笑っていいとも！』を、放送当時（2014年まで）にリアルタイムで見たことがありますか？",
+      "subject": "iitomo",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく見ていた",
+          "kind": "heavy",
+          "insight": "笑っていいとも！（1982年〜2014年）を6〜70歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ときどき見ていた",
+          "kind": "light",
+          "insight": "笑っていいとも！（1982年〜2014年）の時期に6〜70歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが放送当時は見ていない",
+          "kind": "aware_only",
+          "insight": "笑っていいとも！を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "笑っていいとも！の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "TVC-008",
+      "status": "verified",
+      "genre": "tv_cm",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "『天才たけしの元気が出るテレビ!!』の「ダンス甲子園」を、当時見ていましたか？",
+      "subject": "dance-koshien",
+      "options": [
+        {
+          "id": "a",
+          "label": "毎週のように見ていた",
+          "kind": "heavy",
+          "insight": "ダンス甲子園（『天才たけしの元気が出るテレビ!!』）（1991年）を10〜22歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ときどき見ていた",
+          "kind": "light",
+          "insight": "ダンス甲子園（『天才たけしの元気が出るテレビ!!』）（1991年）の時期に10〜22歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが放送当時は見ていない",
+          "kind": "aware_only",
+          "insight": "ダンス甲子園（『天才たけしの元気が出るテレビ!!』）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ダンス甲子園（『天才たけしの元気が出るテレビ!!』）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "TVC-009",
+      "status": "verified",
+      "genre": "tv_cm",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "フジテレビの朝の番組『ウゴウゴルーガ』を、当時見ていましたか？",
+      "subject": "ugougo-luga",
+      "options": [
+        {
+          "id": "a",
+          "label": "毎週のように見ていた",
+          "kind": "heavy",
+          "insight": "ウゴウゴルーガ（1993年）を5〜22歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ときどき見ていた",
+          "kind": "light",
+          "insight": "ウゴウゴルーガ（1993年）の時期に5〜22歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが放送当時は見ていない",
+          "kind": "aware_only",
+          "insight": "ウゴウゴルーガを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ウゴウゴルーガの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "TVC-010",
+      "status": "verified",
+      "genre": "tv_cm",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "ドラマ『家なき子』（「同情するならカネをくれ」）を、放送当時に見ていましたか？",
+      "subject": "ienakiko",
+      "options": [
+        {
+          "id": "a",
+          "label": "毎週のように見ていた",
+          "kind": "heavy",
+          "insight": "家なき子（日本テレビのドラマ）（1994年）を8〜40歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ときどき見ていた",
+          "kind": "light",
+          "insight": "家なき子（日本テレビのドラマ）（1994年）の時期に8〜40歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが放送当時は見ていない",
+          "kind": "aware_only",
+          "insight": "家なき子（日本テレビのドラマ）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "家なき子（日本テレビのドラマ）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "TVC-011",
+      "status": "verified",
+      "genre": "tv_cm",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "『トリビアの泉』（「へぇ～」ボタン）を、放送当時に見ていましたか？",
+      "subject": "trivia-no-izumi",
+      "options": [
+        {
+          "id": "a",
+          "label": "毎週のように見ていた",
+          "kind": "heavy",
+          "insight": "トリビアの泉（2003年）を8〜50歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ときどき見ていた",
+          "kind": "light",
+          "insight": "トリビアの泉（2003年）の時期に8〜50歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが放送当時は見ていない",
+          "kind": "aware_only",
+          "insight": "トリビアの泉を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "トリビアの泉の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "TVC-012",
+      "status": "verified",
+      "genre": "tv_cm",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "ドラマ『半沢直樹』を、最初の放送当時（2013年）に見ていましたか？",
+      "subject": "hanzawa-2013",
+      "options": [
+        {
+          "id": "a",
+          "label": "毎週のように見ていた",
+          "kind": "heavy",
+          "insight": "半沢直樹（2013年のドラマ）（2013年）を10〜75歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ときどき見ていた",
+          "kind": "light",
+          "insight": "半沢直樹（2013年のドラマ）（2013年）の時期に10〜75歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが放送当時は見ていない",
+          "kind": "aware_only",
+          "insight": "半沢直樹（2013年のドラマ）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "半沢直樹（2013年のドラマ）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "group": "drama-2013",
+      "relatedIds": ["TVC-013"],
+      "basicPool": false
+    },
+    {
+      "id": "TVC-013",
+      "status": "verified",
+      "genre": "tv_cm",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "NHKの朝ドラ『あまちゃん』（「じぇじぇじぇ」）を、放送当時に見ていましたか？",
+      "subject": "amachan",
+      "options": [
+        {
+          "id": "a",
+          "label": "毎週のように見ていた",
+          "kind": "heavy",
+          "insight": "あまちゃん（NHK連続テレビ小説）（2013年）を10〜75歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ときどき見ていた",
+          "kind": "light",
+          "insight": "あまちゃん（NHK連続テレビ小説）（2013年）の時期に10〜75歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが放送当時は見ていない",
+          "kind": "aware_only",
+          "insight": "あまちゃん（NHK連続テレビ小説）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "あまちゃん（NHK連続テレビ小説）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "group": "drama-2013",
+      "relatedIds": ["TVC-012"],
+      "basicPool": false
+    },
+    {
+      "id": "TVC-014",
+      "status": "verified",
+      "genre": "tv_cm",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "韓国ドラマ『冬のソナタ』（ヨン様）のブームの頃（2004年ごろ）、ドラマを見ていましたか？",
+      "subject": "winter-sonata",
+      "options": [
+        {
+          "id": "a",
+          "label": "毎週のように見ていた",
+          "kind": "heavy",
+          "insight": "冬のソナタ（韓国ドラマ）（2004年）を35〜70歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ときどき見ていた",
+          "kind": "light",
+          "insight": "冬のソナタ（韓国ドラマ）（2004年）の時期に35〜70歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが放送当時は見ていない",
+          "kind": "aware_only",
+          "insight": "冬のソナタ（韓国ドラマ）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "冬のソナタ（韓国ドラマ）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.6,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false,
+      "notes": "中年女性を中心としたブームのため、性別で回答が変わりやすい"
+    },
+    {
+      "id": "TVC-015",
+      "status": "verified",
+      "genre": "tv_cm",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "栄養ドリンクのCMソング「24時間タタカエマスカ」が流行った頃のことを覚えていますか？",
+      "subject": "cm-24h",
+      "options": [
+        {
+          "id": "a",
+          "label": "はっきり覚えている",
+          "kind": "heavy",
+          "insight": "リゲインのCM「24時間タタカエマスカ」（1989年）を6〜70歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "なんとなく覚えている",
+          "kind": "light",
+          "insight": "リゲインのCM「24時間タタカエマスカ」（1989年）の時期に6〜70歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時の記憶はない",
+          "kind": "aware_only",
+          "insight": "リゲインのCM「24時間タタカエマスカ」を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "リゲインのCM「24時間タタカエマスカ」の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "group": "cm-1980s",
+      "relatedIds": ["TVC-017"],
+      "basicPool": false
+    },
+    {
+      "id": "TVC-016",
+      "status": "verified",
+      "genre": "tv_cm",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "宮沢りえさんのCMのセリフ「すったもんだがありました」が流行った頃のことを覚えていますか？",
+      "subject": "cm-suttamonda",
+      "options": [
+        {
+          "id": "a",
+          "label": "はっきり覚えている",
+          "kind": "heavy",
+          "insight": "タカラ「カンチューハイ」のCM「すったもんだがありました」（1994年）を8〜70歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "なんとなく覚えている",
+          "kind": "light",
+          "insight": "タカラ「カンチューハイ」のCM「すったもんだがありました」（1994年）の時期に8〜70歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時の記憶はない",
+          "kind": "aware_only",
+          "insight": "タカラ「カンチューハイ」のCM「すったもんだがありました」を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "タカラ「カンチューハイ」のCM「すったもんだがありました」の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "TVC-017",
+      "status": "verified",
+      "genre": "tv_cm",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "殺虫剤のCMのフレーズ「亭主元気で留守がいい」が流行った頃のことを覚えていますか？",
+      "subject": "cm-teishu",
+      "options": [
+        {
+          "id": "a",
+          "label": "はっきり覚えている",
+          "kind": "heavy",
+          "insight": "キンチョウのCM「亭主元気で留守がいい」（1986年）を8〜70歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "なんとなく覚えている",
+          "kind": "light",
+          "insight": "キンチョウのCM「亭主元気で留守がいい」（1986年）の時期に8〜70歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時の記憶はない",
+          "kind": "aware_only",
+          "insight": "キンチョウのCM「亭主元気で留守がいい」を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "キンチョウのCM「亭主元気で留守がいい」の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "group": "cm-1980s",
+      "relatedIds": ["TVC-015"],
+      "basicPool": false
+    },
+    {
+      "id": "TVC-018",
+      "status": "verified",
+      "genre": "tv_cm",
+      "difficulty": "easy",
+      "type": "era_choice",
+      "text": "10代の頃に流行ったお笑いのギャグは？",
+      "ageWindow": [10, 19],
+      "options": [
+        {
+          "id": "a",
+          "label": "「…じゃあ～りませんか」",
+          "kind": "era",
+          "subject": "gag-charlie",
+          "insight": "チャーリー浜「…じゃあ～りませんか」（1991年）の頃に10〜19歳だった人に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "「おっはー」",
+          "kind": "era",
+          "subject": "gag-ohha",
+          "insight": "慎吾ママ「おっはー」（2000年）の頃に10〜19歳だった人に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "「フォー！」",
+          "kind": "era",
+          "subject": "gag-hg",
+          "insight": "レイザーラモンHG「フォー！」（2005年）の頃に10〜19歳だった人に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "「ワイルドだろぉ」",
+          "kind": "era",
+          "subject": "gag-wild",
+          "insight": "スギちゃん「ワイルドだろぉ」（2012年）の頃に10〜19歳だった人に多い回答"
+        },
+        {
+          "id": "e",
+          "label": "「35億」",
+          "kind": "era",
+          "subject": "gag-35oku",
+          "insight": "ブルゾンちえみ「35億」（2017年）の頃に10〜19歳だった人に多い回答"
+        },
+        {
+          "id": "f",
+          "label": "この中にはない",
+          "kind": "none_of_these",
+          "insight": "選択肢のどの時代にも当てはまらない世代（より上の世代や、より下の世代）に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.2,
+      "group": "gag",
+      "relatedIds": [],
+      "basicPool": true
+    },
+    {
+      "id": "TVC-019",
+      "status": "verified",
+      "genre": "tv_cm",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "IKKOさんの「どんだけぇ～」が流行った頃（2007年ごろ）のことを覚えていますか？",
+      "subject": "dondake",
+      "options": [
+        {
+          "id": "a",
+          "label": "はっきり覚えている",
+          "kind": "heavy",
+          "insight": "IKKOさんの「どんだけぇ～」（2007年）を8〜60歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "なんとなく覚えている",
+          "kind": "light",
+          "insight": "IKKOさんの「どんだけぇ～」（2007年）の時期に8〜60歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時の記憶はない",
+          "kind": "aware_only",
+          "insight": "IKKOさんの「どんだけぇ～」を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "IKKOさんの「どんだけぇ～」の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
     }
   ]
 }

@@ -299,6 +299,584 @@
           "rationale": "テレビ放送と直後の話題の期間を約2年と推定"
         }
       }
+    },
+    {
+      "id": "sally-1966",
+      "name": "魔法使いサリー（第1期）",
+      "genre": "anime_manga",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1966-12-05",
+          "status": "verified",
+          "sources": ["src-toei-sally"],
+          "quote": "放映期間：1966年12月05日～1968年12月30日"
+        },
+        "end": {
+          "date": "1968-12-30",
+          "status": "verified",
+          "sources": ["src-toei-sally"],
+          "quote": "放映期間：1966年12月05日～1968年12月30日"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [4, 12],
+          "status": "estimated",
+          "rationale": "子ども向けのテレビアニメ。小学生を中心に幼児から中学生くらいまでと推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.45,
+          "status": "estimated",
+          "rationale": "女の子に人気が偏ったと推定し、やや低めに設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.2,
+          "ceiling": 0.85,
+          "rationale": "世代外では知らない人も多いと推定"
+        }
+      }
+    },
+    {
+      "id": "tigermask-1969",
+      "name": "タイガーマスク（テレビアニメ）",
+      "genre": "anime_manga",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1969-10-02",
+          "status": "verified",
+          "sources": ["src-toei-tigermask"],
+          "quote": "放映開始：1969年10月2日"
+        },
+        "end": {
+          "date": "1971-09-30",
+          "status": "verified",
+          "sources": ["src-toei-tigermask"],
+          "quote": "放映終了：1971年9月30日"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [5, 14],
+          "status": "estimated",
+          "rationale": "子ども向けのテレビアニメ。小学生を中心に幼児から中学生くらいまでと推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.5,
+          "status": "estimated",
+          "rationale": "男の子に人気が偏ったと推定し、やや低めに設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.3,
+          "ceiling": 0.9,
+          "rationale": "名前は世代外にも知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "kyojin-no-hoshi",
+      "name": "巨人の星（テレビアニメ）",
+      "genre": "anime_manga",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1968-03-30",
+          "status": "verified",
+          "sources": ["src-bunshun-kyojin"],
+          "quote": "1968（昭和43）年3月30日、読売テレビ制作・日本テレビ系でアニメ『巨人の星』の放送が始まった。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 15],
+          "status": "estimated",
+          "rationale": "子ども向けのテレビアニメ。小学生を中心に幼児から中学生くらいまでと推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.6,
+          "status": "estimated",
+          "rationale": "「常時30％台の高視聴率を記録」（出典）のため高めに推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.95,
+          "rationale": "スポ根物の元祖として広く知られていると推定"
+        },
+        "activeUntil": {
+          "value": 1971,
+          "status": "estimated",
+          "rationale": "放送は数年続いたと推定（終了時期は信頼できる出典で未確認のため推定）"
+        }
+      }
+    },
+    {
+      "id": "galaxy-express-999",
+      "name": "銀河鉄道999（テレビアニメ）",
+      "genre": "anime_manga",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1978-09-14",
+          "status": "verified",
+          "sources": ["src-toei-999"],
+          "quote": "放映期間：1978年9月14日～1981年3月26日"
+        },
+        "end": {
+          "date": "1981-03-26",
+          "status": "verified",
+          "sources": ["src-toei-999"],
+          "quote": "放映期間：1978年9月14日～1981年3月26日"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 15],
+          "status": "estimated",
+          "rationale": "子ども向けのテレビアニメ。小学生を中心に幼児から中学生くらいまでと推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.45,
+          "status": "estimated",
+          "rationale": "人気作だが毎週見ていた人は一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.95,
+          "rationale": "作品名は世代外にも広く知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "arale-1981",
+      "name": "Dr.スランプ アラレちゃん",
+      "genre": "anime_manga",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1981-04-08",
+          "status": "verified",
+          "sources": ["src-toei-arale"],
+          "quote": "1981年04月08日～1986年02月19日"
+        },
+        "end": {
+          "date": "1986-02-19",
+          "status": "verified",
+          "sources": ["src-toei-arale"],
+          "quote": "1981年04月08日～1986年02月19日"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [4, 12],
+          "status": "estimated",
+          "rationale": "子ども向けのテレビアニメ。小学生を中心に幼児から中学生くらいまでと推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.7,
+          "status": "estimated",
+          "rationale": "男女を問わず子どもに大人気だったと推定し、高めに設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.97,
+          "rationale": "作品名は世代外にも広く知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "kinnikuman-1983",
+      "name": "キン肉マン（テレビアニメ）",
+      "genre": "anime_manga",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1983-04-03",
+          "status": "verified",
+          "sources": ["src-toei-kinniku"],
+          "quote": "放映開始：1983年4月3日"
+        },
+        "end": {
+          "date": "1986-02-02",
+          "status": "verified",
+          "sources": ["src-toei-kinniku"],
+          "quote": "放映終了：1986年2月2日"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [5, 13],
+          "status": "estimated",
+          "rationale": "子ども向けのテレビアニメ。小学生を中心に幼児から中学生くらいまでと推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.5,
+          "status": "estimated",
+          "rationale": "男の子に人気が偏ったと推定し、やや低めに設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.95,
+          "rationale": "作品名は世代外にも広く知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "hokuto-1984",
+      "name": "北斗の拳（テレビアニメ）",
+      "genre": "anime_manga",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1984-10-11",
+          "status": "verified",
+          "sources": ["src-toei-hokuto"],
+          "quote": "放映期間：1984（昭和59）年10月11日～1987（昭和62）年3月5日"
+        },
+        "end": {
+          "date": "1987-03-05",
+          "status": "verified",
+          "sources": ["src-toei-hokuto"],
+          "quote": "放映期間：1984（昭和59）年10月11日～1987（昭和62）年3月5日"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [8, 16],
+          "status": "estimated",
+          "rationale": "小学校高学年〜高校生を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.45,
+          "status": "estimated",
+          "rationale": "男の子に人気が偏ったと推定し、やや低めに設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.95,
+          "rationale": "作品名は世代外にも広く知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "seiya-1986",
+      "name": "聖闘士星矢（テレビアニメ）",
+      "genre": "anime_manga",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1986-10-11",
+          "status": "verified",
+          "sources": ["src-toei-seiya"],
+          "quote": "放映開始：1986年10月11日"
+        },
+        "end": {
+          "date": "1989-04-01",
+          "status": "verified",
+          "sources": ["src-toei-seiya"],
+          "quote": "放映終了：1989年4月1日"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 14],
+          "status": "estimated",
+          "rationale": "子ども向けのテレビアニメ。小学生を中心に幼児から中学生くらいまでと推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.45,
+          "status": "estimated",
+          "rationale": "人気作だが毎週見ていた人は一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.95,
+          "rationale": "作品名は世代外にも広く知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "slamdunk-1993",
+      "name": "スラムダンク（テレビアニメ）",
+      "genre": "anime_manga",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1993-10-16",
+          "status": "verified",
+          "sources": ["src-toei-slamdunk"],
+          "quote": "放映期間：1993年10月16日～1996年3月23日"
+        },
+        "end": {
+          "date": "1996-03-23",
+          "status": "verified",
+          "sources": ["src-toei-slamdunk"],
+          "quote": "放映期間：1993年10月16日～1996年3月23日"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [8, 16],
+          "status": "estimated",
+          "rationale": "小学校高学年〜高校生を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.5,
+          "status": "estimated",
+          "rationale": "部活動の人気にも影響した人気作として推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.95,
+          "rationale": "作品名は世代外にも広く知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "doremi-1999",
+      "name": "おジャ魔女どれみ（最初のシリーズ）",
+      "genre": "anime_manga",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1999-02-07",
+          "status": "verified",
+          "sources": ["src-toei-doremi"],
+          "quote": "放映期間：1999年2月7日～2000年1月30日"
+        },
+        "end": {
+          "date": "2000-01-30",
+          "status": "verified",
+          "sources": ["src-toei-doremi"],
+          "quote": "放映期間：1999年2月7日～2000年1月30日"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [3, 10],
+          "status": "estimated",
+          "rationale": "幼児〜小学校低学年を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.45,
+          "status": "estimated",
+          "rationale": "女の子に人気が偏ったと推定し、やや低めに設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.15,
+          "ceiling": 0.8,
+          "rationale": "世代外では知らない人も多いと推定"
+        }
+      }
+    },
+    {
+      "id": "digimon-adventure-1999",
+      "name": "デジモンアドベンチャー（最初のテレビシリーズ）",
+      "genre": "anime_manga",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1999-03-07",
+          "status": "verified",
+          "sources": ["src-toei-digimon"],
+          "quote": "1999年3月7日より2000年3月26日まで、フジテレビ系列にて放送された人気アニメ・デジモンシリーズの1作目です。"
+        },
+        "end": {
+          "date": "2000-03-26",
+          "status": "verified",
+          "sources": ["src-toei-digimon"],
+          "quote": "1999年3月7日より2000年3月26日まで、フジテレビ系列にて放送された人気アニメ・デジモンシリーズの1作目です。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [5, 13],
+          "status": "estimated",
+          "rationale": "子ども向けのテレビアニメ。小学生を中心に幼児から中学生くらいまでと推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.45,
+          "status": "estimated",
+          "rationale": "人気作だが毎週見ていた人は一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.15,
+          "ceiling": 0.8,
+          "rationale": "世代外では知らない人も多いと推定"
+        }
+      }
+    },
+    {
+      "id": "precure-2004",
+      "name": "ふたりはプリキュア（最初のシリーズ）",
+      "genre": "anime_manga",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2004-02-01",
+          "status": "verified",
+          "sources": ["src-toei-precure"],
+          "quote": "放映開始：2004年2月1日"
+        },
+        "end": {
+          "date": "2005-01-30",
+          "status": "verified",
+          "sources": ["src-toei-precure"],
+          "quote": "放映終了：2005年1月30日"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [3, 10],
+          "status": "estimated",
+          "rationale": "幼児〜小学校低学年を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.45,
+          "status": "estimated",
+          "rationale": "女の子に人気が偏ったと推定し、やや低めに設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.15,
+          "ceiling": 0.8,
+          "rationale": "シリーズ名は知られているが、最初の作品は世代外では知らない人も多いと推定"
+        }
+      }
+    },
+    {
+      "id": "doraemon-oyama",
+      "name": "テレビアニメ『ドラえもん』（大山のぶ代さんが声を担当していた時期）",
+      "genre": "anime_manga",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1979-04",
+          "status": "verified",
+          "sources": ["src-mynavi-doraemon"],
+          "quote": "1979年4月にテレ朝系列で『ドラえもん』2作目が放送開始されると同時に、大山さん演じるドラえもんは誕生。"
+        },
+        "end": {
+          "date": "2005-03",
+          "status": "verified",
+          "sources": ["src-mynavi-doraemon"],
+          "quote": "2005年3月に声優陣が交代するまでの26年間、ドラえもんの声優として活躍しました。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [3, 12],
+          "status": "estimated",
+          "rationale": "幼児〜小学生を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.85,
+          "status": "estimated",
+          "rationale": "長年にわたり子どもの多くが見ていた国民的アニメとして高めに推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.7,
+          "ceiling": 0.99,
+          "rationale": "声優交代は広く報道され、知っている人が多いと推定"
+        }
+      }
+    },
+    {
+      "id": "chibimaruko-boom",
+      "name": "『ちびまる子ちゃん』の大ブーム",
+      "genre": "anime_manga",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "1990",
+          "to": "1990",
+          "status": "verified",
+          "sources": ["src-jiyu-1990"],
+          "quote": "1990年 新語・流行語大賞 ちびまる子ちゃん（現象）：なぜ日本で大ブームになっているかをレポートした"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 15],
+          "status": "estimated",
+          "rationale": "子ども向けのテレビアニメ。小学生を中心に幼児から中学生くらいまでと推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.6,
+          "status": "estimated",
+          "rationale": "社会現象になった大ブームとして推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.97,
+          "rationale": "現在も放送が続き、作品は広く知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "kimetsu-boom",
+      "name": "『鬼滅の刃』の社会現象的な流行",
+      "genre": "anime_manga",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2019-04-06",
+          "status": "verified",
+          "sources": ["src-animeanime-kimetsu"],
+          "quote": "TVアニメ『鬼滅の刃』は2019年4月6日から、TOKYO MX、BS11、読売テレビほかにて順次放送。"
+        },
+        "peak": {
+          "from": "2020",
+          "to": "2020",
+          "status": "verified",
+          "sources": ["src-jiyu-2020"],
+          "quote": "2020年 新語・流行語大賞 鬼滅の刃：昨年4月から9月にかけてアニメ版が放映され、本格的な流行となった。ファン層は、子どもから大人まで幅広く"
+        },
+        "audience": {
+          "ages": [6, 49],
+          "gender": "all",
+          "status": "derived",
+          "sources": ["src-jiyu-2020"],
+          "quote": "ファン層は、子どもから大人まで幅広く",
+          "rule": "「子どもから大人まで」を6〜49歳とみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 45],
+          "status": "estimated",
+          "rationale": "ファン層は子どもから大人まで幅広い（出典）。年齢の高い層ほど見た人は少ないと推定"
+        },
+        "ceiling": {
+          "value": 0.5,
+          "status": "estimated",
+          "rationale": "社会現象になったが、見た人は約半数と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.6,
+          "ceiling": 0.97,
+          "rationale": "社会現象として広く知られたと推定"
+        },
+        "activeUntil": {
+          "value": 2024,
+          "status": "estimated",
+          "rationale": "流行の中心は2020年（出典）。その後もシリーズ放送が続いたため、2024年ごろまでとみなす"
+        }
+      }
     }
   ]
 }

@@ -250,6 +250,439 @@
           "rationale": "人気の中心期を約8年と推定"
         }
       }
+    },
+    {
+      "id": "windows95",
+      "name": "Windows 95の発売（1995年）",
+      "genre": "internet_sns",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1995-11",
+          "status": "verified",
+          "sources": ["src-famitsu-windows95"],
+          "quote": "1995年11月22日、秋葉原は異様な熱気に包まれていた。…そして、11月23日の午前零時。各大型店舗の店頭でカウントダウンの声が響く。"
+        },
+        "peak": {
+          "from": "1995",
+          "to": "1995",
+          "status": "verified",
+          "sources": ["src-jiyu-1995"],
+          "quote": "1995年 新語・流行語大賞 インターネット：加入利用者数４０００万人、約１５０カ国…お化けのような情報交換システム「インターネット」"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [12, 60],
+          "status": "estimated",
+          "rationale": "パソコンに触れる中高生〜大人と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.35,
+          "status": "estimated",
+          "rationale": "当時パソコンを使っていた人は一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "社会現象として知られたと推定"
+        },
+        "activeUntil": {
+          "value": 1998,
+          "status": "estimated",
+          "rationale": "後継OSの発売（1998年、同出典）までを中心期間とみなす"
+        }
+      }
+    },
+    {
+      "id": "yahoo-japan-1996",
+      "name": "Yahoo! JAPAN（サービス開始の頃）",
+      "genre": "internet_sns",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1996-04-01",
+          "status": "verified",
+          "sources": ["src-lycorp-yahoo-history"],
+          "quote": "1996年4月1日午後3時20分、国内初の商用検索サービス「Yahoo! JAPAN」の提供を開始。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [12, 60],
+          "status": "estimated",
+          "rationale": "インターネットを使う中高生〜大人と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.3,
+          "status": "estimated",
+          "rationale": "インターネットの普及開始期（1995〜2000年、既存の総務省の出典）に使った人は一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.6,
+          "ceiling": 0.98,
+          "rationale": "広く知られていると推定"
+        },
+        "activeUntil": {
+          "value": 2000,
+          "status": "estimated",
+          "rationale": "インターネットの普及開始期（〜2000年）を中心期間とみなす"
+        }
+      }
+    },
+    {
+      "id": "mobage-town",
+      "name": "モバゲータウン",
+      "genre": "internet_sns",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2006-02",
+          "status": "verified",
+          "sources": ["src-itmedia-mobage"],
+          "quote": "ディー・エヌ・エー（DeNA）のSNS＆無料ゲーム「モバゲータウン」で、今年2月のオープンからわずか9カ月で会員200万人を突破。"
+        },
+        "audience": {
+          "ages": [13, 19],
+          "gender": "all",
+          "status": "derived",
+          "sources": ["src-itmedia-mobage"],
+          "quote": "ユーザー層は高校生が約40％で、年代別で見ると10代が約7割",
+          "rule": "「10代」を13〜19歳とみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [13, 22],
+          "status": "estimated",
+          "rationale": "10代が約7割（出典）"
+        },
+        "ceiling": {
+          "value": 0.35,
+          "status": "estimated",
+          "rationale": "利用した人は一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.3,
+          "ceiling": 0.9,
+          "rationale": "当時を知る人には知られていると推定"
+        },
+        "activeUntil": {
+          "value": 2011,
+          "status": "estimated",
+          "rationale": "サービス名が変わる2011年ごろまでを中心期間と推定"
+        }
+      }
+    },
+    {
+      "id": "blog-boom",
+      "name": "ブログのブーム",
+      "genre": "internet_sns",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "2005",
+          "to": "2005",
+          "status": "verified",
+          "sources": ["src-jiyu-2005"],
+          "quote": "2005年 新語・流行語大賞 ブログ：個人がウェブ上に日記や写真等を公開・更新できるため大人気"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [13, 50],
+          "status": "estimated",
+          "rationale": "インターネットを使う中高生〜大人と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.35,
+          "status": "estimated",
+          "rationale": "自分で書いた人は一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.6,
+          "ceiling": 0.97,
+          "rationale": "広く知られていると推定"
+        },
+        "activeUntil": {
+          "value": 2010,
+          "status": "estimated",
+          "rationale": "流行の中心（2005年）から数年続いたと推定"
+        }
+      }
+    },
+    {
+      "id": "nau-2010",
+      "name": "「〜なう」（ツイッターの言葉）",
+      "genre": "internet_sns",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "2010",
+          "to": "2010",
+          "status": "verified",
+          "sources": ["src-jiyu-2010"],
+          "quote": "2010年 新語・流行語大賞 ～なう：「河原町なう」と言えば、「いま河原町にいます」…自分の現在を告げる便利なワード"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [13, 35],
+          "status": "estimated",
+          "rationale": "ツイッターを使う10代〜若い大人と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.4,
+          "status": "estimated",
+          "rationale": "使った人は一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.9,
+          "rationale": "当時を知る人には知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "insta-bae",
+      "name": "インスタ映え",
+      "genre": "internet_sns",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "2017",
+          "to": "2017",
+          "status": "verified",
+          "sources": ["src-jiyu-2017"],
+          "quote": "2017年 新語・流行語大賞 年間大賞 インスタ映え：ＳＮＳでの「いいね！」を獲得するために、誰もがビジュアルを競い合う"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [13, 40],
+          "status": "estimated",
+          "rationale": "SNSを使う10代〜大人と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.45,
+          "status": "estimated",
+          "rationale": "意識した人は半数弱と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.6,
+          "ceiling": 0.97,
+          "rationale": "広く知られていると推定"
+        },
+        "activeUntil": {
+          "value": 2020,
+          "status": "estimated",
+          "rationale": "流行の中心（2017年）から数年続いたと推定"
+        }
+      }
+    },
+    {
+      "id": "online-2020",
+      "name": "「オンライン○○」（2020年）",
+      "genre": "internet_sns",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "2020",
+          "to": "2020",
+          "status": "verified",
+          "sources": ["src-jiyu-2020"],
+          "quote": "2020年 新語・流行語大賞 オンライン○○：様々なオンライン化が進み、オンライン診療、オンライン就活、オンライン授業、オンライン飲み会等"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [8, 70],
+          "status": "estimated",
+          "rationale": "子ども（オンライン授業）から大人まで（出典から推定）"
+        },
+        "ceiling": {
+          "value": 0.6,
+          "status": "estimated",
+          "rationale": "多くの人が何らかの形で経験したと推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.6,
+          "ceiling": 0.98,
+          "rationale": "広く知られていると推定"
+        },
+        "activeUntil": {
+          "value": 2022,
+          "status": "estimated",
+          "rationale": "2020年から数年続いたと推定"
+        }
+      }
+    },
+    {
+      "id": "generative-ai",
+      "name": "生成AI",
+      "genre": "internet_sns",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "2023",
+          "to": "2023",
+          "status": "verified",
+          "sources": ["src-jiyu-2023"],
+          "quote": "2023年 新語・流行語大賞 生成ＡＩ：（ロボットと一緒に働く時代は）間違いなく2023年からとなるのだろう"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [13, 65],
+          "status": "estimated",
+          "rationale": "中高生〜働く世代を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.5,
+          "status": "estimated",
+          "rationale": "使ったことがある人は半数程度と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.6,
+          "ceiling": 0.98,
+          "rationale": "広く知られていると推定"
+        },
+        "activeUntil": {
+          "value": 2035,
+          "status": "estimated",
+          "rationale": "現在も続いているとみなす"
+        }
+      }
+    },
+    {
+      "id": "2ch-2000",
+      "name": "2ちゃんねる（匿名掲示板）が広く知られた頃",
+      "genre": "internet_sns",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1999",
+          "status": "verified",
+          "sources": ["src-iwatch-2000"],
+          "quote": "1999年に開設された匿名掲示板サービス「2ちゃんねる」"
+        },
+        "peak": {
+          "from": "2000",
+          "to": "2000",
+          "status": "verified",
+          "sources": ["src-iwatch-2000"],
+          "quote": "【2000年のINTERNET Watch】…「2ちゃんねる」に注目集まる…2ちゃんねるが広く注目されるようになる"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [13, 40],
+          "status": "estimated",
+          "rationale": "インターネットを使う中高生〜大人と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.3,
+          "status": "estimated",
+          "rationale": "実際に見ていた人は一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "広く知られていると推定"
+        },
+        "activeUntil": {
+          "value": 2008,
+          "status": "estimated",
+          "rationale": "掲示板文化の中心期間を2000年代と推定"
+        }
+      }
+    },
+    {
+      "id": "youtube-jp",
+      "name": "YouTube（日本語版の開始の頃）",
+      "genre": "internet_sns",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2007-06-19",
+          "status": "verified",
+          "sources": ["src-iwatch-youtube-jp"],
+          "quote": "動画共有サービス「YouTube」が19日、日本語版を含む10カ国版の対応を開始した。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 15],
+          "status": "estimated",
+          "rationale": "質問は子どもの頃（〜中学生）の利用を問うため、小中学生の年齢とする"
+        },
+        "ceiling": {
+          "value": 0.8,
+          "status": "estimated",
+          "rationale": "日本語版の開始後、多くの子どもが見るようになったと推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.7,
+          "ceiling": 0.99,
+          "rationale": "広く知られていると推定"
+        },
+        "activeUntil": {
+          "value": 2035,
+          "status": "estimated",
+          "rationale": "現在も続いているとみなす"
+        }
+      }
+    },
+    {
+      "id": "broadband-2001",
+      "name": "ブロードバンド（ADSL・光回線）の普及",
+      "genre": "internet_sns",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "2001",
+          "to": "2001",
+          "status": "verified",
+          "sources": ["src-jiyu-2001"],
+          "quote": "2001年 新語・流行語大賞 ブロードバンド：広帯域通信網のことで、高速で大容量の情報を送受信できる回線…「光ファイバー」"
+        },
+        "diffusion": {
+          "from": "2001",
+          "to": "2010",
+          "status": "derived",
+          "sources": ["src-soumu-wp-r01-internet"],
+          "quote": "2001から2010年頃までの「定額常時接続の普及期」",
+          "rule": "「2001から2010年頃まで」を2001〜2010年とみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [10, 60],
+          "status": "estimated",
+          "rationale": "家庭でインターネットを使う子ども〜大人と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.55,
+          "status": "estimated",
+          "rationale": "家庭への普及は半数程度と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.6,
+          "ceiling": 0.98,
+          "rationale": "広く知られていると推定"
+        }
+      }
     }
   ]
 }

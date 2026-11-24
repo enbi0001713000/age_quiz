@@ -90,7 +90,7 @@
       "importance": 0.8,
       "priority": 1.0,
       "group": "household-appliance",
-      "relatedIds": ["APP-004"],
+      "relatedIds": ["APP-004", "APP-008", "APP-016"],
       "basicPool": false,
       "notes": "世帯普及率（内閣府統計）に基づく。地域差がある"
     },
@@ -183,6 +183,559 @@
       "relatedIds": ["APP-002"],
       "basicPool": false,
       "notes": "世帯普及率（内閣府統計）に基づく"
+    },
+    {
+      "id": "APP-005",
+      "status": "verified",
+      "genre": "appliance",
+      "difficulty": "easy",
+      "type": "experience",
+      "text": "小学生の頃、自宅に電気冷蔵庫はありましたか？",
+      "subject": "fridge",
+      "options": [
+        {
+          "id": "a",
+          "label": "ずっとあった",
+          "kind": "heavy",
+          "insight": "電気冷蔵庫が多くの家庭に普及していた時代に子ども時代を過ごした人に多い回答（内閣府の世帯普及率に基づく）"
+        },
+        {
+          "id": "b",
+          "label": "途中であるようになった",
+          "kind": "light",
+          "insight": "電気冷蔵庫が家庭に広まりつつあった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "家にはなかった（よそでは見た・使った）",
+          "kind": "aware_only",
+          "insight": "電気冷蔵庫がまだ普及途中だった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "ほとんど見たことがなかった",
+          "kind": "unaware",
+          "insight": "電気冷蔵庫がほとんど普及していなかった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "group": "household-1950s",
+      "relatedIds": ["APP-006", "APP-007"],
+      "basicPool": false,
+      "notes": "世帯普及率（内閣府統計）に基づく。地域差・家庭差がある"
+    },
+    {
+      "id": "APP-006",
+      "status": "verified",
+      "genre": "appliance",
+      "difficulty": "easy",
+      "type": "experience",
+      "text": "小学生の頃、自宅に電気洗濯機はありましたか？",
+      "subject": "washer",
+      "options": [
+        {
+          "id": "a",
+          "label": "ずっとあった",
+          "kind": "heavy",
+          "insight": "電気洗濯機が多くの家庭に普及していた時代に子ども時代を過ごした人に多い回答（内閣府の世帯普及率に基づく）"
+        },
+        {
+          "id": "b",
+          "label": "途中であるようになった",
+          "kind": "light",
+          "insight": "電気洗濯機が家庭に広まりつつあった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "家にはなかった（よそでは見た・使った）",
+          "kind": "aware_only",
+          "insight": "電気洗濯機がまだ普及途中だった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "ほとんど見たことがなかった",
+          "kind": "unaware",
+          "insight": "電気洗濯機がほとんど普及していなかった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "group": "household-1950s",
+      "relatedIds": ["APP-005", "APP-007"],
+      "basicPool": false,
+      "notes": "世帯普及率（内閣府統計）に基づく。地域差・家庭差がある"
+    },
+    {
+      "id": "APP-007",
+      "status": "verified",
+      "genre": "appliance",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "小学生の頃、自宅に電気掃除機はありましたか？",
+      "subject": "vacuum",
+      "options": [
+        {
+          "id": "a",
+          "label": "ずっとあった",
+          "kind": "heavy",
+          "insight": "電気掃除機が多くの家庭に普及していた時代に子ども時代を過ごした人に多い回答（内閣府の世帯普及率に基づく）"
+        },
+        {
+          "id": "b",
+          "label": "途中であるようになった",
+          "kind": "light",
+          "insight": "電気掃除機が家庭に広まりつつあった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "家にはなかった（よそでは見た・使った）",
+          "kind": "aware_only",
+          "insight": "電気掃除機がまだ普及途中だった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "ほとんど見たことがなかった",
+          "kind": "unaware",
+          "insight": "電気掃除機がほとんど普及していなかった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "group": "household-1950s",
+      "relatedIds": ["APP-005", "APP-006"],
+      "basicPool": false,
+      "notes": "世帯普及率（内閣府統計）に基づく。地域差・家庭差がある"
+    },
+    {
+      "id": "APP-008",
+      "status": "verified",
+      "genre": "appliance",
+      "difficulty": "easy",
+      "type": "experience",
+      "text": "小学生の頃、家に自家用車（乗用車）はありましたか？",
+      "subject": "family-car",
+      "options": [
+        {
+          "id": "a",
+          "label": "ずっとあった",
+          "kind": "heavy",
+          "insight": "自家用車（乗用車）が多くの家庭に普及していた時代に子ども時代を過ごした人に多い回答（内閣府の世帯普及率に基づく）"
+        },
+        {
+          "id": "b",
+          "label": "途中であるようになった",
+          "kind": "light",
+          "insight": "自家用車（乗用車）が家庭に広まりつつあった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "家にはなかった（よそでは乗った）",
+          "kind": "aware_only",
+          "insight": "自家用車（乗用車）がまだ普及途中だった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "ほとんど乗ったことがなかった",
+          "kind": "unaware",
+          "insight": "自家用車（乗用車）がほとんど普及していなかった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.7,
+      "priority": 1.0,
+      "relatedIds": ["APP-016", "APP-002"],
+      "basicPool": false,
+      "notes": "世帯普及率（内閣府統計）に基づく。地域差・家庭差がある（都市部と地方で差が大きいため重要度を下げている）",
+      "group": "household-affluence"
+    },
+    {
+      "id": "APP-009",
+      "status": "verified",
+      "genre": "appliance",
+      "difficulty": "easy",
+      "type": "experience",
+      "text": "小学生の頃、自宅にパソコンはありましたか？",
+      "subject": "home-pc",
+      "options": [
+        {
+          "id": "a",
+          "label": "ずっとあった",
+          "kind": "heavy",
+          "insight": "パソコンが多くの家庭に普及していた時代に子ども時代を過ごした人に多い回答（内閣府の世帯普及率に基づく）"
+        },
+        {
+          "id": "b",
+          "label": "途中であるようになった",
+          "kind": "light",
+          "insight": "パソコンが家庭に広まりつつあった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "家にはなかった（よそでは見た・使った）",
+          "kind": "aware_only",
+          "insight": "パソコンがまだ普及途中だった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "ほとんど見たことがなかった",
+          "kind": "unaware",
+          "insight": "パソコンがほとんど普及していなかった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "group": "household-digital",
+      "relatedIds": ["APP-010"],
+      "basicPool": false,
+      "notes": "世帯普及率（内閣府統計）に基づく。地域差・家庭差がある"
+    },
+    {
+      "id": "APP-010",
+      "status": "verified",
+      "genre": "appliance",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "小学生の頃、自宅のトイレは温水洗浄便座（ウォシュレットなど）でしたか？",
+      "subject": "washlet",
+      "options": [
+        {
+          "id": "a",
+          "label": "ずっとそうだった",
+          "kind": "heavy",
+          "insight": "温水洗浄便座が多くの家庭に普及していた時代に子ども時代を過ごした人に多い回答（内閣府の世帯普及率に基づく）"
+        },
+        {
+          "id": "b",
+          "label": "途中でそうなった",
+          "kind": "light",
+          "insight": "温水洗浄便座が家庭に広まりつつあった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "家にはなかった（よそでは使った）",
+          "kind": "aware_only",
+          "insight": "温水洗浄便座がまだ普及途中だった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "ほとんど使ったことがなかった",
+          "kind": "unaware",
+          "insight": "温水洗浄便座がほとんど普及していなかった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": ["APP-009"],
+      "basicPool": false,
+      "notes": "世帯普及率（内閣府統計）に基づく。地域差・家庭差がある",
+      "group": "household-digital-2"
+    },
+    {
+      "id": "APP-011",
+      "status": "verified",
+      "genre": "appliance",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "小学生の頃、自宅にタブレット（iPadなど）はありましたか？",
+      "subject": "home-tablet",
+      "options": [
+        {
+          "id": "a",
+          "label": "ずっとあった",
+          "kind": "heavy",
+          "insight": "タブレット型端末が多くの家庭に普及していた時代に子ども時代を過ごした人に多い回答（内閣府の世帯普及率に基づく）"
+        },
+        {
+          "id": "b",
+          "label": "途中であるようになった",
+          "kind": "light",
+          "insight": "タブレット型端末が家庭に広まりつつあった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "家にはなかった（よそでは見た・使った）",
+          "kind": "aware_only",
+          "insight": "タブレット型端末がまだ普及途中だった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "ほとんど見たことがなかった",
+          "kind": "unaware",
+          "insight": "タブレット型端末がほとんど普及していなかった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "group": "household-digital",
+      "relatedIds": [],
+      "basicPool": false,
+      "notes": "世帯普及率（内閣府統計）に基づく。地域差・家庭差がある"
+    },
+    {
+      "id": "APP-012",
+      "status": "verified",
+      "genre": "appliance",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "小学生の頃、家族がデジタルカメラ（デジカメ）を持っていましたか？",
+      "subject": "digicam",
+      "options": [
+        {
+          "id": "a",
+          "label": "ずっとあった",
+          "kind": "heavy",
+          "insight": "デジタルカメラが多くの家庭に普及していた時代に子ども時代を過ごした人に多い回答（内閣府の世帯普及率に基づく）"
+        },
+        {
+          "id": "b",
+          "label": "途中であるようになった",
+          "kind": "light",
+          "insight": "デジタルカメラが家庭に広まりつつあった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "家にはなかった（よそでは見た・使った）",
+          "kind": "aware_only",
+          "insight": "デジタルカメラがまだ普及途中だった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "ほとんど見たことがなかった",
+          "kind": "unaware",
+          "insight": "デジタルカメラがほとんど普及していなかった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.7,
+      "priority": 1.0,
+      "group": "household-digital",
+      "relatedIds": [],
+      "basicPool": false,
+      "notes": "世帯普及率（内閣府統計）に基づく。地域差・家庭差がある。2014年以降はスマートフォンの普及で減少している"
+    },
+    {
+      "id": "APP-013",
+      "status": "verified",
+      "genre": "appliance",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "小学生の頃、自宅にCDプレーヤー（CDラジカセを含む）はありましたか？",
+      "subject": "cd-player",
+      "options": [
+        {
+          "id": "a",
+          "label": "ずっとあった",
+          "kind": "heavy",
+          "insight": "CDプレーヤーが多くの家庭に普及していた時代に子ども時代を過ごした人に多い回答（内閣府の世帯普及率に基づく）"
+        },
+        {
+          "id": "b",
+          "label": "途中であるようになった",
+          "kind": "light",
+          "insight": "CDプレーヤーが家庭に広まりつつあった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "家にはなかった（よそでは見た・使った）",
+          "kind": "aware_only",
+          "insight": "CDプレーヤーがまだ普及途中だった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "ほとんど見たことがなかった",
+          "kind": "unaware",
+          "insight": "CDプレーヤーがほとんど普及していなかった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.7,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false,
+      "notes": "世帯普及率（内閣府統計）に基づく。地域差・家庭差がある。2005年以降は推定（統計なし）"
+    },
+    {
+      "id": "APP-014",
+      "status": "verified",
+      "genre": "appliance",
+      "difficulty": "normal",
+      "type": "era_choice",
+      "text": "小学生の頃、家でテレビ番組を録画するのに主に使っていたのは？",
+      "ageWindow": [6, 12],
+      "options": [
+        {
+          "id": "a",
+          "label": "ビデオデッキ（VHS）",
+          "kind": "era",
+          "subject": "rec-vhs-era",
+          "insight": "ビデオデッキ（VHS）で録画していた時代（1988年〜2005年）の頃に小学生だった人に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "DVD・ブルーレイなどのレコーダー",
+          "kind": "era",
+          "subject": "rec-disc-era",
+          "insight": "DVD・ブルーレイなどのレコーダーで録画していた時代（2006年〜現在）の頃に小学生だった人に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "見逃し配信（TVerなど）で見ていた",
+          "kind": "era",
+          "subject": "tver-era",
+          "insight": "見逃し配信（TVerなど）でテレビ番組を見る時代（2015年〜現在）の頃に小学生だった人に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "録画はほとんどしなかった",
+          "kind": "none_of_these",
+          "insight": "選択肢のどの時代にも当てはまらない世代（より上の世代や、より下の世代）に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "group": "recording",
+      "relatedIds": ["APP-003"],
+      "basicPool": false
+    },
+    {
+      "id": "APP-015",
+      "status": "verified",
+      "genre": "appliance",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "小学生の頃、家のテレビは薄型テレビ（液晶など）でしたか？",
+      "subject": "flat-tv",
+      "options": [
+        {
+          "id": "a",
+          "label": "ずっと薄型だった",
+          "kind": "heavy",
+          "insight": "薄型テレビ（液晶・プラズマなど）が多くの家庭に普及していた時代に子ども時代を過ごした人に多い回答（内閣府の世帯普及率に基づく）"
+        },
+        {
+          "id": "b",
+          "label": "途中で薄型になった",
+          "kind": "light",
+          "insight": "薄型テレビ（液晶・プラズマなど）が家庭に広まりつつあった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "ブラウン管だった（薄型はよそで見た）",
+          "kind": "aware_only",
+          "insight": "薄型テレビ（液晶・プラズマなど）がまだ普及途中だった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "ほとんど見たことがなかった",
+          "kind": "unaware",
+          "insight": "薄型テレビ（液晶・プラズマなど）がほとんど普及していなかった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.7,
+      "priority": 1.0,
+      "group": "tv-era",
+      "relatedIds": ["APP-001"],
+      "basicPool": false,
+      "notes": "世帯普及率（内閣府統計）に基づく。地域差・家庭差がある。普及が急速で1問で決まりすぎるため重要度を下げている"
+    },
+    {
+      "id": "APP-016",
+      "status": "verified",
+      "genre": "appliance",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "小学生の頃、自宅にピアノはありましたか？",
+      "subject": "piano",
+      "options": [
+        {
+          "id": "a",
+          "label": "ずっとあった",
+          "kind": "heavy",
+          "insight": "ピアノが多くの家庭に普及していた時代に子ども時代を過ごした人に多い回答（内閣府の世帯普及率に基づく）"
+        },
+        {
+          "id": "b",
+          "label": "途中であるようになった",
+          "kind": "light",
+          "insight": "ピアノが家庭に広まりつつあった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "家にはなかった（よそでは見た・使った）",
+          "kind": "aware_only",
+          "insight": "ピアノがまだ普及途中だった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "ほとんど見たことがなかった",
+          "kind": "unaware",
+          "insight": "ピアノがほとんど普及していなかった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.5,
+      "priority": 1.0,
+      "relatedIds": ["APP-008", "APP-002"],
+      "basicPool": false,
+      "notes": "世帯普及率（内閣府統計）に基づく。地域差・家庭差がある。普及率は最大でも約2割のため重要度を下げている",
+      "group": "household-affluence"
     }
   ]
 }

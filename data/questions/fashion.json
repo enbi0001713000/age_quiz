@@ -41,8 +41,9 @@
       ],
       "importance": 1.0,
       "priority": 1.0,
-      "relatedIds": [],
-      "basicPool": false
+      "relatedIds": ["FAS-011"],
+      "basicPool": false,
+      "group": "gyaru"
     },
     {
       "id": "FAS-002",
@@ -172,6 +173,581 @@
         }
       ],
       "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "FAS-005",
+      "status": "verified",
+      "genre": "fashion",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "1964年ごろ、銀座に集まった若者の「みゆき族」を、当時リアルタイムで知っていますか？",
+      "subject": "miyukizoku",
+      "options": [
+        {
+          "id": "a",
+          "label": "自分も参加していた・よく見かけた",
+          "kind": "heavy",
+          "insight": "みゆき族（1964年）を15〜25歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "当時の話題として知っていた",
+          "kind": "light",
+          "insight": "みゆき族（1964年）の時期に15〜25歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時の記憶はない",
+          "kind": "aware_only",
+          "insight": "みゆき族を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "みゆき族の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.7,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "FAS-006",
+      "status": "verified",
+      "genre": "fashion",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "原宿の歩行者天国で踊る「竹の子族」を、当時リアルタイムで知っていますか？",
+      "subject": "takenokozoku",
+      "options": [
+        {
+          "id": "a",
+          "label": "自分も踊った・見に行った",
+          "kind": "heavy",
+          "insight": "竹の子族（1980年〜1984年）を13〜22歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "当時テレビなどで見て知っていた",
+          "kind": "light",
+          "insight": "竹の子族（1980年〜1984年）の時期に13〜22歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時の記憶はない",
+          "kind": "aware_only",
+          "insight": "竹の子族を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "竹の子族の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "FAS-007",
+      "status": "verified",
+      "genre": "fashion",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "1980年代前半に流行した「聖子ちゃんカット」は、当時周りで流行していましたか？",
+      "subject": "seiko-cut",
+      "options": [
+        {
+          "id": "a",
+          "label": "自分もしていた",
+          "kind": "heavy",
+          "insight": "聖子ちゃんカット（1980年〜1983年）を12〜25歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "周りで流行していた",
+          "kind": "light",
+          "insight": "聖子ちゃんカット（1980年〜1983年）の時期に12〜25歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが周りにはいなかった",
+          "kind": "aware_only",
+          "insight": "聖子ちゃんカットを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "聖子ちゃんカットの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.7,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "FAS-008",
+      "status": "verified",
+      "genre": "fashion",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "1991年ごろ流行した「紺ブレ」（紺のブレザー）のファッションを、当時リアルタイムで知っていますか？",
+      "subject": "konbure",
+      "options": [
+        {
+          "id": "a",
+          "label": "自分もしていた",
+          "kind": "heavy",
+          "insight": "紺ブレ（紺のブレザー）（1991年）を15〜30歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "周りで流行していた",
+          "kind": "light",
+          "insight": "紺ブレ（紺のブレザー）（1991年）の時期に15〜30歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが周りにはいなかった",
+          "kind": "aware_only",
+          "insight": "紺ブレ（紺のブレザー）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "紺ブレ（紺のブレザー）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.6,
+      "priority": 1.0,
+      "relatedIds": ["FAS-009"],
+      "basicPool": false,
+      "group": "bubble-fashion"
+    },
+    {
+      "id": "FAS-009",
+      "status": "verified",
+      "genre": "fashion",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "ディスコ「ジュリアナ東京」（ワンレン・ボディコン、お立ち台）を、当時リアルタイムで知っていますか？",
+      "subject": "juliana-tokyo",
+      "options": [
+        {
+          "id": "a",
+          "label": "行ったことがある",
+          "kind": "heavy",
+          "insight": "ジュリアナ東京（ワンレン・ボディコン、お立ち台）（1991年〜1994年）を18〜30歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "当時テレビなどで見て知っていた",
+          "kind": "light",
+          "insight": "ジュリアナ東京（ワンレン・ボディコン、お立ち台）（1991年〜1994年）の時期に18〜30歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時の記憶はない",
+          "kind": "aware_only",
+          "insight": "ジュリアナ東京（ワンレン・ボディコン、お立ち台）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ジュリアナ東京（ワンレン・ボディコン、お立ち台）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "group": "disco",
+      "relatedIds": ["FAS-003", "FAS-008"],
+      "basicPool": false
+    },
+    {
+      "id": "FAS-010",
+      "status": "verified",
+      "genre": "fashion",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "安室奈美恵さんのファッションをまねた「アムラー」は、当時周りで流行していましたか？",
+      "subject": "amurer",
+      "options": [
+        {
+          "id": "a",
+          "label": "自分もしていた",
+          "kind": "heavy",
+          "insight": "アムラー（1996年）を13〜22歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "周りで流行していた",
+          "kind": "light",
+          "insight": "アムラー（1996年）の時期に13〜22歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが周りにはいなかった",
+          "kind": "aware_only",
+          "insight": "アムラーを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "アムラーの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "FAS-011",
+      "status": "verified",
+      "genre": "fashion",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "日焼けした肌に派手なメイクの「ガングロ」ギャルは、10代の頃に周りで流行していましたか？",
+      "subject": "ganguro",
+      "options": [
+        {
+          "id": "a",
+          "label": "自分もしていた",
+          "kind": "heavy",
+          "insight": "ガングロ（1997年〜2003年）を14〜22歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "周りで流行していた",
+          "kind": "light",
+          "insight": "ガングロ（1997年〜2003年）の時期に14〜22歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが周りにはいなかった",
+          "kind": "aware_only",
+          "insight": "ガングロを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ガングロの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.7,
+      "priority": 1.0,
+      "relatedIds": ["FAS-001"],
+      "basicPool": false,
+      "group": "gyaru"
+    },
+    {
+      "id": "FAS-012",
+      "status": "verified",
+      "genre": "fashion",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "1999年ごろ、渋谷109の「カリスマ店員」が話題になったことを覚えていますか？",
+      "subject": "charisma-tenin",
+      "options": [
+        {
+          "id": "a",
+          "label": "憧れていた・よく話題にした",
+          "kind": "heavy",
+          "insight": "カリスマ店員（渋谷109）（1999年）を13〜22歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "当時の話題として知っていた",
+          "kind": "light",
+          "insight": "カリスマ店員（渋谷109）（1999年）の時期に13〜22歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時の記憶はない",
+          "kind": "aware_only",
+          "insight": "カリスマ店員（渋谷109）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "カリスマ店員（渋谷109）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.7,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "FAS-013",
+      "status": "verified",
+      "genre": "fashion",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "2000年ごろのパラパラ（集団で踊るダンス）のブームの頃に、パラパラを踊ったり見たりしましたか？",
+      "subject": "parapara-2000",
+      "options": [
+        {
+          "id": "a",
+          "label": "自分も踊った",
+          "kind": "heavy",
+          "insight": "パラパラ（2000年ごろのブーム）（2000年）を14〜25歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "周りで流行していた",
+          "kind": "light",
+          "insight": "パラパラ（2000年ごろのブーム）（2000年）の時期に14〜25歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが周りにはいなかった",
+          "kind": "aware_only",
+          "insight": "パラパラ（2000年ごろのブーム）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "パラパラ（2000年ごろのブーム）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.7,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "FAS-014",
+      "status": "verified",
+      "genre": "fashion",
+      "difficulty": "easy",
+      "type": "experience",
+      "text": "1998年〜2001年ごろ、ユニクロのフリースが大ブームになった頃に、ユニクロのフリースを着ていましたか？",
+      "subject": "uniqlo-fleece",
+      "options": [
+        {
+          "id": "a",
+          "label": "自分も着ていた",
+          "kind": "heavy",
+          "insight": "ユニクロのフリースブーム（1998年〜2001年）を6〜70歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "家族や周りの人が着ていた",
+          "kind": "light",
+          "insight": "ユニクロのフリースブーム（1998年〜2001年）の時期に6〜70歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているがその頃は着ていない",
+          "kind": "aware_only",
+          "insight": "ユニクロのフリースブームを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ユニクロのフリースブームの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "FAS-015",
+      "status": "verified",
+      "genre": "fashion",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "2005年ごろ、雑誌『LEON』の「ちょいモテオヤジ」「ちょいワルオヤジ」という言葉が流行ったのを覚えていますか？",
+      "subject": "choimote-oyaji",
+      "options": [
+        {
+          "id": "a",
+          "label": "はっきり覚えている",
+          "kind": "heavy",
+          "insight": "ちょいモテオヤジ（雑誌『LEON』）（2005年）を35〜60歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "なんとなく覚えている",
+          "kind": "light",
+          "insight": "ちょいモテオヤジ（雑誌『LEON』）（2005年）の時期に35〜60歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時の記憶はない",
+          "kind": "aware_only",
+          "insight": "ちょいモテオヤジ（雑誌『LEON』）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ちょいモテオヤジ（雑誌『LEON』）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.6,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "FAS-016",
+      "status": "verified",
+      "genre": "fashion",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "ZARAやH&Mなどの「ファストファッション」が大流行した頃（2009年ごろ）、よく買っていましたか？",
+      "subject": "fast-fashion",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく買っていた",
+          "kind": "heavy",
+          "insight": "ファストファッション（2009年）を15〜45歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ときどき買っていた",
+          "kind": "light",
+          "insight": "ファストファッション（2009年）の時期に15〜45歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているがその頃は買っていない",
+          "kind": "aware_only",
+          "insight": "ファストファッションを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ファストファッションの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.6,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "FAS-017",
+      "status": "verified",
+      "genre": "fashion",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "スマホを肩から下げる「スマホショルダー」（2022年ごろ流行）を使ったことはありますか？",
+      "subject": "sumaho-shoulder",
+      "options": [
+        {
+          "id": "a",
+          "label": "自分も使っていた",
+          "kind": "heavy",
+          "insight": "スマホショルダー（2022年）を13〜40歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "周りで流行していた",
+          "kind": "light",
+          "insight": "スマホショルダー（2022年）の時期に13〜40歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが周りにはいなかった",
+          "kind": "aware_only",
+          "insight": "スマホショルダーを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "スマホショルダーの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.6,
       "priority": 1.0,
       "relatedIds": [],
       "basicPool": false

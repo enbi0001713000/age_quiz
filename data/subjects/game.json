@@ -443,6 +443,454 @@
           "rationale": "初代作品が主に遊ばれた期間を約3年と推定"
         }
       }
+    },
+    {
+      "id": "super-mario-bros",
+      "name": "スーパーマリオブラザーズ（ファミコン）",
+      "genre": "game",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1985-09-13",
+          "status": "verified",
+          "sources": ["src-nintendo-mario1"],
+          "quote": "発売日：１９８５年９月１３日"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 15],
+          "status": "estimated",
+          "rationale": "小中学生を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.6,
+          "status": "estimated",
+          "rationale": "ファミコンを代表する大ヒット作として推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.6,
+          "ceiling": 0.98,
+          "rationale": "マリオは世代を超えて広く知られていると推定"
+        },
+        "activeUntil": {
+          "value": 1990,
+          "status": "estimated",
+          "rationale": "ファミコンの時代（後継機の発売1990年まで）に主に遊ばれたとみなす"
+        }
+      }
+    },
+    {
+      "id": "dq3",
+      "name": "ドラゴンクエストIII そして伝説へ…（ファミコン）",
+      "genre": "game",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1988-02-10",
+          "status": "verified",
+          "sources": ["src-famitsu-dq3"],
+          "quote": "1988年（昭和63年）2月10日は、ファミリーコンピュータ用ソフト『ドラゴンクエストIII そして伝説へ…』が発売された日。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [8, 20],
+          "status": "estimated",
+          "rationale": "小学生〜高校生を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.45,
+          "status": "estimated",
+          "rationale": "大ヒット作だが遊んだのは一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.97,
+          "rationale": "シリーズは広く知られていると推定"
+        },
+        "activeUntil": {
+          "value": 1990,
+          "status": "estimated",
+          "rationale": "発売後約2年を中心期間と推定"
+        }
+      }
+    },
+    {
+      "id": "sf2",
+      "name": "ストリートファイターII",
+      "genre": "game",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1991-03-07",
+          "status": "verified",
+          "sources": ["src-famitsu-sf2"],
+          "quote": "1991年（平成3年）3月7日は、アーケード版『ストリートファイターII -The World Warrior-』がゲームセンターで稼動を開始した日。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [10, 22],
+          "status": "estimated",
+          "rationale": "ゲームセンターや家庭用で遊んだ小学校高学年〜若者を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.4,
+          "status": "estimated",
+          "rationale": "男性に人気が偏ったと推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.95,
+          "rationale": "格闘ゲームブームの火付け役（出典）として広く知られていると推定"
+        },
+        "activeUntil": {
+          "value": 1995,
+          "status": "estimated",
+          "rationale": "格闘ゲームブームの中心を1990年代前半と推定"
+        }
+      }
+    },
+    {
+      "id": "n64",
+      "name": "NINTENDO64",
+      "genre": "game",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1996",
+          "status": "verified",
+          "sources": ["src-nintendo-history"],
+          "quote": "1996年 家庭用テレビゲーム機「NINTENDO64」を発売。"
+        },
+        "end": {
+          "date": "2001",
+          "status": "derived",
+          "sources": ["src-nintendo-history"],
+          "quote": "2001年 家庭用テレビゲーム機「ニンテンドー ゲームキューブ」を発売。",
+          "rule": "後継機ゲームキューブの発売（2001年）までを主流の期間とみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 15],
+          "status": "estimated",
+          "rationale": "小中学生を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.4,
+          "status": "estimated",
+          "rationale": "家庭用ゲーム機として推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.95,
+          "rationale": "知っている人は多いと推定"
+        }
+      }
+    },
+    {
+      "id": "pokemon-gs",
+      "name": "ポケットモンスター 金・銀",
+      "genre": "game",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1999-11-21",
+          "status": "verified",
+          "sources": ["src-nintendo-pokemon-gs"],
+          "quote": "■発売日 1999年11月21日"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 15],
+          "status": "estimated",
+          "rationale": "小中学生を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.45,
+          "status": "estimated",
+          "rationale": "大ヒット作として推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.95,
+          "rationale": "シリーズは広く知られていると推定"
+        },
+        "activeUntil": {
+          "value": 2002,
+          "status": "estimated",
+          "rationale": "発売後約3年を中心期間と推定"
+        }
+      }
+    },
+    {
+      "id": "ps2-console",
+      "name": "プレイステーション2",
+      "genre": "game",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2000-03-04",
+          "status": "verified",
+          "sources": ["src-playstation-history-2000"],
+          "quote": "日本でのリリース 2000年3月4日"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [8, 20],
+          "status": "estimated",
+          "rationale": "小学生〜若者を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.5,
+          "status": "estimated",
+          "rationale": "国内で広く普及したゲーム機として推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.97,
+          "rationale": "知っている人は多いと推定"
+        },
+        "activeUntil": {
+          "value": 2006,
+          "status": "estimated",
+          "rationale": "次世代機（PS3）の登場ごろまでを主流の期間と推定"
+        }
+      }
+    },
+    {
+      "id": "mushiking",
+      "name": "甲虫王者ムシキング",
+      "genre": "game",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2003",
+          "status": "verified",
+          "sources": ["src-famitsu-mushiking"],
+          "quote": "2003年に稼働を開始した『ムシキング』が、どのようにして巨大なムーブメントを巻き起こしたのか、そしてなぜ5年という短期間で稼働が停止してしまったのか"
+        },
+        "end": {
+          "date": "2008",
+          "status": "derived",
+          "sources": ["src-famitsu-mushiking"],
+          "quote": "なぜ5年という短期間で稼働が停止してしまったのか",
+          "rule": "稼働開始（2003年）から5年後を終了とみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [5, 12],
+          "status": "estimated",
+          "rationale": "子ども向けのカードゲームで、小学生を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.45,
+          "status": "estimated",
+          "rationale": "男の子に人気が偏ったと推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.2,
+          "ceiling": 0.85,
+          "rationale": "世代外では知らない人も多いと推定"
+        }
+      }
+    },
+    {
+      "id": "noutore",
+      "name": "脳を鍛える大人のDSトレーニング（脳トレ）",
+      "genre": "game",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2005-05-19",
+          "status": "verified",
+          "sources": ["src-gamewatch-noutore"],
+          "quote": "2005年5月19日に、任天堂がニンテンドーDS用ソフト…通称「脳トレ」を発売した。…普段はゲームに関心のない新たなユーザーを取り込み大ブームに。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [25, 80],
+          "status": "estimated",
+          "rationale": "大人向けのソフトで、普段ゲームをしない大人にも広まった（出典）"
+        },
+        "ceiling": {
+          "value": 0.35,
+          "status": "estimated",
+          "rationale": "大ブームだが遊んだのは一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "大ブームとして知られていると推定"
+        },
+        "activeUntil": {
+          "value": 2007,
+          "status": "estimated",
+          "rationale": "発売後約2年を中心期間と推定"
+        }
+      }
+    },
+    {
+      "id": "mhp2g",
+      "name": "モンスターハンターポータブル 2nd G",
+      "genre": "game",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2008-03-27",
+          "status": "verified",
+          "sources": ["src-famitsu-mhp2g"],
+          "quote": "2008年（平成20年）3月27日は、プレイステーション・ポータブル（PSP）用ソフト『モンスターハンターポータブル 2nd G』が発売された日。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [12, 25],
+          "status": "estimated",
+          "rationale": "友だちと集まって遊ぶ中高生〜大学生を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.35,
+          "status": "estimated",
+          "rationale": "男性に人気が偏ったと推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.3,
+          "ceiling": 0.9,
+          "rationale": "シリーズは知られていると推定"
+        },
+        "activeUntil": {
+          "value": 2010,
+          "status": "estimated",
+          "rationale": "発売後約2年を中心期間と推定"
+        }
+      }
+    },
+    {
+      "id": "splatoon",
+      "name": "スプラトゥーン（最初の作品）",
+      "genre": "game",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2015-05-28",
+          "status": "verified",
+          "sources": ["src-famitsu-splatoon5"],
+          "quote": "2015年（平成27年）5月28日は、Wii U用ソフトの『スプラトゥーン』が発売された日。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [8, 20],
+          "status": "estimated",
+          "rationale": "小学生〜若者を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.4,
+          "status": "estimated",
+          "rationale": "シリーズを通して人気だが、遊んだのは一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.3,
+          "ceiling": 0.9,
+          "rationale": "世代外では知らない人も多いと推定"
+        },
+        "activeUntil": {
+          "value": 2025,
+          "status": "estimated",
+          "rationale": "続編が続いているため、現在まで続いているとみなす"
+        }
+      }
+    },
+    {
+      "id": "pokemon-go",
+      "name": "Pokémon GO",
+      "genre": "game",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2016-07-22",
+          "status": "verified",
+          "sources": ["src-pokemongo-launch-jp"],
+          "quote": "2016/07/22 Niantic, Inc.、株式会社ポケモンは、本日、日本向けにスマートフォンアプリ『Pokémon GO』の配信を開始しました。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [8, 60],
+          "status": "estimated",
+          "rationale": "スマートフォンで子どもから大人まで遊んだと推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.45,
+          "status": "estimated",
+          "rationale": "社会現象になったが遊んだのは半数弱と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.6,
+          "ceiling": 0.97,
+          "rationale": "社会現象として広く知られていると推定"
+        },
+        "activeUntil": {
+          "value": 2018,
+          "status": "estimated",
+          "rationale": "配信直後のブームを約2年と推定"
+        }
+      }
+    },
+    {
+      "id": "atsumori",
+      "name": "あつまれ どうぶつの森",
+      "genre": "game",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2020-03-20",
+          "status": "verified",
+          "sources": ["src-gamewatch-atsumori"],
+          "quote": "任天堂は、Nintendo Switch用シミュレーション「あつまれ どうぶつの森」を3月20日に発売を開始した。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [8, 40],
+          "status": "estimated",
+          "rationale": "小学生〜大人まで幅広く遊ばれたと推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.4,
+          "status": "estimated",
+          "rationale": "大ヒット作だが遊んだのは一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.95,
+          "rationale": "知っている人は多いと推定"
+        },
+        "activeUntil": {
+          "value": 2022,
+          "status": "estimated",
+          "rationale": "発売後約2年を中心期間と推定"
+        }
+      }
     }
   ]
 }

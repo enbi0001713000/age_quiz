@@ -155,6 +155,465 @@
           "rationale": "ブームの期間は未確認のため数年と推定"
         }
       }
+    },
+    {
+      "id": "miyukizoku",
+      "name": "みゆき族",
+      "genre": "fashion",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "1964",
+          "to": "1964",
+          "status": "verified",
+          "sources": ["src-kobe-miyukizoku"],
+          "quote": "東京五輪を間近に控えた１９６４（昭和３９）年夏、東京・銀座のみゆき通りには、個性的な服に身を包んだ若者がたむろしていた。…「みゆき族」と命名された"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [15, 25],
+          "status": "estimated",
+          "rationale": "銀座に集まった若者（出典）"
+        },
+        "ceiling": {
+          "value": 0.2,
+          "status": "estimated",
+          "rationale": "東京・銀座の一部の若者の流行だったため低めに設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.3,
+          "ceiling": 0.9,
+          "rationale": "当時の話題として知られていたと推定"
+        }
+      }
+    },
+    {
+      "id": "takenokozoku",
+      "name": "竹の子族",
+      "genre": "fashion",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "1980",
+          "to": "1984",
+          "status": "derived",
+          "sources": ["src-wwd-takenoko"],
+          "quote": "80年代前半には、野外でカラフルな衣装を身に着けて踊る若者たちの文化“竹の子族”の誕生にも大きく関わった。",
+          "rule": "「80年代前半」を1980〜1984年とみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [13, 22],
+          "status": "estimated",
+          "rationale": "原宿で踊った10代を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.15,
+          "status": "estimated",
+          "rationale": "原宿の一部の若者の流行だったため低めに設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.95,
+          "rationale": "テレビなどで広く知られたと推定"
+        }
+      }
+    },
+    {
+      "id": "seiko-cut",
+      "name": "聖子ちゃんカット",
+      "genre": "fashion",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1980",
+          "status": "derived",
+          "sources": ["src-bunshun-1980debut"],
+          "quote": "今からちょうど40年前の1980年は、昭和を代表するアイドルが一斉にデビューした年…2曲目の『青い珊瑚礁』が大ヒットしたことで…聖子の人気はすさまじかった",
+          "rule": "松田聖子のデビュー・大ヒットの年（1980年）を流行の始まりとみなす"
+        },
+        "audience": {
+          "ages": [12, 25],
+          "gender": "female_lean",
+          "status": "derived",
+          "sources": ["src-bunshun-seiko-cut"],
+          "quote": "世間では俗に“聖子ちゃんカット”と呼ばれていたレイヤードカットは、流行が続いた分、女の子の間ではもうすでに飽きられていて",
+          "rule": "「女の子」を12〜25歳とみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [12, 25],
+          "status": "estimated",
+          "rationale": "女の子の間で流行（出典）"
+        },
+        "ceiling": {
+          "value": 0.35,
+          "status": "estimated",
+          "rationale": "女性に人気が偏ったため低めに設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "広く知られた髪型と推定"
+        },
+        "activeUntil": {
+          "value": 1983,
+          "status": "estimated",
+          "rationale": "流行が続いた後に飽きられた（出典）。中心期間を1980〜1983年と推定"
+        }
+      }
+    },
+    {
+      "id": "konbure",
+      "name": "紺ブレ（紺のブレザー）",
+      "genre": "fashion",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "1991",
+          "to": "1991",
+          "status": "verified",
+          "sources": ["src-jiyu-1991"],
+          "quote": "1991年 新語・流行語大賞 紺ブレ：バブル期の最後に流行ったのがこれ、「紺のブレザー」＝「紺ブレ」である"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [15, 30],
+          "status": "estimated",
+          "rationale": "若者のコンサバ系ファッション（出典）"
+        },
+        "ceiling": {
+          "value": 0.3,
+          "status": "estimated",
+          "rationale": "着ていた人は一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.2,
+          "ceiling": 0.8,
+          "rationale": "言葉は世代外では知られていないと推定"
+        }
+      }
+    },
+    {
+      "id": "juliana-tokyo",
+      "name": "ジュリアナ東京（ワンレン・ボディコン、お立ち台）",
+      "genre": "fashion",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1991-05",
+          "status": "verified",
+          "sources": ["src-gendai-juliana"],
+          "quote": "1991年5月、東京・芝浦に誕生したディスコ「ジュリアナ東京」…ここからジュリ扇（羽付き扇子）、ワンレン・ボディコン、お立ち台といったさまざまな流行が生まれ"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [18, 30],
+          "status": "estimated",
+          "rationale": "ディスコに通った若い大人を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.2,
+          "status": "estimated",
+          "rationale": "実際に通った人は一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "テレビなどで広く知られたと推定"
+        },
+        "activeUntil": {
+          "value": 1994,
+          "status": "estimated",
+          "rationale": "営業していた数年間を中心期間と推定（閉店時期は未確認）"
+        }
+      }
+    },
+    {
+      "id": "amurer",
+      "name": "アムラー",
+      "genre": "fashion",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "1996",
+          "to": "1996",
+          "status": "verified",
+          "sources": ["src-jiyu-1996"],
+          "quote": "1996年 新語・流行語大賞 アムラー：スーパーアイドル安室奈美恵のファッションが大流行し、これをまねたギャルを「アムラー」と呼んだ。超ミニスカート、底の厚いブーツ"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [13, 22],
+          "status": "estimated",
+          "rationale": "10代〜20代前半の若者を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.3,
+          "status": "estimated",
+          "rationale": "女性に人気が偏ったため低めに設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.95,
+          "rationale": "当時を知る人には広く知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "ganguro",
+      "name": "ガングロ",
+      "genre": "fashion",
+      "kind": "trend",
+      "facts": {
+        "diffusion": {
+          "from": "1997",
+          "to": "2003",
+          "status": "derived",
+          "sources": ["src-mynavi-ganguro"],
+          "quote": "1990年代後半ごろ～2000年代前半ごろにかけて流行したガングロ",
+          "rule": "「1990年代後半ごろ～2000年代前半ごろ」を1997〜2003年とみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [14, 22],
+          "status": "estimated",
+          "rationale": "主に女子高生の間で流行（出典）。周りで見かけた人も含めて推定"
+        },
+        "ceiling": {
+          "value": 0.3,
+          "status": "estimated",
+          "rationale": "質問は「周りで流行していた」を含むが、地域差が大きいため低めに設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "テレビなどで広く知られたと推定"
+        }
+      }
+    },
+    {
+      "id": "charisma-tenin",
+      "name": "カリスマ店員（渋谷109）",
+      "genre": "fashion",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "1999",
+          "to": "1999",
+          "status": "verified",
+          "sources": ["src-jiyu-1999"],
+          "quote": "1999年 新語・流行語大賞 カリスマ：その象徴がカリスマ店員とよばれる超人気の売り子…女子高生の憧れる職業第一位はファッションショップの店員"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [13, 22],
+          "status": "estimated",
+          "rationale": "女子高生の憧れ（出典）"
+        },
+        "ceiling": {
+          "value": 0.3,
+          "status": "estimated",
+          "rationale": "女性に人気が偏ったため低めに設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.3,
+          "ceiling": 0.9,
+          "rationale": "当時を知る人には広く知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "parapara-2000",
+      "name": "パラパラ（2000年ごろのブーム）",
+      "genre": "fashion",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "2000",
+          "to": "2000",
+          "status": "verified",
+          "sources": ["src-jiyu-2000"],
+          "quote": "2000年 新語・流行語大賞 パラパラ：１９７０年代のディスコではやった集団ダンスが復活…渋谷の公園では毎週「先生」を囲むパラパラ教室が催され"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [14, 25],
+          "status": "estimated",
+          "rationale": "若者のダンスブームとして推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.25,
+          "status": "estimated",
+          "rationale": "実際に踊った人は一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.3,
+          "ceiling": 0.9,
+          "rationale": "当時を知る人には広く知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "uniqlo-fleece",
+      "name": "ユニクロのフリースブーム",
+      "genre": "fashion",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "1998",
+          "to": "2001",
+          "status": "derived",
+          "sources": ["src-wwd-uniqlo-fleece"],
+          "quote": "1998年（平成10年）から始まったフリースブーム…2000-01（平成12-13）年秋冬シーズンには2600万枚を販売し、ヒット商品の枠を超えた社会現象",
+          "rule": "ブームの始まり（1998年）から2000-01年秋冬シーズンまでとみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 70],
+          "status": "estimated",
+          "rationale": "子どもから大人まで着た社会現象（出典）"
+        },
+        "ceiling": {
+          "value": 0.55,
+          "status": "estimated",
+          "rationale": "社会現象だが、持っていた人は半数程度と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "ユニクロは広く知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "choimote-oyaji",
+      "name": "ちょいモテオヤジ（雑誌『LEON』）",
+      "genre": "fashion",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "2005",
+          "to": "2005",
+          "status": "verified",
+          "sources": ["src-jiyu-2005"],
+          "quote": "2005年 新語・流行語大賞 ちょいモテオヤジ：月刊ファッション雑誌『LEON』（主婦と生活社）が繰り出すコピー群とその周辺文化"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [35, 60],
+          "status": "estimated",
+          "rationale": "中年男性向けの雑誌の言葉（出典から推定）"
+        },
+        "ceiling": {
+          "value": 0.15,
+          "status": "estimated",
+          "rationale": "言葉を知っていても実際に意識した人は一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.3,
+          "ceiling": 0.85,
+          "rationale": "世代外では知らない人も多いと推定"
+        }
+      }
+    },
+    {
+      "id": "fast-fashion",
+      "name": "ファストファッション",
+      "genre": "fashion",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "2009",
+          "to": "2009",
+          "status": "verified",
+          "sources": ["src-jiyu-2009"],
+          "quote": "2009年 新語・流行語大賞 ファストファッション：海外からＨ＆Ｍ、ＺＡＲＡ、フォーエバー21などが参画してきたことで、大きな社会現象になった"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [15, 45],
+          "status": "estimated",
+          "rationale": "若者を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.5,
+          "status": "estimated",
+          "rationale": "広く利用されたと推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "言葉は広く定着していると推定"
+        },
+        "activeUntil": {
+          "value": 2015,
+          "status": "estimated",
+          "rationale": "流行の中心（2009年）から数年続いたと推定"
+        }
+      }
+    },
+    {
+      "id": "sumaho-shoulder",
+      "name": "スマホショルダー",
+      "genre": "fashion",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "2022",
+          "to": "2022",
+          "status": "verified",
+          "sources": ["src-jiyu-2022"],
+          "quote": "2022年 新語・流行語大賞 スマホショルダー：スマホショルダーの登場でもはや体の一部になっているのか"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [13, 40],
+          "status": "estimated",
+          "rationale": "高校生〜若い大人を中心と推定（出典の文脈から推定）"
+        },
+        "ceiling": {
+          "value": 0.35,
+          "status": "estimated",
+          "rationale": "使っていた人は一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.3,
+          "ceiling": 0.9,
+          "rationale": "当時を知る人には広く知られていると推定"
+        },
+        "activeUntil": {
+          "value": 2024,
+          "status": "estimated",
+          "rationale": "流行の中心（2022年）から数年続いたと推定"
+        }
+      }
     }
   ]
 }

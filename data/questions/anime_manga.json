@@ -193,6 +193,668 @@
       "priority": 1.0,
       "relatedIds": [],
       "basicPool": false
+    },
+    {
+      "id": "ANI-005",
+      "status": "verified",
+      "genre": "anime_manga",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "テレビアニメ『魔法使いサリー』を、最初の放送当時（1966〜68年）に見ていましたか？",
+      "subject": "sally-1966",
+      "options": [
+        {
+          "id": "a",
+          "label": "毎週のように見ていた",
+          "kind": "heavy",
+          "insight": "魔法使いサリー（第1期）（1966年〜1968年）を4〜12歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ときどき見ていた",
+          "kind": "light",
+          "insight": "魔法使いサリー（第1期）（1966年〜1968年）の時期に4〜12歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが放送当時は見ていない",
+          "kind": "aware_only",
+          "insight": "魔法使いサリー（第1期）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "魔法使いサリー（第1期）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.7,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "ANI-006",
+      "status": "verified",
+      "genre": "anime_manga",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "テレビアニメ『巨人の星』を、放送当時に見ていましたか？",
+      "subject": "kyojin-no-hoshi",
+      "options": [
+        {
+          "id": "a",
+          "label": "毎週のように見ていた",
+          "kind": "heavy",
+          "insight": "巨人の星（テレビアニメ）（1968年〜1971年）を6〜15歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ときどき見ていた",
+          "kind": "light",
+          "insight": "巨人の星（テレビアニメ）（1968年〜1971年）の時期に6〜15歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが放送当時は見ていない",
+          "kind": "aware_only",
+          "insight": "巨人の星（テレビアニメ）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "巨人の星（テレビアニメ）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "ANI-007",
+      "status": "verified",
+      "genre": "anime_manga",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "テレビアニメ『タイガーマスク』を、最初の放送当時に見ていましたか？",
+      "subject": "tigermask-1969",
+      "options": [
+        {
+          "id": "a",
+          "label": "毎週のように見ていた",
+          "kind": "heavy",
+          "insight": "タイガーマスク（テレビアニメ）（1969年〜1971年）を5〜14歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ときどき見ていた",
+          "kind": "light",
+          "insight": "タイガーマスク（テレビアニメ）（1969年〜1971年）の時期に5〜14歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが放送当時は見ていない",
+          "kind": "aware_only",
+          "insight": "タイガーマスク（テレビアニメ）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "タイガーマスク（テレビアニメ）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "ANI-008",
+      "status": "verified",
+      "genre": "anime_manga",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "テレビアニメ『銀河鉄道999』を、放送当時に見ていましたか？",
+      "subject": "galaxy-express-999",
+      "options": [
+        {
+          "id": "a",
+          "label": "毎週のように見ていた",
+          "kind": "heavy",
+          "insight": "銀河鉄道999（テレビアニメ）（1978年〜1981年）を6〜15歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ときどき見ていた",
+          "kind": "light",
+          "insight": "銀河鉄道999（テレビアニメ）（1978年〜1981年）の時期に6〜15歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが放送当時は見ていない",
+          "kind": "aware_only",
+          "insight": "銀河鉄道999（テレビアニメ）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "銀河鉄道999（テレビアニメ）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "ANI-009",
+      "status": "verified",
+      "genre": "anime_manga",
+      "difficulty": "easy",
+      "type": "experience",
+      "text": "テレビアニメ『Dr.スランプ アラレちゃん』を、子どもの頃に見ていましたか？",
+      "subject": "arale-1981",
+      "options": [
+        {
+          "id": "a",
+          "label": "毎週のように見ていた",
+          "kind": "heavy",
+          "insight": "Dr.スランプ アラレちゃん（1981年〜1986年）を4〜12歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ときどき見ていた",
+          "kind": "light",
+          "insight": "Dr.スランプ アラレちゃん（1981年〜1986年）の時期に4〜12歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが見ていなかった",
+          "kind": "aware_only",
+          "insight": "Dr.スランプ アラレちゃんを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "Dr.スランプ アラレちゃんの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.1,
+      "relatedIds": ["ANI-010"],
+      "basicPool": false,
+      "group": "anime-1980s"
+    },
+    {
+      "id": "ANI-010",
+      "status": "verified",
+      "genre": "anime_manga",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "テレビアニメ『キン肉マン』を、最初の放送当時に見ていましたか？",
+      "subject": "kinnikuman-1983",
+      "options": [
+        {
+          "id": "a",
+          "label": "毎週のように見ていた",
+          "kind": "heavy",
+          "insight": "キン肉マン（テレビアニメ）（1983年〜1986年）を5〜13歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ときどき見ていた",
+          "kind": "light",
+          "insight": "キン肉マン（テレビアニメ）（1983年〜1986年）の時期に5〜13歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが放送当時は見ていない",
+          "kind": "aware_only",
+          "insight": "キン肉マン（テレビアニメ）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "キン肉マン（テレビアニメ）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": ["TOY-010", "ANI-009"],
+      "basicPool": false,
+      "group": "anime-1980s"
+    },
+    {
+      "id": "ANI-011",
+      "status": "verified",
+      "genre": "anime_manga",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "テレビアニメ『北斗の拳』を、放送当時に見ていましたか？",
+      "subject": "hokuto-1984",
+      "options": [
+        {
+          "id": "a",
+          "label": "毎週のように見ていた",
+          "kind": "heavy",
+          "insight": "北斗の拳（テレビアニメ）（1984年〜1987年）を8〜16歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ときどき見ていた",
+          "kind": "light",
+          "insight": "北斗の拳（テレビアニメ）（1984年〜1987年）の時期に8〜16歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが放送当時は見ていない",
+          "kind": "aware_only",
+          "insight": "北斗の拳（テレビアニメ）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "北斗の拳（テレビアニメ）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "ANI-012",
+      "status": "verified",
+      "genre": "anime_manga",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "テレビアニメ『聖闘士星矢』を、最初の放送当時に見ていましたか？",
+      "subject": "seiya-1986",
+      "options": [
+        {
+          "id": "a",
+          "label": "毎週のように見ていた",
+          "kind": "heavy",
+          "insight": "聖闘士星矢（テレビアニメ）（1986年〜1989年）を6〜14歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ときどき見ていた",
+          "kind": "light",
+          "insight": "聖闘士星矢（テレビアニメ）（1986年〜1989年）の時期に6〜14歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが放送当時は見ていない",
+          "kind": "aware_only",
+          "insight": "聖闘士星矢（テレビアニメ）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "聖闘士星矢（テレビアニメ）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "ANI-013",
+      "status": "verified",
+      "genre": "anime_manga",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "テレビアニメ『スラムダンク』を、放送当時（1993〜96年）に見ていましたか？",
+      "subject": "slamdunk-1993",
+      "options": [
+        {
+          "id": "a",
+          "label": "毎週のように見ていた",
+          "kind": "heavy",
+          "insight": "スラムダンク（テレビアニメ）（1993年〜1996年）を8〜16歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ときどき見ていた",
+          "kind": "light",
+          "insight": "スラムダンク（テレビアニメ）（1993年〜1996年）の時期に8〜16歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが放送当時は見ていない",
+          "kind": "aware_only",
+          "insight": "スラムダンク（テレビアニメ）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "スラムダンク（テレビアニメ）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "ANI-014",
+      "status": "verified",
+      "genre": "anime_manga",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "テレビアニメ『おジャ魔女どれみ』を、子どもの頃に見ていましたか？",
+      "subject": "doremi-1999",
+      "options": [
+        {
+          "id": "a",
+          "label": "毎週のように見ていた",
+          "kind": "heavy",
+          "insight": "おジャ魔女どれみ（最初のシリーズ）（1999年〜2000年）を3〜10歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ときどき見ていた",
+          "kind": "light",
+          "insight": "おジャ魔女どれみ（最初のシリーズ）（1999年〜2000年）の時期に3〜10歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが見ていなかった",
+          "kind": "aware_only",
+          "insight": "おジャ魔女どれみ（最初のシリーズ）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "おジャ魔女どれみ（最初のシリーズ）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.7,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "ANI-015",
+      "status": "verified",
+      "genre": "anime_manga",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "最初のテレビアニメ『デジモンアドベンチャー』（1999年）を、放送当時に見ていましたか？",
+      "subject": "digimon-adventure-1999",
+      "options": [
+        {
+          "id": "a",
+          "label": "毎週のように見ていた",
+          "kind": "heavy",
+          "insight": "デジモンアドベンチャー（最初のテレビシリーズ）（1999年〜2000年）を5〜13歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ときどき見ていた",
+          "kind": "light",
+          "insight": "デジモンアドベンチャー（最初のテレビシリーズ）（1999年〜2000年）の時期に5〜13歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが放送当時は見ていない",
+          "kind": "aware_only",
+          "insight": "デジモンアドベンチャー（最初のテレビシリーズ）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "デジモンアドベンチャー（最初のテレビシリーズ）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "ANI-016",
+      "status": "verified",
+      "genre": "anime_manga",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "最初の『ふたりはプリキュア』（2004年）を、放送当時に見ていましたか？",
+      "subject": "precure-2004",
+      "options": [
+        {
+          "id": "a",
+          "label": "毎週のように見ていた",
+          "kind": "heavy",
+          "insight": "ふたりはプリキュア（最初のシリーズ）（2004年〜2005年）を3〜10歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ときどき見ていた",
+          "kind": "light",
+          "insight": "ふたりはプリキュア（最初のシリーズ）（2004年〜2005年）の時期に3〜10歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが放送当時は見ていない",
+          "kind": "aware_only",
+          "insight": "ふたりはプリキュア（最初のシリーズ）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ふたりはプリキュア（最初のシリーズ）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.7,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "ANI-017",
+      "status": "verified",
+      "genre": "anime_manga",
+      "difficulty": "easy",
+      "type": "experience",
+      "text": "テレビアニメ『ドラえもん』を、ドラえもんの声が大山のぶ代さんだった頃（2005年3月まで）に、子どもとして見ていましたか？",
+      "subject": "doraemon-oyama",
+      "options": [
+        {
+          "id": "a",
+          "label": "毎週のように見ていた",
+          "kind": "heavy",
+          "insight": "テレビアニメ『ドラえもん』（大山のぶ代さんが声を担当していた時期）（1979年〜2005年）を3〜12歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ときどき見ていた",
+          "kind": "light",
+          "insight": "テレビアニメ『ドラえもん』（大山のぶ代さんが声を担当していた時期）（1979年〜2005年）の時期に3〜12歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "見ていなかった（声が変わった後に見た・見ていない）",
+          "kind": "no_experience",
+          "insight": "テレビアニメ『ドラえもん』（大山のぶ代さんが声を担当していた時期）の中心の世代から外れた世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "テレビアニメ『ドラえもん』（大山のぶ代さんが声を担当していた時期）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.2,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "ANI-018",
+      "status": "verified",
+      "genre": "anime_manga",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "『ちびまる子ちゃん』が大ブームになった頃（「ピーヒャラ ピーヒャラ」の主題歌が流行った1990年ごろ）を、子どもとして覚えていますか？",
+      "subject": "chibimaruko-boom",
+      "options": [
+        {
+          "id": "a",
+          "label": "はっきり覚えている",
+          "kind": "heavy",
+          "insight": "『ちびまる子ちゃん』の大ブーム（1990年）を6〜15歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "なんとなく覚えている",
+          "kind": "light",
+          "insight": "『ちびまる子ちゃん』の大ブーム（1990年）の時期に6〜15歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時の記憶はない",
+          "kind": "aware_only",
+          "insight": "『ちびまる子ちゃん』の大ブームを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "『ちびまる子ちゃん』の大ブームの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "ANI-019",
+      "status": "verified",
+      "genre": "anime_manga",
+      "difficulty": "easy",
+      "type": "experience",
+      "text": "『鬼滅の刃』が社会現象になった頃（2020年ごろ）、アニメや映画を見ましたか？",
+      "subject": "kimetsu-boom",
+      "options": [
+        {
+          "id": "a",
+          "label": "夢中で見ていた",
+          "kind": "heavy",
+          "insight": "『鬼滅の刃』の社会現象的な流行（2019年〜2020年）を6〜45歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し見た",
+          "kind": "light",
+          "insight": "『鬼滅の刃』の社会現象的な流行（2019年〜2020年）の時期に6〜45歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが見ていない",
+          "kind": "aware_only",
+          "insight": "『鬼滅の刃』の社会現象的な流行を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "『鬼滅の刃』の社会現象的な流行の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.7,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
     }
   ]
 }

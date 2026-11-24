@@ -180,6 +180,687 @@
       "priority": 1.0,
       "relatedIds": [],
       "basicPool": false
+    },
+    {
+      "id": "NEW-005",
+      "status": "verified",
+      "genre": "news",
+      "difficulty": "easy",
+      "type": "era_choice",
+      "text": "小学生の頃、千円札に描かれていた人物は？",
+      "ageWindow": [6, 12],
+      "options": [
+        {
+          "id": "a",
+          "label": "聖徳太子",
+          "kind": "era",
+          "subject": "yen1000-shotoku",
+          "insight": "千円札（聖徳太子）（1950年〜1963年）の頃に小学生だった人に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "伊藤博文",
+          "kind": "era",
+          "subject": "yen1000-ito",
+          "insight": "千円札（伊藤博文）（1963年〜1984年）の頃に小学生だった人に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "夏目漱石",
+          "kind": "era",
+          "subject": "yen1000-natsume",
+          "insight": "千円札（夏目漱石）（1984年〜2004年）の頃に小学生だった人に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "野口英世",
+          "kind": "era",
+          "subject": "yen1000-noguchi",
+          "insight": "千円札（野口英世）（2004年〜2024年）の頃に小学生だった人に多い回答"
+        },
+        {
+          "id": "e",
+          "label": "北里柴三郎",
+          "kind": "era",
+          "subject": "yen1000-kitasato",
+          "insight": "千円札（北里柴三郎）（2024年〜現在）の頃に小学生だった人に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.3,
+      "group": "money",
+      "relatedIds": [],
+      "basicPool": true,
+      "notes": "発行期間は日本銀行の資料による。途中で替わった場合は長く使った方を選ぶ"
+    },
+    {
+      "id": "NEW-006",
+      "status": "verified",
+      "genre": "news",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "1970年の大阪万博（日本万国博覧会）のことを、当時リアルタイムで覚えていますか？",
+      "subject": "expo-1970",
+      "options": [
+        {
+          "id": "a",
+          "label": "行った",
+          "kind": "heavy",
+          "insight": "日本万国博覧会（大阪万博）（1970年）のとき5〜99歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "テレビなどで見て覚えている",
+          "kind": "light",
+          "insight": "日本万国博覧会（大阪万博）（1970年）のとき5〜99歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時の記憶はない",
+          "kind": "aware_only",
+          "insight": "日本万国博覧会（大阪万博）を知ってはいるが、当時はまだ幼かった・生まれていなかった世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "日本万国博覧会（大阪万博）の当時から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "group": "expo",
+      "relatedIds": ["NEW-014", "NEW-016"],
+      "basicPool": false
+    },
+    {
+      "id": "NEW-007",
+      "status": "verified",
+      "genre": "news",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "1972年に初めてジャイアントパンダ（カンカン・ランラン）が上野動物園に来たときのことを覚えていますか？",
+      "subject": "panda-1972",
+      "options": [
+        {
+          "id": "a",
+          "label": "はっきり覚えている",
+          "kind": "heavy",
+          "insight": "ジャイアントパンダの来日（カンカン・ランラン）（1972年）のとき5〜99歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "なんとなく覚えている",
+          "kind": "light",
+          "insight": "ジャイアントパンダの来日（カンカン・ランラン）（1972年）のとき5〜99歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時の記憶はない",
+          "kind": "aware_only",
+          "insight": "ジャイアントパンダの来日（カンカン・ランラン）を知ってはいるが、当時はまだ幼かった・生まれていなかった世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ジャイアントパンダの来日（カンカン・ランラン）の当時から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "NEW-008",
+      "status": "verified",
+      "genre": "news",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "東京ディズニーランドが開園した頃（1983年）のことを、当時リアルタイムで覚えていますか？",
+      "subject": "tdl-open",
+      "options": [
+        {
+          "id": "a",
+          "label": "はっきり覚えている",
+          "kind": "heavy",
+          "insight": "東京ディズニーランドの開園（1983年）のとき5〜99歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "なんとなく覚えている",
+          "kind": "light",
+          "insight": "東京ディズニーランドの開園（1983年）のとき5〜99歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時の記憶はない",
+          "kind": "aware_only",
+          "insight": "東京ディズニーランドの開園を知ってはいるが、当時はまだ幼かった・生まれていなかった世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "東京ディズニーランドの開園の当時から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "NEW-009",
+      "status": "verified",
+      "genre": "news",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "1986年ごろ、ハレー彗星が地球に近づいて話題になったことを覚えていますか？",
+      "subject": "halley-1986",
+      "options": [
+        {
+          "id": "a",
+          "label": "はっきり覚えている",
+          "kind": "heavy",
+          "insight": "ハレー彗星の接近（1985〜86年）（1985年〜1986年）のとき5〜99歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "なんとなく覚えている",
+          "kind": "light",
+          "insight": "ハレー彗星の接近（1985〜86年）（1985年〜1986年）のとき5〜99歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時の記憶はない",
+          "kind": "aware_only",
+          "insight": "ハレー彗星の接近（1985〜86年）を知ってはいるが、当時はまだ幼かった・生まれていなかった世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ハレー彗星の接近（1985〜86年）の当時から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "NEW-010",
+      "status": "verified",
+      "genre": "news",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "「国鉄」（JRになる前）の電車に乗った記憶がありますか？",
+      "subject": "jnr-train",
+      "options": [
+        {
+          "id": "a",
+          "label": "はっきり覚えている",
+          "kind": "heavy",
+          "insight": "国鉄（JRになる前）（〜1987年）を4〜99歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "なんとなく覚えている",
+          "kind": "light",
+          "insight": "国鉄（JRになる前）（〜1987年）の時期に4〜99歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "国鉄は知っているが乗った記憶はない",
+          "kind": "aware_only",
+          "insight": "国鉄（JRになる前）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "国鉄（JRになる前）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "NEW-011",
+      "status": "verified",
+      "genre": "news",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "1993年にJリーグが開幕して大ブームになったことを、当時リアルタイムで覚えていますか？",
+      "subject": "jleague-1993",
+      "options": [
+        {
+          "id": "a",
+          "label": "はっきり覚えている",
+          "kind": "heavy",
+          "insight": "Jリーグの開幕（1993年）（1993年）のとき5〜99歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "なんとなく覚えている",
+          "kind": "light",
+          "insight": "Jリーグの開幕（1993年）（1993年）のとき5〜99歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時の記憶はない",
+          "kind": "aware_only",
+          "insight": "Jリーグの開幕（1993年）を知ってはいるが、当時はまだ幼かった・生まれていなかった世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "Jリーグの開幕（1993年）の当時から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "group": "sports-event",
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "NEW-012",
+      "status": "verified",
+      "genre": "news",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "1998年の長野オリンピックを、当時リアルタイムで見た（テレビを含む）記憶がありますか？",
+      "subject": "nagano-1998",
+      "options": [
+        {
+          "id": "a",
+          "label": "はっきり覚えている",
+          "kind": "heavy",
+          "insight": "長野オリンピック（1998年）（1998年）のとき5〜99歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "なんとなく覚えている",
+          "kind": "light",
+          "insight": "長野オリンピック（1998年）（1998年）のとき5〜99歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時の記憶はない",
+          "kind": "aware_only",
+          "insight": "長野オリンピック（1998年）を知ってはいるが、当時はまだ幼かった・生まれていなかった世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "長野オリンピック（1998年）の当時から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "group": "sports-event",
+      "relatedIds": ["NEW-002"],
+      "basicPool": false
+    },
+    {
+      "id": "NEW-013",
+      "status": "verified",
+      "genre": "news",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "2002年の日韓ワールドカップ（サッカー）を、当時リアルタイムで見た（テレビを含む）記憶がありますか？",
+      "subject": "wc-2002",
+      "options": [
+        {
+          "id": "a",
+          "label": "はっきり覚えている",
+          "kind": "heavy",
+          "insight": "2002年 FIFAワールドカップ（日韓大会）（2002年）のとき5〜99歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "なんとなく覚えている",
+          "kind": "light",
+          "insight": "2002年 FIFAワールドカップ（日韓大会）（2002年）のとき5〜99歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時の記憶はない",
+          "kind": "aware_only",
+          "insight": "2002年 FIFAワールドカップ（日韓大会）を知ってはいるが、当時はまだ幼かった・生まれていなかった世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "2002年 FIFAワールドカップ（日韓大会）の当時から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "group": "sports-event",
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "NEW-014",
+      "status": "verified",
+      "genre": "news",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "2005年の愛・地球博（愛知万博）のことを、当時リアルタイムで覚えていますか？",
+      "subject": "aichi-expo-2005",
+      "options": [
+        {
+          "id": "a",
+          "label": "行った",
+          "kind": "heavy",
+          "insight": "愛・地球博（2005年日本国際博覧会）（2005年）のとき5〜99歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "テレビなどで見て覚えている",
+          "kind": "light",
+          "insight": "愛・地球博（2005年日本国際博覧会）（2005年）のとき5〜99歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時の記憶はない",
+          "kind": "aware_only",
+          "insight": "愛・地球博（2005年日本国際博覧会）を知ってはいるが、当時はまだ幼かった・生まれていなかった世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "愛・地球博（2005年日本国際博覧会）の当時から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "group": "expo",
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "NEW-015",
+      "status": "verified",
+      "genre": "news",
+      "difficulty": "easy",
+      "type": "experience",
+      "text": "2019年に元号が「平成」から「令和」に変わったときのことを覚えていますか？",
+      "subject": "reiwa-kaigen",
+      "options": [
+        {
+          "id": "a",
+          "label": "はっきり覚えている",
+          "kind": "heavy",
+          "insight": "元号が「令和」に変わったこと（2019年）（2019年）のとき5〜99歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "なんとなく覚えている",
+          "kind": "light",
+          "insight": "元号が「令和」に変わったこと（2019年）（2019年）のとき5〜99歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時の記憶はない",
+          "kind": "aware_only",
+          "insight": "元号が「令和」に変わったこと（2019年）を知ってはいるが、当時はまだ幼かった・生まれていなかった世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "元号が「令和」に変わったこと（2019年）の当時から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "relatedIds": ["NEW-003"],
+      "basicPool": false
+    },
+    {
+      "id": "NEW-016",
+      "status": "verified",
+      "genre": "news",
+      "difficulty": "easy",
+      "type": "experience",
+      "text": "2025年の大阪・関西万博（ミャクミャク）のことを覚えていますか？",
+      "subject": "expo-2025",
+      "options": [
+        {
+          "id": "a",
+          "label": "行った",
+          "kind": "heavy",
+          "insight": "大阪・関西万博（2025年日本国際博覧会）（2025年）のとき5〜99歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "テレビなどで見て覚えている",
+          "kind": "light",
+          "insight": "大阪・関西万博（2025年日本国際博覧会）（2025年）のとき5〜99歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているがよく覚えていない",
+          "kind": "aware_only",
+          "insight": "大阪・関西万博（2025年日本国際博覧会）を知ってはいるが、当時はまだ幼かった・生まれていなかった世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "大阪・関西万博（2025年日本国際博覧会）の当時から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "group": "expo",
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "NEW-017",
+      "status": "verified",
+      "genre": "news",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "バブル期の流行語「アッシーくん」「メッシーくん」が使われていた頃（1990年ごろ）のことを覚えていますか？",
+      "subject": "asshii-kun",
+      "options": [
+        {
+          "id": "a",
+          "label": "はっきり覚えている",
+          "kind": "heavy",
+          "insight": "「アッシーくん」（バブル期の流行語）（1990年）を15〜50歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "なんとなく覚えている",
+          "kind": "light",
+          "insight": "「アッシーくん」（バブル期の流行語）（1990年）の時期に15〜50歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時の記憶はない",
+          "kind": "aware_only",
+          "insight": "「アッシーくん」（バブル期の流行語）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "「アッシーくん」（バブル期の流行語）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "group": "buzzword",
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "NEW-018",
+      "status": "verified",
+      "genre": "news",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "1997年ごろの「ガーデニング」のブームの頃に、家族や自分が庭やベランダで花を育てていましたか？",
+      "subject": "gardening-boom",
+      "options": [
+        {
+          "id": "a",
+          "label": "自分が熱心にしていた",
+          "kind": "heavy",
+          "insight": "ガーデニングのブーム（1997年）（1997年）を25〜75歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "家族がしていた・少ししていた",
+          "kind": "light",
+          "insight": "ガーデニングのブーム（1997年）（1997年）の時期に25〜75歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているがしていなかった",
+          "kind": "aware_only",
+          "insight": "ガーデニングのブーム（1997年）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ガーデニングのブーム（1997年）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.5,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "NEW-019",
+      "status": "verified",
+      "genre": "news",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "「草食男子」という言葉が流行った頃（2009年ごろ）のことを覚えていますか？",
+      "subject": "soshoku-danshi",
+      "options": [
+        {
+          "id": "a",
+          "label": "はっきり覚えている",
+          "kind": "heavy",
+          "insight": "「草食男子」（2009年の流行語）（2009年）を12〜60歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "なんとなく覚えている",
+          "kind": "light",
+          "insight": "「草食男子」（2009年の流行語）（2009年）の時期に12〜60歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時の記憶はない",
+          "kind": "aware_only",
+          "insight": "「草食男子」（2009年の流行語）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "「草食男子」（2009年の流行語）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.7,
+      "priority": 1.0,
+      "group": "buzzword",
+      "relatedIds": [],
+      "basicPool": false
     }
   ]
 }

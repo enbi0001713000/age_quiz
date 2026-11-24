@@ -23,8 +23,12 @@ export interface EngineConfig {
   calibrationSigma: number;
   /** 推定区間の確率（80%区間） */
   intervalMass: number;
-  /** 確信度の境界（80%区間の幅、年） */
-  confidence: { highMaxWidth: number; mediumMaxWidth: number };
+  /**
+   * 確信度の境界（80%区間の幅、年）。
+   * maxConflictsForHigh：最終的な推定から見て「意外な回答」（予測確率が surpriseThreshold 未満）が
+   * この数を超えると、区間が狭くても確信度を「高」にしない（世代の異なる回答が混ざっている場合）
+   */
+  confidence: { highMaxWidth: number; mediumMaxWidth: number; maxConflictsForHigh: number };
   /** 基本質問（Q6：共通プールから毎回 count 問） */
   basic: { count: number };
   /** 質問選択 */
@@ -66,7 +70,7 @@ export const DEFAULT_CONFIG: EngineConfig = {
   surpriseThreshold: 0.05,
   calibrationSigma: 1.5,
   intervalMass: 0.8,
-  confidence: { highMaxWidth: 5, mediumMaxWidth: 10 },
+  confidence: { highMaxWidth: 5, mediumMaxWidth: 10, maxConflictsForHigh: 1 },
   basic: { count: 5 },
   selection: {
     randomBand: 0.85,
@@ -84,7 +88,7 @@ export const DEFAULT_CONFIG: EngineConfig = {
     maxQuestionsWithSurprises: 30,
     surprisesForCaution: 2,
     stopWidth: 5,
-    minExpectedGainBits: 0.03,
+    minExpectedGainBits: 0.06,
     lowGainStreak: 2,
     maxDurationMs: 6 * 60 * 1000,
   },
