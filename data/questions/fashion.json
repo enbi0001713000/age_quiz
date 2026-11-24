@@ -41,8 +41,9 @@
       ],
       "importance": 1.0,
       "priority": 1.0,
-      "relatedIds": [],
-      "basicPool": false
+      "relatedIds": ["FAS-011"],
+      "basicPool": false,
+      "group": "gyaru"
     },
     {
       "id": "FAS-002",
@@ -349,8 +350,9 @@
       ],
       "importance": 0.6,
       "priority": 1.0,
-      "relatedIds": [],
-      "basicPool": false
+      "relatedIds": ["FAS-009"],
+      "basicPool": false,
+      "group": "bubble-fashion"
     },
     {
       "id": "FAS-009",
@@ -394,7 +396,7 @@
       "importance": 1.0,
       "priority": 1.0,
       "group": "disco",
-      "relatedIds": ["FAS-003"],
+      "relatedIds": ["FAS-003", "FAS-008"],
       "basicPool": false
     },
     {
@@ -482,8 +484,9 @@
       ],
       "importance": 0.7,
       "priority": 1.0,
-      "relatedIds": [],
-      "basicPool": false
+      "relatedIds": ["FAS-001"],
+      "basicPool": false,
+      "group": "gyaru"
     },
     {
       "id": "FAS-012",

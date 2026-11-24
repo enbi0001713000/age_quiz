@@ -249,14 +249,14 @@
         },
         {
           "id": "b",
-          "label": "ガンプラ（ガンダムのプラモデル）",
+          "label": "ガンプラ",
           "kind": "era",
           "subject": "gunpla-boom",
           "insight": "ガンプラ（ガンダムのプラモデル）のブーム（1980年〜1984年）の頃に小学生だった人に多い回答"
         },
         {
           "id": "c",
-          "label": "ミニ四駆（『ダッシュ!四駆郎』の頃）",
+          "label": "ミニ四駆（四駆郎の頃）",
           "kind": "era",
           "subject": "mini4wd-1st",
           "insight": "ミニ四駆の第一次ブーム（1986年〜1990年）の頃に小学生だった人に多い回答"
@@ -270,7 +270,7 @@
         },
         {
           "id": "e",
-          "label": "妖怪ウォッチの妖怪メダル",
+          "label": "妖怪メダル",
           "kind": "era",
           "subject": "yokai-watch-anime",
           "insight": "妖怪ウォッチ（テレビアニメ）（2014年〜2018年）の頃に小学生だった人に多い回答"
@@ -378,8 +378,9 @@
       ],
       "importance": 0.8,
       "priority": 1.0,
-      "relatedIds": [],
-      "basicPool": false
+      "relatedIds": ["TOY-009"],
+      "basicPool": false,
+      "group": "boys-toys-1980s"
     },
     {
       "id": "TOY-009",
@@ -422,8 +423,9 @@
       ],
       "importance": 0.7,
       "priority": 1.0,
-      "relatedIds": [],
-      "basicPool": false
+      "relatedIds": ["TOY-008"],
+      "basicPool": false,
+      "group": "boys-toys-1980s"
     },
     {
       "id": "TOY-010",

@@ -194,7 +194,7 @@ const decadeDisc = decades
   .filter((x): x is [string, number] => x !== null);
 
 const lines: string[] = [];
-lines.push('# 質問データ分析レポート（Phase 2 試作）');
+lines.push('# 質問データ分析レポート');
 lines.push('');
 lines.push(
   `> \`npm run report:coverage\` で自動生成（基準年 ${REFERENCE_YEAR}）。手で編集しない。`,
@@ -236,7 +236,7 @@ const weakest = [...decadeDisc]
   .slice(0, 2)
   .map((x) => x[0]);
 lines.push(
-  `識別力が最も弱い年代：**${weakest.join('、')}生まれ**（Phase 6 の拡張で優先的に補強する）`,
+  `識別力が最も弱い年代：**${weakest.join('、')}生まれ**（質問を追加するときに優先的に補強する）`,
 );
 lines.push('');
 lines.push('## 3. 類似質問（経験確率の曲線の相関が ' + SIMILARITY_THRESHOLD + ' 以上）');

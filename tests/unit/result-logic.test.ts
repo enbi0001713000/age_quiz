@@ -206,6 +206,6 @@ describe('プレイ履歴と設定の保存（要件 9章）', () => {
 describe('データの版', () => {
   it('同じデータなら同じ値、質問数を含む', () => {
     expect(dataVersion(dataset)).toBe(dataVersion(dataset));
-    expect(dataVersion(dataset)).toMatch(/^48q-[0-9a-f]{8}$/);
+    expect(dataVersion(dataset)).toMatch(new RegExp(`^${dataset.questions.length}q-[0-9a-f]{8}$`));
   });
 });

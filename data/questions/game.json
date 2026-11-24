@@ -209,8 +209,9 @@
       ],
       "importance": 1.0,
       "priority": 1.0,
-      "relatedIds": ["GAM-002"],
-      "basicPool": false
+      "relatedIds": ["GAM-002", "GAM-008"],
+      "basicPool": false,
+      "group": "nintendo-1990s"
     },
     {
       "id": "GAM-005",
@@ -385,8 +386,9 @@
       ],
       "importance": 1.0,
       "priority": 1.0,
-      "relatedIds": ["GAM-001"],
-      "basicPool": false
+      "relatedIds": ["GAM-001", "GAM-004"],
+      "basicPool": false,
+      "group": "nintendo-1990s"
     },
     {
       "id": "GAM-009",

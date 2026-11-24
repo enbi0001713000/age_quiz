@@ -22,7 +22,8 @@
     "validate:data": "tsx scripts/validate-data.ts",
     "report:coverage": "tsx scripts/coverage-report.ts",
     "simulate": "tsx scripts/simulate.ts",
-    "simulate:tune": "tsx scripts/simulate.ts --tune"
+    "simulate:tune": "tsx scripts/simulate.ts --tune",
+    "test:layout": "playwright test --config playwright.layout.config.ts"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

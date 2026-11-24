@@ -335,7 +335,7 @@
       "importance": 1.0,
       "priority": 1.0,
       "group": "elementary-english",
-      "relatedIds": ["SCH-006"],
+      "relatedIds": ["SCH-006", "SCH-008"],
       "basicPool": false
     },
     {
@@ -379,8 +379,9 @@
       ],
       "importance": 1.0,
       "priority": 1.0,
-      "relatedIds": ["SCH-003"],
-      "basicPool": false
+      "relatedIds": ["SCH-003", "SCH-007"],
+      "basicPool": false,
+      "group": "curriculum-2020"
     },
     {
       "id": "SCH-009",

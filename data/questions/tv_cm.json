@@ -769,40 +769,40 @@
       "genre": "tv_cm",
       "difficulty": "easy",
       "type": "era_choice",
-      "text": "10代の頃に流行った（よく真似された）お笑いのフレーズは？",
+      "text": "10代の頃に流行ったお笑いのギャグは？",
       "ageWindow": [10, 19],
       "options": [
         {
           "id": "a",
-          "label": "チャーリー浜「…じゃあ～りませんか」",
+          "label": "「…じゃあ～りませんか」",
           "kind": "era",
           "subject": "gag-charlie",
           "insight": "チャーリー浜「…じゃあ～りませんか」（1991年）の頃に10〜19歳だった人に多い回答"
         },
         {
           "id": "b",
-          "label": "慎吾ママ「おっはー」",
+          "label": "「おっはー」",
           "kind": "era",
           "subject": "gag-ohha",
           "insight": "慎吾ママ「おっはー」（2000年）の頃に10〜19歳だった人に多い回答"
         },
         {
           "id": "c",
-          "label": "レイザーラモンHG「フォー！」",
+          "label": "「フォー！」",
           "kind": "era",
           "subject": "gag-hg",
           "insight": "レイザーラモンHG「フォー！」（2005年）の頃に10〜19歳だった人に多い回答"
         },
         {
           "id": "d",
-          "label": "スギちゃん「ワイルドだろぉ」",
+          "label": "「ワイルドだろぉ」",
           "kind": "era",
           "subject": "gag-wild",
           "insight": "スギちゃん「ワイルドだろぉ」（2012年）の頃に10〜19歳だった人に多い回答"
         },
         {
           "id": "e",
-          "label": "ブルゾンちえみ「35億」",
+          "label": "「35億」",
           "kind": "era",
           "subject": "gag-35oku",
           "insight": "ブルゾンちえみ「35億」（2017年）の頃に10〜19歳だった人に多い回答"

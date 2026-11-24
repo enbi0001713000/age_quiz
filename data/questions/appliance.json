@@ -90,7 +90,7 @@
       "importance": 0.8,
       "priority": 1.0,
       "group": "household-appliance",
-      "relatedIds": ["APP-004"],
+      "relatedIds": ["APP-004", "APP-008", "APP-016"],
       "basicPool": false,
       "notes": "世帯普及率（内閣府統計）に基づく。地域差がある"
     },
@@ -363,9 +363,10 @@
       ],
       "importance": 0.7,
       "priority": 1.0,
-      "relatedIds": [],
+      "relatedIds": ["APP-016", "APP-002"],
       "basicPool": false,
-      "notes": "世帯普及率（内閣府統計）に基づく。地域差・家庭差がある（都市部と地方で差が大きいため重要度を下げている）"
+      "notes": "世帯普及率（内閣府統計）に基づく。地域差・家庭差がある（都市部と地方で差が大きいため重要度を下げている）",
+      "group": "household-affluence"
     },
     {
       "id": "APP-009",
@@ -409,7 +410,7 @@
       "importance": 0.8,
       "priority": 1.0,
       "group": "household-digital",
-      "relatedIds": [],
+      "relatedIds": ["APP-010"],
       "basicPool": false,
       "notes": "世帯普及率（内閣府統計）に基づく。地域差・家庭差がある"
     },
@@ -454,9 +455,10 @@
       ],
       "importance": 0.8,
       "priority": 1.0,
-      "relatedIds": [],
+      "relatedIds": ["APP-009"],
       "basicPool": false,
-      "notes": "世帯普及率（内閣府統計）に基づく。地域差・家庭差がある"
+      "notes": "世帯普及率（内閣府統計）に基づく。地域差・家庭差がある",
+      "group": "household-digital-2"
     },
     {
       "id": "APP-011",
@@ -606,28 +608,28 @@
       "options": [
         {
           "id": "a",
-          "label": "ビデオデッキ（VHSなどのテープ）",
+          "label": "ビデオデッキ（VHS）",
           "kind": "era",
           "subject": "rec-vhs-era",
           "insight": "ビデオデッキ（VHS）で録画していた時代（1988年〜2005年）の頃に小学生だった人に多い回答"
         },
         {
           "id": "b",
-          "label": "DVD・ブルーレイ・ハードディスクのレコーダー",
+          "label": "DVD・ブルーレイなどのレコーダー",
           "kind": "era",
           "subject": "rec-disc-era",
           "insight": "DVD・ブルーレイなどのレコーダーで録画していた時代（2006年〜現在）の頃に小学生だった人に多い回答"
         },
         {
           "id": "c",
-          "label": "録画はせず、見逃し配信（TVerなど）で見ていた",
+          "label": "見逃し配信（TVerなど）で見ていた",
           "kind": "era",
           "subject": "tver-era",
           "insight": "見逃し配信（TVerなど）でテレビ番組を見る時代（2015年〜現在）の頃に小学生だった人に多い回答"
         },
         {
           "id": "d",
-          "label": "録画はほとんどしなかった・機器がなかった",
+          "label": "録画はほとんどしなかった",
           "kind": "none_of_these",
           "insight": "選択肢のどの時代にも当てはまらない世代（より上の世代や、より下の世代）に多い回答"
         },
@@ -682,12 +684,12 @@
           "kind": "dont_remember"
         }
       ],
-      "importance": 1.0,
+      "importance": 0.7,
       "priority": 1.0,
       "group": "tv-era",
       "relatedIds": ["APP-001"],
       "basicPool": false,
-      "notes": "世帯普及率（内閣府統計）に基づく。地域差・家庭差がある"
+      "notes": "世帯普及率（内閣府統計）に基づく。地域差・家庭差がある。普及が急速で1問で決まりすぎるため重要度を下げている"
     },
     {
       "id": "APP-016",
@@ -730,9 +732,10 @@
       ],
       "importance": 0.5,
       "priority": 1.0,
-      "relatedIds": [],
+      "relatedIds": ["APP-008", "APP-002"],
       "basicPool": false,
-      "notes": "世帯普及率（内閣府統計）に基づく。地域差・家庭差がある。普及率は最大でも約2割のため重要度を下げている"
+      "notes": "世帯普及率（内閣府統計）に基づく。地域差・家庭差がある。普及率は最大でも約2割のため重要度を下げている",
+      "group": "household-affluence"
     }
   ]
 }

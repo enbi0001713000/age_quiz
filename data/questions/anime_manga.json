@@ -411,8 +411,9 @@
       ],
       "importance": 1.0,
       "priority": 1.1,
-      "relatedIds": [],
-      "basicPool": false
+      "relatedIds": ["ANI-010"],
+      "basicPool": false,
+      "group": "anime-1980s"
     },
     {
       "id": "ANI-010",
@@ -455,8 +456,9 @@
       ],
       "importance": 0.8,
       "priority": 1.0,
-      "relatedIds": ["TOY-010"],
-      "basicPool": false
+      "relatedIds": ["TOY-010", "ANI-009"],
+      "basicPool": false,
+      "group": "anime-1980s"
     },
     {
       "id": "ANI-011",

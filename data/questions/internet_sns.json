@@ -104,7 +104,7 @@
       "importance": 1.0,
       "priority": 1.0,
       "group": "internet-era",
-      "relatedIds": ["NET-001"],
+      "relatedIds": ["NET-001", "NET-006"],
       "basicPool": false
     },
     {
