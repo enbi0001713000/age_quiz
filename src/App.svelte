@@ -14,6 +14,7 @@
   } from './storage/history';
   import { loadSettings, saveSettings, type Settings } from './storage/settings';
   import { openStore } from './storage/storage';
+  import { pwa, startPwa, updateNow } from './app/pwa.svelte';
   import FinalAnalysis from './ui/components/FinalAnalysis.svelte';
   import type { GameFlow } from './ui/game/flow';
   import type { GameFactory } from './ui/game/loadGame';
@@ -38,6 +39,8 @@
   let settings = $state<Settings>(loadSettings(storage.store));
 
   onMount(() => {
+    // オフライン対応（Service Worker）。新しい版はタイトル画面でだけ切り替えを案内する
+    void startPwa();
     // 質問データと推理モデルは、タイトル画面を表示してから読み込む
     import('./ui/game/loadGame')
       .then((m) => (factory = m.prepareGame()))
@@ -107,6 +110,10 @@
     onstart={start}
     onhistory={() => go('history')}
     onabout={() => go('about')}
+    updateAvailable={pwa.needRefresh}
+    offlineReady={pwa.offlineReady}
+    offlineSupported={pwa.supported}
+    onupdate={updateNow}
   />
 {:else if screen === 'question' && flow}
   {#key flow}
@@ -130,6 +137,7 @@
   <HistoryScreen
     entries={history}
     generations={factory?.dataset.generations}
+    currentDataVersion={factory?.dataVersion ?? null}
     persistent={storage.persistent}
     ondelete={removeEntry}
     onclear={removeAll}
@@ -140,6 +148,8 @@
   <AboutScreen
     sources={factory?.dataset.sources ?? []}
     {settings}
+    dataVersion={factory?.dataVersion ?? null}
+    offlineReady={pwa.offlineReady}
     onsettings={updateSettings}
     onback={() => go('title')}
   />

@@ -7,6 +7,7 @@
   let {
     entries,
     generations,
+    currentDataVersion = null,
     persistent,
     ondelete,
     onclear,
@@ -15,6 +16,8 @@
   }: {
     entries: HistoryEntry[];
     generations: Generations | undefined;
+    /** 現在の質問データの版。違う版で推定した履歴に印を付ける（更新前後の結果の比較に注意を促す） */
+    currentDataVersion?: string | null;
     persistent: boolean;
     ondelete: (id: string) => void;
     onclear: () => void;
@@ -23,6 +26,9 @@
   } = $props();
 
   let confirmClear = $state(false);
+  const isOld = (e: HistoryEntry) =>
+    currentDataVersion !== null && e.dataVersion !== currentDataVersion;
+  const hasOld = $derived(entries.some(isOld));
   const SCALE: [number, number] = [1930, 2020];
   const pos = (y: number) =>
     `${Math.min(100, Math.max(0, ((y - SCALE[0]) / (SCALE[1] - SCALE[0])) * 100))}%`;
@@ -52,7 +58,15 @@
       {#each entries as e (e.id)}
         <li class="panel item">
           <div class="head">
-            <span class="date">{fmtDate(e.playedAt)}</span>
+            <span class="date">
+              {fmtDate(e.playedAt)}
+              {#if isOld(e)}<span
+                  class="old"
+                  title="質問や推理の仕組みが今と異なる版で推定した結果です"
+                >
+                  旧バージョン
+                </span>{/if}
+            </span>
             <button
               type="button"
               class="delete"
@@ -82,6 +96,11 @@
     <div class="ticks" aria-hidden="true">
       {#each [1930, 1950, 1970, 1990, 2010] as t (t)}<span style:left={pos(t)}>{t}</span>{/each}
     </div>
+    {#if hasOld}
+      <p class="footnote">
+        「旧バージョン」の結果は、質問データや推理の仕組みが今と異なる版で推定したものです。今の結果と比べるときはご注意ください。
+      </p>
+    {/if}
     <div class="clear">
       {#if confirmClear}
         <p>すべての履歴を削除します。元に戻せません。</p>
@@ -155,6 +174,15 @@
     font-family: var(--font-mono);
     font-size: 0.75rem;
     color: var(--color-text-faint);
+  }
+  .old {
+    margin-left: var(--space-2);
+    padding: 0 6px;
+    border: 1px solid var(--color-border);
+    border-radius: 999px;
+    font-family: var(--font-sans, inherit);
+    font-size: 0.6875rem;
+    color: var(--color-text-muted);
   }
   .delete {
     min-height: var(--tap-secondary);

@@ -2,9 +2,9 @@
 
 | ディレクトリ | 責務 | 作成Phase |
 |---|---|---|
-| `app/` | アプリ全体の基本情報・起動処理 | 1 |
+| `app/` | アプリ全体の基本情報・起動処理・オフライン対応の状態（`pwa.svelte.ts`：Service Worker の登録、オフライン準備完了・新しい版の検出、切り替え） | 1, 7 |
 | `engine/` | **推理エンジン**（生年の確率推定・質問選択・終了判定・確信度）。UI やブラウザ API に依存しない純粋な TypeScript（ESLint で強制）。公開APIは `index.ts`。`exposure.ts`・`optionModel.ts`（経験確率）、`compile.ts`（生年候補・事前確率・尤度表）、`posterior.ts`（年代ポイント加算と確率更新）、`selector.ts`（情報利得による質問選択）、`termination.ts`（終了判定）、`estimate.ts`（校正・確信度・年齢範囲）、`report.ts`（推理の根拠）、`session.ts`（1プレイの進行）、`config.ts`（パラメータ） | 2〜3（作成済み） |
-| `data/` | 質問データの形式定義（`schema.ts`、開発時の検査用で Zod を使う）・実行時に使う定数（`constants.ts`、Zod に依存しない）・整合性検査（`validate.ts`）・アプリへの同梱（`bundle.ts`）・データの版（`version.ts`） | 2〜5（作成済み） |
+| `data/` | 質問データの形式定義（`schema.ts`、開発時の検査用で Zod を使う）・実行時に使う定数（`constants.ts`、Zod に依存しない）・整合性検査（`validate.ts`）・アプリへの同梱（`bundle.ts`）・データの版（`version.ts`）・本番ビルドでの軽量化（`slim.ts`：実行時に使わない説明の項目を除く） | 2〜7（作成済み） |
 | `storage/` | プレイ履歴（推定結果だけ・最大50件）・設定（演出の短縮）。LocalStorage が使えない環境ではメモリに保存（`storage.ts`） | 5（作成済み） |
 | `share/` | 共有画像（1200×630）の描画（`card.ts`、Canvas）・PNG保存／Web Share API／コピー（`share.ts`、使えない環境では代替） | 5（作成済み） |
 | `ui/screens/` | 画面（タイトル・質問・結果・プレイ履歴・このゲームについて） | 4〜5（作成済み） |

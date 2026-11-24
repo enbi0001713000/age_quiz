@@ -1,16 +1,21 @@
 <!-- このゲームについて：推定の仕組み・確信度の意味・プライバシー・設定・出典一覧 -->
 <script lang="ts">
+  import { APP_INFO } from '../../app/appInfo';
   import type { Source } from '../../data/schema';
   import type { Settings } from '../../storage/settings';
 
   let {
     sources,
     settings,
+    dataVersion,
+    offlineReady,
     onsettings,
     onback,
   }: {
     sources: Source[];
     settings: Settings;
+    dataVersion: string | null;
+    offlineReady: boolean;
     onsettings: (s: Settings) => void;
     onback: () => void;
   } = $props();
@@ -59,7 +64,25 @@
         このページは GitHub Pages
         で配信しています。配信元（GitHub社）がアクセスの記録（IPアドレス等）を取得する場合があります。
       </li>
+      <li>
+        オフラインで遊べるよう、ゲームのファイル（画面・質問データ）をこの端末のブラウザ内に保存します。保存するのはゲームのファイルだけで、回答や個人の情報は含みません。
+      </li>
     </ul>
+  </section>
+
+  <section class="panel" aria-labelledby="offline-title">
+    <h2 class="panel-title" id="offline-title">オフラインとバージョン <small>OFFLINE</small></h2>
+    <p>
+      初めて開いたときにゲームのファイルをこの端末に保存し、2回目以降は通信がなくても遊べます（初回だけ通信が必要です）。新しいバージョンが公開されると、タイトル画面にお知らせが出ます。プレイ中に切り替わることはありません。
+    </p>
+    <p class="status-line">
+      状態：{offlineReady
+        ? 'オフラインで遊べます（この端末に保存済み）'
+        : 'オフライン用の保存はまだ完了していません'}
+    </p>
+    <p class="footnote">
+      アプリ v{APP_INFO.version}{dataVersion ? `・質問データ ${dataVersion}` : ''}
+    </p>
   </section>
 
   <section class="panel">
@@ -140,6 +163,9 @@
     font-size: 0.875rem;
     color: var(--color-accent);
     cursor: pointer;
+  }
+  .status-line {
+    color: var(--cyan-300);
   }
   .sources {
     display: grid;

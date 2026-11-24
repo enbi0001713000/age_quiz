@@ -15,7 +15,8 @@
     "allowJs": true,
     "checkJs": true,
     "skipLibCheck": true,
-    "noEmit": true
+    "noEmit": true,
+    "allowImportingTsExtensions": true
   },
   "include": ["src/**/*", "tests/**/*", "scripts/**/*", "*.ts", "*.js"]
 }
