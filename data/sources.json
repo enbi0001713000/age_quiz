@@ -1214,6 +1214,114 @@
       "type": "press",
       "accessed": "2026-11-24",
       "reliability": "B"
+    },
+    {
+      "id": "src-boj-1000yen-past",
+      "title": "千円券（その他有効な銀行券）",
+      "publisher": "日本銀行",
+      "url": "https://www.boj.or.jp/note_tfjgs/note/valid/past_issue/pbn_1000.htm",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-boj-current-notes",
+      "title": "現在発行されている銀行券・貨幣",
+      "publisher": "日本銀行",
+      "url": "https://www.boj.or.jp/note_tfjgs/note/valid/issue.htm",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-mlit-expo70",
+      "title": "昭和46年度 運輸白書 5 日本万国博覧会",
+      "publisher": "運輸省（国土交通省）",
+      "url": "https://www.mlit.go.jp/hakusyo/transport/shouwa46/ind110102/005.html",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-gendai-panda1972",
+      "title": "10月28日 珍獣パンダ来日（1972年）",
+      "publisher": "講談社ブルーバックス（現代ビジネス）",
+      "url": "https://gendai.media/articles/-/58108",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-forbes-tdl",
+      "title": "東京ディズニーランドが開業した日（1983年4月15日）",
+      "publisher": "Forbes JAPAN",
+      "url": "https://forbesjapan.com/articles/detail/46850",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-naoj-halley",
+      "title": "アーカイブ新聞 第915号 65cm屈折望遠鏡で撮影された1985～1986年のハレー彗星",
+      "publisher": "国立天文台",
+      "url": "https://prc.nao.ac.jp/prc_arc/arc_news/arc_news915.pdf",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-bunshun-jnr-last",
+      "title": "ご存知ですか？ 3月31日は国鉄最後の日です",
+      "publisher": "文春オンライン",
+      "url": "https://bunshun.jp/articles/-/1916",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-jleague-opening",
+      "title": "Ｊリーグ開幕戦で主審を務めた小幡 真一郎氏に訊く",
+      "publisher": "Ｊリーグ公式サイト",
+      "url": "https://www.jleague.jp/news/article/19922/",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-bunshun-nagano",
+      "title": "ご存知ですか？ きょう2月7日は長野オリンピック開会式の日です",
+      "publisher": "文春オンライン",
+      "url": "https://bunshun.jp/articles/-/1217",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-jfa-wc2002",
+      "title": "2002 日本・韓国（ワールドカップヒストリー）",
+      "publisher": "日本サッカー協会",
+      "url": "https://jfa.jp/samuraiblue/worldcup_history/2002/",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-mlit-aichi-expo",
+      "title": "平成18年版 首都圏白書 第2節 愛・地球博への取組",
+      "publisher": "国土交通省",
+      "url": "https://www.mlit.go.jp/npcc/hakusyo/npcc/2006/npcc200601_main_021.html",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-jst-expo2025",
+      "title": "大阪・関西万博閉幕 これからも脈々と未来社会のデザインを描くために",
+      "publisher": "科学技術振興機構 サイエンスポータル",
+      "url": "https://scienceportal.jst.go.jp/stories/20251014_e01/",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
     }
   ]
 }

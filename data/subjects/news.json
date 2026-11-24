@@ -258,6 +258,614 @@
           "rationale": "推定"
         }
       }
+    },
+    {
+      "id": "yen1000-shotoku",
+      "name": "千円札（聖徳太子）",
+      "genre": "news",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1950-01-07",
+          "status": "verified",
+          "sources": ["src-boj-1000yen-past"],
+          "quote": "発行開始日：昭和25（1950）年1月7日"
+        },
+        "end": {
+          "date": "1963-11",
+          "status": "derived",
+          "sources": ["src-boj-1000yen-past"],
+          "quote": "肖像：伊藤博文 発行開始日：黒色記番号：昭和38（1963）年11月1日",
+          "rule": "次の千円券（伊藤博文）の発行開始までとみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.85,
+          "status": "estimated",
+          "rationale": "日本銀行の発行期間に基づく"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        }
+      }
+    },
+    {
+      "id": "yen1000-ito",
+      "name": "千円札（伊藤博文）",
+      "genre": "news",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1963-11",
+          "status": "verified",
+          "sources": ["src-boj-1000yen-past"],
+          "quote": "肖像：伊藤博文 発行開始日：黒色記番号：昭和38（1963）年11月1日"
+        },
+        "end": {
+          "date": "1984-11",
+          "status": "derived",
+          "sources": ["src-boj-1000yen-past"],
+          "quote": "肖像：夏目漱石 発行開始日：黒色記番号：昭和59（1984）年11月1日",
+          "rule": "次の千円券（夏目漱石）の発行開始までとみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.85,
+          "status": "estimated",
+          "rationale": "日本銀行の発行期間に基づく"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        }
+      }
+    },
+    {
+      "id": "yen1000-natsume",
+      "name": "千円札（夏目漱石）",
+      "genre": "news",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1984-11",
+          "status": "verified",
+          "sources": ["src-boj-1000yen-past"],
+          "quote": "肖像：夏目漱石 発行開始日：黒色記番号：昭和59（1984）年11月1日"
+        },
+        "end": {
+          "date": "2004-11",
+          "status": "derived",
+          "sources": ["src-boj-current-notes"],
+          "quote": "千円券 発行開始日：平成16（2004）年11月1日 ＜表面＞肖像：野口英世",
+          "rule": "次の千円券（野口英世）の発行開始までとみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.85,
+          "status": "estimated",
+          "rationale": "日本銀行の発行期間に基づく"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        }
+      }
+    },
+    {
+      "id": "yen1000-noguchi",
+      "name": "千円札（野口英世）",
+      "genre": "news",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2004-11",
+          "status": "verified",
+          "sources": ["src-boj-current-notes"],
+          "quote": "千円券 発行開始日：平成16（2004）年11月1日 ＜表面＞肖像：野口英世"
+        },
+        "end": {
+          "date": "2024-07",
+          "status": "derived",
+          "sources": ["src-boj-current-notes"],
+          "quote": "千円券 発行開始日：令和6（2024）年7月3日 ＜表面＞肖像：北里柴三郎",
+          "rule": "次の千円券（北里柴三郎）の発行開始までとみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.85,
+          "status": "estimated",
+          "rationale": "日本銀行の発行期間に基づく"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        }
+      }
+    },
+    {
+      "id": "yen1000-kitasato",
+      "name": "千円札（北里柴三郎）",
+      "genre": "news",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2024-07",
+          "status": "verified",
+          "sources": ["src-boj-current-notes"],
+          "quote": "千円券 発行開始日：令和6（2024）年7月3日 ＜表面＞肖像：北里柴三郎"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.85,
+          "status": "estimated",
+          "rationale": "日本銀行の発行期間に基づく"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        },
+        "activeUntil": {
+          "value": 2035,
+          "status": "estimated",
+          "rationale": "現行の千円券"
+        }
+      }
+    },
+    {
+      "id": "expo-1970",
+      "name": "日本万国博覧会（大阪万博）",
+      "genre": "news",
+      "kind": "event",
+      "facts": {
+        "start": {
+          "date": "1970-03",
+          "status": "verified",
+          "sources": ["src-mlit-expo70"],
+          "quote": "日本万国博覧会は…45年3月15日から9月13日までの183日間にわたり…開催され…入場者は6,400万人に及び万国博史上最高を記録した。"
+        },
+        "end": {
+          "date": "1970-09",
+          "status": "verified",
+          "sources": ["src-mlit-expo70"],
+          "quote": "日本万国博覧会は…45年3月15日から9月13日までの183日間にわたり…開催され…入場者は6,400万人に及び万国博史上最高を記録した。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [5, 99],
+          "status": "estimated",
+          "rationale": "物心がつく5歳ごろ以降に経験した出来事を記憶していると推定"
+        },
+        "ceiling": {
+          "value": 0.85,
+          "status": "estimated",
+          "rationale": "当時のニュースとして多くの人が覚えていると推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.6,
+          "ceiling": 0.98,
+          "rationale": "出来事として広く知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "panda-1972",
+      "name": "ジャイアントパンダの来日（カンカン・ランラン）",
+      "genre": "news",
+      "kind": "event",
+      "facts": {
+        "start": {
+          "date": "1972-10",
+          "status": "verified",
+          "sources": ["src-gendai-panda1972"],
+          "quote": "カンカン（康康）と雌のランラン（蘭蘭）が、日中国交回復を記念して中国から贈られ、1972年のこの日（10月28日）、上野動物園に到着しました。"
+        },
+        "end": {
+          "date": "1972-11",
+          "status": "derived",
+          "sources": ["src-gendai-panda1972"],
+          "quote": "この2頭のジャイアントパンダは、11月5日から一般公開され",
+          "rule": "一般公開の始まり（11月）までを出来事の期間とみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [5, 99],
+          "status": "estimated",
+          "rationale": "物心がつく5歳ごろ以降に経験した出来事を記憶していると推定"
+        },
+        "ceiling": {
+          "value": 0.8,
+          "status": "estimated",
+          "rationale": "当時のニュースとして多くの人が覚えていると推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.6,
+          "ceiling": 0.98,
+          "rationale": "出来事として広く知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "tdl-open",
+      "name": "東京ディズニーランドの開園",
+      "genre": "news",
+      "kind": "event",
+      "facts": {
+        "start": {
+          "date": "1983-04",
+          "status": "verified",
+          "sources": ["src-forbes-tdl"],
+          "quote": "1983年（昭和58年）4月15日は、千葉県浦安市に東京ディズニーランド（TDL）が開業した日です。"
+        },
+        "end": {
+          "date": "1983-04",
+          "status": "verified",
+          "sources": ["src-forbes-tdl"],
+          "quote": "1983年（昭和58年）4月15日は、千葉県浦安市に東京ディズニーランド（TDL）が開業した日です。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [5, 99],
+          "status": "estimated",
+          "rationale": "物心がつく5歳ごろ以降に経験した出来事を記憶していると推定"
+        },
+        "ceiling": {
+          "value": 0.7,
+          "status": "estimated",
+          "rationale": "開園は大きなニュースだったが、当時の記憶がある人は一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.6,
+          "ceiling": 0.98,
+          "rationale": "出来事として広く知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "halley-1986",
+      "name": "ハレー彗星の接近（1985〜86年）",
+      "genre": "news",
+      "kind": "event",
+      "facts": {
+        "start": {
+          "date": "1985-11",
+          "status": "verified",
+          "sources": ["src-naoj-halley"],
+          "quote": "1985 年から 1986 年にかけて回帰したハレー彗星を三鷹の 65 ㎝屈折望遠鏡で撮影した写真"
+        },
+        "end": {
+          "date": "1986-05",
+          "status": "derived",
+          "sources": ["src-naoj-halley"],
+          "quote": "1985 年から 1986 年にかけて回帰したハレー彗星を三鷹の 65 ㎝屈折望遠鏡で撮影した写真",
+          "rule": "1985年から1986年にかけての回帰（同資料）のうち、観測された1985年11月〜1986年5月を出来事の期間とみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [5, 99],
+          "status": "estimated",
+          "rationale": "物心がつく5歳ごろ以降に経験した出来事を記憶していると推定"
+        },
+        "ceiling": {
+          "value": 0.7,
+          "status": "estimated",
+          "rationale": "大きな話題になったが、記憶している人は一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.6,
+          "ceiling": 0.98,
+          "rationale": "出来事として広く知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "jnr-train",
+      "name": "国鉄（JRになる前）",
+      "genre": "news",
+      "kind": "trend",
+      "facts": {
+        "end": {
+          "date": "1987-03-31",
+          "status": "verified",
+          "sources": ["src-bunshun-jnr-last"],
+          "quote": "1987年3月31日、国鉄（日本国有鉄道）は翌4月1日に分割・民営化を控え、最後の日を迎えた。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [4, 99],
+          "status": "estimated",
+          "rationale": "電車に乗った記憶が残る4歳ごろ以降と推定"
+        },
+        "ceiling": {
+          "value": 0.85,
+          "status": "estimated",
+          "rationale": "鉄道を利用した人は多いと推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.7,
+          "ceiling": 0.99,
+          "rationale": "国鉄という名前は広く知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "jleague-1993",
+      "name": "Jリーグの開幕（1993年）",
+      "genre": "news",
+      "kind": "event",
+      "facts": {
+        "start": {
+          "date": "1993-05-15",
+          "status": "verified",
+          "sources": ["src-jleague-opening"],
+          "quote": "1993年5月15日、国立競技場で行われた記念すべきＪリーグ開幕戦（ヴェルディ川崎vs横浜マリノス）"
+        },
+        "end": {
+          "date": "1993-05-15",
+          "status": "verified",
+          "sources": ["src-jleague-opening"],
+          "quote": "1993年5月15日、国立競技場で行われた記念すべきＪリーグ開幕戦（ヴェルディ川崎vs横浜マリノス）"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [5, 99],
+          "status": "estimated",
+          "rationale": "物心がつく5歳ごろ以降に経験した出来事を記憶していると推定"
+        },
+        "ceiling": {
+          "value": 0.75,
+          "status": "estimated",
+          "rationale": "大きな話題になった出来事として推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.6,
+          "ceiling": 0.98,
+          "rationale": "出来事として広く知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "nagano-1998",
+      "name": "長野オリンピック（1998年）",
+      "genre": "news",
+      "kind": "event",
+      "facts": {
+        "start": {
+          "date": "1998-02",
+          "status": "verified",
+          "sources": ["src-bunshun-nagano"],
+          "quote": "第18回冬季オリンピック長野大会の開会式が、1998年のきょう2月7日午前11時より長野オリンピックスタジアム（長野市）で行なわれた。"
+        },
+        "end": {
+          "date": "1998-02",
+          "status": "verified",
+          "sources": ["src-bunshun-nagano"],
+          "quote": "第18回冬季オリンピック長野大会の開会式が、1998年のきょう2月7日午前11時より長野オリンピックスタジアム（長野市）で行なわれた。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [5, 99],
+          "status": "estimated",
+          "rationale": "物心がつく5歳ごろ以降に経験した出来事を記憶していると推定"
+        },
+        "ceiling": {
+          "value": 0.8,
+          "status": "estimated",
+          "rationale": "当時のニュースとして多くの人が覚えていると推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.6,
+          "ceiling": 0.98,
+          "rationale": "出来事として広く知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "wc-2002",
+      "name": "2002年 FIFAワールドカップ（日韓大会）",
+      "genre": "news",
+      "kind": "event",
+      "facts": {
+        "start": {
+          "date": "2002-06",
+          "status": "verified",
+          "sources": ["src-jfa-wc2002"],
+          "quote": "2002年6月、日本中にサッカーが溢れていた。…日本と韓国の共催大会として、”夢の舞台”が日本で開催されたのだ。"
+        },
+        "end": {
+          "date": "2002-06",
+          "status": "verified",
+          "sources": ["src-jfa-wc2002"],
+          "quote": "2002年6月、日本中にサッカーが溢れていた。…日本と韓国の共催大会として、”夢の舞台”が日本で開催されたのだ。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [5, 99],
+          "status": "estimated",
+          "rationale": "物心がつく5歳ごろ以降に経験した出来事を記憶していると推定"
+        },
+        "ceiling": {
+          "value": 0.8,
+          "status": "estimated",
+          "rationale": "当時のニュースとして多くの人が覚えていると推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.6,
+          "ceiling": 0.98,
+          "rationale": "出来事として広く知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "aichi-expo-2005",
+      "name": "愛・地球博（2005年日本国際博覧会）",
+      "genre": "news",
+      "kind": "event",
+      "facts": {
+        "start": {
+          "date": "2005-03",
+          "status": "verified",
+          "sources": ["src-mlit-aichi-expo"],
+          "quote": "愛・地球博(2005年日本国際博覧会)は、平成17年3月25日から9月25日までの185日間にわたって開催された。"
+        },
+        "end": {
+          "date": "2005-09",
+          "status": "verified",
+          "sources": ["src-mlit-aichi-expo"],
+          "quote": "愛・地球博(2005年日本国際博覧会)は、平成17年3月25日から9月25日までの185日間にわたって開催された。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [5, 99],
+          "status": "estimated",
+          "rationale": "物心がつく5歳ごろ以降に経験した出来事を記憶していると推定"
+        },
+        "ceiling": {
+          "value": 0.7,
+          "status": "estimated",
+          "rationale": "話題になったが、記憶している人は一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.6,
+          "ceiling": 0.98,
+          "rationale": "出来事として広く知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "reiwa-kaigen",
+      "name": "元号が「令和」に変わったこと（2019年）",
+      "genre": "news",
+      "kind": "event",
+      "facts": {
+        "start": {
+          "date": "2019-05-01",
+          "status": "verified",
+          "sources": ["src-cao-gengou"],
+          "quote": "元号を令和に改める。…この政令は、天皇の退位等に関する皇室典範特例法（平成２９年法律第６３号）の施行の日（平成３１年４月３０日）の翌日から施行する。"
+        },
+        "end": {
+          "date": "2019-05-01",
+          "status": "verified",
+          "sources": ["src-cao-gengou"],
+          "quote": "元号を令和に改める。…この政令は、天皇の退位等に関する皇室典範特例法（平成２９年法律第６３号）の施行の日（平成３１年４月３０日）の翌日から施行する。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [5, 99],
+          "status": "estimated",
+          "rationale": "物心がつく5歳ごろ以降に経験した出来事を記憶していると推定"
+        },
+        "ceiling": {
+          "value": 0.9,
+          "status": "estimated",
+          "rationale": "当時のニュースとして多くの人が覚えていると推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.8,
+          "ceiling": 0.99,
+          "rationale": "出来事として広く知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "expo-2025",
+      "name": "大阪・関西万博（2025年日本国際博覧会）",
+      "genre": "news",
+      "kind": "event",
+      "facts": {
+        "end": {
+          "date": "2025-10-13",
+          "status": "verified",
+          "sources": ["src-jst-expo2025"],
+          "quote": "大阪・関西万博が184日間の会期を終えて13日、閉幕した。…期間中の一般入場者は約2529万人"
+        },
+        "start": {
+          "date": "2025-04",
+          "status": "derived",
+          "sources": ["src-jst-expo2025"],
+          "quote": "大阪・関西万博が184日間の会期を終えて13日、閉幕した。",
+          "rule": "2025年10月13日に閉幕した184日間の会期から、開幕を2025年4月とみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [5, 99],
+          "status": "estimated",
+          "rationale": "物心がつく5歳ごろ以降と推定"
+        },
+        "ceiling": {
+          "value": 0.8,
+          "status": "estimated",
+          "rationale": "大きな話題になった出来事として推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.7,
+          "ceiling": 0.99,
+          "rationale": "出来事として広く知られていると推定"
+        }
+      }
     }
   ]
 }
