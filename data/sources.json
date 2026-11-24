@@ -1124,6 +1124,96 @@
       "type": "press",
       "accessed": "2026-11-24",
       "reliability": "B"
+    },
+    {
+      "id": "src-jiyu-1999",
+      "title": "第16回 新語・流行語大賞（1999年）",
+      "publisher": "自由国民社",
+      "url": "https://www.jiyu.co.jp/singo/index.php?eid=00016",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-jiyu-2009",
+      "title": "第26回 新語・流行語大賞（2009年）",
+      "publisher": "自由国民社",
+      "url": "https://www.jiyu.co.jp/singo/index.php?eid=00026",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-jiyu-2022",
+      "title": "第39回 新語・流行語大賞（2022年）",
+      "publisher": "自由国民社",
+      "url": "https://www.jiyu.co.jp/singo/index.php?eid=00039",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-kobe-miyukizoku",
+      "title": "「みゆき族」ブームを仕掛けたコシノヒロコさんに関する記事",
+      "publisher": "神戸新聞NEXT",
+      "url": "https://www.kobe-np.co.jp/news/sougou/202001/0013002934.shtml",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-wwd-takenoko",
+      "title": "原宿・竹下通りに43年続く「ブティック竹の子」 “竹の子族”…も愛した名店",
+      "publisher": "WWDJAPAN",
+      "url": "https://www.wwdjapan.com/articles/1400382",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-bunshun-seiko-cut",
+      "title": "小泉今日子のベリーショートに関する記事（“聖子ちゃんカット”の流行）",
+      "publisher": "文春オンライン",
+      "url": "https://bunshun.jp/articles/-/72981",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-bunshun-1980debut",
+      "title": "松田聖子、田原俊彦、岩崎良美…40周年を迎えた「1980年デビュー組」の明暗",
+      "publisher": "文春オンライン",
+      "url": "https://bunshun.jp/articles/-/41058",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-gendai-juliana",
+      "title": "伝説のディスコ「ジュリアナ東京」が30年の時を経て復活！",
+      "publisher": "日刊ゲンダイDIGITAL",
+      "url": "https://www.nikkan-gendai.com/articles/view/pr/297193",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-mynavi-ganguro",
+      "title": "ガングロとは? 意味や由来にヤマンバとの違い、ギャルの歴史などを解説",
+      "publisher": "マイナビニュース",
+      "url": "https://news.mynavi.jp/article/20230331-2641138/",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-wwd-uniqlo-fleece",
+      "title": "ユニクロのフリースブームに関する記事（平成のファッション史）",
+      "publisher": "WWDJAPAN",
+      "url": "https://www.wwdjapan.com/articles/733849",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
     }
   ]
 }
