@@ -642,6 +642,97 @@
       "group": "recording",
       "relatedIds": ["APP-003"],
       "basicPool": false
+    },
+    {
+      "id": "APP-015",
+      "status": "verified",
+      "genre": "appliance",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "小学生の頃、家のテレビは薄型テレビ（液晶など）でしたか？",
+      "subject": "flat-tv",
+      "options": [
+        {
+          "id": "a",
+          "label": "ずっと薄型だった",
+          "kind": "heavy",
+          "insight": "薄型テレビ（液晶・プラズマなど）が多くの家庭に普及していた時代に子ども時代を過ごした人に多い回答（内閣府の世帯普及率に基づく）"
+        },
+        {
+          "id": "b",
+          "label": "途中で薄型になった",
+          "kind": "light",
+          "insight": "薄型テレビ（液晶・プラズマなど）が家庭に広まりつつあった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "ブラウン管だった（薄型はよそで見た）",
+          "kind": "aware_only",
+          "insight": "薄型テレビ（液晶・プラズマなど）がまだ普及途中だった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "ほとんど見たことがなかった",
+          "kind": "unaware",
+          "insight": "薄型テレビ（液晶・プラズマなど）がほとんど普及していなかった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "group": "tv-era",
+      "relatedIds": ["APP-001"],
+      "basicPool": false,
+      "notes": "世帯普及率（内閣府統計）に基づく。地域差・家庭差がある"
+    },
+    {
+      "id": "APP-016",
+      "status": "verified",
+      "genre": "appliance",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "小学生の頃、自宅にピアノはありましたか？",
+      "subject": "piano",
+      "options": [
+        {
+          "id": "a",
+          "label": "ずっとあった",
+          "kind": "heavy",
+          "insight": "ピアノが多くの家庭に普及していた時代に子ども時代を過ごした人に多い回答（内閣府の世帯普及率に基づく）"
+        },
+        {
+          "id": "b",
+          "label": "途中であるようになった",
+          "kind": "light",
+          "insight": "ピアノが家庭に広まりつつあった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "家にはなかった（よそでは見た・使った）",
+          "kind": "aware_only",
+          "insight": "ピアノがまだ普及途中だった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "ほとんど見たことがなかった",
+          "kind": "unaware",
+          "insight": "ピアノがほとんど普及していなかった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.5,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false,
+      "notes": "世帯普及率（内閣府統計）に基づく。地域差・家庭差がある。普及率は最大でも約2割のため重要度を下げている"
     }
   ]
 }

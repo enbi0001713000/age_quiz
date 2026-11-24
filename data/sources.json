@@ -1475,6 +1475,150 @@
       "type": "official",
       "accessed": "2026-11-24",
       "reliability": "A"
+    },
+    {
+      "id": "src-jiyu-2011",
+      "title": "第28回 新語・流行語大賞（2011年）",
+      "publisher": "自由国民社",
+      "url": "https://www.jiyu.co.jp/singo/index.php?eid=00028",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-gendai-telcard",
+      "title": "今日はテレホンカードの日（1982年）",
+      "publisher": "講談社ブルーバックス（現代ビジネス）",
+      "url": "https://gendai.media/articles/-/77302",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-ktai-shamail",
+      "title": "J-フォン、写メール対応機の累計稼働台数が200万台突破",
+      "publisher": "ケータイ Watch",
+      "url": "https://k-tai.watch.impress.co.jp/cda/article/news_toppage/6263.html",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-docomo-pakehodai",
+      "title": "パケット通信料定額サービス「パケ・ホーダイ」の提供開始について（報道発表）",
+      "publisher": "NTTドコモ",
+      "url": "https://www.docomo.ne.jp/info/news_release/page/20040324a.html",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-phileweb-oneseg",
+      "title": "「ワンセグ」きょう本放送開始",
+      "publisher": "PHILE WEB",
+      "url": "https://www.phileweb.com/sp/news/d-av/200604/01/15223.html",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-softbank-iphone3g",
+      "title": "ソフトバンクとアップル、iPhone 3Gを7月11日より日本で発売",
+      "publisher": "ソフトバンク",
+      "url": "https://www.softbank.jp/corp/group/sbm/news/press/2008/20080610_01",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-famitsu-windows95",
+      "title": "“Windows95”の衝撃とPC-98時代の終焉（PC-98シリーズ解説 後編）",
+      "publisher": "ファミ通.com",
+      "url": "https://www.famitsu.com/news/202311/05323010.html",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-lycorp-yahoo-history",
+      "title": "沿革 - ヤフー株式会社",
+      "publisher": "LINEヤフー",
+      "url": "https://www.lycorp.co.jp/ja/company/history/yahoo/",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-itmedia-mobage",
+      "title": "成長速度はmixiの倍・9カ月で200万人 携帯SNS「モバゲータウン」の強さ",
+      "publisher": "ITmedia NEWS",
+      "url": "https://www.itmedia.co.jp/news/article/0611/24/1061124027/",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-docomo-history-car",
+      "title": "NTTドコモ歴史展示スクエア 主要展示物（自動車電話）",
+      "publisher": "NTTドコモ",
+      "url": "http://history-s.nttdocomo.co.jp/list_car.html",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-docomo-history-mova",
+      "title": "NTTドコモ歴史展示スクエア 主要展示物（ムーバ）",
+      "publisher": "NTTドコモ",
+      "url": "http://history-s.nttdocomo.co.jp/list_mova.html",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-docomo-history-foma",
+      "title": "NTTドコモ歴史展示スクエア 主要展示物（FOMA）",
+      "publisher": "NTTドコモ",
+      "url": "http://history-s.nttdocomo.co.jp/list_foma.html",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-iwatch-2000",
+      "title": "【2000年のINTERNET Watch】「IT革命」が流行語に…「2ちゃんねる」に注目集まる",
+      "publisher": "INTERNET Watch",
+      "url": "https://internet.watch.impress.co.jp/docs/special/30th/2076355.html",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-iwatch-youtube-jp",
+      "title": "YouTubeが日本語版サービスを開始、10カ国に対応",
+      "publisher": "INTERNET Watch",
+      "url": "https://internet.watch.impress.co.jp/cda/news/2007/06/19/16089.html",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-mext-joho",
+      "title": "情報教育に関連する資料（情報科目に関する学習指導要領改訂の経緯等）",
+      "publisher": "文部科学省",
+      "url": "https://www.mext.go.jp/b_menu/shingi/chukyo/chukyo3/059/siryo/__icsFiles/afieldfile/2015/11/11/1363276_08_1.pdf",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-jiyu-2007",
+      "title": "第24回 新語・流行語大賞（2007年）",
+      "publisher": "自由国民社",
+      "url": "https://www.jiyu.co.jp/singo/index.php?eid=00024",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
     }
   ]
 }

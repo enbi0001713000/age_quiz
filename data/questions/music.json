@@ -699,6 +699,51 @@
       "group": "teen-music",
       "relatedIds": [],
       "basicPool": false
+    },
+    {
+      "id": "MUS-016",
+      "status": "verified",
+      "genre": "music",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "小学生の頃、自宅に大型のステレオ（レコードプレーヤー付きのオーディオ）はありましたか？",
+      "subject": "stereo",
+      "options": [
+        {
+          "id": "a",
+          "label": "ずっとあった",
+          "kind": "heavy",
+          "insight": "ステレオ（大型のオーディオ機器）が多くの家庭に普及していた時代に子ども時代を過ごした人に多い回答（内閣府の世帯普及率に基づく）"
+        },
+        {
+          "id": "b",
+          "label": "途中であるようになった",
+          "kind": "light",
+          "insight": "ステレオ（大型のオーディオ機器）が家庭に広まりつつあった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "家にはなかった（よそでは見た・使った）",
+          "kind": "aware_only",
+          "insight": "ステレオ（大型のオーディオ機器）がまだ普及途中だった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "ほとんど見たことがなかった",
+          "kind": "unaware",
+          "insight": "ステレオ（大型のオーディオ機器）がほとんど普及していなかった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.6,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false,
+      "notes": "世帯普及率（内閣府統計）に基づく。地域差・家庭差がある。2005年以降は推定"
     }
   ]
 }

@@ -188,6 +188,496 @@
       "priority": 1.0,
       "relatedIds": [],
       "basicPool": false
+    },
+    {
+      "id": "MOB-005",
+      "status": "verified",
+      "genre": "mobile",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "公衆電話でテレホンカードを使って電話をかけていましたか？",
+      "subject": "telephone-card",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく使った",
+          "kind": "heavy",
+          "insight": "テレホンカード（カード式公衆電話）（1982年〜2000年）を10〜60歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し使った",
+          "kind": "light",
+          "insight": "テレホンカード（カード式公衆電話）（1982年〜2000年）の時期に10〜60歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが使ったことはない",
+          "kind": "aware_only",
+          "insight": "テレホンカード（カード式公衆電話）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "テレホンカード（カード式公衆電話）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "MOB-006",
+      "status": "verified",
+      "genre": "mobile",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "小学生の頃、家の電話はボタン式（プッシュホン）でしたか？",
+      "subject": "pushphone",
+      "options": [
+        {
+          "id": "a",
+          "label": "ずっとボタン式だった",
+          "kind": "heavy",
+          "insight": "プッシュホン（ボタン式の電話）が多くの家庭に普及していた時代に子ども時代を過ごした人に多い回答（内閣府の世帯普及率に基づく）"
+        },
+        {
+          "id": "b",
+          "label": "途中でボタン式になった",
+          "kind": "light",
+          "insight": "プッシュホン（ボタン式の電話）が家庭に広まりつつあった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "ダイヤル式だった（ボタン式はよそで見た）",
+          "kind": "aware_only",
+          "insight": "プッシュホン（ボタン式の電話）がまだ普及途中だった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "ほとんど見たことがなかった",
+          "kind": "unaware",
+          "insight": "プッシュホン（ボタン式の電話）がほとんど普及していなかった時代に子ども時代を過ごした人に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.7,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false,
+      "notes": "世帯普及率（内閣府統計、1987年以降）に基づく"
+    },
+    {
+      "id": "MOB-007",
+      "status": "verified",
+      "genre": "mobile",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "カメラ付き携帯電話で「写メール」（写メ）を送っていましたか？",
+      "subject": "shamail",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく送っていた",
+          "kind": "heavy",
+          "insight": "写メール（カメラ付き携帯電話）（2000年〜2008年）を13〜40歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ときどき送っていた",
+          "kind": "light",
+          "insight": "写メール（カメラ付き携帯電話）（2000年〜2008年）の時期に13〜40歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが使ったことはない",
+          "kind": "aware_only",
+          "insight": "写メール（カメラ付き携帯電話）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "写メール（カメラ付き携帯電話）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "group": "feature-phone",
+      "relatedIds": ["MOB-001"],
+      "basicPool": false
+    },
+    {
+      "id": "MOB-008",
+      "status": "verified",
+      "genre": "mobile",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "ガラケーの頃、パケット定額の「パケ・ホーダイ」などで携帯のネットを使い放題にしていましたか？",
+      "subject": "pakehodai",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく使った",
+          "kind": "heavy",
+          "insight": "パケ・ホーダイ（携帯のパケット定額）（2004年〜2010年）を13〜40歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し使った",
+          "kind": "light",
+          "insight": "パケ・ホーダイ（携帯のパケット定額）（2004年〜2010年）の時期に13〜40歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが使ったことはない",
+          "kind": "aware_only",
+          "insight": "パケ・ホーダイ（携帯のパケット定額）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "パケ・ホーダイ（携帯のパケット定額）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.7,
+      "priority": 1.0,
+      "group": "feature-phone",
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "MOB-009",
+      "status": "verified",
+      "genre": "mobile",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "携帯電話の「ワンセグ」でテレビを見たことがありますか？",
+      "subject": "oneseg",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく見た",
+          "kind": "heavy",
+          "insight": "ワンセグ（携帯でテレビを見る）（2006年〜2014年）を10〜60歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ときどき見た",
+          "kind": "light",
+          "insight": "ワンセグ（携帯でテレビを見る）（2006年〜2014年）の時期に10〜60歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが見たことはない",
+          "kind": "aware_only",
+          "insight": "ワンセグ（携帯でテレビを見る）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ワンセグ（携帯でテレビを見る）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "group": "feature-phone",
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "MOB-010",
+      "status": "verified",
+      "genre": "mobile",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "日本で最初のiPhone（iPhone 3G）が発売された2008年のことを覚えていますか？",
+      "subject": "iphone3g-launch",
+      "options": [
+        {
+          "id": "a",
+          "label": "はっきり覚えている",
+          "kind": "heavy",
+          "insight": "iPhone 3Gの日本発売（2008年）（2008年）のとき10〜99歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "なんとなく覚えている",
+          "kind": "light",
+          "insight": "iPhone 3Gの日本発売（2008年）（2008年）のとき10〜99歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時の記憶はない",
+          "kind": "aware_only",
+          "insight": "iPhone 3Gの日本発売（2008年）を知ってはいるが、当時はまだ幼かった・生まれていなかった世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "iPhone 3Gの日本発売（2008年）の当時から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.7,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "MOB-011",
+      "status": "verified",
+      "genre": "mobile",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "2011年ごろ、ガラケーからスマートフォン（スマホ）に乗り換えましたか？",
+      "subject": "smartphone-2011",
+      "options": [
+        {
+          "id": "a",
+          "label": "その頃に乗り換えた",
+          "kind": "heavy",
+          "insight": "スマホ普及の年（2011年）（2011年）を13〜70歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し後に乗り換えた",
+          "kind": "light",
+          "insight": "スマホ普及の年（2011年）（2011年）の時期に13〜70歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "その頃は携帯を持っていなかった・最初からスマホ",
+          "kind": "no_experience",
+          "insight": "スマホ普及の年（2011年）の中心の世代から外れた世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "スマホ普及の年（2011年）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.7,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "MOB-012",
+      "status": "verified",
+      "genre": "mobile",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "車に取り付ける「自動車電話」を、実際に見たり使ったりしたことがありますか？",
+      "subject": "car-phone",
+      "options": [
+        {
+          "id": "a",
+          "label": "自分（家族）が使っていた",
+          "kind": "heavy",
+          "insight": "自動車電話（1979年〜1991年）を10〜99歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "見たことがある",
+          "kind": "light",
+          "insight": "自動車電話（1979年〜1991年）の時期に10〜99歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが見たことはない",
+          "kind": "aware_only",
+          "insight": "自動車電話を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "自動車電話の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.6,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "MOB-013",
+      "status": "verified",
+      "genre": "mobile",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "ドコモの携帯電話「ムーバ（mova）」を使っていましたか？",
+      "subject": "mova",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく使った",
+          "kind": "heavy",
+          "insight": "携帯電話「ムーバ（mova）」（1991年〜2005年）を15〜60歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し使った",
+          "kind": "light",
+          "insight": "携帯電話「ムーバ（mova）」（1991年〜2005年）の時期に15〜60歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが使ったことはない",
+          "kind": "aware_only",
+          "insight": "携帯電話「ムーバ（mova）」を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "携帯電話「ムーバ（mova）」の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.6,
+      "priority": 1.0,
+      "group": "feature-phone",
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "MOB-014",
+      "status": "verified",
+      "genre": "mobile",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "ドコモの第3世代携帯電話「FOMA（フォーマ）」を使っていましたか？",
+      "subject": "foma",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく使った",
+          "kind": "heavy",
+          "insight": "第3世代携帯電話「FOMA」（2001年〜2012年）を13〜60歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し使った",
+          "kind": "light",
+          "insight": "第3世代携帯電話「FOMA」（2001年〜2012年）の時期に13〜60歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが使ったことはない",
+          "kind": "aware_only",
+          "insight": "第3世代携帯電話「FOMA」を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "第3世代携帯電話「FOMA」の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.6,
+      "priority": 1.0,
+      "group": "feature-phone",
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "MOB-015",
+      "status": "verified",
+      "genre": "mobile",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "携帯電話の「おサイフケータイ」で、電子マネーや交通系の支払いをしたことがありますか？",
+      "subject": "osaifu-keitai",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく使った",
+          "kind": "heavy",
+          "insight": "おサイフケータイ（iモードFeliCa）（2004年〜現在）を15〜70歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し使った",
+          "kind": "light",
+          "insight": "おサイフケータイ（iモードFeliCa）（2004年〜現在）の時期に15〜70歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが使ったことはない",
+          "kind": "aware_only",
+          "insight": "おサイフケータイ（iモードFeliCa）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "おサイフケータイ（iモードFeliCa）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.6,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
     }
   ]
 }

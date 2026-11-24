@@ -568,6 +568,145 @@
       "priority": 1.0,
       "relatedIds": [],
       "basicPool": false
+    },
+    {
+      "id": "SCH-013",
+      "status": "verified",
+      "genre": "school",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "小学校・中学校で、「ゆとり教育」と呼ばれた学習指導要領（2002〜2010年度ごろ）で学びましたか？",
+      "subject": "yutori-curriculum",
+      "options": [
+        {
+          "id": "a",
+          "label": "受けた",
+          "kind": "heavy",
+          "insight": "「ゆとり教育」の学習指導要領（2002〜2010年度）（2002年〜2011年）を6〜15歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "たぶん受けた",
+          "kind": "light",
+          "insight": "「ゆとり教育」の学習指導要領（2002〜2010年度）（2002年〜2011年）の時期に6〜15歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "受けていない",
+          "kind": "no_experience",
+          "insight": "「ゆとり教育」の学習指導要領（2002〜2010年度）の中心の世代から外れた世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "「ゆとり教育」の学習指導要領（2002〜2010年度）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "group": "curriculum",
+      "relatedIds": ["SCH-005"],
+      "basicPool": false
+    },
+    {
+      "id": "SCH-014",
+      "status": "verified",
+      "genre": "school",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "小学校・中学校で、教科書を使う「特別の教科 道徳」の授業を受けましたか？",
+      "subject": "moral-subject",
+      "options": [
+        {
+          "id": "a",
+          "label": "受けた",
+          "kind": "heavy",
+          "insight": "「特別の教科 道徳」（教科書を使う道徳）（2018年〜現在）を6〜15歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "たぶん受けた",
+          "kind": "light",
+          "insight": "「特別の教科 道徳」（教科書を使う道徳）（2018年〜現在）の時期に6〜15歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "受けていない",
+          "kind": "no_experience",
+          "insight": "「特別の教科 道徳」（教科書を使う道徳）の中心の世代から外れた世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "「特別の教科 道徳」（教科書を使う道徳）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "SCH-015",
+      "status": "verified",
+      "genre": "school",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "高校で、教科「情報」（パソコンや情報社会について学ぶ必修の授業）を受けましたか？",
+      "subject": "joho-subject",
+      "options": [
+        {
+          "id": "a",
+          "label": "受けた",
+          "kind": "heavy",
+          "insight": "高校の教科「情報」（2003年〜現在）を15〜18歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "たぶん受けた",
+          "kind": "light",
+          "insight": "高校の教科「情報」（2003年〜現在）の時期に15〜18歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "受けていない",
+          "kind": "no_experience",
+          "insight": "高校の教科「情報」の中心の世代から外れた世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "高校の教科「情報」の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        },
+        {
+          "id": "y",
+          "label": "該当しない",
+          "kind": "not_applicable"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false,
+      "notes": "高校に通っていない人は「該当しない」"
     }
   ]
 }

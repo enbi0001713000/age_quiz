@@ -227,6 +227,409 @@
           "rationale": "携帯電話の登場までの短い期間と推定"
         }
       }
+    },
+    {
+      "id": "telephone-card",
+      "name": "テレホンカード（カード式公衆電話）",
+      "genre": "mobile",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1982-12",
+          "status": "verified",
+          "sources": ["src-gendai-telcard"],
+          "quote": "1982年の今日（12月23日）、東京・銀座にある数寄屋橋公園に、日本で初めて磁気式テレホンカードを使うことができるカード式公衆電話が設置されました。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [10, 60],
+          "status": "estimated",
+          "rationale": "外出先から電話をかける子ども〜大人と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.75,
+          "status": "estimated",
+          "rationale": "携帯電話の普及前は多くの人が使ったと推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.6,
+          "ceiling": 0.98,
+          "rationale": "広く知られていると推定"
+        },
+        "activeUntil": {
+          "value": 2000,
+          "status": "estimated",
+          "rationale": "携帯電話の普及（フィーチャーフォン全盛期 1998〜2008年、既存の総務省の出典）で利用が減ったため、2000年ごろまでを中心期間と推定"
+        }
+      }
+    },
+    {
+      "id": "pushphone",
+      "name": "プッシュホン（ボタン式の電話）",
+      "genre": "mobile",
+      "kind": "household",
+      "facts": {
+        "series": {
+          "statId": "cao-durables-penetration",
+          "key": "pushphone",
+          "kind": "household_penetration",
+          "after": {
+            "mode": "hold",
+            "rationale": "2004年以降も維持されたとみなす（統計は2004年3月で終了）"
+          }
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "小学生の頃の家庭"
+        },
+        "ceiling": {
+          "value": 1.0,
+          "status": "statistic",
+          "rationale": "世帯普及率をそのまま使う"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.0,
+          "ceiling": 1.0,
+          "rationale": "世帯保有型は認知を別途計算"
+        }
+      },
+      "notes": "統計は1987年3月から。それ以前（1969年の登場以降）も一部の家庭にあったが、統計がないため0とみなしている"
+    },
+    {
+      "id": "shamail",
+      "name": "写メール（カメラ付き携帯電話）",
+      "genre": "mobile",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2000-11",
+          "status": "verified",
+          "sources": ["src-ktai-shamail"],
+          "quote": "同社では、2000年11月にモバイルカメラ内蔵型の第１弾として「J-SH04」を発売…全国ベースの傾向では、新規加入の半数以上が写メール対応機であるという。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [13, 40],
+          "status": "estimated",
+          "rationale": "携帯電話を持つ中高生〜大人と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.6,
+          "status": "estimated",
+          "rationale": "カメラ付き携帯は急速に普及した（出典）"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.6,
+          "ceiling": 0.97,
+          "rationale": "広く知られていると推定"
+        },
+        "activeUntil": {
+          "value": 2008,
+          "status": "estimated",
+          "rationale": "スマートフォンの登場・普及期（2008年〜、既存の総務省の出典）までを中心期間と推定"
+        }
+      }
+    },
+    {
+      "id": "pakehodai",
+      "name": "パケ・ホーダイ（携帯のパケット定額）",
+      "genre": "mobile",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2004-06-01",
+          "status": "verified",
+          "sources": ["src-docomo-pakehodai"],
+          "quote": "ｉモードサービスが使い放題となるパケット通信料定額サービス「パケ・ホーダイ」を２００４年６月１日より開始いたします。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [13, 40],
+          "status": "estimated",
+          "rationale": "携帯電話を使う中高生〜大人と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.4,
+          "status": "estimated",
+          "rationale": "ドコモの利用者を中心に一部と推定（他社にも同様の定額制があった）"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.9,
+          "rationale": "当時を知る人には知られていると推定"
+        },
+        "activeUntil": {
+          "value": 2010,
+          "status": "estimated",
+          "rationale": "スマートフォンへの移行までを中心期間と推定"
+        }
+      }
+    },
+    {
+      "id": "oneseg",
+      "name": "ワンセグ（携帯でテレビを見る）",
+      "genre": "mobile",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2006-04-01",
+          "status": "verified",
+          "sources": ["src-phileweb-oneseg"],
+          "quote": "携帯・移動体向けの地上デジタル放送「ワンセグ」が、本日4月1日から本放送を開始。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [10, 60],
+          "status": "estimated",
+          "rationale": "携帯電話を使う子ども〜大人と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.5,
+          "status": "estimated",
+          "rationale": "対応機種の利用者は多かったと推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "広く知られていると推定"
+        },
+        "activeUntil": {
+          "value": 2014,
+          "status": "estimated",
+          "rationale": "スマートフォンへの移行が進むまでを中心期間と推定"
+        }
+      }
+    },
+    {
+      "id": "iphone3g-launch",
+      "name": "iPhone 3Gの日本発売（2008年）",
+      "genre": "mobile",
+      "kind": "event",
+      "facts": {
+        "start": {
+          "date": "2008-07-11",
+          "status": "verified",
+          "sources": ["src-softbank-iphone3g"],
+          "quote": "2008年6月10日、ソフトバンクモバイル株式会社とアップルは本日…iPhone 3Gを7月11日より日本で発売することを発表しました。"
+        },
+        "end": {
+          "date": "2008-07-11",
+          "status": "verified",
+          "sources": ["src-softbank-iphone3g"],
+          "quote": "iPhone 3Gを7月11日より日本で発売"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [10, 99],
+          "status": "estimated",
+          "rationale": "当時のニュースを理解できた10歳ごろ以降と推定"
+        },
+        "ceiling": {
+          "value": 0.5,
+          "status": "estimated",
+          "rationale": "話題になったが、記憶している人は半数程度と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "出来事として知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "smartphone-2011",
+      "name": "スマホ普及の年（2011年）",
+      "genre": "mobile",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "2011",
+          "to": "2011",
+          "status": "verified",
+          "sources": ["src-jiyu-2011"],
+          "quote": "2011年 新語・流行語大賞 スマホ（トップテン）：2011年はスマホ普及の年といわれ、夏には携帯電話端末の販売台数の半分以上をスマートフォンが占めた。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [13, 70],
+          "status": "estimated",
+          "rationale": "携帯電話を持つ中高生〜大人と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.4,
+          "status": "estimated",
+          "rationale": "この年にスマホへ乗り換えた人は一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.6,
+          "ceiling": 0.98,
+          "rationale": "広く知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "car-phone",
+      "name": "自動車電話",
+      "genre": "mobile",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1979-12",
+          "status": "verified",
+          "sources": ["src-docomo-history-car"],
+          "quote": "800MHz帯を用いたアナログ大都市（セルラー）方式の自動車電話サービスが日本で開始されたのは1979年12月です。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [10, 99],
+          "status": "estimated",
+          "rationale": "車に乗る家族を含め、子ども〜大人と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.15,
+          "status": "estimated",
+          "rationale": "実際に見たり使ったりした人は一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "知っている人は多いと推定"
+        },
+        "activeUntil": {
+          "value": 1991,
+          "status": "estimated",
+          "rationale": "小型の携帯電話（ムーバ、1991年）の登場までを中心期間と推定"
+        }
+      }
+    },
+    {
+      "id": "mova",
+      "name": "携帯電話「ムーバ（mova）」",
+      "genre": "mobile",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1991-04",
+          "status": "verified",
+          "sources": ["src-docomo-history-mova"],
+          "quote": "携帯電話の小型・軽量化が進み1991年（平成3年)4月、超小型携帯 mova（ムーバ）のサービス開始によって、文字どおりのハンディな移動電話となり"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [15, 60],
+          "status": "estimated",
+          "rationale": "携帯電話を持った高校生〜大人と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.4,
+          "status": "estimated",
+          "rationale": "ドコモの利用者を中心に一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.9,
+          "rationale": "当時を知る人には知られていると推定"
+        },
+        "activeUntil": {
+          "value": 2005,
+          "status": "estimated",
+          "rationale": "第3世代のFOMA（2001年）への移行が進むまでを中心期間と推定"
+        }
+      }
+    },
+    {
+      "id": "foma",
+      "name": "第3世代携帯電話「FOMA」",
+      "genre": "mobile",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2001-10",
+          "status": "verified",
+          "sources": ["src-docomo-history-foma"],
+          "quote": "FOMAサービスは、世界初の第3世代移動通信サービスとして、2001年5月30日に試験サービスを開始し、同年10月1日首都圏中心に本格サービスが開始され"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [13, 60],
+          "status": "estimated",
+          "rationale": "携帯電話を持つ中高生〜大人と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.4,
+          "status": "estimated",
+          "rationale": "ドコモの利用者を中心に一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.9,
+          "rationale": "当時を知る人には知られていると推定"
+        },
+        "activeUntil": {
+          "value": 2012,
+          "status": "estimated",
+          "rationale": "スマートフォンへの移行が進むまでを中心期間と推定"
+        }
+      }
+    },
+    {
+      "id": "osaifu-keitai",
+      "name": "おサイフケータイ（iモードFeliCa）",
+      "genre": "mobile",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2004-07",
+          "status": "verified",
+          "sources": ["src-docomo-history-imode"],
+          "quote": "2004年7月には、iモード用ICチップを携帯電話に搭載し…交通機関決済や電子マネー…を携帯電話において実現できるiモードFeliCaサービスが開始されました。"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [15, 70],
+          "status": "estimated",
+          "rationale": "携帯電話を持つ高校生〜大人と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.4,
+          "status": "estimated",
+          "rationale": "使った人は一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "広く知られていると推定"
+        },
+        "activeUntil": {
+          "value": 2035,
+          "status": "estimated",
+          "rationale": "スマートフォンでも続いているとみなす"
+        }
+      }
     }
   ]
 }

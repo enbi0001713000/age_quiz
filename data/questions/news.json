@@ -727,6 +727,140 @@
       "group": "expo",
       "relatedIds": [],
       "basicPool": false
+    },
+    {
+      "id": "NEW-017",
+      "status": "verified",
+      "genre": "news",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "バブル期の流行語「アッシーくん」「メッシーくん」が使われていた頃（1990年ごろ）のことを覚えていますか？",
+      "subject": "asshii-kun",
+      "options": [
+        {
+          "id": "a",
+          "label": "はっきり覚えている",
+          "kind": "heavy",
+          "insight": "「アッシーくん」（バブル期の流行語）（1990年）を15〜50歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "なんとなく覚えている",
+          "kind": "light",
+          "insight": "「アッシーくん」（バブル期の流行語）（1990年）の時期に15〜50歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時の記憶はない",
+          "kind": "aware_only",
+          "insight": "「アッシーくん」（バブル期の流行語）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "「アッシーくん」（バブル期の流行語）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "group": "buzzword",
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "NEW-018",
+      "status": "verified",
+      "genre": "news",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "1997年ごろの「ガーデニング」のブームの頃に、家族や自分が庭やベランダで花を育てていましたか？",
+      "subject": "gardening-boom",
+      "options": [
+        {
+          "id": "a",
+          "label": "自分が熱心にしていた",
+          "kind": "heavy",
+          "insight": "ガーデニングのブーム（1997年）（1997年）を25〜75歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "家族がしていた・少ししていた",
+          "kind": "light",
+          "insight": "ガーデニングのブーム（1997年）（1997年）の時期に25〜75歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているがしていなかった",
+          "kind": "aware_only",
+          "insight": "ガーデニングのブーム（1997年）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ガーデニングのブーム（1997年）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.5,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "NEW-019",
+      "status": "verified",
+      "genre": "news",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "「草食男子」という言葉が流行った頃（2009年ごろ）のことを覚えていますか？",
+      "subject": "soshoku-danshi",
+      "options": [
+        {
+          "id": "a",
+          "label": "はっきり覚えている",
+          "kind": "heavy",
+          "insight": "「草食男子」（2009年の流行語）（2009年）を12〜60歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "なんとなく覚えている",
+          "kind": "light",
+          "insight": "「草食男子」（2009年の流行語）（2009年）の時期に12〜60歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時の記憶はない",
+          "kind": "aware_only",
+          "insight": "「草食男子」（2009年の流行語）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "「草食男子」（2009年の流行語）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.7,
+      "priority": 1.0,
+      "group": "buzzword",
+      "relatedIds": [],
+      "basicPool": false
     }
   ]
 }

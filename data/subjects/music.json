@@ -739,6 +739,42 @@
           "rationale": "定額配信サービスの普及（2015年、既存の対象「定額配信」の出典）までを中心期間と推定"
         }
       }
+    },
+    {
+      "id": "stereo",
+      "name": "ステレオ（大型のオーディオ機器）",
+      "genre": "music",
+      "kind": "household",
+      "facts": {
+        "series": {
+          "statId": "cao-durables-penetration",
+          "key": "stereo",
+          "kind": "household_penetration",
+          "after": {
+            "mode": "linear_to_zero",
+            "rationale": "統計は2004年3月で終了。その後はCD・配信やスマートフォンへの移行で減ったと推定し、2025年に向けて直線的に0へ近づける",
+            "untilYear": 2025
+          }
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "小学生の頃の家庭"
+        },
+        "ceiling": {
+          "value": 1.0,
+          "status": "statistic",
+          "rationale": "世帯普及率をそのまま使う"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.0,
+          "ceiling": 1.0,
+          "rationale": "世帯保有型は認知を別途計算"
+        }
+      }
     }
   ]
 }

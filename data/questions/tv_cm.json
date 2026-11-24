@@ -824,6 +824,50 @@
       "group": "gag",
       "relatedIds": [],
       "basicPool": true
+    },
+    {
+      "id": "TVC-019",
+      "status": "verified",
+      "genre": "tv_cm",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "IKKOさんの「どんだけぇ～」が流行った頃（2007年ごろ）のことを覚えていますか？",
+      "subject": "dondake",
+      "options": [
+        {
+          "id": "a",
+          "label": "はっきり覚えている",
+          "kind": "heavy",
+          "insight": "IKKOさんの「どんだけぇ～」（2007年）を8〜60歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "なんとなく覚えている",
+          "kind": "light",
+          "insight": "IKKOさんの「どんだけぇ～」（2007年）の時期に8〜60歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時の記憶はない",
+          "kind": "aware_only",
+          "insight": "IKKOさんの「どんだけぇ～」を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "IKKOさんの「どんだけぇ～」の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
     }
   ]
 }

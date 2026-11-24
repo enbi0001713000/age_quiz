@@ -699,6 +699,122 @@
           "rationale": "現在も続いている"
         }
       }
+    },
+    {
+      "id": "yutori-curriculum",
+      "name": "「ゆとり教育」の学習指導要領（2002〜2010年度）",
+      "genre": "school",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2002-04",
+          "status": "derived",
+          "sources": ["src-mext-cs-history"],
+          "quote": "10～11年 （教育内容の厳選、「総合的な学習の時間」の新設） （実施）小学校：平成１４年度、中学校：平成１４年度",
+          "rule": "小学校・中学校での実施年度（平成14年度）の4月とみなす"
+        },
+        "end": {
+          "date": "2011-04",
+          "status": "derived",
+          "sources": ["src-mext-cs-history"],
+          "quote": "20～21年 （授業時数の増、指導内容の充実、小学校外国語活動の導入） （実施） 小学校：平成２３年度、中学校：平成２４年度",
+          "rule": "授業時数を増やした次の学習指導要領の小学校での実施（平成23年度）までとみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 15],
+          "status": "estimated",
+          "rationale": "小中学生"
+        },
+        "ceiling": {
+          "value": 0.9,
+          "status": "estimated",
+          "rationale": "学習指導要領は全員に適用されるため高く設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.6,
+          "ceiling": 0.98,
+          "rationale": "「ゆとり教育」という言葉は広く知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "moral-subject",
+      "name": "「特別の教科 道徳」（教科書を使う道徳）",
+      "genre": "school",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2018-04",
+          "status": "derived",
+          "sources": ["src-mext-cs-history"],
+          "quote": "平成２７年 一部改正 道徳の「特別の教科」化 「答えが一つではない課題に子供たちが道徳的に向き合い、考え、議論する」道徳教育への転換 （実施）小学校：平成３０年度、中学校：令和元年度",
+          "rule": "小学校での実施年度（平成30年度）の4月とみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 15],
+          "status": "estimated",
+          "rationale": "小中学生の授業"
+        },
+        "ceiling": {
+          "value": 0.85,
+          "status": "estimated",
+          "rationale": "必修の授業のため高く設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.3,
+          "ceiling": 0.85,
+          "rationale": "制度の変化は世代外では知られていないと推定"
+        },
+        "activeUntil": {
+          "value": 2035,
+          "status": "estimated",
+          "rationale": "現在も続いている"
+        }
+      }
+    },
+    {
+      "id": "joho-subject",
+      "name": "高校の教科「情報」",
+      "genre": "school",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2003-04",
+          "status": "derived",
+          "sources": ["src-mext-joho", "src-mext-cs-history"],
+          "quote": "各種答申や報告を踏まえて、普通教科「情報」が新設され、必履修教科とされた。（平成11年改訂）／（実施）高等学校：平成１５年度（学年進行）",
+          "rule": "平成11年改訂の高等学校での実施年度（平成15年度）の4月とみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [15, 18],
+          "status": "estimated",
+          "rationale": "高校生の授業"
+        },
+        "ceiling": {
+          "value": 0.85,
+          "status": "estimated",
+          "rationale": "必履修教科のため高く設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.9,
+          "rationale": "知っている人は多いと推定"
+        },
+        "activeUntil": {
+          "value": 2035,
+          "status": "estimated",
+          "rationale": "現在も続いている（「情報Ⅰ」など）"
+        }
+      }
     }
   ]
 }

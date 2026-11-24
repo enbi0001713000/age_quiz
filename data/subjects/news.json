@@ -866,6 +866,105 @@
           "rationale": "出来事として広く知られていると推定"
         }
       }
+    },
+    {
+      "id": "asshii-kun",
+      "name": "「アッシーくん」（バブル期の流行語）",
+      "genre": "news",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "1990",
+          "to": "1990",
+          "status": "verified",
+          "sources": ["src-jiyu-1990"],
+          "quote": "1990年 新語・流行語大賞 アッシーくん：深夜、帰宅しようとする女性が電話を一本。すると男が現れ、車で女性を送っていく、これが「アッシーくん」"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [15, 50],
+          "status": "estimated",
+          "rationale": "バブル期の若者の言葉。当時の10代〜大人が見聞きしたと推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.6,
+          "status": "estimated",
+          "rationale": "流行語として広く知られたと推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "バブル期の言葉として知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "gardening-boom",
+      "name": "ガーデニングのブーム（1997年）",
+      "genre": "news",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "1997",
+          "to": "1997",
+          "status": "verified",
+          "sources": ["src-jiyu-1997"],
+          "quote": "1997年 新語・流行語大賞 ガーデニング：この年、突如としてブームを巻き起こしたのが「ガーデニング」"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [25, 75],
+          "status": "estimated",
+          "rationale": "家庭で庭やベランダの手入れをする大人を中心と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.3,
+          "status": "estimated",
+          "rationale": "実際に始めた人は一部と推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "言葉は広く定着していると推定"
+        }
+      }
+    },
+    {
+      "id": "soshoku-danshi",
+      "name": "「草食男子」（2009年の流行語）",
+      "genre": "news",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "2009",
+          "to": "2009",
+          "status": "verified",
+          "sources": ["src-jiyu-2009"],
+          "quote": "2009年 新語・流行語大賞 草食男子：コラムニストの深澤真紀が2006年に命名。協調性が高く、家庭的で優しいが、恋愛…には積極的でない、主に40歳前後までの若い世代の男性を指す"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [12, 60],
+          "status": "estimated",
+          "rationale": "言葉を見聞きした中高生〜大人と推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.55,
+          "status": "estimated",
+          "rationale": "流行語として広く知られたと推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.6,
+          "ceiling": 0.97,
+          "rationale": "言葉は広く定着していると推定"
+        }
+      }
     }
   ]
 }

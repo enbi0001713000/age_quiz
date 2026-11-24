@@ -862,6 +862,39 @@
           "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
         }
       }
+    },
+    {
+      "id": "dondake",
+      "name": "IKKOさんの「どんだけぇ～」",
+      "genre": "tv_cm",
+      "kind": "trend",
+      "facts": {
+        "peak": {
+          "from": "2007",
+          "to": "2007",
+          "status": "verified",
+          "sources": ["src-jiyu-2007"],
+          "quote": "2007年 新語・流行語大賞 どんだけぇ～（トップテン）：「どれほど～なのか、それほどでもないだろう」の意味。反語的に使われ"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [8, 60],
+          "status": "estimated",
+          "rationale": "テレビを見る子どもから大人までと推定（出典なし）"
+        },
+        "ceiling": {
+          "value": 0.6,
+          "status": "estimated",
+          "rationale": "流行語として広く使われたと推定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.9,
+          "rationale": "当時を知る人には知られていると推定"
+        }
+      }
     }
   ]
 }

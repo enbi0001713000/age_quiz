@@ -636,6 +636,76 @@
           "rationale": "現在も続いているとみなす"
         }
       }
+    },
+    {
+      "id": "flat-tv",
+      "name": "薄型テレビ（液晶・プラズマなど）",
+      "genre": "appliance",
+      "kind": "household",
+      "facts": {
+        "series": {
+          "statId": "cao-durables-penetration-2plus",
+          "key": "flat_tv",
+          "kind": "household_penetration",
+          "after": {
+            "mode": "hold",
+            "rationale": "2026年3月以降は最後の値を維持するとみなす（推定）"
+          }
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "小学生の頃の家庭"
+        },
+        "ceiling": {
+          "value": 1.0,
+          "status": "statistic",
+          "rationale": "世帯普及率をそのまま使う"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.0,
+          "ceiling": 1.0,
+          "rationale": "世帯保有型は認知を別途計算"
+        }
+      }
+    },
+    {
+      "id": "piano",
+      "name": "ピアノ",
+      "genre": "appliance",
+      "kind": "household",
+      "facts": {
+        "series": {
+          "statId": "cao-durables-penetration",
+          "key": "piano",
+          "kind": "household_penetration",
+          "after": {
+            "mode": "hold",
+            "rationale": "2004年以降も普及率は維持されたとみなす（統計は2004年3月で終了。推定）"
+          }
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "小学生の頃の家庭"
+        },
+        "ceiling": {
+          "value": 1.0,
+          "status": "statistic",
+          "rationale": "世帯普及率をそのまま使う"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.0,
+          "ceiling": 1.0,
+          "rationale": "世帯保有型は認知を別途計算"
+        }
+      }
     }
   ]
 }

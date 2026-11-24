@@ -195,6 +195,494 @@
       "group": "internet-era",
       "relatedIds": ["NET-001"],
       "basicPool": false
+    },
+    {
+      "id": "NET-005",
+      "status": "verified",
+      "genre": "internet_sns",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "1995年のWindows 95の発売（深夜の行列が話題になった）を、当時リアルタイムで覚えていますか？",
+      "subject": "windows95",
+      "options": [
+        {
+          "id": "a",
+          "label": "はっきり覚えている",
+          "kind": "heavy",
+          "insight": "Windows 95の発売（1995年）（1995年）を12〜60歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "なんとなく覚えている",
+          "kind": "light",
+          "insight": "Windows 95の発売（1995年）（1995年）の時期に12〜60歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時の記憶はない",
+          "kind": "aware_only",
+          "insight": "Windows 95の発売（1995年）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "Windows 95の発売（1995年）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "NET-006",
+      "status": "verified",
+      "genre": "internet_sns",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "Yahoo! JAPANが始まった頃（1996年〜2000年ごろ）に、インターネットを使っていましたか？",
+      "subject": "yahoo-japan-1996",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく使った",
+          "kind": "heavy",
+          "insight": "Yahoo! JAPAN（サービス開始の頃）（1996年〜2000年）を12〜60歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し使った",
+          "kind": "light",
+          "insight": "Yahoo! JAPAN（サービス開始の頃）（1996年〜2000年）の時期に12〜60歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが使ったことはない",
+          "kind": "aware_only",
+          "insight": "Yahoo! JAPAN（サービス開始の頃）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "Yahoo! JAPAN（サービス開始の頃）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "group": "early-internet",
+      "relatedIds": ["NET-002"],
+      "basicPool": false
+    },
+    {
+      "id": "NET-007",
+      "status": "verified",
+      "genre": "internet_sns",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "携帯電話の「モバゲータウン」（モバゲー）を使っていましたか？",
+      "subject": "mobage-town",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく使った",
+          "kind": "heavy",
+          "insight": "モバゲータウン（2006年〜2011年）を13〜22歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し使った",
+          "kind": "light",
+          "insight": "モバゲータウン（2006年〜2011年）の時期に13〜22歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが使ったことはない",
+          "kind": "aware_only",
+          "insight": "モバゲータウンを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "モバゲータウンの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": ["NET-001"],
+      "basicPool": false
+    },
+    {
+      "id": "NET-008",
+      "status": "verified",
+      "genre": "internet_sns",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "2005年ごろの「ブログ」のブームの頃に、ブログを書いたり読んだりしていましたか？",
+      "subject": "blog-boom",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく使った",
+          "kind": "heavy",
+          "insight": "ブログのブーム（2005年）を13〜50歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し使った",
+          "kind": "light",
+          "insight": "ブログのブーム（2005年）の時期に13〜50歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが使ったことはない",
+          "kind": "aware_only",
+          "insight": "ブログのブームを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ブログのブームの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "NET-009",
+      "status": "verified",
+      "genre": "internet_sns",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "「〜なう」（「渋谷なう」など）という言葉を、流行った頃（2010年ごろ）に使っていましたか？",
+      "subject": "nau-2010",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく使った",
+          "kind": "heavy",
+          "insight": "「〜なう」（ツイッターの言葉）（2010年）を13〜35歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し使った",
+          "kind": "light",
+          "insight": "「〜なう」（ツイッターの言葉）（2010年）の時期に13〜35歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが使ったことはない",
+          "kind": "aware_only",
+          "insight": "「〜なう」（ツイッターの言葉）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "「〜なう」（ツイッターの言葉）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": ["NET-001"],
+      "basicPool": false
+    },
+    {
+      "id": "NET-010",
+      "status": "verified",
+      "genre": "internet_sns",
+      "difficulty": "easy",
+      "type": "experience",
+      "text": "「インスタ映え」が流行語になった頃（2017年ごろ）、写真の映えを意識してSNSに投稿していましたか？",
+      "subject": "insta-bae",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく意識していた",
+          "kind": "heavy",
+          "insight": "インスタ映え（2017年）を13〜40歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し意識していた",
+          "kind": "light",
+          "insight": "インスタ映え（2017年）の時期に13〜40歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが意識していなかった",
+          "kind": "aware_only",
+          "insight": "インスタ映えを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "インスタ映えの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.7,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "NET-011",
+      "status": "verified",
+      "genre": "internet_sns",
+      "difficulty": "easy",
+      "type": "experience",
+      "text": "2020年ごろ、オンライン授業やオンライン飲み会などの「オンライン○○」を経験しましたか？",
+      "subject": "online-2020",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく経験した",
+          "kind": "heavy",
+          "insight": "「オンライン○○」（2020年）（2020年）を8〜70歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し経験した",
+          "kind": "light",
+          "insight": "「オンライン○○」（2020年）（2020年）の時期に8〜70歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが経験していない",
+          "kind": "aware_only",
+          "insight": "「オンライン○○」（2020年）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "「オンライン○○」（2020年）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.7,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "NET-012",
+      "status": "verified",
+      "genre": "internet_sns",
+      "difficulty": "easy",
+      "type": "experience",
+      "text": "ChatGPTなどの「生成AI」を使ったことがありますか？",
+      "subject": "generative-ai",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく使った",
+          "kind": "heavy",
+          "insight": "生成AI（2023年）を13〜65歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し使った",
+          "kind": "light",
+          "insight": "生成AI（2023年）の時期に13〜65歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが使ったことはない",
+          "kind": "aware_only",
+          "insight": "生成AIを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "生成AIの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.6,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "NET-013",
+      "status": "verified",
+      "genre": "internet_sns",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "匿名掲示板の「2ちゃんねる」が広く知られるようになった頃（2000年ごろ）に、2ちゃんねるを見ていましたか？",
+      "subject": "2ch-2000",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく見ていた",
+          "kind": "heavy",
+          "insight": "2ちゃんねる（匿名掲示板）が広く知られた頃（1999年〜2000年）を13〜40歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ときどき見ていた",
+          "kind": "light",
+          "insight": "2ちゃんねる（匿名掲示板）が広く知られた頃（1999年〜2000年）の時期に13〜40歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが見ていなかった",
+          "kind": "aware_only",
+          "insight": "2ちゃんねる（匿名掲示板）が広く知られた頃を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "2ちゃんねる（匿名掲示板）が広く知られた頃の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.7,
+      "priority": 1.0,
+      "group": "early-internet",
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "NET-014",
+      "status": "verified",
+      "genre": "internet_sns",
+      "difficulty": "easy",
+      "type": "experience",
+      "text": "子どもの頃（〜中学生）に、YouTubeで動画を見ていましたか？",
+      "subject": "youtube-jp",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく見ていた",
+          "kind": "heavy",
+          "insight": "YouTube（日本語版の開始の頃）（2007年〜現在）を6〜15歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ときどき見ていた",
+          "kind": "light",
+          "insight": "YouTube（日本語版の開始の頃）（2007年〜現在）の時期に6〜15歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "子どもの頃はまだ見ていなかった",
+          "kind": "no_experience",
+          "insight": "YouTube（日本語版の開始の頃）の中心の世代から外れた世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "YouTube（日本語版の開始の頃）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false,
+      "notes": "YouTube日本語版は2007年開始。子どもの頃の利用を問うため、年齢窓を質問文で限定している"
+    },
+    {
+      "id": "NET-015",
+      "status": "verified",
+      "genre": "internet_sns",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "2001年ごろから広まったADSLや光回線などの「ブロードバンド」（常時接続）を、普及した頃に家で使っていましたか？",
+      "subject": "broadband-2001",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく使った",
+          "kind": "heavy",
+          "insight": "ブロードバンド（ADSL・光回線）の普及（2001年）を10〜60歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し使った",
+          "kind": "light",
+          "insight": "ブロードバンド（ADSL・光回線）の普及（2001年）の時期に10〜60歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが使ったことはない",
+          "kind": "aware_only",
+          "insight": "ブロードバンド（ADSL・光回線）の普及を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ブロードバンド（ADSL・光回線）の普及の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "group": "early-internet",
+      "relatedIds": ["NET-002"],
+      "basicPool": false
     }
   ]
 }
