@@ -14,6 +14,17 @@
   }: { estimate: Estimate; generationName: string; url: string } = $props();
 
   let message = $state('');
+  // オフライン中は X の投稿画面を開けないため、ボタンを無効にする（画像保存・コピーはオフラインでも使える）
+  let online = $state(typeof navigator === 'undefined' ? true : navigator.onLine);
+  $effect(() => {
+    const update = () => (online = navigator.onLine);
+    window.addEventListener('online', update);
+    window.addEventListener('offline', update);
+    return () => {
+      window.removeEventListener('online', update);
+      window.removeEventListener('offline', update);
+    };
+  });
   const text = $derived(shareText(estimate, generationName));
   const FILE_NAME = 'age-quiz-result.png';
 
@@ -72,9 +83,20 @@
   <h2 class="panel-title" id="share-title">結果をシェア <small>SHARE</small></h2>
   <div class="buttons">
     <button type="button" class="btn-secondary" onclick={savePng}>画像を保存</button>
-    <a class="btn-secondary" href={xIntentUrl(text, url)} target="_blank" rel="noopener noreferrer">
-      Xで共有
-    </a>
+    {#if online}
+      <a
+        class="btn-secondary"
+        href={xIntentUrl(text, url)}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Xで共有
+      </a>
+    {:else}
+      <button type="button" class="btn-secondary" disabled title="オフラインのため使えません">
+        Xで共有（オフライン）
+      </button>
+    {/if}
     <button type="button" class="btn-secondary" onclick={share}>共有する</button>
     <button type="button" class="btn-secondary" onclick={copy}>文章をコピー</button>
   </div>

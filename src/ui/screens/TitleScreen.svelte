@@ -6,19 +6,34 @@
   let {
     ready,
     error,
+    updateAvailable = false,
+    offlineReady = false,
+    offlineSupported = false,
     onstart,
     onhistory,
     onabout,
+    onupdate,
   }: {
     ready: boolean;
     error: string | null;
+    /** 新しい版を取得済み（タイトル画面でだけ切り替えを案内する。プレイ中は切り替えない） */
+    updateAvailable?: boolean;
+    offlineReady?: boolean;
+    offlineSupported?: boolean;
     onstart: () => void;
     onhistory: () => void;
     onabout: () => void;
+    onupdate?: () => void;
   } = $props();
 </script>
 
 <main class="title-screen">
+  {#if updateAvailable}
+    <div class="update" role="status">
+      <span>新しいバージョンがあります</span>
+      <button type="button" class="update-button" onclick={onupdate}>更新する</button>
+    </div>
+  {/if}
   <div class="hero">
     <Logo size={96} />
     <p class="eyebrow">AGE INFERENCE SYSTEM</p>
@@ -30,7 +45,12 @@
     <button type="button" class="start" disabled={!ready} onclick={onstart}>
       {ready ? '分析を開始' : error ? '準備に失敗しました' : 'システム準備中…'}
     </button>
-    {#if error}<p class="error" role="alert">{error}</p>{/if}
+    {#if error}
+      <p class="error" role="alert">{error}</p>
+      <button type="button" class="btn-secondary reload" onclick={() => location.reload()}>
+        再読み込みする
+      </button>
+    {/if}
     <div class="links">
       <button type="button" class="btn-secondary" onclick={onhistory}>プレイ履歴</button>
       <button type="button" class="btn-secondary" onclick={onabout}>このゲームについて</button>
@@ -38,6 +58,13 @@
     <ul class="notes">
       <li>質問に答えるだけ・約3〜5分</li>
       <li>個人情報は入力不要。回答はこの端末の中だけで処理し、外部に送信しません</li>
+      {#if offlineSupported}
+        <li class="offline" class:ready={offlineReady}>
+          {offlineReady
+            ? 'オフラインでも遊べます（この端末に保存済み）'
+            : '初回は通信が必要です。読み込み後はオフラインでも遊べます'}
+        </li>
+      {/if}
     </ul>
   </div>
 
@@ -118,12 +145,43 @@
     grid-template-columns: 1fr 1fr;
     gap: var(--space-2);
     width: 100%;
-    max-width: 320px;
+    max-width: 360px;
   }
   .links .btn-secondary {
     min-height: var(--tap-secondary);
     font-size: 0.875rem;
     font-weight: 400;
+  }
+  .update {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-3);
+    width: 100%;
+    max-width: 360px;
+    padding: var(--space-2) var(--space-3);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    background: var(--color-surface-glass);
+    font-size: 0.875rem;
+    text-align: left;
+  }
+  .update-button {
+    min-height: var(--tap-secondary);
+    padding: 0 var(--space-3);
+    border: 0;
+    border-radius: var(--radius-sm);
+    background: var(--button-gradient);
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+  }
+  .reload {
+    width: 100%;
+    max-width: 320px;
+  }
+  .offline.ready {
+    color: var(--cyan-300);
   }
   .error {
     margin: 0;
