@@ -202,6 +202,372 @@
       "relatedIds": [],
       "basicPool": false,
       "notes": "地域によって牛乳への切り替え時期に差がある"
+    },
+    {
+      "id": "SCH-005",
+      "status": "verified",
+      "genre": "school",
+      "difficulty": "easy",
+      "type": "experience",
+      "text": "小学校・中学校で「総合的な学習の時間」（総合）の授業を受けましたか？",
+      "subject": "sogo-gakushu",
+      "options": [
+        {
+          "id": "a",
+          "label": "受けた",
+          "kind": "heavy",
+          "insight": "総合的な学習の時間（2002年〜現在）を8〜15歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "たぶん受けた",
+          "kind": "light",
+          "insight": "総合的な学習の時間（2002年〜現在）の時期に8〜15歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "受けていない",
+          "kind": "no_experience",
+          "insight": "総合的な学習の時間の中心の世代から外れた世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "総合的な学習の時間の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.1,
+      "group": "curriculum",
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "SCH-006",
+      "status": "verified",
+      "genre": "school",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "小学校5・6年生のときに「外国語活動」（英語に親しむ授業。成績はつかない）を受けましたか？",
+      "subject": "gaikokugo-katsudo",
+      "options": [
+        {
+          "id": "a",
+          "label": "受けた",
+          "kind": "heavy",
+          "insight": "小学校の「外国語活動」（5・6年生）（2011年〜2020年）を10〜12歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "たぶん受けた",
+          "kind": "light",
+          "insight": "小学校の「外国語活動」（5・6年生）（2011年〜2020年）の時期に10〜12歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "受けていない",
+          "kind": "no_experience",
+          "insight": "小学校の「外国語活動」（5・6年生）の中心の世代から外れた世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "小学校の「外国語活動」（5・6年生）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "group": "elementary-english",
+      "relatedIds": ["SCH-007"],
+      "basicPool": false
+    },
+    {
+      "id": "SCH-007",
+      "status": "verified",
+      "genre": "school",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "小学校5・6年生のときに、教科としての「外国語（英語）」（教科書があり成績がつく）を学びましたか？",
+      "subject": "eigo-kyouka",
+      "options": [
+        {
+          "id": "a",
+          "label": "受けた",
+          "kind": "heavy",
+          "insight": "小学校の教科としての「外国語（英語）」（2020年〜現在）を10〜12歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "たぶん受けた",
+          "kind": "light",
+          "insight": "小学校の教科としての「外国語（英語）」（2020年〜現在）の時期に10〜12歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "受けていない",
+          "kind": "no_experience",
+          "insight": "小学校の教科としての「外国語（英語）」の中心の世代から外れた世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "小学校の教科としての「外国語（英語）」の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "group": "elementary-english",
+      "relatedIds": ["SCH-006"],
+      "basicPool": false
+    },
+    {
+      "id": "SCH-008",
+      "status": "verified",
+      "genre": "school",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "小学校の授業で、プログラミング（パソコンやタブレットで命令を組み立てる学習）をしましたか？",
+      "subject": "programming-edu",
+      "options": [
+        {
+          "id": "a",
+          "label": "よくした",
+          "kind": "heavy",
+          "insight": "小学校のプログラミング教育（2020年〜現在）を6〜12歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少しした",
+          "kind": "light",
+          "insight": "小学校のプログラミング教育（2020年〜現在）の時期に6〜12歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "しなかった",
+          "kind": "no_experience",
+          "insight": "小学校のプログラミング教育の中心の世代から外れた世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "小学校のプログラミング教育の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "relatedIds": ["SCH-003"],
+      "basicPool": false
+    },
+    {
+      "id": "SCH-009",
+      "status": "verified",
+      "genre": "school",
+      "difficulty": "normal",
+      "type": "era_choice",
+      "text": "大学入試のとき（受けた人は）、どの共通試験の時代でしたか？",
+      "ageWindow": [17, 19],
+      "options": [
+        {
+          "id": "a",
+          "label": "一期校・二期校の時代（共通一次より前）",
+          "kind": "era",
+          "subject": "exam-ikki-niki",
+          "insight": "国立大学の一期校・二期校の時代（共通一次より前）（〜1978年）の頃に17〜19歳だった人に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "共通一次（共通第一次学力試験）",
+          "kind": "era",
+          "subject": "exam-kyotsu1",
+          "insight": "共通第一次学力試験（共通一次）（1979年〜1989年）の頃に17〜19歳だった人に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "センター試験",
+          "kind": "era",
+          "subject": "exam-center",
+          "insight": "大学入試センター試験（1990年〜2020年）の頃に17〜19歳だった人に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "大学入学共通テスト",
+          "kind": "era",
+          "subject": "exam-kyotsu-test",
+          "insight": "大学入学共通テスト（2021年〜現在）の頃に17〜19歳だった人に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        },
+        {
+          "id": "y",
+          "label": "該当しない",
+          "kind": "not_applicable"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.1,
+      "group": "exam",
+      "relatedIds": [],
+      "basicPool": false,
+      "notes": "大学入試を受けていない人は「該当しない」を選ぶ（推理には使わない）"
+    },
+    {
+      "id": "SCH-010",
+      "status": "verified",
+      "genre": "school",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "小学6年生か中学3年生のときに、全国学力テスト（全国学力・学習状況調査）を受けましたか？",
+      "subject": "gakuryoku-test",
+      "options": [
+        {
+          "id": "a",
+          "label": "受けた",
+          "kind": "heavy",
+          "insight": "全国学力・学習状況調査（全国学力テスト）（2007年〜現在）を11〜15歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "たぶん受けた",
+          "kind": "light",
+          "insight": "全国学力・学習状況調査（全国学力テスト）（2007年〜現在）の時期に11〜15歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "受けていない",
+          "kind": "no_experience",
+          "insight": "全国学力・学習状況調査（全国学力テスト）の中心の世代から外れた世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "全国学力・学習状況調査（全国学力テスト）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "SCH-011",
+      "status": "verified",
+      "genre": "school",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "小学生の頃、学研の『学習』や『科学』（ふろく付きの学習雑誌）を毎月とっていましたか？",
+      "subject": "gakken-gakushu-kagaku",
+      "options": [
+        {
+          "id": "a",
+          "label": "ずっととっていた",
+          "kind": "heavy",
+          "insight": "学研の『学習』『科学』（1946年〜1979年）を6〜12歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "一時期とっていた",
+          "kind": "light",
+          "insight": "学研の『学習』『科学』（1946年〜1979年）の時期に6〜12歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているがとっていなかった",
+          "kind": "aware_only",
+          "insight": "学研の『学習』『科学』を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "学研の『学習』『科学』の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "SCH-012",
+      "status": "verified",
+      "genre": "school",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "中学校の体育で、武道（柔道・剣道など）とダンスの両方を必修の授業で学びましたか？",
+      "subject": "budo-hisshu",
+      "options": [
+        {
+          "id": "a",
+          "label": "両方学んだ",
+          "kind": "heavy",
+          "insight": "中学校の武道・ダンス必修化（2012年〜現在）を12〜15歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "たぶん両方学んだ",
+          "kind": "light",
+          "insight": "中学校の武道・ダンス必修化（2012年〜現在）の時期に12〜15歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "どちらか一方だった・学ばなかった",
+          "kind": "no_experience",
+          "insight": "中学校の武道・ダンス必修化の中心の世代から外れた世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "中学校の武道・ダンス必修化の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
     }
   ]
 }

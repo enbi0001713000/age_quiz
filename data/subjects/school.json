@@ -266,6 +266,439 @@
           "rationale": "推定"
         }
       }
+    },
+    {
+      "id": "sogo-gakushu",
+      "name": "総合的な学習の時間",
+      "genre": "school",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2002-04",
+          "status": "derived",
+          "sources": ["src-mext-cs-history"],
+          "quote": "10～11年 （教育内容の厳選、「総合的な学習の時間」の新設） （実施）小学校：平成１４年度、中学校：平成１４年度",
+          "rule": "小学校・中学校での実施年度（平成14年度）の4月とみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [8, 15],
+          "status": "estimated",
+          "rationale": "小学校3年生〜中学生の授業"
+        },
+        "ceiling": {
+          "value": 0.9,
+          "status": "estimated",
+          "rationale": "必修の授業のため高く設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "制度は広く知られていると推定"
+        },
+        "activeUntil": {
+          "value": 2035,
+          "status": "estimated",
+          "rationale": "現在も続いている（高校は「総合的な探究の時間」）"
+        }
+      }
+    },
+    {
+      "id": "gaikokugo-katsudo",
+      "name": "小学校の「外国語活動」（5・6年生）",
+      "genre": "school",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2011-04",
+          "status": "derived",
+          "sources": ["src-mext-cs-history"],
+          "quote": "20～21年 （授業時数の増、指導内容の充実、小学校外国語活動の導入） （実施） 小学校：平成２３年度",
+          "rule": "小学校での実施年度（平成23年度）の4月とみなす"
+        },
+        "end": {
+          "date": "2020-04",
+          "status": "derived",
+          "sources": ["src-mext-cs-history"],
+          "quote": "29～30年 （…小学校外国語科の新設等） （実施） 小学校：令和２年度、中学校：令和３年度",
+          "rule": "5・6年生は令和2年度から教科の「外国語科」に移行したため、それまでとみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [10, 12],
+          "status": "estimated",
+          "rationale": "小学校5・6年生の授業"
+        },
+        "ceiling": {
+          "value": 0.9,
+          "status": "estimated",
+          "rationale": "必修の授業のため高く設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.9,
+          "rationale": "知っている人は多いと推定"
+        }
+      }
+    },
+    {
+      "id": "eigo-kyouka",
+      "name": "小学校の教科としての「外国語（英語）」",
+      "genre": "school",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2020-04",
+          "status": "derived",
+          "sources": ["src-mext-cs-history"],
+          "quote": "29～30年 （…小学校外国語科の新設等） （実施） 小学校：令和２年度、中学校：令和３年度",
+          "rule": "小学校での実施年度（令和2年度）の4月とみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [10, 12],
+          "status": "estimated",
+          "rationale": "小学校5・6年生の教科"
+        },
+        "ceiling": {
+          "value": 0.9,
+          "status": "estimated",
+          "rationale": "必修の教科のため高く設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.9,
+          "rationale": "知っている人は多いと推定"
+        },
+        "activeUntil": {
+          "value": 2035,
+          "status": "estimated",
+          "rationale": "現在も続いている"
+        }
+      }
+    },
+    {
+      "id": "programming-edu",
+      "name": "小学校のプログラミング教育",
+      "genre": "school",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2020-04",
+          "status": "derived",
+          "sources": ["src-mext-programming", "src-mext-cs-history"],
+          "quote": "新小学校学習指導要領におけるプログラミング教育の円滑な実施に向けて…／（29～30年改訂の実施）小学校：令和２年度",
+          "rule": "新しい小学校学習指導要領（29～30年改訂）の実施年度（令和2年度）の4月とみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "小学校の授業"
+        },
+        "ceiling": {
+          "value": 0.75,
+          "status": "estimated",
+          "rationale": "授業で扱う時間や内容は学校差が大きいため、やや低めに設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.9,
+          "rationale": "知っている人は多いと推定"
+        },
+        "activeUntil": {
+          "value": 2035,
+          "status": "estimated",
+          "rationale": "現在も続いている"
+        }
+      }
+    },
+    {
+      "id": "exam-ikki-niki",
+      "name": "国立大学の一期校・二期校の時代（共通一次より前）",
+      "genre": "school",
+      "kind": "trend",
+      "facts": {
+        "end": {
+          "date": "1978",
+          "status": "derived",
+          "sources": ["src-mext-kyotsu1"],
+          "quote": "五十四年度の入学者選抜から、国公立大学において、共通第一次学力試験を取り入れた新しい選抜方法が実施された。…国立大学入試の一期校、二期校制が廃止",
+          "rule": "共通第一次学力試験の導入（昭和54年度入試＝1979年）の前年までとみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.8,
+          "status": "estimated",
+          "rationale": "文部科学省の資料に基づく期間"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        }
+      }
+    },
+    {
+      "id": "exam-kyotsu1",
+      "name": "共通第一次学力試験（共通一次）",
+      "genre": "school",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1979",
+          "status": "derived",
+          "sources": ["src-mext-kyotsu1"],
+          "quote": "共通第一次学力試験は、すべての国公立大学が参加して、五十四年度から平成元年度まで実施され",
+          "rule": "昭和54年度入試（1979年1月実施）を始まりとみなす"
+        },
+        "end": {
+          "date": "1989",
+          "status": "derived",
+          "sources": ["src-mext-kyotsu1"],
+          "quote": "五十四年度から平成元年度まで実施され",
+          "rule": "平成元年度入試（1989年1月実施）を終わりとみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.8,
+          "status": "estimated",
+          "rationale": "文部科学省の資料に基づく期間"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        }
+      }
+    },
+    {
+      "id": "exam-center",
+      "name": "大学入試センター試験",
+      "genre": "school",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1990",
+          "status": "derived",
+          "sources": ["src-mext-center"],
+          "quote": "初年度の平成二年度には、すべての国公立大学のほか、一六大学一九学部の私立大学が大学入試センター試験を利用し",
+          "rule": "平成2年度入試（1990年1月実施）を始まりとみなす"
+        },
+        "end": {
+          "date": "2020",
+          "status": "derived",
+          "sources": ["src-mext-center"],
+          "quote": "初年度の平成二年度には…大学入試センター試験を利用し",
+          "rule": "2021年1月から大学入学共通テストに移行したため、2020年1月実施を最後とみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.8,
+          "status": "estimated",
+          "rationale": "文部科学省の資料に基づく期間"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        }
+      }
+    },
+    {
+      "id": "exam-kyotsu-test",
+      "name": "大学入学共通テスト",
+      "genre": "school",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2021",
+          "status": "derived",
+          "sources": ["src-mext-center"],
+          "quote": "大学入試センター試験（平成2年度〜）",
+          "rule": "センター試験の後継として2021年1月に始まったとみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "時代選択型の選択肢として使用（年齢窓は質問側で指定するため参照しない）"
+        },
+        "ceiling": {
+          "value": 0.8,
+          "status": "estimated",
+          "rationale": "文部科学省の資料に基づく期間"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.5,
+          "ceiling": 0.95,
+          "rationale": "時代選択型の選択肢として使用（認知確率は参照しない）"
+        },
+        "activeUntil": {
+          "value": 2035,
+          "status": "estimated",
+          "rationale": "現行の試験"
+        }
+      }
+    },
+    {
+      "id": "gakuryoku-test",
+      "name": "全国学力・学習状況調査（全国学力テスト）",
+      "genre": "school",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2007-04-24",
+          "status": "verified",
+          "sources": ["src-mext-gakuryoku2007"],
+          "quote": "平成19年度より全国的な学力調査を実施（平成19年4月24日）"
+        },
+        "audience": {
+          "ages": [11, 15],
+          "gender": "all",
+          "status": "derived",
+          "sources": ["src-mext-gakuryoku2007"],
+          "quote": "小学校6年（国語、算数）、中学校3年（国語、数学）の原則として全児童生徒を対象",
+          "rule": "小学6年生〜中学3年生を11〜15歳とみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [11, 15],
+          "status": "estimated",
+          "rationale": "小学6年生・中学3年生が対象（出典）"
+        },
+        "ceiling": {
+          "value": 0.85,
+          "status": "estimated",
+          "rationale": "原則として全員が対象のため高く設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.9,
+          "rationale": "知っている人は多いと推定"
+        },
+        "activeUntil": {
+          "value": 2035,
+          "status": "estimated",
+          "rationale": "現在も続いている"
+        }
+      }
+    },
+    {
+      "id": "gakken-gakushu-kagaku",
+      "name": "学研の『学習』『科学』",
+      "genre": "school",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "1946",
+          "status": "verified",
+          "sources": ["src-gakken-gakushu"],
+          "quote": "『学研の学習』は1946年創刊。2010年の休刊まで60年超続いた小学生向けのふろく付き総合学習誌。"
+        },
+        "end": {
+          "date": "2010",
+          "status": "verified",
+          "sources": ["src-gakken-gakushu"],
+          "quote": "2010年の休刊まで60年超続いた"
+        },
+        "peak": {
+          "from": "1979",
+          "to": "1979",
+          "status": "verified",
+          "sources": ["src-daily-gakken"],
+          "quote": "ピーク時の1979年には、両誌で670万部という発行部数を誇った「学研の学習」と「学研の科学」。この数字は、単純計算で当時の小学生の3人に2人が購読していたことになる"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [6, 12],
+          "status": "estimated",
+          "rationale": "小学生向けの学習誌"
+        },
+        "ceiling": {
+          "value": 0.6,
+          "status": "estimated",
+          "rationale": "ピーク時は小学生の3人に2人が購読（出典）。期間全体では低めに設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.4,
+          "ceiling": 0.95,
+          "rationale": "広く知られていると推定"
+        }
+      }
+    },
+    {
+      "id": "budo-hisshu",
+      "name": "中学校の武道・ダンス必修化",
+      "genre": "school",
+      "kind": "trend",
+      "facts": {
+        "start": {
+          "date": "2012-04",
+          "status": "derived",
+          "sources": ["src-mext-budo", "src-mext-cs-history"],
+          "quote": "平成20年3月28日に中学校学習指導要領の改訂を告示し…武道・ダンスを含めたすべて（の領域を必修）／（実施）中学校：平成２４年度",
+          "rule": "中学校での実施年度（平成24年度）の4月とみなす"
+        }
+      },
+      "model": {
+        "ageWindow": {
+          "value": [12, 15],
+          "status": "estimated",
+          "rationale": "中学1・2年生の授業（出典）"
+        },
+        "ceiling": {
+          "value": 0.9,
+          "status": "estimated",
+          "rationale": "必修の授業のため高く設定"
+        },
+        "floor": 0.03,
+        "awareness": {
+          "floor": 0.3,
+          "ceiling": 0.9,
+          "rationale": "知っている人は多いと推定"
+        },
+        "activeUntil": {
+          "value": 2035,
+          "status": "estimated",
+          "rationale": "現在も続いている"
+        }
+      }
     }
   ]
 }

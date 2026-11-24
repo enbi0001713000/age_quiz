@@ -195,6 +195,510 @@
       "priority": 1.0,
       "relatedIds": [],
       "basicPool": false
+    },
+    {
+      "id": "MUS-005",
+      "status": "verified",
+      "genre": "music",
+      "difficulty": "easy",
+      "type": "era_choice",
+      "text": "10代の頃に大流行していた音楽は？",
+      "ageWindow": [10, 19],
+      "options": [
+        {
+          "id": "a",
+          "label": "おニャン子クラブ",
+          "kind": "era",
+          "subject": "onyanko",
+          "insight": "おニャン子クラブ（1986年）の頃に10〜19歳だった人に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "EAST END×YURI「DA.YO.NE」",
+          "kind": "era",
+          "subject": "dayone",
+          "insight": "EAST END×YURI「DA.YO.NE」（Jラップのブーム）（1995年）の頃に10〜19歳だった人に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "AKB48",
+          "kind": "era",
+          "subject": "akb48-boom",
+          "insight": "AKB48のブーム（2010年）の頃に10〜19歳だった人に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "ピコ太郎「PPAP」",
+          "kind": "era",
+          "subject": "ppap",
+          "insight": "ピコ太郎「PPAP」（2016年）の頃に10〜19歳だった人に多い回答"
+        },
+        {
+          "id": "e",
+          "label": "Ado「うっせぇわ」",
+          "kind": "era",
+          "subject": "usseewa",
+          "insight": "Ado「うっせぇわ」（2021年）の頃に10〜19歳だった人に多い回答"
+        },
+        {
+          "id": "f",
+          "label": "この中にはない",
+          "kind": "none_of_these",
+          "insight": "選択肢のどの時代にも当てはまらない世代（より上の世代や、より下の世代）に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.2,
+      "group": "teen-music",
+      "relatedIds": [],
+      "basicPool": true
+    },
+    {
+      "id": "MUS-006",
+      "status": "verified",
+      "genre": "music",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "1999年に「だんご3兄弟」が大ブームになったことを覚えていますか？",
+      "subject": "dango3",
+      "options": [
+        {
+          "id": "a",
+          "label": "はっきり覚えている",
+          "kind": "heavy",
+          "insight": "だんご3兄弟（1999年）を3〜60歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "なんとなく覚えている",
+          "kind": "light",
+          "insight": "だんご3兄弟（1999年）の時期に3〜60歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時の記憶はない",
+          "kind": "aware_only",
+          "insight": "だんご3兄弟を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "だんご3兄弟の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "MUS-007",
+      "status": "verified",
+      "genre": "music",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "氷川きよしさんの「箱根八里の半次郎」（ヤだねったら、ヤだね）が流行った頃のことを覚えていますか？",
+      "subject": "hikawa-yadane",
+      "options": [
+        {
+          "id": "a",
+          "label": "はっきり覚えている",
+          "kind": "heavy",
+          "insight": "氷川きよし「箱根八里の半次郎」（ヤだねったら、ヤだね）（2001年）を8〜85歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "なんとなく覚えている",
+          "kind": "light",
+          "insight": "氷川きよし「箱根八里の半次郎」（ヤだねったら、ヤだね）（2001年）の時期に8〜85歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時の記憶はない",
+          "kind": "aware_only",
+          "insight": "氷川きよし「箱根八里の半次郎」（ヤだねったら、ヤだね）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "氷川きよし「箱根八里の半次郎」（ヤだねったら、ヤだね）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.7,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "MUS-008",
+      "status": "verified",
+      "genre": "music",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "AKB48が大ブームになった頃（2010年ごろ）、AKB48の曲を聞いていましたか？",
+      "subject": "akb48-boom",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく聞いた・歌った",
+          "kind": "heavy",
+          "insight": "AKB48のブーム（2010年）を10〜40歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し聞いた",
+          "kind": "light",
+          "insight": "AKB48のブーム（2010年）の時期に10〜40歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時は聞いていない",
+          "kind": "aware_only",
+          "insight": "AKB48のブームを知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "AKB48のブームの中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "group": "teen-music",
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "MUS-009",
+      "status": "verified",
+      "genre": "music",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "倖田來未さんが「エロカッコイイ」と話題になった頃（2006年ごろ）、倖田來未さんの曲を聞いていましたか？",
+      "subject": "koda-erokakkoii",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく聞いた・歌った",
+          "kind": "heavy",
+          "insight": "倖田來未の「エロカッコイイ」（2006年）を12〜30歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "少し聞いた",
+          "kind": "light",
+          "insight": "倖田來未の「エロカッコイイ」（2006年）の時期に12〜30歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時は聞いていない",
+          "kind": "aware_only",
+          "insight": "倖田來未の「エロカッコイイ」を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "倖田來未の「エロカッコイイ」の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.7,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "MUS-010",
+      "status": "verified",
+      "genre": "music",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "キューピーのCMソング「たらこ・たらこ・たらこ」が流行った頃（2006年ごろ）のことを覚えていますか？",
+      "subject": "tarako-cm",
+      "options": [
+        {
+          "id": "a",
+          "label": "はっきり覚えている",
+          "kind": "heavy",
+          "insight": "キューピーのCMソング「たらこ・たらこ・たらこ」（2006年）を4〜60歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "なんとなく覚えている",
+          "kind": "light",
+          "insight": "キューピーのCMソング「たらこ・たらこ・たらこ」（2006年）の時期に4〜60歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時の記憶はない",
+          "kind": "aware_only",
+          "insight": "キューピーのCMソング「たらこ・たらこ・たらこ」を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "キューピーのCMソング「たらこ・たらこ・たらこ」の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "MUS-011",
+      "status": "verified",
+      "genre": "music",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "新しい学校のリーダーズの「首振りダンス」（2023年ごろ）を知っていますか？",
+      "subject": "atarashii-gakko",
+      "options": [
+        {
+          "id": "a",
+          "label": "自分も踊った・よく見た",
+          "kind": "heavy",
+          "insight": "新しい学校のリーダーズの「首振りダンス」（2023年）を10〜30歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "見たことがある",
+          "kind": "light",
+          "insight": "新しい学校のリーダーズの「首振りダンス」（2023年）の時期に10〜30歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているがよく見ていない",
+          "kind": "aware_only",
+          "insight": "新しい学校のリーダーズの「首振りダンス」を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "新しい学校のリーダーズの「首振りダンス」の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.7,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "MUS-012",
+      "status": "verified",
+      "genre": "music",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "「およげ！たいやきくん」が大ヒットした頃（1976年ごろ）のことを覚えていますか？",
+      "subject": "taiyakikun",
+      "options": [
+        {
+          "id": "a",
+          "label": "はっきり覚えている",
+          "kind": "heavy",
+          "insight": "子門真人「およげ！たいやきくん」（1975年〜1976年）を3〜50歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "なんとなく覚えている",
+          "kind": "light",
+          "insight": "子門真人「およげ！たいやきくん」（1975年〜1976年）の時期に3〜50歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時の記憶はない",
+          "kind": "aware_only",
+          "insight": "子門真人「およげ！たいやきくん」を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "子門真人「およげ！たいやきくん」の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "MUS-013",
+      "status": "verified",
+      "genre": "music",
+      "difficulty": "hard",
+      "type": "experience",
+      "text": "1966年のビートルズの来日を、当時リアルタイムで覚えていますか？",
+      "subject": "beatles-1966",
+      "options": [
+        {
+          "id": "a",
+          "label": "はっきり覚えている",
+          "kind": "heavy",
+          "insight": "ビートルズの来日（1966年）（1966年）のとき8〜99歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "なんとなく覚えている",
+          "kind": "light",
+          "insight": "ビートルズの来日（1966年）（1966年）のとき8〜99歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時の記憶はない",
+          "kind": "aware_only",
+          "insight": "ビートルズの来日（1966年）を知ってはいるが、当時はまだ幼かった・生まれていなかった世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ビートルズの来日（1966年）の当時から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 1.0,
+      "priority": 1.0,
+      "relatedIds": [],
+      "basicPool": false
+    },
+    {
+      "id": "MUS-014",
+      "status": "verified",
+      "genre": "music",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "iTunes Storeで、音楽を1曲ずつダウンロード購入していましたか？",
+      "subject": "itunes-store",
+      "options": [
+        {
+          "id": "a",
+          "label": "よく買っていた",
+          "kind": "heavy",
+          "insight": "iTunes Store（音楽のダウンロード購入）（2005年〜2015年）を13〜50歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "ときどき買っていた",
+          "kind": "light",
+          "insight": "iTunes Store（音楽のダウンロード購入）（2005年〜2015年）の時期に13〜50歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが使ったことはない",
+          "kind": "aware_only",
+          "insight": "iTunes Store（音楽のダウンロード購入）を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "iTunes Store（音楽のダウンロード購入）の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.7,
+      "priority": 1.0,
+      "relatedIds": ["MUS-001"],
+      "basicPool": false
+    },
+    {
+      "id": "MUS-015",
+      "status": "verified",
+      "genre": "music",
+      "difficulty": "normal",
+      "type": "experience",
+      "text": "ピコ太郎さんの「PPAP」が世界的に話題になった頃（2016年）のことを覚えていますか？",
+      "subject": "ppap",
+      "options": [
+        {
+          "id": "a",
+          "label": "はっきり覚えている",
+          "kind": "heavy",
+          "insight": "ピコ太郎「PPAP」（2016年）を6〜12歳ごろに経験した世代に多い回答"
+        },
+        {
+          "id": "b",
+          "label": "なんとなく覚えている",
+          "kind": "light",
+          "insight": "ピコ太郎「PPAP」（2016年）の時期に6〜12歳ごろだった世代に多い回答"
+        },
+        {
+          "id": "c",
+          "label": "知っているが当時の記憶はない",
+          "kind": "aware_only",
+          "insight": "ピコ太郎「PPAP」を知ってはいるが、中心の世代より上または下の世代に多い回答"
+        },
+        {
+          "id": "d",
+          "label": "知らない",
+          "kind": "unaware",
+          "insight": "ピコ太郎「PPAP」の中心の世代から離れた世代に多い回答"
+        },
+        {
+          "id": "x",
+          "label": "覚えていない",
+          "kind": "dont_remember"
+        }
+      ],
+      "importance": 0.8,
+      "priority": 1.0,
+      "group": "teen-music",
+      "relatedIds": [],
+      "basicPool": false
     }
   ]
 }

@@ -1322,6 +1322,159 @@
       "type": "official",
       "accessed": "2026-11-24",
       "reliability": "A"
+    },
+    {
+      "id": "src-jiyu-1995",
+      "title": "第12回 新語・流行語大賞（1995年）",
+      "publisher": "自由国民社",
+      "url": "https://www.jiyu.co.jp/singo/index.php?eid=00012",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-jiyu-2001",
+      "title": "第18回 新語・流行語大賞（2001年）",
+      "publisher": "自由国民社",
+      "url": "https://www.jiyu.co.jp/singo/index.php?eid=00018",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-jiyu-2006",
+      "title": "第23回 新語・流行語大賞（2006年）",
+      "publisher": "自由国民社",
+      "url": "https://www.jiyu.co.jp/singo/index.php?eid=00023",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-jiyu-2016",
+      "title": "第33回 新語・流行語大賞（2016年）",
+      "publisher": "自由国民社",
+      "url": "https://www.jiyu.co.jp/singo/index.php?eid=00033",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-jiyu-2021",
+      "title": "第38回 新語・流行語大賞（2021年）",
+      "publisher": "自由国民社",
+      "url": "https://www.jiyu.co.jp/singo/index.php?eid=00038",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-jiyu-2023",
+      "title": "第40回 新語・流行語大賞（2023年）",
+      "publisher": "自由国民社",
+      "url": "https://www.jiyu.co.jp/singo/index.php?eid=00040",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-nippon-beatles",
+      "title": "〈1966年の今日〉6月29日 : ビートルズが来日",
+      "publisher": "nippon.com",
+      "url": "https://www.nippon.com/ja/japan-topics/today06290/",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-avwatch-itunes-jp",
+      "title": "Apple、1曲150円で「iTunes Music Store」国内サービス開始",
+      "publisher": "AV Watch",
+      "url": "https://av.watch.impress.co.jp/docs/20050804/apple1.htm",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-excite-taiyaki",
+      "title": "「およげ！たいやきくん」460万枚売れるも歌手は印税が貰えなかった悲話",
+      "publisher": "エキサイトニュース",
+      "url": "https://www.excite.co.jp/news/article/E1450572229006/",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-mext-cs-history",
+      "title": "学習指導要領の変遷",
+      "publisher": "文部科学省",
+      "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/idea/1304360_002.pdf",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-mext-programming",
+      "title": "小学校プログラミング教育に関する研修教材",
+      "publisher": "文部科学省",
+      "url": "https://www.mext.go.jp/a_menu/shotou/zyouhou/detail/1416408.htm",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-mext-kyotsu1",
+      "title": "学制百二十年史 一 共通第一次学力試験の導入",
+      "publisher": "文部科学省",
+      "url": "https://www.mext.go.jp/b_menu/hakusho/html/others/detail/1318393.htm",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-mext-center",
+      "title": "学制百二十年史 二 大学入試センター試験への移行",
+      "publisher": "文部科学省",
+      "url": "https://www.mext.go.jp/b_menu/hakusho/html/others/detail/1318394.htm",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-mext-gakuryoku2007",
+      "title": "平成19年度全国学力・学習状況調査について",
+      "publisher": "文部科学省",
+      "url": "https://www.mext.go.jp/a_menu/shotou/gakuryoku-chousa/zenkoku/07032809/002.htm",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-gakken-gakushu",
+      "title": "16年ぶりに復刊した『学研の学習』発売（プレスリリース）",
+      "publisher": "学研ホールディングス（PR TIMES）",
+      "url": "https://prtimes.jp/main/html/rd/p/000009182.000002535.html",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
+    },
+    {
+      "id": "src-daily-gakken",
+      "title": "全盛期には発行部数670万部を誇った学研の「学習」と「科学」",
+      "publisher": "デイリースポーツ",
+      "url": "https://www.daily.co.jp/society/life/2026/07/11/0020578999.shtml",
+      "type": "press",
+      "accessed": "2026-11-24",
+      "reliability": "B"
+    },
+    {
+      "id": "src-mext-budo",
+      "title": "武道・ダンス必修化",
+      "publisher": "文部科学省",
+      "url": "https://www.mext.go.jp/a_menu/sports/jyujitsu/1330882.htm",
+      "type": "official",
+      "accessed": "2026-11-24",
+      "reliability": "A"
     }
   ]
 }
